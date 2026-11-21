@@ -1,0 +1,755 @@
+{
+  "document": "LV_14a_Betonkernaktivierung.pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 0,
+    "with_quantity": 0,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Request for quotation",
+      "evidence": "Anfrage"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "79-222",
+      "evidence": "Projekt: 79-222"
+    },
+    {
+      "name": "LVNumber",
+      "type": "string",
+      "description": "Bill of quantities number (LV-Nr.)",
+      "value": "verpreist_2004..",
+      "evidence": "LV: verpreist_2004.."
+    }
+  ],
+  "positions": [],
+  "tables": [
+    {
+      "name": "Table 1",
+      "type": "table",
+      "description": "Table 1 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 2",
+      "type": "table",
+      "description": "Table 2 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 3",
+      "type": "table",
+      "description": "Table 3 of the document (3 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "Verbindungen/Verbindungselemente im Deckenbereich (Beton) sind nicht zulässig. Weiterhin sind in gleicher Weise Bohrungen (nur bei Filigandecken) und Durchführungen für die \"thermischen Steckdosen\", an die in der Ausbauphase die thermischen Deckensegel angeschlossen werden, herzustellen. Vor der Befüllung sind sämtliche Rohre und Anschlüsse auf korrekte Lage und Unversehrtheit nochmals zu prüfen. Sämtliche eingebrachte Rohrregister sind mit [PERSON_029 füllen und vor und während der Betonierarbeiten unter Druck zu halten, der Prüfdruck muss das Doppelte des Betriebsdrucks, mindestens jedoch 6 bar betragen, die Wasserdruckprobe ist vom Auftragnehmer zu protokollieren. Beim Einbringen des Betons muss ein Mitarbeiter des Auftragnehmers ständig anwesend sein, um Beschädigungen sofort beheben zu können. Weiterhin ist das Montagepersonal des Auftragnehmers durch einen Mitarbeiter des Modulherstellers in die Montage einzuweisen. Nach Aushärtung des Betons sind die betreffenden Module und Kreise zu entleeren sowie nach Installation des Gesamtsystems wieder mit enthärtetem [PERSON_029] zu erneute Druckprobe, Einregulierung, Inbetriebnahme. Generell sind alle erforderlichen Leistungen in der notwendigen Stückzahl zur Erbringung und Übergabe der Komplettleistung in den Angebotspreis einzukalkulieren, die nachfolgenden Mengenangaben dienen nur zur Unterstützung der Preisfindung. Alternativ zum Einbau von Modulen ist der handverlegte Einbau der Rohrleitungen möglich, siehe hierzu entsprechende Position in der nachfolgenden Leistungsaufstellung.",
+          "] zu füllen,",
+          ""
+        ],
+        [
+          ".1 *** Grundposition 1.0 Rohrregister zur Betonkernaktivierung in Modulbauweise (Einbausituation Betondecke) Rohrregister in Form von vorgefertigten Modulen mit integrierten Anbindeleitungen individueller Länge zur Montage zwischen bauseitiger unterer Bewehrung und oberer Bewehrung zur thermischen Aktivierung der",
+          "",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 4",
+      "type": "table",
+      "description": "Table 4 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 5",
+      "type": "table",
+      "description": "Table 5 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 6",
+      "type": "table",
+      "description": "Table 6 of the document (8 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "",
+          "gewähltes [PERSON_129]",
+          "",
+          ""
+        ],
+        [
+          "496,000 m2",
+          "",
+          ""
+        ],
+        [
+          ".2",
+          "*** Wahlposition 1.1 zu 1.0 Alternativ: Handverlegtes PE-Xa-Rohr mit allem Zubehör PE-Xa Rohr 20 x 2,3 mm aus hochdruckvernetztem Polyethylen, mit 5-schichtiger Diffusionssperre, mit zusätzlichem PEX- Schutzmantel außen zum Schutz gegen mechanische Beanspruchung, Rohraufbau im patentiertem Verbund, Rohr gemäß DIN 16892 und DIN 4729, sauerstoffdicht nach DIN 4726, zur thermischen Bauteilaktivierung einschl. allem erforderlichem Zubehör wie in der vorherigen Position beschrieben, handverlegt Verlegeabstand : 150 mm, [PERSON_129] : Uponor / Contec oder gleichwertig gewähltes [PERSON_129]",
+          "",
+          ""
+        ],
+        [
+          "3.300,000 m",
+          "",
+          "Nur Einh.-Pr."
+        ],
+        [
+          ".3",
+          "Anbindeleitung (für die Bauteilaktivierung) Anbindeleitung zur individuellen Anbindung der zuvor beschriebenen Module bzw. handverlegten Leitungen an die Heizkreisverteiler/-sammler bzw. an die Verteil-/ Sammelleitungen, bestehend aus:",
+          "",
+          ""
+        ],
+        [
+          "- PE-Xa Rohr 20 x 2,3 mm aus hochdruckvernetztem Polyethylen, mit 5-schichtiger Diffusionssperre, mit zusätzlichem PEX- Schutzmantel außen zum Schutz gegen mechanische Beanspruchung, Rohraufbau im patentiertem Verbund, Rohr gemäß DIN 16892 und DIN 4729, sauerstoffdicht nach DIN 4726,",
+          "",
+          ""
+        ],
+        [
+          "- anteilig Industrie-Rohrbinder zur Befestigung des Rohres - Rohrträger aus [PERSON_089] ohne Grate und scharfe Kanten Rohr-Dimension: 20 x 2,3 mm Fabrikat : Uponor",
+          "",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 7",
+      "type": "table",
+      "description": "Table 7 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 8",
+      "type": "table",
+      "description": "Table 8 of the document (8 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "",
+          "",
+          "Übertrag:"
+        ],
+        [
+          ".4",
+          "oder gleichwertig gewähltes [PERSON_129] :",
+          "",
+          ""
+        ],
+        [
+          "510,000 m Anbindeleitung (für die Thermischen Steckdosen) Anbindeleitung wie zuvor in vollem Wortlaut beschrieben, jedoch zur individuellen Anbindung der thermischen Steckdosen an die Heizkreisverteiler/-sammler Rohr-Dimension: 20 x 2,3 mm Fabrikat : Uponor oder gleichwertig gewähltes [PERSON_129] :",
+          "",
+          ""
+        ],
+        [
+          "680,000 m",
+          "",
+          ""
+        ],
+        [
+          ".5",
+          "Schutzrohr für Anbindeleitung Schutzrohr für Anbindeleitung, Bereich Deckendurchführungen, passend zu zuvor beschriebener Anbindeleitung 94,000 m",
+          "",
+          ""
+        ],
+        [
+          ".6",
+          "Thermische Steckdose für PE-Xa Rohr 20x2,3 Thermische Steckdose zum Einbau in die Betondecke für die Kombination der Betonkernaktivierung mit zusätzlich thermisch aktivem Deckensegel bzw. Kühldeckenelement frei unter der [FIRMA_101] hängend, zur Führung eines oder Wärmeträgermediums, mit integrierten Ventileinsätzen für Mediendurchflussfreigabe bei Anschluss des zugehörigen Anschlussadapters, bestehend aus: - korrosionsfreiem und betondichtem Gehäuse, - Blinddeckel, - Montageplatte, - integrierte, automatisch schließende/öffnende Ventileinsätze, - Befestigungsmaterial mit Glatt- und Schraubnägel für harte/weiche Schalung werkseitig vormontiert, primärer Anschluss: Pressverbindung für",
+          "Kälte-",
+          ""
+        ],
+        [
+          "",
+          "Übertrag:",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 9",
+      "type": "table",
+      "description": "Table 9 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 10",
+      "type": "table",
+      "description": "Table 10 of the document (5 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "Velta PE-Xa Rohr sekundärer Anschluss: für zugehöriges Anschlussadapter Werkstoff: ABS (Gehäuse/Blinddeckel), [PERSON_176] (Ventileinsätze/Anschluß). [PERSON_129] Uponor / Contec TS oder gleichwertig gewähltes [PERSON_129] :",
+          "Übertrag:"
+        ],
+        [
+          "",
+          "47,000 St",
+          "",
+          ""
+        ],
+        [
+          ".7 Adapterstecker für Thermische Steckdose Adapterstecker, passend zu und für den Einbau in zuvor beschriebene Thermische Steckdose als Hersteller-Zubehör, zur Anbindung von thermisch aktive Deckensegel bzw. Kühldeckenelemente mittels z.B. bauseitigen Panzerschläuchen ohne Entleerung des Wasserkreislaufes in der Betondecke, bestehend aus: - Deckel - 2 Stecknippel - Befestigungsmaterial primärer Anschluss: für Thermische Steckdose sekundärer Anschluss: 2 x Rp 1/2 Werkstoff: ABS (Deckel), [PERSON_176] (Stecknippel) [PERSON_129] Uponor / Contec TS Adapterstecker oder gleichwertig gewähltes [PERSON_129] :"
+        ],
+        [
+          ".8 - 1 Kupplung - 2 Presshülsen Werkstoff: [PERSON_176] Presshülse aus [PERSON_115 Fabrikat: uponor oder gleichwertig gewähltes [PERSON_129] : Uponor Press-Kupplung PE-Xa 20-20 Presskupplung zur Verbindung von zuvor PE-X Rohren mit Pressfitting-Technik,",
+          "] 47,000 St mit 2 Presshülsen beschriebenen bestehend aus:",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 11",
+      "type": "table",
+      "description": "Table 11 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 12",
+      "type": "table",
+      "description": "Table 12 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 13",
+      "type": "table",
+      "description": "Table 13 of the document (12 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "",
+          "falls beim angebotenen Fabrikat nicht für 7 Kreise verfügbar, aufgeteilt auf 2 Verteiler und 2 Sammler zu z.B. 1 x 4 Heizkreisen und 1 x 3 Heizkreisen 3,000 St",
+          "Übertrag:",
+          ""
+        ],
+        [
+          ".11",
+          "Heiz- und Kühlkreisverteiler, 6 Kreise Verteiler und Sammler wie zuvor in vollem Wortlaut beschrieben, jedoch zum Anschluss von 6 Heiz-/Kühlkreisen",
+          "",
+          ""
+        ],
+        [
+          "1,000 St",
+          "",
+          ""
+        ],
+        [
+          ".12",
+          "Heiz- und Kühlkreisverteiler, 5 Kreise Verteiler und Sammler wie zuvor in vollem Wortlaut beschrieben, jedoch zum Anschluss von 5 Heiz-/Kühlkreisen",
+          "",
+          ""
+        ],
+        [
+          "2,000 St",
+          "",
+          ""
+        ],
+        [
+          ".13",
+          "Heiz- und Kühlkreisverteiler, 2 Kreise Verteiler und Sammler wie zuvor in vollem Wortlaut beschrieben, jedoch zum Anschluss von 2 Heiz-/Kühlkreisen",
+          "",
+          ""
+        ],
+        [
+          "1,000 St",
+          "",
+          ""
+        ],
+        [
+          ".14",
+          "Verteiler-Anschlussventile G1/Rp1 mit Voreinstellung Verteiler-Anschlussventile, passend und als Zubehör zu den zuvor beschriebenen Verteilern, für den hydraulischen Abgleich und Absperrung der Verteiler, bestehend aus:",
+          "",
+          ""
+        ],
+        [
+          "- Vorlauf-Regulierventil G 1/Rp 1 zum hydraulischen Abgleich und zur unabhängigen Absperrung des Verteilers/Sammlers, inkl. Handrad und Anzeige der Voreinstellung/Absperrung kvs-Wert: 5,4 m3/h,",
+          "",
+          ""
+        ],
+        [
+          "",
+          "- Rücklaufventil G 1/Rp 1 zur Absperrung des Verteilers/Sammlers, inkl. Handrad, Anzeige der Absperrung und Adaptierbarkeit aufzusetzender [PERSON_178] kvs-Wert: 6,4 bzw. 4,8 m3/h. Werkstoff: Gehäuse aus [PERSON_176] Handräder aus Polyamid max. Prüfdruck: 10 bar [PERSON_029]",
+          "",
+          ""
+        ],
+        [
+          "8,000 Set",
+          "",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 14",
+      "type": "table",
+      "description": "Table 14 of the document (9 rows)",
+      "value": [
+        [
+          "Projekt: LV:",
+          "79-222 verpreist_2004.. Ausbildungszentrum und Bürogebäude -AK Juni 21 Moduleinbau Betonkernaktivierung"
+        ],
+        [
+          "OZ",
+          "Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          ".15",
+          "*** Bedarfsposition ohne GB Thermo - Kleinstellantrieb für Betonkernaktivierung Thermo - Kleinstellantrieb, passend zu zuvor beschriebenem Rücklaufventil (Betonkernaktivierung) für Thermostat-Ventilunterteile thermomechanischer Antrieb, stromlos zu, Netz: 230 V Stellzeit: 3min Stellkraft: 100N Schutzart: IP54 Gewicht kg: 0,073 gew. [PERSON_129]",
+          "Übertrag:",
+          ""
+        ],
+        [
+          "",
+          "47,000 St",
+          "",
+          "Nur Einh.-Pr."
+        ],
+        [
+          ".16",
+          "Klemmringverschraubung PE-Xa 20-G3/4 Klemmringverschraubung für Anschluss der zuvor beschriebenen PE-Xa Rohre an zuvor beschriebenen Heizkreisverteiler und an Einzelvorlauf-Feinstregulierventile und Einzelrücklaufventile, bestehend aus: - Stützhülse mit O-Ring-Dichtung auf Eurokonus - Klemmring - Überwurfmutter Werkstoff: [PERSON_176] 94,000 St",
+          "",
+          ""
+        ],
+        [
+          ".17",
+          "*** Bedarfsposition ohne GB Deckenbohrungen zum Anschluss der BTA-Heizkreise Bohrungen in der Filigranplatte zur Durchführung der beschriebenen Anschlussleitungen der vorbeschriebenen Rohrregister oder handverlegten Heizkreise, je 2 Stück pro Modul/Heizkreis",
+          "",
+          ""
+        ],
+        [
+          "",
+          "94,000 St",
+          "",
+          "Nur Einh.-Pr."
+        ],
+        [
+          ".18",
+          "Deckendurchführungselement Deckendurchführungselement, zweiseitig f. Rohrdim. bis 20 mm für schalungsschonende Druckprobe der Module/Heizkreise, exakte Rohrführung aus der Decken-",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Übertrag:"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 15",
+      "type": "table",
+      "description": "Table 15 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 16",
+      "type": "table",
+      "description": "Table 16 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 17",
+      "type": "table",
+      "description": "Table 17 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 18",
+      "type": "table",
+      "description": "Table 18 of the document (11 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "",
+          "",
+          "",
+          "Übertrag:",
+          ""
+        ],
+        [
+          ".22",
+          "Heiz- und Kühlkreisverteiler, 6 Kreise Verteiler und Sammler wie zuvor in vollem beschrieben, jedoch zum Anschluss von 6 Heiz-/Kühlkreisen",
+          "Wortlaut",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "1,000 St",
+          "",
+          ""
+        ],
+        [
+          ".23",
+          "Heiz- und Kühlkreisverteiler, 5 Kreise Verteiler und Sammler wie zuvor in vollem beschrieben, jedoch zum Anschluss von 5 Heiz-/Kühlkreisen",
+          "Wortlaut",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "2,000 St",
+          "",
+          ""
+        ],
+        [
+          ".24",
+          "Heiz- und Kühlkreisverteiler, 2 Kreise Verteiler und Sammler wie zuvor in vollem beschrieben, jedoch zum Anschluss von 2 Heiz-/Kühlkreisen",
+          "Wortlaut",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1,000 St",
+          "",
+          ""
+        ],
+        [
+          ".25",
+          "Werkstoff: Gehäuse aus [PERSON_176] Handräder aus Polyamid max. Prüfdruck: 10 bar [PERSON_029] Verteiler-Anschlussventile G1/Rp1 mit Verteiler-Anschlussventile, passend und den zuvor beschriebenen Verteilern, für hydraulischen Abgleich und Absperrung bestehend aus: - Vorlauf-Regulierventil G 1/Rp 1 zum Abgleich und zur unabhängigen Absperrung Verteilers/Sammlers, inkl. Handrad und Voreinstellung/Absperrung kvs-Wert: 5,4 m3/h, - Rücklaufventil G 1/Rp 1 zur Absperrung Verteilers/Sammlers, inkl. Handrad, Anzeige der Absperrung und Adaptierbarkeit aufzusetzender [PERSON_178] kvs-Wert: 6,4 bzw. 4,8 m3/h.",
+          "Voreinstellung als Zubehör zu den der Verteiler, hydraulischen des Anzeige der des",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "8,000 Set",
+          "",
+          ""
+        ],
+        [
+          ".26",
+          "Thermo - Kleinstellantrieb für Deckensegel Thermo - Kleinstellantrieb, passend zu zuvor beschriebenem Rücklaufventil (Thermische Steckdosen)",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 19",
+      "type": "table",
+      "description": "Table 19 of the document (8 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "für Thermostat-Ventilunterteile thermomechanischer Antrieb, stromlos zu, Netz: 230 V Stellzeit: 3min Stellkraft: 100N Schutzart: IP54 Gewicht kg: 0,073 gew. [PERSON_129]",
+          "",
+          "Übertrag:",
+          ""
+        ],
+        [
+          "",
+          "47,000 St",
+          "",
+          ""
+        ],
+        [
+          ".27 - Stützhülse mit O-Ring-Dichtung auf Eurokonus - Klemmring - Überwurfmutter Werkstoff: [PERSON_176] Klemmringverschraubung PE-Xa 20- Klemmringverschraubung für Anschluss beschriebenen PE-Xa Rohre an zuvor Heizkreisverteiler und an Einzelvorlauf-Feinstregulierventile und Einzelrücklaufventile, bestehend aus:",
+          "G3/4 der zuvor beschriebenen 94,000 St",
+          "",
+          ""
+        ],
+        [
+          ".28 *** Bedarfsposition ohne GB Deckenbohrungen zum Anschluss der Thermischen Steckdosen Bohrungen in der Filigranplatte zur Durchführung der beschriebenen Anschlussleitungen der vorbeschriebenen Thermischen Steckdosen, je 2 Stück pro thermischem Stecker."
+        ],
+        [
+          "",
+          "94,000 St",
+          "",
+          "Nur Einh.-Pr."
+        ],
+        [
+          ".29 Deckendurchführungselement Deckendurchführungselement, zweiseitig f. Rohrdim. bis 20 mm für schalungsschonende Druckprobe der Module/Heizkreise, exakte Rohrführung aus der Decken- konstruktionsebene und zum Anschluss der Module/Heizkreise an die Verteilleitung [PERSON_129] der Planung: Uponor / Contec"
+        ],
+        [
+          "",
+          "",
+          "Übertrag:",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 20",
+      "type": "table",
+      "description": "Table 20 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 21",
+      "type": "table",
+      "description": "Table 21 of the document (8 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "",
+          "Deckendurchführungselement (Art-Nr.: 1005376) oder gleichwertig",
+          "",
+          "Übertrag:",
+          ""
+        ],
+        [
+          "",
+          "",
+          "94,000 St",
+          "",
+          ""
+        ],
+        [
+          ".30",
+          "Schutzrohr für Anbindeleitung Schutzrohr für Anbindeleitung, Bereich Deckendurchführungen, passend zu zuvor beschriebener Anbindeleitung",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "94,000 m",
+          "",
+          ""
+        ],
+        [
+          ".31",
+          "Druckprobe, Entleeren, Füllen, Inbetriebnahme Thermische Steckdosen Vor der Befüllung sind sämtliche Rohre und Anschlüsse auf korrekte Lage und Unversehrtheit nochmals zu prüfen."
+        ],
+        [
+          "",
+          "Sämtliche eingebrachte Leitungen sind mit [PERSON_029 [PERSON_060] zu füllen und vor und während der unter Druck zu halten, der Prüfdruck muss das Doppelte des Betriebsdrucks, mindestens jedoch 6 bar betragen, die Druckprobe ist vom Auftragnehmer zu protokollieren. Die Dichtheit und der Prüfdruck aller Leitungen ist vor und während der Betoneinbringung zu prüfen (mittels Verteileraufbau, während der Betonage oberhalb der [FIRMA_101] mit Manometer und Entleerungshähnen) und zu protokollieren. Eine stichprobenartige Überprüfung ist nicht ausreichend. Ein [PERSON_020] Heizung muss während der Betoneinbringung ständig anwesend sein, um Beschädigungen sofort beheben zu können. Vor der Inbetriebnahme ist die Anlage einer abschließenden Dichtheitsprüfung gem. VOB DIN 18380 Betriebsmedium und einem Prüfdruck vom 1,3-fachem des Gesamtdruckes an jeder Stelle der Anlage, mindestens aber 1bar Überdruck, zu unterziehen.",
+          "] oder Betonierarbeiten mit",
+          ""
+        ],
+        [
+          "Nach Aushärtung des Betons sind die betreffenden Kreise zu entleeren sowie nach Installation des Gesamtsystems wieder mit enthärtetem [PERSON_029] zu erneute Druckprobe, Einregulierung, Inbetriebnahme. Verbleibende Schutzrohre/Leerrohre sind mit [PERSON_071] zu verschließen.",
+          "füllen,"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 22",
+      "type": "table",
+      "description": "Table 22 of the document (14 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "",
+          "Für alle im Titel beschriebenen Verteilkreise der Thermischen Steckdosen.",
+          "Übertrag:",
+          ""
+        ],
+        [
+          "",
+          "1,000 Psch",
+          "",
+          ""
+        ],
+        [
+          ".32",
+          "[PERSON_071] mit R 90-/S 90-/ F 90-Zulassung, zum Herstellen einer R 90-Schottung (Schmelzpunkt größer 1000°C), zum Verschließen der verlegten Leerrohre/Schutzrohre, Menge entsprechend Anzahl und Abmessung der Leerrohre/Schutzrohre",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1,000 psch",
+          "",
+          ""
+        ],
+        [
+          ".33",
+          "Bestandsunterlagen Bauteilaktivierung und Thermische Steckdosen Bestandsunterlagen mit Eintragung und VermaBung des verlegten Systems, 1fach Papier, 1fach elektronisch, erstellen und übergeben, für installierte Bauteilaktivierung und Anschlussleitungen Thermische Steckdosen",
+          ""
+        ],
+        [
+          "",
+          "1,000 Satz",
+          "",
+          ""
+        ],
+        [
+          ".34",
+          "*** Bedarfsposition ohne GB A-Monteurstunden Stundenverrechnungssatz Obermonteur/Bauleitender Monteur, einschl. aller Zulagen",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1,000 h",
+          "",
+          "Nur Einh.-Pr."
+        ],
+        [
+          ".35",
+          "*** Bedarfsposition ohne GB B-Monteurstunden Stundenverrechnungssatz Monteur, einschl. aller Zulagen",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1,000 h",
+          "",
+          "Nur Einh.-Pr."
+        ],
+        [
+          ".36",
+          "*** Bedarfsposition ohne GB Helferstunden Stundenverrechnugssatz Helfer/Auszubildender, einschl. aller Zulagen",
+          "",
+          ""
+        ],
+        [
+          "1,000 h",
+          "",
+          "Nur Einh.-Pr."
+        ],
+        [
+          "",
+          "Summe LV verpreist_200403_Betonkernaktiv..",
+          ""
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

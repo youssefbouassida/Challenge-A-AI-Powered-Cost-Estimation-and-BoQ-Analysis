@@ -1,0 +1,1292 @@
+{
+  "document": "LV_04_Porenbetonfassade.pdf",
+  "project_id": "79-222",
+  "source": "Azure Content Understanding",
+  "summary": {
+    "positions_reviewed": 20,
+    "material_rows": 11,
+    "not_materials": 9,
+    "not_reviewed": 0,
+    "with_quantity": 11,
+    "with_unit_price": 0,
+    "conflicts": 0
+  },
+  "materials": [
+    {
+      "name": "Material 9.1.40 – P 4.4-0.55 tongue-and-groove autoclaved aerated concrete wall panels, 300 mm thick, up to approximately 7 m long, F 90",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.1.40",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "P 4.4-0.55 tongue-and-groove autoclaved aerated concrete wall panels, 300 mm thick, up to approximately 7 m long, F 90",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Horizontal panels with chamfered longitudinal edges, thermal conductivity 0.14 W/(m·K), for installation up to 8 m above grade.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 293.0,
+          "evidence": "293,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "293,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.40\nPorenbeton-Wandplatten P 4.4-0,55 Abmessungen: Länge:bis ca. 7,00 m Dicke:300 mm Wärmeleitzahl: 0,14 W/(mK) Hebel-Porenbeton-Wandplatten (o. glw.) P 4.4-0,55 mit Nut und gefassten Längskanten, nach Zulassungsbescheid, für Einbau. Die Wandplatten entsprechen der Feuerwiderstandsklasse F 90. Be"
+    },
+    {
+      "name": "Material 9.1.50 – Reinforced stiffening elements for autoclaved aerated concrete façades",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.1.50",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Reinforced stiffening elements for autoclaved aerated concrete façades",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Reinforced construction elements formed to stiffen the aerated concrete façade.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 500.0,
+          "evidence": "500,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "500,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.50\n*** Bedarfsposition ohne GB Herstellen von bewehrten [PERSON_016] [PERSON_016] zur Aussteifung der Porenbetonfassade\n500,000 m | Nur Einh.-Pr."
+    },
+    {
+      "name": "Material 9.1.70 – Nonstandard-width fitting-panel surcharge for autoclaved aerated concrete wall panels, excluding 500, 625 and 750 mm widths",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.1.70",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Nonstandard-width fitting-panel surcharge for autoclaved aerated concrete wall panels, excluding 500, 625 and 750 mm widths",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Add-on for fitting panels in widths other than the three listed standard sizes.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 150.0,
+          "evidence": "150,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "150,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.70\nZulage Porenbeton Wandplatten als Passplatten Zulage Porenbeton Wandplatten als Passplatten (alle Breiten auBer 500, 625 und 750 mm). ,\n150,000 m2  EP ........  GP ........"
+    },
+    {
+      "name": "Material 9.1.80 – Increased-reinforcement surcharge for autoclaved aerated concrete wall panels in lintel and sill zones",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.1.80",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Increased-reinforcement surcharge for autoclaved aerated concrete wall panels in lintel and sill zones",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Additional panel reinforcement in accordance with the structural design and manufacturer requirements.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 20.0,
+          "evidence": "20,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "20,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.80\nZulage Porenbeton Wandplatten im Sturz- und Brüstungs bereich 20,000 m2 Zulage Porenbeton Wandplatten im Sturz- und Brüstungsbereich erhöhtem Bewehrungsgrad nach Statik und Herstellerangaben - mit ."
+    },
+    {
+      "name": "Material 9.1.110 – Structural steel column extensions for 300 mm parapet panels, DIN 55928 corrosion protection class III",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.1.110",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Structural steel column extensions for 300 mm parapet panels, DIN 55928 corrosion protection class III",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Weld-on column extensions with profiles sized by structural design, for installation up to approximately 8 m above grade.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 500.0,
+          "evidence": "500,000 kg"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "kg",
+          "evidence": "500,000 kg"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.110\nStützenverlängerungen aus Profilstahl Liefern und Anschweißen von Stützenverlängerungen aus Profilstahl an die vorhandene Konstruktion oder an bauseits vorhandene\nKontaktplatten in der Betonkonstruktion zur Befestigung der Attikawand- platten. Profil nach statischer Berechnung/Erfordernis Pl"
+    },
+    {
+      "name": "Material 9.1.120 – V4A stainless steel anchor channel sections, HM 38/17, up to 100 mm long",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.1.120",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "V4A stainless steel anchor channel sections, HM 38/17, up to 100 mm long",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Short anchor channel sections for welding to T-posts.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.120\n*** Bedarfsposition ohne GB Ankerschienenstücke, Profil HM 38/17 Liefern und Anschweißen von Ankerschienenstücke, Profil HM 38/17 mit Einzellängen bis 100 mm, an T-Stiele [PERSON_115] V4A\n1,000 St | Nur Einh.-Pr."
+    },
+    {
+      "name": "Material 9.1.130 – Galvanized St 37-2 U-310 mm steel door and gate frames for 300 mm wall panels",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.1.130",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Galvanized St 37-2 U-310 mm steel door and gate frames for 300 mm wall panels",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Steel channel frames mounted to site-provided contact plates or in the column area.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 35.0,
+          "evidence": "35,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "35,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.130\nTür-, Torrahmen o.ä. aus Profilstahl Plattendicke:d= 300 mm Profil:U-310 mm Die Montage erfolgt an bauseits vorhandenen Kontaktplatten bzw. Stützenbereich. Ausführung:Korrosionsschutz verzinkt 35,000 m Liefern und montieren von Tür-, Torrahmen o.ä. aus Profilstahl im Sockel- St 37-2."
+    },
+    {
+      "name": "Material 9.1.170 – Mineral fiber expansion joint strips",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.1.170",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Mineral fiber expansion joint strips",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Mineral fiber strips installed as expansion joint filler.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "1,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.170.\n*** Bedarfsposition ohne GB\nHerstellen von Dehnfugen mit Mineralfaserstreifen\nHerstellen von Dehnfugen mit Mineralfaserstreifen.\n1,000 m"
+    },
+    {
+      "name": "Material 9.1.180 – Wall junction materials for the office concrete wall connection",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.1.180",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Wall junction materials for the office concrete wall connection",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Materials for forming the wall junction at the office concrete wall.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 13.0,
+          "evidence": "13,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "13,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.180.\nHerstellen Anschluss an Büro\nHerstellen Wandanschluss, an Betonwand Büro, inkl. aller\nMateriallieferungen.\n13,000 m"
+    },
+    {
+      "name": "Material 9.1.190 – Silicone-based exterior aerated concrete coating system with slurry finish",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.1.190",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Silicone-based exterior aerated concrete coating system with slurry finish",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Primer, intermediate coat and slurry finish coat; RAL color selected by the client.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 293.0,
+          "evidence": "293,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "293,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.190.\nBeschichtung AuBenwand, als Schlämmanstrich\nPorenbetonbeschichtung der Außenwand, mit einem\nBeschichtungssystem aus Siliconbasis, einschl. aller notwendigen\nUntergrundvorbehandlungen wie\n-Prüfung Untergrund auf Trag- u- Haftfähigkeit\n-Verunreinigungen und beschichtungsfeindliche\nAblagerunge"
+    },
+    {
+      "name": "Material 9.1.200 – Silicone-based exterior aerated concrete coating system with flow-textured finish",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.1.200",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Silicone-based exterior aerated concrete coating system with flow-textured finish",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Primer, intermediate coat and flow-textured finish coat; RAL color selected by the client.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.200.\n*** Bedarfsposition ohne GB\nBeschichtung AuBenwand, als Verlaufstruktur\nPorenbetonbeschichtung der AuBenwand, mit einem Beschichtungs-\nsystem aus Siliconbasis, einschl. aller notwendigen Untergrundvorbe-\nhandlungen wie\n-Prüfung Untergrund auf Trag- u- Haftfähigkeit\n-Verunreinigungen und bes"
+    }
+  ],
+  "not_materials": [
+    {
+      "name": "Position 9.1.10",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.1.10",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers work safety measures and identifies no new physical product to supply.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.10\nMaßnahmen zur Arbeitssicherheit gem. UVV Maßnahmen zur Gewährleistung der Arbeitssicherheit gem. der UVV ZH 1/164 UVV bei Montagearbeiten. Max. Montagehöhe = bis 8,00 m ab OK Gelände\n1,000 pau "
+    },
+    {
+      "name": "Position 9.1.20",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.1.20",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The deliverable is structural calculations, not a physical construction product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.20\nStatische Nachweise (Ausführungs-/Typenstatik) Erstellung der Ausführungs-/Typenstatik für die nachfolgend schriebenen Leistungen, auf der Grundlage der vom AG an AN übergebenen Planunterlagen."
+    },
+    {
+      "name": "Position 9.1.30",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.1.30",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The deliverables are installation, shop and detail drawings.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.30\nMontage-, Werkstatt- und Detailzeichnungen Erstellung von Montage-, Werkstatt- und Detailplänen für beschriebene Porenbetonfassade, auf der Grundlage der AN übergebenen Planunterlagen. die nach"
+    },
+    {
+      "name": "Position 9.1.60",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.1.60",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers bevel and fit cuts in 300 mm panels. The allowance for cutting waste does not specify a new product to supply.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"Herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.60\nSchräg-/Passschnitte Herstellen von Schräg-/Passschnitte bei einer Plattendicke von 300 mm, einschließlich Materialverlust\n10,000 m  EP ........  GP ........"
+    },
+    {
+      "name": "Position 9.1.90",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.1.90",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers forming recesses at support brackets, not supplying the brackets or any other product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"Herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.90\n*** Bedarfsposition ohne GB Herstellen von Ausnehmungen im Bereich von Auflager konsolen bzw. Abfangkonsolen Herstellen von Ausnehmungen im Bereich von Auflager- konsolen bzw. Abfangkonsolen -\n"
+    },
+    {
+      "name": "Position 9.1.100",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.1.100",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers forming recesses at parapet posts or column extensions, with no new product specified.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"Herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.100\n*** Bedarfsposition ohne GB Herstellen von Ausnehmungen im Bereich von Attika- stielen bzw. Stützenverlängerungen. Herstellen von Ausnehmungen im Bereich von Attika- stielen bzw. Stützenverlän"
+    },
+    {
+      "name": "Position 9.1.140",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.1.140",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers making 50 mm round wall openings, not supplying a physical product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.140\nWanddurchbrüche, rund, Ø 50 mm Wanddurchbruch nach Angabe der Bauleitung herstellen Form:rund Durchmesser: Ø 50mm\n5,000 St  EP ........  GP ........"
+    },
+    {
+      "name": "Position 9.1.150",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.1.150",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers making 100 mm round wall openings, not supplying a physical product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.150\nWanddurchbrüche, rund, Ø 100 mm Wanddurchbruch nach Angabe der Bauleitung herstellen Form:rund Durchmesser: Ø 100mm\n5,000 St  EP ........  GP ........"
+    },
+    {
+      "name": "Position 9.1.160",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.1.160",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers forming a dummy joint in aerated concrete wall panels. No joint product or filler is specified.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.160\n*** Bedarfsposition ohne GB Scheinfuge in Porenbeton-Wandplatten Scheinfuge in Porenbeton-Wandplatten herstellen, mit gleicher Größe wie die Fuge bei Plattenströßen.\n1,000 m | Nur Einh.-Pr.\n##"
+    }
+  ],
+  "not_reviewed": []
+}

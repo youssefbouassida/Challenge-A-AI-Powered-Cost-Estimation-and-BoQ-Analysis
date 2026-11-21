@@ -1,0 +1,4027 @@
+{
+  "document": "LV_17_Trockenbau.pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 56,
+    "with_quantity": 52,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Request for quotation",
+      "evidence": "Anfrage"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "79-222",
+      "evidence": "Projekt: 79-222"
+    },
+    {
+      "name": "LVNumber",
+      "type": "string",
+      "description": "Bill of quantities number (LV-Nr.)",
+      "value": "17",
+      "evidence": "LV: 17"
+    }
+  ],
+  "positions": [
+    {
+      "name": "Position 10.1.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "W112 Metallständerwand,GKB, d=125mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Metallständerwand mit verzinktem Einfachständerwerk und Mineralwolledämmung, befestigt an Stahlbetondecke und Stahlbetonboden einschl. dauerelastischer Acrylverfugung und den Anschlüssen an massive Bauteile bzw. GK Bauteile untereinander. Brandschutz: | ohne Anforderung Beplankung: | GKB beidseitig, je Seite 2x12,5 mm Oberflächen: | Q2 verspachtelt, malerfertig Dämmung: | Mineralfaser 40 mm Gesamtstärke: | 125 mm Wandhöhe: | 3,06 m im EG bis 2.OG (OKD bis UKD) 3,25 m im UG (OKD bis UKD) Einbauort: | UG-2.OG Angebotenes Fabrikat:",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 720.0,
+          "evidence": "720,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "720,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.10."
+    },
+    {
+      "name": "Position 10.1.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "W112 Metallständerwand,GKB, d=175mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Metallständerwand mit verzinktem Einfachständerwerk und Mineralwolledämmung, befestigt an Stahlbetondecke und Stahlbetonboden einschl. dauerelastischer Acrylverfugung und den Anschlüssen an massive Bauteile bzw. GK Bauteile untereinander. Brandschutz: | ohne Anforderung Beplankung: | GKB beidseitig, je Seite 2x12,5 mm Oberflächen: | Q2 verspachtelt, malerfertig Dämmung: | Mineralfaser 40 mm Gesamtstärke: | 175 mm Wandhöhe: | 3,25 m im UG (OKD bis UKD) Einbauort: | UG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 15.0,
+          "evidence": "15,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "15,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.20."
+    },
+    {
+      "name": "Position 10.1.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "W112 Metallständerwand,GKB, d=125mm F30",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Metallständerwand mit verzinktem Einfachständerwerk und Mineralwolledämmung, befestigt an Stahlbetondecke und Stahlbetonboden einschl. dauerelastischer Acrylverfugung und den Anschlüssen an massive Bauteile bzw. GK Bauteile untereinander. Brandschutz: | F30 Beplankung: | GKB beidseitig, je Seite 2x12,5 mm Oberflächen: | Q2 verspachtelt, malerfertig Dämmung: | Mineralfaser 40 mm Gesamtstärke: | 125 mm Wandhöhe: | 3,25 m (OKD bis UKD)",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 74.0,
+          "evidence": "74,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "74,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.30."
+    },
+    {
+      "name": "Position 10.1.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "W112 Metallständerwand,GKB, d=125mm F60",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Metallständerwand mit verzinktem Einfachständerwerk und Mineralwolledämmung, befestigt an Stahlbetondecke und Stahlbetonboden einschl. dauerelastischer Acrylverfugung und den Anschlüssen an massive Bauteile bzw. GK Bauteile untereinander. Brandschutz: | F60 Beplankung: | GKB beidseitig, je Seite 2x12,5 mm Oberflächen: | Q2 verspachtelt, malerfertig Dämmung: | Mineralfaser 40 mm Gesamtstärke: | 125 mm Wandhöhe: | 3,25 m (OKD bis UKD) Einbauort: | UG Fluchtweg Angebotenes Fabrikat:",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 20.0,
+          "evidence": "20,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "20,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.40."
+    },
+    {
+      "name": "Position 10.1.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Vorsatzschale, 225 mm, 2x12,5, einseitig, raumhoch",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Liefern und montieren einer Vorsatzschale als Installationsebene für die Teeküchen inkl. Unterkonstruktion und Dämmung, befestigt an Stahlbetondecke und Stahlbetonboden inkl. erfoderlicher U/A-Profile, dauerelastischer Acrylverfugung und den Anschlüssen an massive Bauteile bzw. GK Bauteile untereinander. In Verbindung mit vorhandener [PERSON_074] 17 Befestigungsuntergrund: Beton Beplankung: 2-lagig Dämmung: Mineralfaser Gesamtstärke: bis 225 mm Wandhöhe: Raumhoch 3,25m UG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 15.0,
+          "evidence": "15,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "15,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.50."
+    },
+    {
+      "name": "Position 10.1.60",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.60",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Vorsatzschale, 225 mm, 2x12,5, einseitig, h = ca. 1,40 m",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Liefern und montieren einer Vorsatzschale als Installationsebene für Sanitäre Einrichtungen/Teeküche inkl. Unterkonstruktion und Dämmung, befestigt an Stahlbetonboden inkl. erfoderlicher U/A-Profile, dauerelastischer Acrylverfugung und den Anschlüssen an massive Bauteile bzw. GK Bauteile untereinander. In Verbindung mit vorhandener [PERSON_074] Befestigungsuntergrund: GK Oberflächenfertig zur Aufnahme eines Fliesenbelags Beplankung: 2-lagig mit Feuchtraumplatten Dämmung: Mineralfaser Gesamtstärke: bis 225 mm Wandhöhe: ca. 1,40 ab OK Rohdecke Angebotenes Fabrikat:",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 25.0,
+          "evidence": "25,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "25,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.60."
+    },
+    {
+      "name": "Position 10.1.70",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.70",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Vorsatzschale, 295 mm, 2x12,5, einseitig, h = ca. 1,40 m",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Liefern und montieren einer Vorsatzschale als Installationsebene für Sanitäre Einrichtungen inkl. Unterkonstruktion und Dämmung, befestigt an Stahlbetonboden inkl. erfoderlicher U/A-Profile, dauerelastischer Acrylverfugung und den Anschlüssen an massive Bauteile bzw. GK Bauteile untereinander. In Verbindung mit vorhandener [PERSON_074] Befestigungsuntergrund: Stahlbeton Oberflächenfertig zur Aufnahme eines Fliesenbelags Beplankung: 2-lagig, mit Feuchtraumplatten Dämmung: Mineralfaser Gesamtstärke: bis 295 mm Wandhöhe: ca. 1,40 ab OK Rohdecke 17",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 30.0,
+          "evidence": "30,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "30,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.70."
+    },
+    {
+      "name": "Position 10.1.80",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.80",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Herstellen von Brüstungs-GK Verkleidung, 2lg",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Liefern und montieren der Brüstungs-GK Verkleidung, im Bereich der Elementfassade Metallständerwand mit verzinktem Einfachständerwerk und Mineralwolledämmung,einschl. dauerelastischer Acrylverfugung und den Anschlüssen an massive Bauteile. Höhe: ca. 0,90m Brandschutz: ohne Anforderung Beplankung: GKB, 2-mal 12,5 mm, einseitig Oberflächen: Q2 verspachtelt, malerfertig Gesamtstärke: 125 mm Einbauort: UG-2.OGBrüstungsbereich Fassade Angebotenes Fabrikat:",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 200.0,
+          "evidence": "200,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "200,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.80."
+    },
+    {
+      "name": "Position 10.1.90",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.90",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Gleitender Deckenanschluss für [PERSON_074] d=125 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Ausführung eines gleitenden Deckenanschlusses bei Metallständerwänden (W112) mit d=125 mm : > 10 mm Ausführung nach Herstellerrichtlinien Deckenanschluß in Teilbereichen durch die abgehangene [FIRMA_101] nicht mehr sichtbar, in Bürobereichen und Küchen sichtbar. angebotenes Fabrikat :",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 200.0,
+          "evidence": "200,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "200,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.90."
+    },
+    {
+      "name": "Position 10.1.100",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.100",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Gleitender Deckenanschluss für [PERSON_074] d=175 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Ausführung eines gleitenden Deckenanschlusses bei Metallständerwänden (W112) mit d=175 mm : > 10 mm Ausführung nach Herstellerrichtlinien Deckenanschluß in Teilbereichen durch die abgehangene [FIRMA_101] nicht mehr sichtbar, in Bürobereichen und Küchen sichtbar. angebotenes Fabrikat :",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 10.0,
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.100."
+    },
+    {
+      "name": "Position 10.1.110",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.110",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Gleitender Deckenanschluss,mit opt.Anf.,BS+Schall",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Ausführung eines gleitenden Deckenanschlusses mit optischen Anforderungen in Brandschutz- bzw. Schallschutzqualität an Stb.-Decken. Leistungsbestandteile Abschlussprofil im oberen Wandabschluss Acrylfuge im Anschluss [FIRMA_101] Brandschutz: F30 [PERSON_074] Baustoffklasse: A gem. DIN 4109",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 20.0,
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.110."
+    },
+    {
+      "name": "Position 10.1.120",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.120",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Zul.GKBI-Platten statt GKB,2lg",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Zulage für den Einbau von hydrophobierten Gipskartonbauplatten (GKBI) anstelle GKB, 2-lg. Abrechnung je m2 Wandseite. Einbauort: WC und Dusch-Bereiche",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 290.0,
+          "evidence": "290,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "290,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.120."
+    },
+    {
+      "name": "Position 10.1.130",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.130",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Zul.AuBenecke,rechtwinklig",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Zulage für Herstellung einer Außenecke, rechtwinklig einschl. Eckschutzschiene.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 35.0,
+          "evidence": "35,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "35,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.130."
+    },
+    {
+      "name": "Position 10.1.150",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.150",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Zul. freies Wandende",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Ausbildung freier Wandenden in Trockenbauständerwänden inkl. beidseitiger Eckschutzschienen als Zulage",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 20.0,
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.150."
+    },
+    {
+      "name": "Position 10.1.160",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.160",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Quertraverse für GK-Ständerwände",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Quertraversen als Befestigungsgrundlage für Wandschränke, sanitäre Einrichtungen etc.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 50.0,
+          "evidence": "50,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "50,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.160."
+    },
+    {
+      "name": "Position 10.1.170",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.170",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Verstärkung für Hängeschränke",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Holzdielen 30 cm breit, 3 cm dick als Zulage in den Wandbekleidungen zur Befestigung von Hängeschränken, Heizkörpern, etc,",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 5.0,
+          "evidence": "5,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "5,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.170."
+    },
+    {
+      "name": "Position 10.1.200",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.200",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Fassadenschwert 250x48mm,50dB,EI90 Fassadenanschluss als Schwert mit Metall-UK einschl. freies Wandende der Grundwand mit getrennter Laibungsbeplankung, GK-Profile und Kantenschutzprofile. Acrylfuge im Fassadenanschluss. Brandschutz: EI90 gem. EN 13501 Schallschutz: Rw, R= bis 50 dB Dämmung: 10 mm Mineralwolle Einlage: 2-mal 2 mm Blecheinlage Beplankung: Plattentyp GM-F gem. EN 15283-1, 1-mal 15 mm, beidseitig Oberflächen: Q2 verspachtelt, malerfertig Schwertdicke: 48 mm Schwertbreite: bis 250 mm Einbauort: Übergang Trockenbauwand zu Fassade",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 42.0,
+          "evidence": "42,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "42,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.200."
+    },
+    {
+      "name": "Position 10.1.210",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.210",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Verstärkte U/A-Profile",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Verstärkte UA-Profile in GK-Wänden. Einbau frei von Stößen und Auswechselungen, geschosshoch.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 100.0,
+          "evidence": "100,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "100,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.210."
+    },
+    {
+      "name": "Position 10.1.230",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.230",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Zul.Q3 anstelle Q2 Zulage für Q3 anstelle Standard Q2 Verspachtelung der Trockenbauwände, Abhangdecken, Vorsatzschalen etc. Abrechnung je m2 Ansichtsseite.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.230."
+    },
+    {
+      "name": "Position 10.1.240",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.240",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "W628 Schachtwand GKF,75mm,bis 36dB,EI30",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Schacht für Haustechnikinstallation herstellen, als Metallständerwand mit Einfachständerwerk und Mineralwolledämmung inkl. Außenecken und allen zugehörigen Anschlüssen. Schallschutz: Rw, R bis 36 dB Brandschutz: EI30 gem. EN 13501 Beplankung: GKF A2, 2-mal 12,5 mm, 1-seitig Oberfläche: Q2 verspachtelt, malerfertig 17 Gesamtstärke: 75 mm Schachthöhe: bis 3,25 m",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 100.0,
+          "evidence": "100,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "100,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.240."
+    },
+    {
+      "name": "Position 10.1.250",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.250",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "W628 Schachtwand GKF,100mm,bis 40dB,EI30 Schacht für Haustechnikinstallation herstellen, als Metallständerwand mit Einfachständerwerk und Mineralwolledämmung inkl. Außenecken Schallschutz: Rw, R bis 40 dB Brandschutz: EI30 gem. EN 13501 Beplankung: GKF A2, 2-mal 12,5 mm, 1-seitig Oberfläche: Q2 verspachtelt, malerfertig Gesamtstärke: 100 mm Schachthöhe: bis 3,25 m",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 10.0,
+          "evidence": "10,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "10,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.250."
+    },
+    {
+      "name": "Position 10.1.260",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.260",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Türöffnungen in Ständerwand, bis 1300/2500 mm F30",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Herstellen von Türöffnungen in GK bzw. GKI -Ständerwänden, sowie aller erforderlicher Verstärkungsprofile und Laibungsbeplankung für den Einbau einer T30 Tür Wanddicke: 125 mm",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.260."
+    },
+    {
+      "name": "Position 10.1.270",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.270",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Türöffnungen in Ständerwand, bis 1300/2500 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Herstellen von Türöffnungen in GK bzw. GKI -Ständerwänden, sowie aller erforderlicher Verstärkungsprofile Wanddicke: 125 mm",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.270."
+    },
+    {
+      "name": "Position 10.1.280",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.280",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Türöffnungen in Ständerwand, bis 1100/2570 mm F30",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Herstellen von Türöffnungen in GK bzw. GKI -Ständerwänden, sowie aller erforderlicher Verstärkungsprofile und Laibungsbeplankung für den Einbau einer T30 Tür Wanddicke: 125 mm",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.280."
+    },
+    {
+      "name": "Position 10.1.290",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.290",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Türöffnungen in Ständerwand, bis 1100/2570 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Herstellen von Türöffnungen in GK bzw. GKI -Ständerwänden, sowie aller erforderlicher Verstärkungsprofile für den Einbau von [PERSON_095] Wanddicke: 125 mm",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 35.0,
+          "evidence": "35,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "35,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.290."
+    },
+    {
+      "name": "Position 10.1.300",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.300",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Türöffnungen in Ständerwand, bis 900/2300 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Herstellen von Türöffnungen in GK bzw. GKI -Ständerwänden, sowie aller erforderlicher Verstärkungsprofile für den Einbau von WC-Holztüren Wanddicke: 125 mm",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 6.0,
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.300."
+    },
+    {
+      "name": "Position 10.1.310",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.310",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Türzarge,St-UZ,15cm,1flg,<1,01x2,135m",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Liefern und Montieren der Stahlumfassungszarge als Normalfalzzarge, für 1-flg. Tür, zum Einbau in Trockenbauwand, mit 3-seitiger Dichtung. Folgeleistung (baus.) | Endbeschichtung Bandaufnahme: | 3-tlg. Oberfläche: | grundiert Wandstärke: | 125 mm Durchgangsbreite: | 1,01 m Durchgangshöhe: | 2,135 m Einbauort: | [FIRMA_095] EG-2.OG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 6.0,
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.310."
+    },
+    {
+      "name": "Position 10.1.320",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.320",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Fensteröffnung anlegen,bis 2,0m2",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Anlegen von Fensteröffnungen in Trockenbauwänden inkl. erforderlicher U/A-Profile und Laibungsausbildung. Öffnungsgröße: bis 2,0 m2",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.320."
+    },
+    {
+      "name": "Position 10.1.330",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.330",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Durchgangsöffnung anlegen, 1800x2570 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Anlegen von Öffnungen in Trockenbauwänden inkl. erforderlicher U/A- Profile, Laibungsausbildung und Eckschutz als offener Durchgang im Büro 3.04 im 2.OG 17",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.330."
+    },
+    {
+      "name": "Position 10.1.340",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.340",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Aussparung, 20x20cm,F0,rechteckig Aussparung für Kabeldurchführungen und sonst. Haustechnik im Zuge der vorbeschriebenen Trockenbauarbeiten einschl. aller erforderlichen Profile und Laibungsbeplankung. Leistungsumfang Öffnung anlegen Profile in Laibungen Laibungsbeplankung",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Anforderungen: Aussparungsform: Größe: | ohne Brandschutzanforderung rechteckig ca. 20x20cm Einbauort: | F0-Trennwände im Abhangdeckenbereich, nicht sichtbar",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 15.0,
+          "evidence": "15,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "15,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.340"
+    },
+    {
+      "name": "Position 10.1.350",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.350",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Aussparung,30x30cm,F0,rechteckig wie Pos. vor, jedoch 30x30cm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 5.0,
+          "evidence": "5,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "5,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.350"
+    },
+    {
+      "name": "Position 10.1.360",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.360",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Aussparung,40x40cm,F0,rechteckig wie Pos. vor, jedoch 30x30cm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "2,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.360"
+    },
+    {
+      "name": "Position 10.1.370",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.370",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Aussparung,<0,2m2,F30,rechteckig wie Pos. zuvor jedoch als F30 Aussparung bis 0,2m2 5,000 St",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.370"
+    },
+    {
+      "name": "Position 10.1.380",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.380",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Aussparung,<0,2m2,F60,rechteckig wie Pos. zuvor jedoch als F60 Aussparung bis 0,2m2",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 5.0,
+          "evidence": "5,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "5,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.380"
+    },
+    {
+      "name": "Position 10.1.390",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.390",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Revisionsklappe 300x300 mm Herstellen von Revisionsöffnungen, 300x300 mm inkl. Ausschnitt und der erfoderlichen Rahmenverstärkungen und Übertrag:",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Befestigungsmitteln sowie Auswechslungen Revisionsklappe von z.B. KNAUF o. glw. Größe ca. 300 x 300 mm Brandschutz: keine Anfoderungen",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 12.0,
+          "evidence": "12,000 Stk  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "12,000 Stk  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.390"
+    },
+    {
+      "name": "Position 10.1.400",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.400",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Revisionsklappe 400x400 mm Herstellen von Revisionsöffnungen, 400x400 mm inkl. Ausschnitt und der erfoderlichen Rahmenverstärkungen Befestigungsmitteln sowie Auswechslungen Revisionsklappe von z.B. KNAUF o. glw. und",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Große ca. 400 x 400 mm Brandschutz: keine Anfoderungen Angebotenes Fabrikat: 12,000 Stk | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.400"
+    },
+    {
+      "name": "Position 10.1.410",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.410",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Revisionsklappe 600x600 mm Herstellen von Revisionsöffnungen, 600x600 mm inkl. Ausschnitt und der erfoderlichen Rahmenverstärkungen Befestigungsmitteln sowie Auswechslungen Revisionsklappe von z.B. KNAUF o. glw. und",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Größe ca. 600 x 600 mm Brandschutz: keine Anfoderungen",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 4.0,
+          "evidence": "4,000 Stk  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "4,000 Stk  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.410"
+    },
+    {
+      "name": "Position 10.1.420",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.420",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Rundlöcher in Ständerwand bis DN 50mm Rundlöcher durch Bohren in GK bzw.GKI - Platten, bis DN 30 mm.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 150.0,
+          "evidence": "150,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "150,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.420"
+    },
+    {
+      "name": "Position 10.1.430",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.1.430",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Rundlöcher in Ständerwand über DN 50 mm bis DN 150 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Rundlöcher durch Bohren in GK bzw.GKI - Platten, über DN 50 bis DN 100 mm.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 150.0,
+          "evidence": "150,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "150,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.430."
+    },
+    {
+      "name": "Position 10.2.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[FIRMA_101] sichtb.UK,stumpfe Kante, h = ca. 50 cm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Abgehängte Mineralfaser-Rasterdecke, sichtbare Metall-UK einschl. Passelemente, Wandanschluss und Wandwinkel (diese sind an den Eckpunkten sauber auf Gehrung zu schneiden). Sichtleiste weiß matt, mit Spannabhängern von der Rohdecke über zugelassene Dübel und Schrauben abgehängt und planeben ausgerichtet. Liefern und Montieren nach den technischen Vorschriften des Herstellers inkl. der Gerüstgestellung sowie sämtl. Anpassarbeiten. Einbau gem. Deckenspiegelplan. Einlegeplatten: Mineralfaserplatte, einseitiger Grundanstrich Plattendicke: 15 mm Größe: 625x625 mm Kantenausbildung: stumpf, scharfkantig, für aufgelegte Plattenmontage Baustoffklasse: A2-s1,d0 nach DIN EN 13501-1 Oberflächen: gelocht Farbe: weiß Unterkonstruktion: aus verzinktem Stahlblechprofil, Sichtseiten weiß beschichtet z.B. Fabrikat: OWAcoustic oder gleichwertiger Art, angebotenes Fabrikat:",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 140.0,
+          "evidence": "140,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "140,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.10."
+    },
+    {
+      "name": "Position 10.2.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "D112, Abhangdecke, 1xGKB Abhangh.= 10 cm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "GK-Abhangdecke/-Deckenbekleidung, Metall-Unterkonstruktion, Wandanschluss Massiv und GK; einschl. dauerelastischer Verfugung an massiven Bauteilen bzw. GK Bauteilen. siehe Detail DT_5211 17 Untergrund: | Stb.-Rohdecke Abhanghöhe: | 10 cm Abhänger: | Direktabhänger Rohdecke: | 3,06 m im EG bis 2.OG (OKD bis UKD) 3,25 m im UG (OKD bis UKD) Beplankung: | GKB, 1-mal 12,5 mm Oberflächen: | Q2 verspachtelt Konstruktionsart: | wie D112 Einbauort: | Eingangsbereich",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 25.0,
+          "evidence": "25,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "25,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.20."
+    },
+    {
+      "name": "Position 10.2.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "D112, Abhangdecke, 1xGKB Abhangh= 50 cm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "GK-Abhangdecke/-Deckenbekleidung, Metall-Unterkonstruktion, Wandanschluss Massiv und GK; einschl. dauerelastischer Verfugung an massiven Bauteilen bzw. GK Bauteilen. siehe Detail DT_5211 Untergrund: | Stb.-Rohdecke Abhanghöhe: | 50 cm Abhänger: | Direktabhänger Rohdecke: | 3,06 m im EG bis 2.OG (OKD bis UKD) 3,25 m im UG (OKD bis UKD) Beplankung: | GKB, 1-mal 12,5 mm Oberflächen: | Q2 verspachtelt Konstruktionsart: | wie D112 Einbauort: | Dusche UG/WCs/Putzräume",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 45.0,
+          "evidence": "45,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "45,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.30."
+    },
+    {
+      "name": "Position 10.2.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "D112, Abhangdecke F60, Abhangh= 50 cm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "GK-Abhangdecke wie in Pos. zuvor, jedoch als F60 [FIRMA_101] Einbauort: Flur neben TRH (0.03 UG Eingang)",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 7.0,
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.40."
+    },
+    {
+      "name": "Position 10.2.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Zul. Feuchtraumplatten f. Abhangdecke 50 cm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Zulage zu Abhangdecke mit Abhanghöhe = 50 cm für die Verwendung von feuchtigkeitsbeständige Platten. Einbauort: [FIRMA_013]",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 10.0,
+          "evidence": "10,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "10,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.50."
+    },
+    {
+      "name": "Position 10.2.60",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.60",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Vertikaler Deckenversatz, 1xGKB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Vertikaler Deckensprung im Eingansbereich, von GK-Abhangdecke (Abhanghöhe=10 cm) auf [FIRMA_101] (Abhanghohe = 50 cm) in Q2, inkl. Metall-UK und Kantenschutzprofil.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 5.0,
+          "evidence": "5,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "5,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.60."
+    },
+    {
+      "name": "Position 10.2.70",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.70",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Wandanschluss, Schattenfuge, Stufenwinkel",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Wandanschluss Mineralfaser-Rasterdecke mit Stufenwinkelprofil als geschlossene Schattenfuge.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 10.0,
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.70."
+    },
+    {
+      "name": "Position 10.2.80",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.80",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Vertikale Deckenschürze, 1xGKB,<50cm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Vertikale Deckenschürze als Abschluss der Mineralfaser-Abhangdecke, GKB, 1-mal 12,5 mm, Q2, Metall-UK, Kantenschutzprofil. Höhe: bis 50 cm",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 50.0,
+          "evidence": "50,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "50,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.80."
+    },
+    {
+      "name": "Position 10.2.90",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.90",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Deckenkoffer herstellen",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Deckenkoffer herstellen als Verkleidung von Leitungen, GK, 1-mal 12,5 mm, Q2, inkl. Metall-UK, und Kantenschutzprofil. Hohe ca. 30 cm Breite ca. 48 cm gem. Detail DT_5212",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 20.0,
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.90."
+    },
+    {
+      "name": "Position 10.2.100",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.100",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Aussparung, eckig, bis ca. 500 cm2",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Eckige Aussparung für Leuchten o.ä. in vorgenannten Mineralfaser-/Metallkassettendecken herstellen. Die Unterkonstruktion ist entsprechend zu verstärken, versch. Abmessungen, Größe bis ca. 500 cm2",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 12.0,
+          "evidence": "12,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "12,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.100."
+    },
+    {
+      "name": "Position 10.2.110",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.110",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Aussparung, rund, bis ca. 250 mm Durchmesser",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Runde Aussparung für Leuchten o.ä. in vorgenannten Mineralfaser-/Metallkassettendecken herstellen. Die Unterkonstruktion ist entsprechend zu verstärken, versch. Abmessungen, Durchmesser bis ca. 250 mm",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 31.0,
+          "evidence": "31,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "31,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.110."
+    },
+    {
+      "name": "Position 10.2.120",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.120",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Aussparung, rund, bis ca. 500 mm Durchmesser Ausführung wie vor beschrieben, jedoch Durchmesser bis ca. 250-500 mm Übertrag:",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "3,000 St | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.120"
+    },
+    {
+      "name": "Position 10.2.130",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.130",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Verstärkung für Einbauleuchten Unterkonstruktion der abgehängten Mineralfaser-/Metallkassettendecken zur Aufnahme von Einbauleuchten mit zusätzlichen Abhängern verstärken. Leuchtengröße: 625/625 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 32.0,
+          "evidence": "32,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "32,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.130"
+    },
+    {
+      "name": "Position 10.2.140",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.140",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Revisionsklappe 300x300 mm Größe ca. 300 x 300 mm Brandschutz: keine Anfoderungen Angebotenes Fabrikat: Herstellen von Revisionsöffnungen in GK Abhangdecke, inkl. Ausschnitt und der erfoderlichen Rahmenverstärkungen Befestigungsmitteln sowie Auswechslungen Revisionsklappe von z.B. KNAUF o. glw. 300x300 mm und",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 Stk  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "2,000 Stk  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.140"
+    },
+    {
+      "name": "Position 10.2.150",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.2.150",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Revisionsklappe 400x400 mm Herstellen von Revisionsöffnungen, 400x400 mm inkl. Ausschnitt und der erfoderlichen Rahmenverstärkungen Befestigungsmitteln sowie Auswechslungen Revisionsklappe von z.B. KNAUF o. glw. GroBe ca. 400 x 400 mm Brandschutz: keine Anfoderungen und",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 3.0,
+          "evidence": "3,000 Stk  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "3,000 Stk  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.150"
+    },
+    {
+      "name": "Position 10.3.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.3.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition mit GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Stundensatz Fachwerker Stundensatz für Leistungen, welche nicht in den Positionen erfasst sind und nur auf ausdrückliche Anweisung der Bauleitung gegen Nachweis zur Ausführung kommen. Fachwerker",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 10.0,
+          "evidence": "10,000 h"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "h",
+          "evidence": "10,000 h"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.3.10."
+    },
+    {
+      "name": "Position 10.3.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "10.3.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition mit GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Stundensatz Bauhelfer Stundensatz für Leistungen, welche nicht in den Positionen erfasst sind und nur auf ausdrückliche Anweisung der Bauleitung gegen Nachweis zur Ausführung kommen. Bauhelfer",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 10.0,
+          "evidence": "10,000 h"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "h",
+          "evidence": "10,000 h"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.3.20."
+    }
+  ],
+  "tables": [
+    {
+      "name": "Table 1",
+      "type": "table",
+      "description": "Table 1 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 2",
+      "type": "table",
+      "description": "Table 2 of the document (7 rows)",
+      "value": [
+        [
+          "Brandschutz:",
+          "ohne Anforderung"
+        ],
+        [
+          "Beplankung:",
+          "GKB beidseitig, je Seite 2x12,5 mm"
+        ],
+        [
+          "Oberflächen:",
+          "Q2 verspachtelt, malerfertig"
+        ],
+        [
+          "Dämmung:",
+          "Mineralfaser 40 mm"
+        ],
+        [
+          "Gesamtstärke:",
+          "125 mm"
+        ],
+        [
+          "Wandhöhe:",
+          "3,06 m im EG bis 2.OG (OKD bis UKD) 3,25 m im UG (OKD bis UKD)"
+        ],
+        [
+          "Einbauort:",
+          "UG-2.OG"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 3",
+      "type": "table",
+      "description": "Table 3 of the document (7 rows)",
+      "value": [
+        [
+          "Brandschutz:",
+          "ohne Anforderung"
+        ],
+        [
+          "Beplankung:",
+          "GKB beidseitig, je Seite 2x12,5 mm"
+        ],
+        [
+          "Oberflächen:",
+          "Q2 verspachtelt, malerfertig"
+        ],
+        [
+          "Dämmung:",
+          "Mineralfaser 40 mm"
+        ],
+        [
+          "Gesamtstärke:",
+          "175 mm"
+        ],
+        [
+          "Wandhöhe:",
+          "3,25 m im UG (OKD bis UKD)"
+        ],
+        [
+          "Einbauort:",
+          "UG"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 4",
+      "type": "table",
+      "description": "Table 4 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 5",
+      "type": "table",
+      "description": "Table 5 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 6",
+      "type": "table",
+      "description": "Table 6 of the document (6 rows)",
+      "value": [
+        [
+          "Brandschutz:",
+          "F30"
+        ],
+        [
+          "Beplankung:",
+          "GKB beidseitig, je Seite 2x12,5 mm"
+        ],
+        [
+          "Oberflächen:",
+          "Q2 verspachtelt, malerfertig"
+        ],
+        [
+          "Dämmung:",
+          "Mineralfaser 40 mm"
+        ],
+        [
+          "Gesamtstärke:",
+          "125 mm"
+        ],
+        [
+          "Wandhöhe:",
+          "3,25 m (OKD bis UKD)"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 7",
+      "type": "table",
+      "description": "Table 7 of the document (7 rows)",
+      "value": [
+        [
+          "Brandschutz:",
+          "F60"
+        ],
+        [
+          "Beplankung:",
+          "GKB beidseitig, je Seite 2x12,5 mm"
+        ],
+        [
+          "Oberflächen:",
+          "Q2 verspachtelt, malerfertig"
+        ],
+        [
+          "Dämmung:",
+          "Mineralfaser 40 mm"
+        ],
+        [
+          "Gesamtstärke:",
+          "125 mm"
+        ],
+        [
+          "Wandhöhe:",
+          "3,25 m (OKD bis UKD)"
+        ],
+        [
+          "Einbauort:",
+          "UG Fluchtweg"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 8",
+      "type": "table",
+      "description": "Table 8 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 9",
+      "type": "table",
+      "description": "Table 9 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 10",
+      "type": "table",
+      "description": "Table 10 of the document (7 rows)",
+      "value": [
+        [
+          "Folgeleistung (baus.)",
+          "Endbeschichtung"
+        ],
+        [
+          "Bandaufnahme:",
+          "3-tlg."
+        ],
+        [
+          "Oberfläche:",
+          "grundiert"
+        ],
+        [
+          "Wandstärke:",
+          "125 mm"
+        ],
+        [
+          "Durchgangsbreite:",
+          "1,01 m"
+        ],
+        [
+          "Durchgangshöhe:",
+          "2,135 m"
+        ],
+        [
+          "Einbauort:",
+          "[FIRMA_095] EG-2.OG"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 11",
+      "type": "table",
+      "description": "Table 11 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 13",
+      "type": "table",
+      "description": "Table 13 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 15",
+      "type": "table",
+      "description": "Table 15 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 16",
+      "type": "table",
+      "description": "Table 16 of the document (8 rows)",
+      "value": [
+        [
+          "Untergrund:",
+          "Stb.-Rohdecke"
+        ],
+        [
+          "Abhanghöhe:",
+          "10 cm"
+        ],
+        [
+          "Abhänger:",
+          "Direktabhänger"
+        ],
+        [
+          "Rohdecke:",
+          "3,06 m im EG bis 2.OG (OKD bis UKD) 3,25 m im UG (OKD bis UKD)"
+        ],
+        [
+          "Beplankung:",
+          "GKB, 1-mal 12,5 mm"
+        ],
+        [
+          "Oberflächen:",
+          "Q2 verspachtelt"
+        ],
+        [
+          "Konstruktionsart:",
+          "wie D112"
+        ],
+        [
+          "Einbauort:",
+          "Eingangsbereich"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 17",
+      "type": "table",
+      "description": "Table 17 of the document (8 rows)",
+      "value": [
+        [
+          "Untergrund:",
+          "Stb.-Rohdecke"
+        ],
+        [
+          "Abhanghöhe:",
+          "50 cm"
+        ],
+        [
+          "Abhänger:",
+          "Direktabhänger"
+        ],
+        [
+          "Rohdecke:",
+          "3,06 m im EG bis 2.OG (OKD bis UKD) 3,25 m im UG (OKD bis UKD)"
+        ],
+        [
+          "Beplankung:",
+          "GKB, 1-mal 12,5 mm"
+        ],
+        [
+          "Oberflächen:",
+          "Q2 verspachtelt"
+        ],
+        [
+          "Konstruktionsart:",
+          "wie D112"
+        ],
+        [
+          "Einbauort:",
+          "Dusche UG/WCs/Putzräume"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 18",
+      "type": "table",
+      "description": "Table 18 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 19",
+      "type": "table",
+      "description": "Table 19 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 20",
+      "type": "table",
+      "description": "Table 20 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 22",
+      "type": "table",
+      "description": "Table 22 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "document": "8209.003_Leistungsverzeichnis_leer.D83",
+  "source": "local GAEB reader (exact values from the XML / GAEB file)",
+  "summary": {
+    "positions": 0,
+    "with_quantity": 0,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Bill of quantities",
+      "evidence": "Bauteile im Umfang dieses Leistungsverzeichnisses."
+    },
+    {
+      "name": "VATRate",
+      "type": "number",
+      "description": "VAT rate in %",
+      "value": 0.0,
+      "evidence": "ust durch 100 %"
+    }
+  ],
+  "positions": [],
+  "tables": []
+}

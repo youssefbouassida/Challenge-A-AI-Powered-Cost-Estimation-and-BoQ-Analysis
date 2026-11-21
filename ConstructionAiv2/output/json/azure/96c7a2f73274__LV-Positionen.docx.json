@@ -1,0 +1,25 @@
+{
+ "id": "271c673e-6eed-426e-a0c1-fbf7c7de7d23",
+ "status": "Succeeded",
+ "result": {
+  "analyzerId": "prebuilt-layout",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-11-21T11:37:44Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+   {
+    "path": "input1",
+    "markdown": "**Allgemein Aufmaß**\n\n1.1.10 – Baustelleneinrichtung [psch]\n\n1.1.20 – Baustelleneinrichtung vorhalten [Mt.]\n\n1.1.30 – Baustelle räumen [psch]\n\n1.1.40 – Tagesunterkünfte für die eigene Belegschaft [psch]\n\n1.1.50 – Chemo-Toilette [psch]\n\n1.1.60 – Spartenpläne [psch]\n\n1.1.70 – Verkehrssicherung Arbeitsstelle [psch]\n\n1.1.80 – Verkehrssicherung Umleitung [psch]\n\n1.1.90 – Verkehrssicherung Anordnung einholen [psch]\n\n…\n\n1.1.170 – Beweissicherung durchführen [psch]\n\n**Asphalt**\n\n2.3.10 – Straßendecke schneiden (Vor- und Nachschnitt) [m]\n\n2.3.20 – Straßenaufbruch bituminöser Oberbau [m³]\n\n2.3.30 – Frostschutzschicht herstellen (t = 0,50 m) [m³]\n\n2.3.50 – Asphaltschicht (14 cm) herstellen [m²]\n\n2.3.60 – Unterlage reinigen [m²]\n\n2.3.70 – Bitumenemulsion aufsprühen [m²]\n\n2.3.80 – Asphaltdeckschicht (4 cm) herstellen [m²]\n\n2.3.100 – TOK-Band herstellen [m]\n\n**Baugrube**\n\n2.1.110 – Baugrubenaushub (Einbindung) [m³]\n\n5.1.20 – Baugrubenaushub (Schächte) [m³]\n\n**Rohrleitungsmaterial – Allgemein**\n\n2.1.470 – [PERSON_167] WL liefern und verlegen [m]\n\n2.1.480 – [PERSON_167] Kabel liefern und verlegen [m]\n\n**Rohrleitungsmaterial DN 250 GGG**\n\n3.1.20 – Muffendruckrohre TYT DN 250 liefern [m]\n\n3.1.90 – Zulage Deckbeschichtung (ZMU) [m]\n\noder\n\n3.1.60 – Muffendruckrohr TYT mit integrierter Zugsicherung liefern [m]\n\n3.1.90 – Zulage Deckbeschichtung (ZMU) [m]\n\nmit\n\n3.2.20 – GGG DN 250 verlegen [m]\n\n3.2.70 – Muffenschutz DN 250 liefern und einbauen [St.]\n\n3.2.110 – längskraftschlüssige Steckmuffenverbindung DN 250 [St.]\n\n**Kabelleerrohr / Steuerkabel** **– Allgemein**\n\n4.1.220 – Kalibrieren der Rohrstrecke [m]\n\n4.1.230 – Druckprüfung [m]\n\n**Kabelleerrohrverlegung (durchgängig)**\n\n4.1.10 – PE-HD Rohre 2x da 50 x 4,6 mm (Leerrohr) liefern [m]\n\n4.1.60 – PE-HD Rohre 2x da 50 x 4,6 mm (Leerrohr) verlegen [m]\n\n4.1.210 – Sandbettung und Umhüllung [m³]\n\n4.1.40 – Rohrverbinder für PE-Rohr da 50 (Leerrohr) liefern und verlegen [St.]\n\n**Steuerkabelverlegung** **(bei DN 300)**\n\n4.1.20 – Steuerkabel liefern [m]\n\n4.1.70 – Steuerkabel verlegen [m]\n\n4.1.50 – Muffen des Steuerkabels liefern und montieren [St.]\n\n**Kabelschacht**\n\n4.1.310 – Kabelschacht liefern und einbauen [St.]\n\n4.1.320 – Schachtabdeckung liefern/aufsetzten [St.]\n\n**Abzweigschacht**\n",
+    "kind": "document",
+    "startPageNumber": 1,
+    "endPageNumber": 1,
+    "analyzerId": "prebuilt-layout",
+    "mimeType": "application/zip"
+   }
+  ]
+ },
+ "usage": {
+  "documentPagesMinimal": 1
+ }
+}

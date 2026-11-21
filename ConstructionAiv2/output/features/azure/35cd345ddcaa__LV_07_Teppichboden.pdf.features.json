@@ -1,0 +1,703 @@
+{
+  "document": "LV_07_Teppichboden.pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 10,
+    "with_quantity": 10,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Request for quotation",
+      "evidence": "Anfrage"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "79-222",
+      "evidence": "Projekt: 79-222"
+    },
+    {
+      "name": "LVNumber",
+      "type": "string",
+      "description": "Bill of quantities number (LV-Nr.)",
+      "value": "07",
+      "evidence": "LV: 07"
+    }
+  ],
+  "positions": [
+    {
+      "name": "Position 14.2.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "14.2.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Messung Estrichfeuchte",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Messung der Estrichfeuchte zur Feststellung der Belegreife. Die Orte der Messstellen sind zusammen mit der Bauleitung festzulegen.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 psch"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "psch",
+          "evidence": "1,000 psch"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.2.10."
+    },
+    {
+      "name": "Position 14.2.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "14.2.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Reinigen des Untergrundes",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Reinigung des Untergrundes von grober Verschmutzung anderer Gewerke einschl. Entsorgung und Vorbereitung Ausführung nur nach Anweisung der örtlichen Bauleitung. ### Leistungsbestandteile \\- Grobe [PERSON_010] die nicht durch Schleifen und Saugen zu beseitigen sind (z. B. Gips-, Mörtel-, Farbreste etc.). \\- Anfallende Reststoffe und Schutt nach Abfallschlüssel (AVV) sortieren, laden \\- Entsorgung nach den landesrechtlichen Bestimmungen einschl. Entsorgungsnachweis als Vergütungsgrundlage, \\- Gebühren der Verwertung/Entsorgung sind vom AN zu übernehmen und in den Einheitspreis einzurechnen. \\- Randstreifen abschneiden Abfallart: Stoffgemische aus mineralischen und nichtmineralischen Abfällen (Baumischabfall) AVV 17 09 04 Abfallschlüssel: Ort: [FIRMA_002] rechts Büro- und [FIRMA_077] EG/1OG/2OG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 471.0,
+          "evidence": "471,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "471,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.2.20."
+    },
+    {
+      "name": "Position 14.2.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "14.2.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Risse im Estrich schlieBen Risse im Estrich kraftschlüssig schließen. #### Leistungsbestandteil \\- Risse aufweiten \\- Quereinschnitte herstellen \\- [PERSON_016] ausblasen \\- Gießharz einfüllen \\- Estrichklammern einlegen, Abstand ca. 30 cm \\- Fläche mit Quarzsand abstreuen Zweck: ebener Untergrund für Haftverbund Vorleistung: Estrich 07 Folgeleistung: Höhenausgleich bzw. Haftgrund Untergrund: [FIRMA_091] Rissbreite: bis 5 mm Material: 2-komponentigem Injektionsharz auf Epoxydharzbasis",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "1,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "### 14.2.30."
+    },
+    {
+      "name": "Position 14.2.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "14.2.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Untergrundvorb.-Grundierung",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Untergrundvorbereitung von Beton- und Estrichoberfläche. Leistungsbestandteile \\- Untergrundprüfung auf Eignung, Ebenheit und Haftzugfestigkeit \\- Grundierung (Haft-/Tiefengrund) Untergrund/Vorleistung: [FIRMA_091] Einbauort: [FIRMA_002] rechts Büro- und [FIRMA_077] EG/1OG/2OG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 471.0,
+          "evidence": "471,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "471,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.2.40."
+    },
+    {
+      "name": "Position 14.2.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "14.2.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Spachteln des Untergrundes",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Spachteln des Untergrundes zum Ausgleich und Nivellieren für Zementuntergründe zur Verlegung von Bodenbelägen. Material: lösungsmittelfreie, kunstharzvergütete Zementspachtelmasse, ggf. faserverstärkt Spachteldicke: Stuhlrollengeeignet: bis ca. 5 mm ja Einbauort: [FIRMA_002] rechts Büro- und [FIRMA_077] EG/1OG/2OG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 471.0,
+          "evidence": "471,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "471,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.2.50."
+    },
+    {
+      "name": "Position 14.2.60",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "14.2.60",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Dampfbremse,2K-Epoxidharz Dampfbremse unter vollflächig verklebte Bodenbeläge Zweck: Sperre gegen aus Betonbauteil aufsteigende Restfeuchtigkeit Vorleistung: Untergrundvorbereitung, Nivellierausgleich Folgeleistung: elastischer Bodenbelag 07 Anforderungen: wasserdampfdicht, tritt- und abriebfest, umweltschonend Material: 2-komponentige Epoxidharz- Voranstrichsysteme Fußbodenheizung: geeignet Einbauort: [FIRMA_002] rechts Büro- und [FIRMA_077] EG/1OG/2OG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 471.0,
+          "evidence": "471,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "471,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.2.60."
+    },
+    {
+      "name": "Position 14.2.70",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "14.2.70",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Textiler Bodenbelag als Bahnware, Kugelgarn",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Textiler Bodenbelag als Kugelgarn gem. DIN EN 1307, als Bahnenware, auf vorbereitetem Untergrund vollflächig geklebt mit Wiederaufnahmekleber Vorleistung: Untergrundvorbereitung, ggf.Dampfsperre Folgeleistung: endfertig Untergrund: [FIRMA_091] Gesamtstärke: 5,5 mm Klassifizierung: 33 (hoch) nach DIN EN ISO 10874 Trittschallverbgs.-maß: ca. 20 dB nach EN ISO 10140 Material: Fabramont, Kugelgarn RESISTA Farbe: Col. 181 schiefergrau Komfortklasse: LC 2 Einbauort: [FIRMA_002] rechts Büro- und [FIRMA_077] EG/1OG/2OG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 471.0,
+          "evidence": "471,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "471,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.2.70."
+    },
+    {
+      "name": "Position 14.2.80",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "14.2.80",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Bodentanks mit Teppich bekleben",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "als Zulage zur zuvor beschriebenen Position für nachträgliche, flächenbündige Belegung mit Bodenbelag Durchmesser: ca. 300 mm Belagsstärke: bis ca. 10 mm Einbauort: [FIRMA_077]",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 6.0,
+          "evidence": "6,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "6,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.2.80."
+    },
+    {
+      "name": "Position 14.2.90",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "14.2.90",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Textiler Sockel, wie Belag",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Sockel, Kugelgarn, h= ca. 6cm liefern und einbauen [PERSON_129] wie zurvor beschriebener Teppichbodenbelag Untergrund: GK/Beton Material: wie Bodenbelag [BILD_001] | [FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009] ## Anfrage 07 [PERSON_014] Kleber: ca. 60 mm chem. Basis, D1, EC1 Einbauort: [FIRMA_002] rechts Büro- und [FIRMA_077] EG/1OG/2OG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 388.0,
+          "evidence": "388,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "388,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.2.90."
+    },
+    {
+      "name": "Position 14.2.100",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "14.2.100",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Schutzabdeck., Boden, Alukarton Schutzabdeckung für neu eingebauten Bodenbelag. Leistungsbestandteile \\- Aluminiumkaschierter Karton \"Tetrapak\" \\- Stöße staubdicht verklebt \\- Alle Wandanschlüsse staubdicht verklebt \\- Ausbau nach Anweisung der örtlichen Bauleitung \\- Entsorgung nach AVV-Schlüssel Zweck: Schutz des neuen Bodenbelags vor Beschädigung, Verschmutzung und Staub Vorleistung: Bodenbelag",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.2.100."
+    }
+  ],
+  "tables": [
+    {
+      "name": "Table 1",
+      "type": "table",
+      "description": "Table 1 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 2",
+      "type": "table",
+      "description": "Table 2 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

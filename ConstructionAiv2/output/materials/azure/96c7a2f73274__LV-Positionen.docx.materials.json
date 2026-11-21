@@ -1,0 +1,2439 @@
+{
+  "document": "LV-Positionen.docx",
+  "project_id": "single:LV-Positionen",
+  "source": "Azure Content Understanding",
+  "summary": {
+    "positions_reviewed": 39,
+    "material_rows": 20,
+    "not_materials": 20,
+    "not_reviewed": 0,
+    "with_quantity": 0,
+    "with_unit_price": 0,
+    "conflicts": 0
+  },
+  "materials": [
+    {
+      "name": "Material 2.3.30 – Frost protection aggregate for a 0.50 m layer",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "2.3.30",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Frost protection aggregate for a 0.50 m layer",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Aggregate for the frost protection layer beneath the pavement.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.3.30 – Frostschutzschicht herstellen (t = 0,50 m) [m³]"
+    },
+    {
+      "name": "Material 2.3.50 – Asphalt paving mix for a 14 cm layer",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "2.3.50",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Asphalt paving mix for a 14 cm layer",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Asphalt mix for the specified 14 cm pavement layer.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.3.50 – Asphaltschicht (14 cm) herstellen [m²]"
+    },
+    {
+      "name": "Material 2.3.70 – Spray-applied bitumen emulsion",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "2.3.70",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Spray-applied bitumen emulsion",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Bitumen emulsion sprayed onto the pavement substrate.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.3.70 – Bitumenemulsion aufsprühen [m²]"
+    },
+    {
+      "name": "Material 2.3.80 – Asphalt wearing-course mix for a 4 cm layer",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "2.3.80",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Asphalt wearing-course mix for a 4 cm layer",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Asphalt mix for the specified 4 cm surface course.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.3.80 – Asphaltdeckschicht (4 cm) herstellen [m²]"
+    },
+    {
+      "name": "Material 2.3.100 – TOK-Band bituminous joint sealing tape",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "2.3.100",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "TOK-Band bituminous joint sealing tape",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Bituminous tape for sealing asphalt pavement joints.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.3.100 – TOK-Band herstellen [m]\n**Baugrube**"
+    },
+    {
+      "name": "Material 2.1.470 – Water supply pipe",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "2.1.470",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Water supply pipe",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Water supply pipe to be supplied and laid.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.1.470 – [PERSON_167] WL liefern und verlegen [m]"
+    },
+    {
+      "name": "Material 2.1.480 – Cable, type unspecified",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "2.1.480",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Cable, type unspecified",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Cable to be supplied and laid; no type or size is stated.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.1.480 – [PERSON_167] Kabel liefern und verlegen [m]\n**Rohrleitungsmaterial DN 250 GGG**"
+    },
+    {
+      "name": "Material 3.1.20 – TYT DN 250 push-in socket pressure pipe",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.1.20",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "TYT DN 250 push-in socket pressure pipe",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "DN 250 pressure pipe with a TYT push-in socket.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.1.20 – Muffendruckrohre TYT DN 250 liefern [m]"
+    },
+    {
+      "name": "Material 3.1.90 – ZMU finish-coat add-on",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.1.90",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "ZMU finish-coat add-on",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Additional ZMU finish coating for the pipe.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.1.90 – Zulage Deckbeschichtung (ZMU) [m]\noder"
+    },
+    {
+      "name": "Material 3.1.60 – TYT push-in socket pressure pipe with integral axial restraint",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.1.60",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "TYT push-in socket pressure pipe with integral axial restraint",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "TYT pressure pipe with built-in restraint against axial pullout.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.1.60 – Muffendruckrohr TYT mit integrierter Zugsicherung liefern [m]"
+    },
+    {
+      "name": "Material 3.1.90 – ZMU finish-coat add-on",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.1.90",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "ZMU finish-coat add-on",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Additional ZMU finish coating for the pipe.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.1.90 – Zulage Deckbeschichtung (ZMU) [m]\nmit"
+    },
+    {
+      "name": "Material 3.2.70 – DN 250 pipe socket joint protector",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.2.70",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "DN 250 pipe socket joint protector",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Protective cover for a DN 250 pipe socket joint.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.70 – Muffenschutz DN 250 liefern und einbauen [St.]"
+    },
+    {
+      "name": "Material 3.2.110 – DN 250 axially restrained push-in socket joint",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.2.110",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "DN 250 axially restrained push-in socket joint",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Push-in socket joint that transfers longitudinal forces between DN 250 pipe sections.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.110 – längskraftschlüssige Steckmuffenverbindung DN 250 [St.]\n**Kabelleerrohr / Steuerkabel** **– Allgemein**"
+    },
+    {
+      "name": "Material 4.1.10 – Twin HDPE cable conduits, 2 × 50 mm OD × 4.6 mm wall",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "4.1.10",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Twin HDPE cable conduits, 2 × 50 mm OD × 4.6 mm wall",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Two empty HDPE cable ducts, each with a 50 mm outside diameter and 4.6 mm wall.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "4.1.10 – PE-HD Rohre 2x da 50 x 4,6 mm (Leerrohr) liefern [m]"
+    },
+    {
+      "name": "Material 4.1.210 – Sand for bedding and surround",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "4.1.210",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Sand for bedding and surround",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Sand placed beneath and around the buried installation.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "4.1.210 – Sandbettung und Umhüllung [m³]"
+    },
+    {
+      "name": "Material 4.1.40 – 50 mm OD PE cable conduit coupling",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "4.1.40",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "50 mm OD PE cable conduit coupling",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Connector for polyethylene cable conduit with a 50 mm outside diameter.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "4.1.40 – Rohrverbinder für PE-Rohr da 50 (Leerrohr) liefern und verlegen [St.]\n**Steuerkabelverlegung** **(bei DN 300)**"
+    },
+    {
+      "name": "Material 4.1.20 – Control cable",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "4.1.20",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Control cable",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Cable for transmitting control signals.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "4.1.20 – Steuerkabel liefern [m]"
+    },
+    {
+      "name": "Material 4.1.50 – Control cable splice joint",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "4.1.50",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Control cable splice joint",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Joint for splicing sections of control cable.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "4.1.50 – Muffen des Steuerkabels liefern und montieren [St.]\n**Kabelschacht**"
+    },
+    {
+      "name": "Material 4.1.310 – Cable access chamber",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "4.1.310",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Cable access chamber",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Underground chamber for access to cables.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "4.1.310 – Kabelschacht liefern und einbauen [St.]"
+    },
+    {
+      "name": "Material 4.1.320 – Access chamber cover",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:LV-Positionen",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "4.1.320",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Access chamber cover",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Cover fitted over the chamber opening.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "4.1.320 – Schachtabdeckung liefern/aufsetzten [St.]\n**Abzweigschacht**"
+    }
+  ],
+  "not_materials": [
+    {
+      "name": "Position 1.1.10",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "1.1.10",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Construction site setup is a service.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.10 – Baustelleneinrichtung [psch]"
+    },
+    {
+      "name": "Position 1.1.20",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "1.1.20",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Keeping the site setup in place is a temporary service.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.20 – Baustelleneinrichtung vorhalten [Mt.]"
+    },
+    {
+      "name": "Position 1.1.30",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "1.1.30",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Clearing the construction site does not supply new material.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.30 – Baustelle räumen [psch]"
+    },
+    {
+      "name": "Position 1.1.40",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "1.1.40",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Temporary welfare accommodation for the crew is a site service, not a purchase of new facilities.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.40 – Tagesunterkünfte für die eigene Belegschaft [psch]"
+    },
+    {
+      "name": "Position 1.1.50",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "1.1.50",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position provides a temporary chemical toilet without specifying the purchase of a new unit.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.50 – Chemo-Toilette [psch]"
+    },
+    {
+      "name": "Position 1.1.60",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "1.1.60",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Utility plans are documents.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.60 – Spartenpläne [psch]"
+    },
+    {
+      "name": "Position 1.1.70",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "1.1.70",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Work-zone traffic control is a service; no new equipment is specified for purchase.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.70 – Verkehrssicherung Arbeitsstelle [psch]"
+    },
+    {
+      "name": "Position 1.1.80",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "1.1.80",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Detour traffic control is a service; no new equipment is specified for purchase.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.80 – Verkehrssicherung Umleitung [psch]"
+    },
+    {
+      "name": "Position 1.1.90",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "1.1.90",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Obtaining a traffic-control order is an administrative service.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.90 – Verkehrssicherung Anordnung einholen [psch]\n…"
+    },
+    {
+      "name": "Position 1.1.170",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "1.1.170",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Recording existing conditions for evidence is a documentation service.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.170 – Beweissicherung durchführen [psch]\n**Asphalt**"
+    },
+    {
+      "name": "Position 2.3.10",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "2.3.10",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Cutting the existing pavement does not supply new material.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.3.10 – Straßendecke schneiden (Vor- und Nachschnitt) [m]"
+    },
+    {
+      "name": "Position 2.3.20",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "2.3.20",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position only calls for breaking up existing bituminous pavement.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.3.20 – Straßenaufbruch bituminöser Oberbau [m³]"
+    },
+    {
+      "name": "Position 2.3.60",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "2.3.60",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Cleaning the underlying surface is a service.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.3.60 – Unterlage reinigen [m²]"
+    },
+    {
+      "name": "Position 2.1.110",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "2.1.110",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Excavating the tie-in pit is an earthworks service.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.1.110 – Baugrubenaushub (Einbindung) [m³]"
+    },
+    {
+      "name": "Position 5.1.20",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "5.1.20",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Excavating pits for chambers does not supply new material.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.1.20 – Baugrubenaushub (Schächte) [m³]\n**Rohrleitungsmaterial – Allgemein**"
+    },
+    {
+      "name": "Position 3.2.20",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "3.2.20",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position calls only for laying DN 250 ductile iron pipe, not supplying it.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.20 – GGG DN 250 verlegen [m]"
+    },
+    {
+      "name": "Position 4.1.220",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "4.1.220",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Calibrating the conduit run is a verification service.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "4.1.220 – Kalibrieren der Rohrstrecke [m]"
+    },
+    {
+      "name": "Position 4.1.230",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "4.1.230",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Pressure testing is a service.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "4.1.230 – Druckprüfung [m]\n**Kabelleerrohrverlegung (durchgängig)**"
+    },
+    {
+      "name": "Position 4.1.60",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "4.1.60",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position calls only for laying the HDPE conduits, not supplying them.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "4.1.60 – PE-HD Rohre 2x da 50 x 4,6 mm (Leerrohr) verlegen [m]"
+    },
+    {
+      "name": "Position 4.1.70",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "4.1.70",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position calls only for laying control cable, not supplying it.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "4.1.70 – Steuerkabel verlegen [m]"
+    }
+  ],
+  "not_reviewed": []
+}

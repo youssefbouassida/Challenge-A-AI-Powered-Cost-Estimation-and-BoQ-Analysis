@@ -1,0 +1,4667 @@
+{
+  "document": "LV_17_Trockenbau.pdf",
+  "project_id": "79-222",
+  "source": "Azure Content Understanding",
+  "summary": {
+    "positions_reviewed": 56,
+    "material_rows": 48,
+    "not_materials": 8,
+    "not_reviewed": 0,
+    "with_quantity": 47,
+    "with_unit_price": 0,
+    "conflicts": 0
+  },
+  "materials": [
+    {
+      "name": "Material 10.1.10 – W112 GKB metal-stud partition, 125 mm thick, 3.06 m or 3.25 m high, no fire rating required",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.10",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "W112 GKB metal-stud partition, 125 mm thick, 3.06 m or 3.25 m high, no fire rating required",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Galvanized single-stud frame with 40 mm mineral wool, two 12.5 mm boards per face, and Q2 finish.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 720.0,
+          "evidence": "720,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "720,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.10.\nW112 Metallständerwand,GKB, d=125mm\nMetallständerwand mit verzinktem Einfachständerwerk und\nMineralwolledämmung, befestigt an Stahlbetondecke und\nStahlbetonboden einschl. dauerelastischer Acrylverfugung und den\nAnschlüssen an massive Bauteile bzw. GK Bauteile untereinander.\nBrandschutz: | o"
+    },
+    {
+      "name": "Material 10.1.20 – W112 GKB metal-stud partition, 175 mm thick, 3.25 m high, no fire rating required",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.20",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "W112 GKB metal-stud partition, 175 mm thick, 3.25 m high, no fire rating required",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Galvanized single-stud frame with 40 mm mineral wool, two 12.5 mm boards per face, and Q2 finish.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 15.0,
+          "evidence": "15,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "15,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.20.\nW112 Metallständerwand,GKB, d=175mm\nMetallständerwand mit verzinktem Einfachständerwerk und\nMineralwolledämmung, befestigt an Stahlbetondecke und\nStahlbetonboden einschl. dauerelastischer Acrylverfugung und den\nAnschlüssen an massive Bauteile bzw. GK Bauteile untereinander.\nBrandschutz: | o"
+    },
+    {
+      "name": "Material 10.1.30 – W112 F30 GKB metal-stud partition, 125 mm thick, 3.25 m high",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.30",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "W112 F30 GKB metal-stud partition, 125 mm thick, 3.25 m high",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Galvanized single-stud frame with 40 mm mineral wool, two 12.5 mm boards per face, and Q2 finish.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 74.0,
+          "evidence": "74,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "74,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.30.\nW112 Metallständerwand,GKB, d=125mm F30\nMetallständerwand mit verzinktem Einfachständerwerk und\nMineralwolledämmung, befestigt an Stahlbetondecke und\nStahlbetonboden einschl. dauerelastischer Acrylverfugung und den\nAnschlüssen an massive Bauteile bzw. GK Bauteile untereinander.\nBrandschutz:"
+    },
+    {
+      "name": "Material 10.1.40 – W112 F60 GKB metal-stud partition, 125 mm thick, 3.25 m high",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.40",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "W112 F60 GKB metal-stud partition, 125 mm thick, 3.25 m high",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Galvanized single-stud frame with 40 mm mineral wool, two 12.5 mm boards per face, and Q2 finish.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 20.0,
+          "evidence": "20,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "20,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.40.\nW112 Metallständerwand,GKB, d=125mm F60\nMetallständerwand mit verzinktem Einfachständerwerk und\nMineralwolledämmung, befestigt an Stahlbetondecke und\nStahlbetonboden einschl. dauerelastischer Acrylverfugung und den\nAnschlüssen an massive Bauteile bzw. GK Bauteile untereinander.\nBrandschutz:"
+    },
+    {
+      "name": "Material 10.1.50 – Full-height one-sided plasterboard service lining, up to 225 mm thick, 3.25 m high, 2 × 12.5 mm boards",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.50",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Full-height one-sided plasterboard service lining, up to 225 mm thick, 3.25 m high, 2 × 12.5 mm boards",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Kitchenette service lining with mineral wool insulation and metal framing anchored to concrete.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 15.0,
+          "evidence": "15,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "15,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.50.\nVorsatzschale, 225 mm, 2x12,5, einseitig, raumhoch\nLiefern und montieren einer Vorsatzschale als Installationsebene für die\nTeeküchen inkl. Unterkonstruktion und Dämmung,\nbefestigt an Stahlbetondecke und Stahlbetonboden inkl. erfoderlicher\nU/A-Profile, dauerelastischer Acrylverfugung und de"
+    },
+    {
+      "name": "Material 10.1.60 – One-sided moisture-resistant plasterboard service lining, up to 225 mm thick, approximately 1.40 m high, 2 × 12.5 mm boards",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.60",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "One-sided moisture-resistant plasterboard service lining, up to 225 mm thick, approximately 1.40 m high, 2 × 12.5 mm boards",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Tile-ready sanitary and kitchenette lining with mineral wool insulation, metal framing, and a plasterboard fixing substrate.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 25.0,
+          "evidence": "25,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "25,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.60.\nVorsatzschale, 225 mm, 2x12,5, einseitig, h = ca. 1,40 m\nLiefern und montieren einer Vorsatzschale als Installationsebene für\nSanitäre Einrichtungen/Teeküche inkl. Unterkonstruktion und Dämmung,\nbefestigt an Stahlbetonboden inkl. erfoderlicher U/A-Profile,\ndauerelastischer Acrylverfugung un"
+    },
+    {
+      "name": "Material 10.1.70 – One-sided moisture-resistant plasterboard service lining, up to 295 mm thick, approximately 1.40 m high, 2 × 12.5 mm boards",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.70",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "One-sided moisture-resistant plasterboard service lining, up to 295 mm thick, approximately 1.40 m high, 2 × 12.5 mm boards",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Tile-ready sanitary service lining with mineral wool insulation and metal framing, fixed to reinforced concrete.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 30.0,
+          "evidence": "30,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "30,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.70.\nVorsatzschale, 295 mm, 2x12,5, einseitig, h = ca. 1,40 m\nLiefern und montieren einer Vorsatzschale als Installationsebene für\nSanitäre Einrichtungen inkl. Unterkonstruktion und Dämmung,\nbefestigt an Stahlbetonboden inkl. erfoderlicher U/A-Profile,\ndauerelastischer Acrylverfugung und den Ans"
+    },
+    {
+      "name": "Material 10.1.80 – One-sided GKB facade parapet lining, 125 mm thick, approximately 0.90 m high, 2 × 12.5 mm boards, no fire rating required",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.80",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "One-sided GKB facade parapet lining, 125 mm thick, approximately 0.90 m high, 2 × 12.5 mm boards, no fire rating required",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Galvanized single-stud lining with mineral wool insulation and a paint-ready Q2 finish.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 200.0,
+          "evidence": "200,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "200,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.80.\nHerstellen von Brüstungs-GK Verkleidung, 2lg\nLiefern und montieren der Brüstungs-GK Verkleidung, im Bereich der\nElementfassade\nMetallständerwand mit verzinktem Einfachständerwerk und\nMineralwolledämmung,einschl. dauerelastischer Acrylverfugung und den\nAnschlüssen an massive Bauteile.\nHöhe:\n"
+    },
+    {
+      "name": "Material 10.1.90 – W112 deflection head joint for 125 mm partitions, movement greater than 10 mm",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.90",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "W112 deflection head joint for 125 mm partitions, movement greater than 10 mm",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Sliding partition-to-ceiling connection, visible in office and kitchen areas.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 200.0,
+          "evidence": "200,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "200,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.90.\nGleitender Deckenanschluss für [PERSON_074] d=125 mm\nAusführung eines gleitenden Deckenanschlusses bei\nMetallständerwänden (W112) mit d=125 mm : > 10 mm\nAusführung nach Herstellerrichtlinien\nDeckenanschluß in Teilbereichen durch die abgehangene [FIRMA_101] nicht\nmehr sichtbar, in Bürobereic"
+    },
+    {
+      "name": "Material 10.1.100 – W112 deflection head joint for 175 mm partitions, movement greater than 10 mm",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.100",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "W112 deflection head joint for 175 mm partitions, movement greater than 10 mm",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Sliding partition-to-ceiling connection, visible in office and kitchen areas.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 10.0,
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.100.\nGleitender Deckenanschluss für [PERSON_074] d=175 mm\nAusführung eines gleitenden Deckenanschlusses bei\nMetallständerwänden (W112) mit d=175 mm : > 10 mm\nAusführung nach Herstellerrichtlinien\nDeckenanschluß in Teilbereichen durch die abgehangene [FIRMA_101] nicht\nmehr sichtbar, in Büroberei"
+    },
+    {
+      "name": "Material 10.1.110 – Appearance-grade F30 acoustic deflection head joint for concrete ceilings, material class A",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.110",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Appearance-grade F30 acoustic deflection head joint for concrete ceilings, material class A",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Sliding ceiling connection with a top closure profile and acrylic seal, meeting fire and acoustic requirements.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 20.0,
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.110.\nGleitender Deckenanschluss,mit opt.Anf.,BS+Schall\nAusführung eines gleitenden Deckenanschlusses mit optischen\nAnforderungen in Brandschutz- bzw. Schallschutzqualität an Stb.-Decken.\nLeistungsbestandteile\nAbschlussprofil im oberen Wandabschluss\nAcrylfuge im Anschluss [FIRMA_101]\nBrandschutz"
+    },
+    {
+      "name": "Material 10.1.120 – Double-layer GKBI moisture-resistant plasterboard upgrade in place of GKB",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.120",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Double-layer GKBI moisture-resistant plasterboard upgrade in place of GKB",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Water-repellent plasterboard upgrade for toilet and shower areas, measured per wall face.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 290.0,
+          "evidence": "290,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "290,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.120.\nZul.GKBI-Platten statt GKB,2lg\nZulage für den Einbau von hydrophobierten Gipskartonbauplatten (GKBI)\nanstelle GKB, 2-lg. Abrechnung je m2 Wandseite.\nEinbauort:\nWC und Dusch-Bereiche\n290,000 m2"
+    },
+    {
+      "name": "Material 10.1.130 – 90° drywall external corner add-on with corner bead",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.130",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "90° drywall external corner add-on with corner bead",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Right-angle external corner assembly including a protective corner bead.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 35.0,
+          "evidence": "35,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "35,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.130.\nZul.AuBenecke,rechtwinklig\nZulage für Herstellung einer Außenecke, rechtwinklig einschl.\nEckschutzschiene.\n35,000 m"
+    },
+    {
+      "name": "Material 10.1.150 – Drywall free-end add-on with double-sided corner protection",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.150",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Drywall free-end add-on with double-sided corner protection",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Free-end finish for drywall stud partitions, including a corner bead on each side.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 20.0,
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.150.\nZul. freies Wandende\nAusbildung freier Wandenden in Trockenbauständerwänden inkl.\nbeidseitiger Eckschutzschienen als Zulage\n20,000 m"
+    },
+    {
+      "name": "Material 10.1.160 – Drywall stud partition mounting cross rail",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.160",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Drywall stud partition mounting cross rail",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Transverse fixing support for wall cabinets, sanitary fixtures, and similar equipment.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 50.0,
+          "evidence": "50,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "50,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.160.\nQuertraverse für GK-Ständerwände\nQuertraversen als Befestigungsgrundlage für Wandschränke, sanitäre\nEinrichtungen etc.\n50,000 m"
+    },
+    {
+      "name": "Material 10.1.170 – Timber wall-lining backing plank reinforcement, 30 cm wide × 3 cm thick",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.170",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Timber wall-lining backing plank reinforcement, 30 cm wide × 3 cm thick",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Concealed timber reinforcement for mounting wall cabinets, radiators, and similar fixtures.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 5.0,
+          "evidence": "5,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "5,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.170.\nVerstärkung für Hängeschränke\nHolzdielen 30 cm breit, 3 cm dick als Zulage in den Wandbekleidungen\nzur Befestigung von Hängeschränken, Heizkörpern, etc,\n5,000 m"
+    },
+    {
+      "name": "Material 10.1.200 – EI90 acoustic drywall-to-facade blade junction, up to 250 mm wide × 48 mm thick, up to 50 dB",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.200",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "EI90 acoustic drywall-to-facade blade junction, up to 250 mm wide × 48 mm thick, up to 50 dB",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Metal-framed junction with 10 mm mineral wool, two 2 mm sheet-metal inserts, and 15 mm GM-F boards on both faces.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 42.0,
+          "evidence": "42,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "42,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.200.\n*** Bedarfsposition ohne GB\nFassadenschwert 250x48mm,50dB,EI90\nFassadenanschluss als Schwert mit Metall-UK einschl. freies Wandende\nder Grundwand mit getrennter Laibungsbeplankung, GK-Profile und\nKantenschutzprofile. Acrylfuge im Fassadenanschluss.\nBrandschutz:\nEI90 gem. EN 13501\nSchallsch"
+    },
+    {
+      "name": "Material 10.1.210 – Full-storey reinforced UA drywall profile",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.210",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Full-storey reinforced UA drywall profile",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Reinforced drywall profile installed continuously for the full storey height without splices or trimmer framing.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 100.0,
+          "evidence": "100,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "100,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.210.\nVerstärkte U/A-Profile\nVerstärkte UA-Profile in GK-Wänden. Einbau frei von Stößen und\nAuswechselungen, geschosshoch.\n100,000 m"
+    },
+    {
+      "name": "Material 10.1.240 – W628 EI30 GKF A2 metal-stud shaft wall, 75 mm thick, up to 3.25 m high, up to 36 dB",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.240",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "W628 EI30 GKF A2 metal-stud shaft wall, 75 mm thick, up to 3.25 m high, up to 36 dB",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Single-stud shaft wall with mineral wool, two 12.5 mm boards on one side, and Q2 finish.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 100.0,
+          "evidence": "100,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "100,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.240.\nW628 Schachtwand GKF,75mm,bis 36dB,EI30\nSchacht für Haustechnikinstallation herstellen, als Metallständerwand mit\nEinfachständerwerk und Mineralwolledämmung inkl. Außenecken und\nallen zugehörigen Anschlüssen.\nSchallschutz:\nRw, R bis 36 dB\nBrandschutz:\nEI30 gem. EN 13501\nBeplankung:\nGKF A2,"
+    },
+    {
+      "name": "Material 10.1.250 – W628 EI30 GKF A2 metal-stud shaft wall, 100 mm thick, up to 3.25 m high, up to 40 dB",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.250",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "W628 EI30 GKF A2 metal-stud shaft wall, 100 mm thick, up to 3.25 m high, up to 40 dB",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Single-stud shaft wall with mineral wool, two 12.5 mm boards on one side, and Q2 finish.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 10.0,
+          "evidence": "10,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "10,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.250.\n*** Bedarfsposition ohne GB\nW628 Schachtwand GKF,100mm,bis 40dB,EI30\nSchacht für Haustechnikinstallation herstellen, als Metallständerwand mit\nEinfachständerwerk und Mineralwolledämmung inkl. Außenecken\nSchallschutz:\nRw, R bis 40 dB\nBrandschutz:\nEI30 gem. EN 13501\nBeplankung:\nGKF A2, 2-mal"
+    },
+    {
+      "name": "Material 10.1.260 – F30 drywall door-opening framing and reveal lining, up to 1300 × 2500 mm, for 125 mm walls",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.260",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "F30 drywall door-opening framing and reveal lining, up to 1300 × 2500 mm, for 125 mm walls",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Reinforced and lined GKB or GKI partition opening prepared to receive a T30 door.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.260.\nTüröffnungen in Ständerwand, bis 1300/2500 mm F30\nHerstellen von Türöffnungen in GK bzw. GKI -Ständerwänden, sowie\naller erforderlicher Verstärkungsprofile und Laibungsbeplankung für den\nEinbau einer T30 Tür\nWanddicke: 125 mm\n1,000 St"
+    },
+    {
+      "name": "Material 10.1.270 – Drywall door-opening reinforcement framing, up to 1300 × 2500 mm, for 125 mm walls",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.270",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Drywall door-opening reinforcement framing, up to 1300 × 2500 mm, for 125 mm walls",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Reinforcement profiles for a door opening in a GKB or GKI stud partition.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.270.\nTüröffnungen in Ständerwand, bis 1300/2500 mm\nHerstellen von Türöffnungen in GK bzw. GKI -Ständerwänden, sowie\naller erforderlicher Verstärkungsprofile\nWanddicke: 125 mm\n2,000 St"
+    },
+    {
+      "name": "Material 10.1.280 – F30 drywall door-opening framing and reveal lining, up to 1100 × 2570 mm, for 125 mm walls",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.280",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "F30 drywall door-opening framing and reveal lining, up to 1100 × 2570 mm, for 125 mm walls",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Reinforced and lined GKB or GKI partition opening prepared to receive a T30 door.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.280.\nTüröffnungen in Ständerwand, bis 1100/2570 mm F30\nHerstellen von Türöffnungen in GK bzw. GKI -Ständerwänden, sowie\naller erforderlicher Verstärkungsprofile und Laibungsbeplankung für den\nEinbau einer T30 Tür\nWanddicke: 125 mm\n2,000 St"
+    },
+    {
+      "name": "Material 10.1.290 – Drywall door-opening reinforcement framing, up to 1100 × 2570 mm, for 125 mm walls",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.290",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Drywall door-opening reinforcement framing, up to 1100 × 2570 mm, for 125 mm walls",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Reinforcement profiles for a door opening in a GKB or GKI stud partition.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 35.0,
+          "evidence": "35,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "35,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.290.\nTüröffnungen in Ständerwand, bis 1100/2570 mm\nHerstellen von Türöffnungen in GK bzw. GKI -Ständerwänden, sowie\naller erforderlicher Verstärkungsprofile für den Einbau von [PERSON_095]\nWanddicke: 125 mm\n35,000 St"
+    },
+    {
+      "name": "Material 10.1.300 – Drywall toilet door-opening reinforcement framing, up to 900 × 2300 mm, for 125 mm walls",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.300",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Drywall toilet door-opening reinforcement framing, up to 900 × 2300 mm, for 125 mm walls",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Reinforcement profiles in a GKB or GKI stud partition prepared to receive a timber toilet door.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 6.0,
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.300.\nTüröffnungen in Ständerwand, bis 900/2300 mm\nHerstellen von Türöffnungen in GK bzw. GKI -Ständerwänden, sowie\naller erforderlicher Verstärkungsprofile für den Einbau von WC-Holztüren\nWanddicke: 125 mm\n6,000 St"
+    },
+    {
+      "name": "Material 10.1.310 – Primed standard-rebate wraparound steel frame for a single-leaf door, 1.01 × 2.135 m clear opening, 125 mm wall",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.310",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Primed standard-rebate wraparound steel frame for a single-leaf door, 1.01 × 2.135 m clear opening, 125 mm wall",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Drywall door frame with three-sided seals and receivers for three-part hinges; final coating by others.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 6.0,
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.310.\nTürzarge,St-UZ,15cm,1flg,<1,01x2,135m\nLiefern und Montieren der Stahlumfassungszarge als Normalfalzzarge, für\n1-flg. Tür, zum Einbau in Trockenbauwand, mit 3-seitiger Dichtung.\nFolgeleistung (baus.) | Endbeschichtung\nBandaufnahme: | 3-tlg.\nOberfläche: | grundiert\nWandstärke: | 125 mm\nDurch"
+    },
+    {
+      "name": "Material 10.1.320 – Drywall window-opening framing and reveal assembly with UA profiles, up to 2.0 m²",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.320",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Drywall window-opening framing and reveal assembly with UA profiles, up to 2.0 m²",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Reinforced window opening in a drywall partition, including formed reveals.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.320.\nFensteröffnung anlegen,bis 2,0m2\nAnlegen von Fensteröffnungen in Trockenbauwänden inkl. erforderlicher\nU/A-Profile und Laibungsausbildung.\nÖffnungsgröße:\nbis 2,0 m2\n2,000 St"
+    },
+    {
+      "name": "Material 10.1.330 – Drywall open-passage framing and reveal assembly, 1800 × 2570 mm",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.330",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Drywall open-passage framing and reveal assembly, 1800 × 2570 mm",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Open passage in a drywall partition, including UA profiles, formed reveals, and corner protection.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.330.\nDurchgangsöffnung anlegen, 1800x2570 mm\nAnlegen von Öffnungen in Trockenbauwänden inkl. erforderlicher U/A-\nProfile, Laibungsausbildung und Eckschutz als offener Durchgang im\nBüro 3.04 im 2.OG\n17"
+    },
+    {
+      "name": "Material 10.1.340 – 20 × 20 cm F0 Rectangular Drywall Opening Framing and Reveal Lining",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.340",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "20 × 20 cm F0 Rectangular Drywall Opening Framing and Reveal Lining",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Profiles and reveal boards for a rectangular service penetration in a non-fire-rated partition.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 15.0,
+          "evidence": "15,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "15,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.340\nAussparung, 20x20cm,F0,rechteckig Aussparung für Kabeldurchführungen und sonst. Haustechnik im Zuge der vorbeschriebenen Trockenbauarbeiten einschl. aller erforderlichen Profile und Laibungsbeplankung. Leistungsumfang Öffnung anlegen Profile in Laibungen Laibungsbeplankung\nAnforderungen: Au"
+    },
+    {
+      "name": "Material 10.1.350 – 30 × 30 cm F0 Rectangular Drywall Opening Framing and Reveal Lining",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.350",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "30 × 30 cm F0 Rectangular Drywall Opening Framing and Reveal Lining",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Profiles and reveal boards for a non-fire-rated rectangular drywall opening.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 5.0,
+          "evidence": "5,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "5,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.350\nAussparung,30x30cm,F0,rechteckig wie Pos. vor, jedoch 30x30cm\n5,000 St  EP ........  GP ........"
+    },
+    {
+      "name": "Material 10.1.360 – F0 Rectangular Drywall Opening Framing and Reveal Lining (40 × 40 cm Title; 30 × 30 cm Description)",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.360",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "F0 Rectangular Drywall Opening Framing and Reveal Lining (40 × 40 cm Title; 30 × 30 cm Description)",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Non-fire-rated opening framing and reveal boards; confirm dimensions before ordering.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.360\nAussparung,40x40cm,F0,rechteckig wie Pos. vor, jedoch 30x30cm\n2,000 St  EP ........  GP ........"
+    },
+    {
+      "name": "Material 10.1.370 – F30 Rectangular Drywall Opening Framing and Reveal Lining, up to 0.2 m²",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.370",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "F30 Rectangular Drywall Opening Framing and Reveal Lining, up to 0.2 m²",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Profiles and reveal boards for an F30 rectangular drywall opening.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 5.0,
+          "evidence": "5,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "5,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.370\nAussparung,<0,2m2,F30,rechteckig wie Pos. zuvor jedoch als F30 Aussparung bis 0,2m2 5,000 St"
+    },
+    {
+      "name": "Material 10.1.380 – F60 Rectangular Drywall Opening Framing and Reveal Lining, up to 0.2 m²",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.380",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "F60 Rectangular Drywall Opening Framing and Reveal Lining, up to 0.2 m²",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Profiles and reveal boards for an F60 rectangular drywall opening.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 5.0,
+          "evidence": "5,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "5,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.380\nAussparung,<0,2m2,F60,rechteckig wie Pos. zuvor jedoch als F60 Aussparung bis 0,2m2\n5,000 St  EP ........  GP ........"
+    },
+    {
+      "name": "Material 10.1.390 – 300 × 300 mm Non-Fire-Rated Access Panel",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.390",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "300 × 300 mm Non-Fire-Rated Access Panel",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Knauf or equivalent access panel with frame reinforcement and fixings.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 12.0,
+          "evidence": "12,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "12,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.390\nRevisionsklappe 300x300 mm Herstellen von Revisionsöffnungen, 300x300 mm inkl. Ausschnitt und der erfoderlichen Rahmenverstärkungen und Übertrag:\nBefestigungsmitteln sowie Auswechslungen Revisionsklappe von z.B. KNAUF o. glw.\nGröße ca. 300 x 300 mm Brandschutz: keine Anfoderungen\n12,000 Stk"
+    },
+    {
+      "name": "Material 10.1.400 – 400 × 400 mm Non-Fire-Rated Access Panel",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.400",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "400 × 400 mm Non-Fire-Rated Access Panel",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Knauf or equivalent access panel with frame reinforcement and fixings.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 12.0,
+          "evidence": "12,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "12,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.400\n*** Bedarfsposition ohne GB Revisionsklappe 400x400 mm Herstellen von Revisionsöffnungen, 400x400 mm inkl. Ausschnitt und der erfoderlichen Rahmenverstärkungen Befestigungsmitteln sowie Auswechslungen Revisionsklappe von z.B. KNAUF o. glw. und\nGroße ca. 400 x 400 mm Brandschutz: keine Anfod"
+    },
+    {
+      "name": "Material 10.1.410 – 600 × 600 mm Non-Fire-Rated Access Panel",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.1.410",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "600 × 600 mm Non-Fire-Rated Access Panel",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Knauf or equivalent access panel with frame reinforcement and fixings.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 4.0,
+          "evidence": "4,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "4,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.410\nRevisionsklappe 600x600 mm Herstellen von Revisionsöffnungen, 600x600 mm inkl. Ausschnitt und der erfoderlichen Rahmenverstärkungen Befestigungsmitteln sowie Auswechslungen Revisionsklappe von z.B. KNAUF o. glw. und\nGröße ca. 600 x 600 mm Brandschutz: keine Anfoderungen\n4,000 Stk  EP ......"
+    },
+    {
+      "name": "Material 10.2.10 – 625 × 625 × 15 mm A2-s1,d0 Square-Edge Perforated Mineral-Fiber Suspended Ceiling, White Exposed Grid, 50 cm Drop",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.2.10",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "625 × 625 × 15 mm A2-s1,d0 Square-Edge Perforated Mineral-Fiber Suspended Ceiling, White Exposed Grid, 50 cm Drop",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "White lay-in mineral-fiber tiles on a white-faced galvanized steel grid with tension hangers and perimeter trim.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 140.0,
+          "evidence": "140,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "140,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.10.\n[FIRMA_101] sichtb.UK,stumpfe Kante, h = ca. 50 cm\nAbgehängte Mineralfaser-Rasterdecke, sichtbare Metall-UK einschl.\nPasselemente, Wandanschluss und Wandwinkel (diese sind an den\nEckpunkten sauber auf Gehrung zu schneiden).\nSichtleiste weiß matt, mit Spannabhängern von der Rohdecke über\nzug"
+    },
+    {
+      "name": "Material 10.2.20 – D112 Single-Layer 12.5 mm GKB Suspended Ceiling, Q2, 10 cm Drop",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.2.20",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "D112 Single-Layer 12.5 mm GKB Suspended Ceiling, Q2, 10 cm Drop",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Gypsum-board ceiling on metal framing with direct hangers and flexible perimeter seals.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 25.0,
+          "evidence": "25,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "25,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.20.\nD112, Abhangdecke, 1xGKB Abhangh.= 10 cm\nGK-Abhangdecke/-Deckenbekleidung, Metall-Unterkonstruktion,\nWandanschluss Massiv und GK; einschl. dauerelastischer Verfugung an\nmassiven Bauteilen bzw. GK Bauteilen.\nsiehe Detail DT_5211\n17\nUntergrund: | Stb.-Rohdecke\nAbhanghöhe: | 10 cm\nAbhänger: | "
+    },
+    {
+      "name": "Material 10.2.30 – D112 Single-Layer 12.5 mm GKB Suspended Ceiling, Q2, 50 cm Drop",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.2.30",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "D112 Single-Layer 12.5 mm GKB Suspended Ceiling, Q2, 50 cm Drop",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Gypsum-board ceiling on metal framing with direct hangers and flexible perimeter seals.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 45.0,
+          "evidence": "45,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "45,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.30.\nD112, Abhangdecke, 1xGKB Abhangh= 50 cm\nGK-Abhangdecke/-Deckenbekleidung, Metall-Unterkonstruktion,\nWandanschluss Massiv und GK; einschl. dauerelastischer Verfugung an\nmassiven Bauteilen bzw. GK Bauteilen.\nsiehe Detail DT_5211\nUntergrund: | Stb.-Rohdecke\nAbhanghöhe: | 50 cm\nAbhänger: | Dire"
+    },
+    {
+      "name": "Material 10.2.40 – D112 F60 Gypsum-Board Suspended Ceiling, 50 cm Drop",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.2.40",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "D112 F60 Gypsum-Board Suspended Ceiling, 50 cm Drop",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "F60 fire-rated gypsum-board suspended ceiling for the corridor.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 7.0,
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.40.\nD112, Abhangdecke F60, Abhangh= 50 cm\nGK-Abhangdecke wie in Pos. zuvor, jedoch als F60 [FIRMA_101]\nEinbauort:\nFlur neben TRH (0.03 UG Eingang)\n7,000 m2"
+    },
+    {
+      "name": "Material 10.2.50 – Moisture-Resistant Gypsum Board Upgrade for 50 cm Drop Suspended Ceiling",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.2.50",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Moisture-Resistant Gypsum Board Upgrade for 50 cm Drop Suspended Ceiling",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Surcharge for using moisture-resistant boards in the suspended ceiling.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 10.0,
+          "evidence": "10,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "10,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.50.\nZul. Feuchtraumplatten f. Abhangdecke 50 cm\nZulage zu Abhangdecke mit Abhanghöhe = 50 cm für die\nVerwendung von feuchtigkeitsbeständige Platten.\nEinbauort:\n[FIRMA_013]\n10,000 m2"
+    },
+    {
+      "name": "Material 10.2.60 – Single-Layer GKB Vertical Ceiling Level Transition, Q2, 10 cm to 50 cm Ceiling Drops",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.2.60",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Single-Layer GKB Vertical Ceiling Level Transition, Q2, 10 cm to 50 cm Ceiling Drops",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Vertical gypsum-board transition with metal framing and an edge protection profile.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 5.0,
+          "evidence": "5,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "5,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.60.\nVertikaler Deckenversatz, 1xGKB\nVertikaler Deckensprung im Eingansbereich, von GK-Abhangdecke\n(Abhanghöhe=10 cm) auf [FIRMA_101] (Abhanghohe = 50 cm)\nin Q2, inkl. Metall-UK und Kantenschutzprofil.\n5,000 m"
+    },
+    {
+      "name": "Material 10.2.70 – Stepped Perimeter Angle for Closed Shadow Gap in Mineral-Fiber Grid Ceiling",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.2.70",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Stepped Perimeter Angle for Closed Shadow Gap in Mineral-Fiber Grid Ceiling",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Stepped wall trim forming a closed shadow gap at the ceiling perimeter.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 10.0,
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.70.\nWandanschluss, Schattenfuge, Stufenwinkel\nWandanschluss Mineralfaser-Rasterdecke mit Stufenwinkelprofil als\ngeschlossene Schattenfuge.\n10,000 m"
+    },
+    {
+      "name": "Material 10.2.80 – Single-Layer 12.5 mm GKB Vertical Ceiling Fascia, Q2, up to 50 cm High",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.2.80",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Single-Layer 12.5 mm GKB Vertical Ceiling Fascia, Q2, up to 50 cm High",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Mineral-fiber ceiling edge closure with gypsum board, metal framing, and edge protection.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 50.0,
+          "evidence": "50,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "50,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.80.\nVertikale Deckenschürze, 1xGKB,<50cm\nVertikale Deckenschürze als Abschluss der Mineralfaser-Abhangdecke,\nGKB, 1-mal 12,5 mm, Q2, Metall-UK, Kantenschutzprofil.\nHöhe:\nbis 50 cm\n50,000 m"
+    },
+    {
+      "name": "Material 10.2.90 – Single-Layer 12.5 mm Gypsum-Board Ceiling Service Bulkhead, Q2, Approx. 30 cm High × 48 cm Wide",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.2.90",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Single-Layer 12.5 mm Gypsum-Board Ceiling Service Bulkhead, Q2, Approx. 30 cm High × 48 cm Wide",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Ceiling-level service enclosure with metal framing and edge protection.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 20.0,
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.90.\nDeckenkoffer herstellen\nDeckenkoffer herstellen als Verkleidung von Leitungen,\nGK, 1-mal 12,5 mm, Q2, inkl. Metall-UK, und Kantenschutzprofil.\nHohe ca. 30 cm\nBreite ca. 48 cm\ngem. Detail DT_5212\n20,000 m"
+    },
+    {
+      "name": "Material 10.2.130 – Supplementary Suspended-Ceiling Hangers for 625 × 625 mm Recessed Luminaires",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.2.130",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Supplementary Suspended-Ceiling Hangers for 625 × 625 mm Recessed Luminaires",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Additional hangers to reinforce mineral-fiber or metal cassette ceiling grids at recessed luminaires.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 32.0,
+          "evidence": "32,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "32,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.130\nVerstärkung für Einbauleuchten Unterkonstruktion der abgehängten Mineralfaser-/Metallkassettendecken zur Aufnahme von Einbauleuchten mit zusätzlichen Abhängern verstärken. Leuchtengröße: 625/625 mm\n32,000 St  EP ........  GP ........"
+    },
+    {
+      "name": "Material 10.2.140 – 300 × 300 mm Non-Fire-Rated Gypsum-Board Ceiling Access Panel",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.2.140",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "300 × 300 mm Non-Fire-Rated Gypsum-Board Ceiling Access Panel",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Knauf or equivalent ceiling access panel with frame reinforcement and fixings.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 2.0,
+          "evidence": "2,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "2,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.140\nRevisionsklappe 300x300 mm Größe ca. 300 x 300 mm Brandschutz: keine Anfoderungen Angebotenes Fabrikat: Herstellen von Revisionsöffnungen in GK Abhangdecke, inkl. Ausschnitt und der erfoderlichen Rahmenverstärkungen Befestigungsmitteln sowie Auswechslungen Revisionsklappe von z.B. KNAUF o. "
+    },
+    {
+      "name": "Material 10.2.150 – 400 × 400 mm Non-Fire-Rated Access Panel",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "10.2.150",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "400 × 400 mm Non-Fire-Rated Access Panel",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Knauf or equivalent access panel with frame reinforcement and fixings.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 3.0,
+          "evidence": "3,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "3,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.150\nRevisionsklappe 400x400 mm Herstellen von Revisionsöffnungen, 400x400 mm inkl. Ausschnitt und der erfoderlichen Rahmenverstärkungen Befestigungsmitteln sowie Auswechslungen Revisionsklappe von z.B. KNAUF o. glw. GroBe ca. 400 x 400 mm Brandschutz: keine Anfoderungen und\n3,000 Stk  EP ......"
+    }
+  ],
+  "not_materials": [
+    {
+      "name": "Position 10.1.230",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "10.1.230",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The surcharge changes the joint-finishing quality from Q2 to Q3 without specifying a separate product to supply.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.230.\n*** Bedarfsposition ohne GB\nZul.Q3 anstelle Q2\nZulage für Q3 anstelle Standard Q2 Verspachtelung der\nTrockenbauwände, Abhangdecken, Vorsatzschalen etc.\nAbrechnung je m2 Ansichtsseite.\n1,000 "
+    },
+    {
+      "name": "Position 10.1.420",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "10.1.420",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position calls only for drilling holes in gypsum boards.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.420\nRundlöcher in Ständerwand bis DN 50mm Rundlöcher durch Bohren in GK bzw.GKI - Platten, bis DN 30 mm.\n150,000 Stk"
+    },
+    {
+      "name": "Position 10.1.430",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "10.1.430",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position calls only for drilling holes in gypsum boards.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.1.430.\nRundlöcher in Ständerwand über DN 50 mm bis DN 150 mm\nRundlöcher durch Bohren in GK bzw.GKI - Platten,\nüber DN 50 bis DN 100 mm.\n150,000 Stk"
+    },
+    {
+      "name": "Position 10.2.100",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "10.2.100",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers making rectangular ceiling openings and reinforcing the supporting grid. It specifies no new product to supply.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.100.\nAussparung, eckig, bis ca. 500 cm2\nEckige Aussparung für Leuchten o.ä. in vorgenannten\nMineralfaser-/Metallkassettendecken herstellen. Die\nUnterkonstruktion ist entsprechend zu verstärken,\nv"
+    },
+    {
+      "name": "Position 10.2.110",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "10.2.110",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers making round ceiling openings and reinforcing the supporting grid. It specifies no new product to supply.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.110.\nAussparung, rund, bis ca. 250 mm Durchmesser\nRunde Aussparung für Leuchten o.ä. in vorgenannten\nMineralfaser-/Metallkassettendecken herstellen. Die\nUnterkonstruktion ist entsprechend zu vers"
+    },
+    {
+      "name": "Position 10.2.120",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "10.2.120",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position changes the cutout diameter but does not specify a new component to supply.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.2.120\n*** Bedarfsposition ohne GB Aussparung, rund, bis ca. 500 mm Durchmesser Ausführung wie vor beschrieben, jedoch Durchmesser bis ca. 250-500 mm Übertrag:\n3,000 St | Nur Einh.-Pr."
+    },
+    {
+      "name": "Position 10.3.10",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "10.3.10",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position orders skilled-worker labor hours only.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.3.10.\n*** Bedarfsposition mit GB\nStundensatz Fachwerker\nStundensatz für Leistungen, welche nicht in den Positionen erfasst sind\nund nur auf ausdrückliche Anweisung der Bauleitung gegen Nachweis zur"
+    },
+    {
+      "name": "Position 10.3.20",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "10.3.20",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position orders construction-helper labor hours only.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "10.3.20.\n*** Bedarfsposition mit GB\nStundensatz Bauhelfer\nStundensatz für Leistungen, welche nicht in den Positionen erfasst sind\nund nur auf ausdrückliche Anweisung der Bauleitung gegen Nachweis zur\n"
+    }
+  ],
+  "not_reviewed": []
+}

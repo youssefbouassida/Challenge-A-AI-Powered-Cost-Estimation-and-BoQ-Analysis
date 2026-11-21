@@ -1,0 +1,2885 @@
+{
+  "document": "[ORT_024] LV24069.D86",
+  "project_id": "single:[ORT_024] LV24069",
+  "source": "local GAEB reader",
+  "summary": {
+    "positions_reviewed": 38,
+    "material_rows": 28,
+    "not_materials": 10,
+    "not_reviewed": 0,
+    "with_quantity": 0,
+    "with_unit_price": 0,
+    "conflicts": 0
+  },
+  "materials": [
+    {
+      "name": "Material 8.1.1 – KSB Etabloc GP close-coupled centrifugal pump without variable-frequency drive (position 8.1.1)",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.1.1",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "KSB Etabloc GP close-coupled centrifugal pump without variable-frequency drive (position 8.1.1)",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "GP pump without a variable-frequency drive; exact model not visible.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.1.1\nKSB Etabloc TELEFON_084 GP ohne FU\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.1.2 – KSB Etabloc GP close-coupled centrifugal pump without variable-frequency drive (position 8.1.2)",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.1.2",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "KSB Etabloc GP close-coupled centrifugal pump without variable-frequency drive (position 8.1.2)",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "GP pump without a variable-frequency drive; exact model not visible.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.1.2\nKSB Etabloc TELEFON_028 GP ohne FU\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.1.3 – KSB Etabloc GP close-coupled centrifugal pump without variable-frequency drive (position 8.1.3)",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.1.3",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "KSB Etabloc GP close-coupled centrifugal pump without variable-frequency drive (position 8.1.3)",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "GP pump without a variable-frequency drive; exact model not visible.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.1.3\nKSB Etabloc TELEFON_076 GP ohne FU\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.1.4 – KSB Ama Drainer A405 NE/10 submersible drainage pump",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.1.4",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "KSB Ama Drainer A405 NE/10 submersible drainage pump",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Submersible drainage pump, model A405 NE/10.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.1.4\nKSB Ama Drainer A405 NE/10\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.1.5 – VAG valve variant surcharge",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.1.5",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "VAG valve variant surcharge",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Surcharge for supplying the valves in the VAG version.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.1.5\nMehrkosten Armaturen für Ausführung VAG\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.1.6 – VAG ZETKA check valve, DN 100, PN 16",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.1.6",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "VAG ZETKA check valve, DN 100, PN 16",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "DN 100, PN 16 valve that prevents reverse flow.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.1.6\nVAG ZETKA Rückflußsperre DN 100 PN 16\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.1.7 – VAG DUOJET combination air valve (BEV), DN 50, PN 16",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.1.7",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "VAG DUOJET combination air valve (BEV), DN 50, PN 16",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "DN 50, PN 16 valve for air admission and release.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.1.7\nVAG DUOJET BEV DN 50 PN 16\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.2 – Helios RRK 160 centrifugal duct fan, 520 m³/h",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.2",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Helios RRK 160 centrifugal duct fan, 520 m³/h",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "RRK 160 centrifugal duct fan rated at 520 m³/h.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.2\nHelios Radialventilator RRK 160, 520 mⁿ/h\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.3 – Helios duct shut-off damper, DN 160",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.3",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Helios duct shut-off damper, DN 160",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Helios damper for closing a DN 160 duct.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.3\nHelios Rohrverschlussklappe DN 160\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.4 – Axial duct silencer, DN 200, 15 dB attenuation",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.4",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Axial duct silencer, DN 200, 15 dB attenuation",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "DN 200 axial duct silencer with 15 dB attenuation.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.4\nRohrschalldämpfer DN 200 axial, Dämpfung 15 dB\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.5 – Axial duct silencer, DN 200, 23 dB attenuation",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.5",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Axial duct silencer, DN 200, 23 dB attenuation",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "DN 200 axial duct silencer with 23 dB attenuation.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.5\nRohrschalldämpfer DN 200 axial, Dämpfung 23 dB\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.6 – Axial duct silencer, DN 150, 15 dB attenuation",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.6",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Axial duct silencer, DN 150, 15 dB attenuation",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "DN 150 axial duct silencer with 15 dB attenuation.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.6\nRohrschalldämpfer DN 150 axial, Dämpfung 15 dB\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.7 – CO₂ exhaust ventilation roof penetration fitting, DA 315",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.7",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "CO₂ exhaust ventilation roof penetration fitting, DA 315",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Roof penetration fitting for a CO₂ exhaust duct with 315 mm outside diameter.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.7\nDachdurchführung Lüftung CO2-Ausbringung DA 315\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.8 – Dual-plate check valve, DN 250, PN 10/16",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.8",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Dual-plate check valve, DN 250, PN 10/16",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Dual-plate non-return valve, DN 250, PN 10/16.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.8\nDoppel-Rückschlagklappe DN 250 PN 10/16\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.9 – Acoustic deflection unit",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.9",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Acoustic deflection unit",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Deflection assembly for acoustic control.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.9\nUmlenkeinheit Akustikumlenkung\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.10 – Polyethylene pipe fittings for temporary left-filter-to-SB2 connection",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.10",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Polyethylene pipe fittings for temporary left-filter-to-SB2 connection",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "PE fittings for the temporary connection from the left filter to SB2.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.10\nPE-Formteile für Provisorium linker Filter zu SB2\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.11 – Backwash water pipe fittings, DN 250/400",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.11",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Backwash water pipe fittings, DN 250/400",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "DN 250/400 fittings for backwash water piping.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.11\nFormteile für Rückspülwasser DN 250/400\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.12 – Link-Seal modular pipe penetration seal, DN 80/150, without KTW approval",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.12",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Link-Seal modular pipe penetration seal, DN 80/150, without KTW approval",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Linked sealing elements for a DN 80/150 penetration, without KTW approval.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.12\nLink-Seal-Gliederkette DN 80/150 ohne KTW\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.13 – Pressio pipe penetration compression seal, DN 80/150, KTW-approved",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.13",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Pressio pipe penetration compression seal, DN 80/150, KTW-approved",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "KTW-approved compression seal for a DN 80/150 pipe penetration.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.13\nPressio-Dichtung DN 80/150 KTW\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.14 – Pressio pipe penetration compression seal, DN 100/200, KTW-approved",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.14",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Pressio pipe penetration compression seal, DN 100/200, KTW-approved",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "KTW-approved compression seal for a DN 100/200 pipe penetration.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.14\nPressio-Dichtung DN 100/200 KTW\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.15 – Pressio pipe penetration compression seal, DN 150/250, KTW-approved",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.15",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Pressio pipe penetration compression seal, DN 150/250, KTW-approved",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "KTW-approved compression seal for a DN 150/250 pipe penetration.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.15\nPressio-Dichtung DN 150/250 KTW\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.3.16 – Link-Seal modular pipe penetration seal, DN 150/250, without KTW approval",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.3.16",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Link-Seal modular pipe penetration seal, DN 150/250, without KTW approval",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Linked sealing elements for a DN 150/250 penetration, without KTW approval.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.16\nLink-Seal-Gliederkette DN 150/250 ohne KTW\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.4.1 – Temporary polyethylene discharge line",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.4.1",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Temporary polyethylene discharge line",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Temporary PE piping for the discharge line.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.4.1\nPE-Provisorium Abschlagsleitung\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.5.1 – PER00017 piping component, DN 100, PN 16, with HR",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.5.1",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "PER00017 piping component, DN 100, PN 16, with HR",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "DN 100, PN 16 component with HR; exact component type not stated.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.5.1\nPER00017 DN 100 PN 16 mit HR\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.6.2 – Granulate pump piping, DN 80",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.6.2",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Granulate pump piping, DN 80",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "DN 80 piping for the granulate pump.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.6.2\nDN80 Granulatpumpenleitung\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.6.3 – pH measurement vessel",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.6.3",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "pH measurement vessel",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Vessel used for pH measurement.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.6.3\nMesstopf für pH Messung\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.6.4 – Granulate pump inlet and outlet hose",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.6.4",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Granulate pump inlet and outlet hose",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Hose for the granulate pump inlet and outlet connections.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.6.4\nSchlauch für die Zu- und Ablauf der Granulatpumpe\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Material 8.6.6 – 24 V electrical component (position 8.6.6)",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "single:[ORT_024] LV24069",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "8.6.6",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "24 V electrical component (position 8.6.6)",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Supply and installation of a 24 V component whose specific type is not visible.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.6.6\n[PERSON_00000000000000000022] in 24 V liefern und montieren\n(keine Menge) ?  EP ......  GP ......"
+    }
+  ],
+  "not_materials": [
+    {
+      "name": "Position 8.2.1",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "8.2.1",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The surcharge is for disposing of existing Semidol from open filters, not supplying new media.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.2.1\nZulage Entsorgungskosten Semidol aus offenen Filtern\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Position 8.3.1",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "8.3.1",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Water analysis for commissioning is a testing service.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.1\nWasseranalytik für Inbetriebnhame nach 1. Einsatz\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Position 8.3.17",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "8.3.17",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position orders painting work and specifies the coating to use, but does not order the coating as a product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.17\nStreichen KB 250 ca. 90 cm 2K-Lack KTW 270\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Position 8.3.18",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "8.3.18",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position orders painting work and specifies the coating to use, but does not order the coating as a product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.18\nStreichen KB 200 ca. 70 cm 2K-Lack KTW 270\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Position 8.3.19",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "8.3.19",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position orders painting work and specifies the coating to use, but does not order the coating as a product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.3.19\nStreichen KB 400 ca. 60 cm 2K-Lack KTW 270\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Position 8.5.2",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "8.5.2",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Camera inspection of an existing sewer is a service.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.5.2\nKamerabefahrung für Bestandskanal\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Position 8.6.1",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "8.6.1",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "No readable specification establishes that a new physical product is to be supplied.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.6.1\n[PERSON_000000000000156]\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Position 8.6.5",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "8.6.5",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position states a delay-related surcharge for support gravel but does not specify any additional gravel to supply.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.6.5\nZulage Stützkies wegen verschobener Bauzeit\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Position 8.6.7",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "8.6.7",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position is a labour-cost surcharge, not a physical product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.6.7\nMehrkosten Lohnanteil Schriftstück 12.11.2025\n(keine Menge) ?  EP ......  GP ......"
+    },
+    {
+      "name": "Position 8.6.8",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "8.6.8",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position states a delay-related surcharge for GEH media but does not specify any additional media to supply.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "8.6.8\nZulage GEH-Material wegen verschobener Bauzeit\n(keine Menge) ?  EP ......  GP ......"
+    }
+  ],
+  "not_reviewed": []
+}

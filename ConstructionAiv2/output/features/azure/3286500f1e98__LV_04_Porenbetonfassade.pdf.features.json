@@ -1,0 +1,1399 @@
+{
+  "document": "LV_04_Porenbetonfassade.pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 20,
+    "with_quantity": 14,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Request for quotation",
+      "evidence": "Anfrage"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "79-222",
+      "evidence": "Projekt: 79-222"
+    },
+    {
+      "name": "LVNumber",
+      "type": "string",
+      "description": "Bill of quantities number (LV-Nr.)",
+      "value": "04",
+      "evidence": "LV: 04"
+    }
+  ],
+  "positions": [
+    {
+      "name": "Position 9.1.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Maßnahmen zur Arbeitssicherheit gem. UVV Maßnahmen zur Gewährleistung der Arbeitssicherheit gem. der UVV ZH 1/164 UVV bei Montagearbeiten. Max. Montagehöhe = bis 8,00 m ab OK Gelände",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 pau  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "pau",
+          "evidence": "1,000 pau  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.10"
+    },
+    {
+      "name": "Position 9.1.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Statische Nachweise (Ausführungs-/Typenstatik) Erstellung der Ausführungs-/Typenstatik für die nachfolgend schriebenen Leistungen, auf der Grundlage der vom AG an AN übergebenen Planunterlagen. be- den",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 pau  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "pau",
+          "evidence": "1,000 pau  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.20"
+    },
+    {
+      "name": "Position 9.1.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Montage-, Werkstatt- und Detailzeichnungen Erstellung von Montage-, Werkstatt- und Detailplänen für beschriebene Porenbetonfassade, auf der Grundlage der AN übergebenen Planunterlagen. die nachfolgend vom AG an den",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 pau  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "pau",
+          "evidence": "1,000 pau  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.30"
+    },
+    {
+      "name": "Position 9.1.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Porenbeton-Wandplatten P 4.4-0,55 Abmessungen: Länge:bis ca. 7,00 m Dicke:300 mm Wärmeleitzahl: 0,14 W/(mK) Hebel-Porenbeton-Wandplatten (o. glw.) P 4.4-0,55 mit Nut und gefassten Längskanten, nach Zulassungsbescheid, für Einbau. Die Wandplatten entsprechen der Feuerwiderstandsklasse F 90. Bemessen für Winddruck- und Windsoglasten nach für einen Einbau bis max. 8,00 m Höhe über OK-Gelände. und Feder liegenden DIN 1055",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Lieferung frei Baustelle. Porenbeton-Wandplatten abladen, max. 20 m von der Einbaustelle zwischenlagern. Nach Montageanweisung und Verlegeplan fachgerecht auf bauseitig vorhandenem, planebenem Sockel (+/- 5 mm Toleranz) von auBen montieren, einschl. Lieferung der losen Verankerungsteile, Abdichtung der äußeren Horizontalfugen in gesonderter Position) mit modifiziertem Kunststoffklebemörtel und Schließen der Vertikalfugen (keine Dehn- und Anschlussfugen) mit | [PERSON_016] plastoelastischem Material im Querschnitt bis max. 15 mm Fugenbreite.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 293.0,
+          "evidence": "293,000 m2  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "293,000 m2  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.40"
+    },
+    {
+      "name": "Position 9.1.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Herstellen von bewehrten [PERSON_016] [PERSON_016] zur Aussteifung der Porenbetonfassade",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "500,000 m | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.50"
+    },
+    {
+      "name": "Position 9.1.60",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.60",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Schräg-/Passschnitte Herstellen von Schräg-/Passschnitte bei einer Plattendicke von 300 mm, einschließlich Materialverlust",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 10.0,
+          "evidence": "10,000 m  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "10,000 m  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.60"
+    },
+    {
+      "name": "Position 9.1.70",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.70",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Zulage Porenbeton Wandplatten als Passplatten Zulage Porenbeton Wandplatten als Passplatten (alle Breiten auBer 500, 625 und 750 mm). ,",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 150.0,
+          "evidence": "150,000 m2  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "150,000 m2  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.70"
+    },
+    {
+      "name": "Position 9.1.80",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.80",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Zulage Porenbeton Wandplatten im Sturz- und Brüstungs bereich 20,000 m2 Zulage Porenbeton Wandplatten im Sturz- und Brüstungsbereich erhöhtem Bewehrungsgrad nach Statik und Herstellerangaben - mit .",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.80"
+    },
+    {
+      "name": "Position 9.1.90",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.90",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Herstellen von Ausnehmungen im Bereich von Auflager konsolen bzw. Abfangkonsolen Herstellen von Ausnehmungen im Bereich von Auflager- konsolen bzw. Abfangkonsolen -",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "1,000 St | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.90"
+    },
+    {
+      "name": "Position 9.1.100",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.100",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Herstellen von Ausnehmungen im Bereich von Attika- stielen bzw. Stützenverlängerungen. Herstellen von Ausnehmungen im Bereich von Attika- stielen bzw. Stützenverlängerungen.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "1,000 St | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.100"
+    },
+    {
+      "name": "Position 9.1.110",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.110",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Stützenverlängerungen aus Profilstahl Liefern und Anschweißen von Stützenverlängerungen aus Profilstahl an die vorhandene Konstruktion oder an bauseits vorhandene",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Kontaktplatten in der Betonkonstruktion zur Befestigung der Attikawand- platten. Profil nach statischer Berechnung/Erfordernis Plattendicke:d = 300 mm Ausführung:Korrosionsschutz III, DIN 55 928. Max. Montagehöhe = bis ca. 8,00 m ab OK-Gelände",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 500.0,
+          "evidence": "500,000 kg  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "kg",
+          "evidence": "500,000 kg  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.110"
+    },
+    {
+      "name": "Position 9.1.120",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.120",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Ankerschienenstücke, Profil HM 38/17 Liefern und Anschweißen von Ankerschienenstücke, Profil HM 38/17 mit Einzellängen bis 100 mm, an T-Stiele [PERSON_115] V4A",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "1,000 St | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.120"
+    },
+    {
+      "name": "Position 9.1.130",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.130",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Tür-, Torrahmen o.ä. aus Profilstahl Plattendicke:d= 300 mm Profil:U-310 mm Die Montage erfolgt an bauseits vorhandenen Kontaktplatten bzw. Stützenbereich. Ausführung:Korrosionsschutz verzinkt 35,000 m Liefern und montieren von Tür-, Torrahmen o.ä. aus Profilstahl im Sockel- St 37-2.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.130"
+    },
+    {
+      "name": "Position 9.1.140",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.140",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Wanddurchbrüche, rund, Ø 50 mm Wanddurchbruch nach Angabe der Bauleitung herstellen Form:rund Durchmesser: Ø 50mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 5.0,
+          "evidence": "5,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "5,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.140"
+    },
+    {
+      "name": "Position 9.1.150",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.150",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Wanddurchbrüche, rund, Ø 100 mm Wanddurchbruch nach Angabe der Bauleitung herstellen Form:rund Durchmesser: Ø 100mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 5.0,
+          "evidence": "5,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "5,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.150"
+    },
+    {
+      "name": "Position 9.1.160",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.160",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Scheinfuge in Porenbeton-Wandplatten Scheinfuge in Porenbeton-Wandplatten herstellen, mit gleicher Größe wie die Fuge bei Plattenströßen.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "1,000 m | Nur Einh.-Pr. ## Anfrage OZ",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 4.0,
+          "evidence": "04\nOZ"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "OZ",
+          "evidence": "04\nOZ"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.160"
+    },
+    {
+      "name": "Position 9.1.170",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.170",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Herstellen von Dehnfugen mit Mineralfaserstreifen Herstellen von Dehnfugen mit Mineralfaserstreifen.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "1,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.170."
+    },
+    {
+      "name": "Position 9.1.180",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.180",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Herstellen Anschluss an Büro",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Herstellen Wandanschluss, an Betonwand Büro, inkl. aller Materiallieferungen.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 13.0,
+          "evidence": "13,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "13,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.180."
+    },
+    {
+      "name": "Position 9.1.190",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.190",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Beschichtung AuBenwand, als Schlämmanstrich",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Porenbetonbeschichtung der Außenwand, mit einem Beschichtungssystem aus Siliconbasis, einschl. aller notwendigen Untergrundvorbehandlungen wie -Prüfung Untergrund auf Trag- u- Haftfähigkeit -Verunreinigungen und beschichtungsfeindliche Ablagerungen entfernen -Grundierung -Zwischenbeschichtung -Schlußbeschichtung als Schlämmanstrich Richtfabrikat/System: z. Brillux, oder gleichwertig Farbe: RAL nach [PERSON_125] vom AG Angebotenes Fabrikat: Angebotenes [PERSON_129]",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 293.0,
+          "evidence": "293,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "293,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.190."
+    },
+    {
+      "name": "Position 9.1.200",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "9.1.200",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Beschichtung AuBenwand, als Verlaufstruktur Porenbetonbeschichtung der AuBenwand, mit einem Beschichtungs- system aus Siliconbasis, einschl. aller notwendigen Untergrundvorbe- handlungen wie -Prüfung Untergrund auf Trag- u- Haftfähigkeit -Verunreinigungen und beschichtungsfeindliche Ablagerungen entfernen -Grundierung -Zwischenbeschichtung -SchluBbeschichtung als Verlaufstruktur Übertrag: ## Anfrage 04 OZ Leistungsbeschreibung Menge ME Einheitspreis in EUR Gesamtbetrag in EUR Übertrag: Richtfabrikat/System: z. Brillux, oder gleichwertig Farbe: RAL nach [PERSON_125] vom AG Angebotenes Fabrikat: Angebotenes [PERSON_129]",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.1.200."
+    }
+  ],
+  "tables": [
+    {
+      "name": "Table 1",
+      "type": "table",
+      "description": "Table 1 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 3",
+      "type": "table",
+      "description": "Table 3 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 5",
+      "type": "table",
+      "description": "Table 5 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 7",
+      "type": "table",
+      "description": "Table 7 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 8",
+      "type": "table",
+      "description": "Table 8 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 9",
+      "type": "table",
+      "description": "Table 9 of the document (3 rows)",
+      "value": [
+        [
+          "Zuzüglich der gesetzlichen Mehrwertsteuer aus",
+          "EUR"
+        ],
+        [
+          "in Höhe von 19,00 %",
+          "EUR"
+        ],
+        [
+          "",
+          "EUR"
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

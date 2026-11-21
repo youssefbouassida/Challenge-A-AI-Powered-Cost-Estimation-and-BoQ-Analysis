@@ -1,0 +1,946 @@
+{
+  "document": "LV_02_PVC_Fussbodenbelag.pdf",
+  "project_id": "79-222",
+  "source": "Azure Content Understanding",
+  "summary": {
+    "positions_reviewed": 11,
+    "material_rows": 9,
+    "not_materials": 3,
+    "not_reviewed": 0,
+    "with_quantity": 9,
+    "with_unit_price": 0,
+    "conflicts": 6
+  },
+  "materials": [
+    {
+      "name": "Material 14.1.30 – Two-component epoxy screed crack repair system for cracks up to 5 mm [version LV_02_PVC_Fussbodenbelag.pdf]",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "14.1.30",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Two-component epoxy screed crack repair system for cracks up to 5 mm [version LV_02_PVC_Fussbodenbelag.pdf]",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Structural crack repair with epoxy injection resin, screed staples at approximately 30 cm spacing, and quartz sand broadcast.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "1,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": "yes – check",
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": [
+            "CONFLICT: another document of this project gives a different quantity for this position"
+          ],
+          "evidence": null
+        }
+      ],
+      "evidence": "14.1.30.\n*** Bedarfsposition ohne GB\nRisse im Estrich schlieBen\nRisse im Estrich kraftschlüssig schließen.\nLeistungsbestandteil\n\\- Risse aufweiten\n\\- Quereinschnitte herstellen\n\\- [PERSON_016] ausblasen\n\\- Gießharz einfüllen\n\\- Estrichklammern einlegen, Abstand ca. 30 cm\n\\-\nFläche mit Quarzsand abst"
+    },
+    {
+      "name": "Material 14.1.40 – Bonding or penetrating primer for screed under self-leveling compound [version LV_02_PVC_Fussbodenbelag.pdf]",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "14.1.40",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Bonding or penetrating primer for screed under self-leveling compound [version LV_02_PVC_Fussbodenbelag.pdf]",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Primer layer applied to the screed before leveling.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 7.0,
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": "yes – check",
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": [
+            "CONFLICT: another document of this project gives a different quantity for this position"
+          ],
+          "evidence": null
+        }
+      ],
+      "evidence": "14.1.40.\nUntergrundvorb.-Grundierg.,Spachtel 3mm\nUntergrundvorbereitung von Estrichoberfläche.\nLeistungsbestandteile\n-Untergrundprüfung auf Eignung, Ebenheit und Haftzugfestigkeit\n\\- Grundierung (Haft-/Tiefengrund)\n\\- Ausgleichen mit Spachtelmasse, selbstverlaufend\nZweck:\nHöhenausgleich Untergrund\nF"
+    },
+    {
+      "name": "Material 14.1.40 – Self-leveling screed smoothing compound, up to 3 mm, caster-resistant [version LV_02_PVC_Fussbodenbelag.pdf]",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "14.1.40",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Self-leveling screed smoothing compound, up to 3 mm, caster-resistant [version LV_02_PVC_Fussbodenbelag.pdf]",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Leveling layer for resilient flooring, suitable for chair casters.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 7.0,
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": "yes – check",
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": [
+            "CONFLICT: another document of this project gives a different quantity for this position"
+          ],
+          "evidence": null
+        }
+      ],
+      "evidence": "14.1.40.\nUntergrundvorb.-Grundierg.,Spachtel 3mm\nUntergrundvorbereitung von Estrichoberfläche.\nLeistungsbestandteile\n-Untergrundprüfung auf Eignung, Ebenheit und Haftzugfestigkeit\n\\- Grundierung (Haft-/Tiefengrund)\n\\- Ausgleichen mit Spachtelmasse, selbstverlaufend\nZweck:\nHöhenausgleich Untergrund\nF"
+    },
+    {
+      "name": "Material 14.1.50 – Two-component epoxy vapor barrier primer for fully bonded flooring, underfloor-heating compatible [version LV_02_PVC_Fussbodenbelag.pdf]",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "14.1.50",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Two-component epoxy vapor barrier primer for fully bonded flooring, underfloor-heating compatible [version LV_02_PVC_Fussbodenbelag.pdf]",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Vapor-tight, traffic- and abrasion-resistant coating that blocks residual moisture rising from concrete.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 7.0,
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": "yes – check",
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": [
+            "CONFLICT: another document of this project gives a different quantity for this position"
+          ],
+          "evidence": null
+        }
+      ],
+      "evidence": "14.1.50.\n*** Bedarfsposition ohne GB\nDampfbremse,2K-Epoxidharz\nDampfbremse unter vollflächig verklebte Bodenbeläge einschl.\nUntergrundvorbereitung.\nZweck:\nSperre gegen aus Betonbauteil aufsteigende\nRestfeuchtigkeit\nVorleistung:\nUntergrundvorbereitung, Nivellierausgleich\nFolgeleistung:\nelastischer Bo"
+    },
+    {
+      "name": "Material 14.1.60 – Smooth homogeneous unbacked PVC sheet flooring, 2 mm, class 34, R9, 3 dB, Bfl-s1, DS",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "14.1.60",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Smooth homogeneous unbacked PVC sheet flooring, 2 mm, class 34, R9, 3 dB, Bfl-s1, DS",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Factory-finished vinyl with welded seams, suitable for soft chair casters and underfloor heating; color subject to client approval.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 7.0,
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.1.60.\nPVC Vinyl-Bahn,2mm,Kl.34,3dB,R9,glatt\nBodenbelag aus PVC Vinyl, homogen, Bahnenware, ohne Träger nach\nDIN EN ISO 10874 einschl. Schweißschnur zum Schließen der [PERSON_016]\nund Stöße.\n02\nVorleistung: | Untergrundvorbereitung, ggf.Dampfsperre\nFolgeleistung: | endfertig\nUntergrund: | Estrich,"
+    },
+    {
+      "name": "Material 14.1.70 – PVC vinyl skirting, approximately 80 mm high [version LV_02_PVC_Fussbodenbelag.pdf]",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "14.1.70",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "PVC vinyl skirting, approximately 80 mm high [version LV_02_PVC_Fussbodenbelag.pdf]",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Basement vinyl skirting with joint and corner detailing.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 11.0,
+          "evidence": "11,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "11,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": "yes – check",
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": [
+            "CONFLICT: another document of this project gives a different quantity for this position"
+          ],
+          "evidence": null
+        }
+      ],
+      "evidence": "14.1.70.\nVinyl,Sockel,H=ca. 8cm\nSockel aus PVC Vinyl einschl. Stoß- und Eckausbildung.\nVorleistung:\nWandputz PII und PIV\nFolgeleistung:\nendfertig\nMaterial und Fuge:\nwie [PERSON_014]\n8 cm\nEinbauort:\nUG\n11,000 m"
+    },
+    {
+      "name": "Material 14.1.90 – R10 slip-resistant seal coat add-on for PVC vinyl flooring",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "14.1.90",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "R10 slip-resistant seal coat add-on for PVC vinyl flooring",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Special seal coat applied per manufacturer instructions to achieve R10 instead of R9.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.1.90.\n*** Bedarfsposition ohne GB\nZul.Versiegelung R10\nZulage zu dem zuvor beschriebenen Bodenbelag aus PVC Vinyl für die\nAusführung einer Sonderversiegelung nach Herstellervorschrift zur\nErlangung der Rutschfestigkeit R10 anstelle von R9.\n1,000 m2"
+    },
+    {
+      "name": "Material 14.1.100 – Flush anodized aluminum flooring edge and transition profile, approximately 2–7 mm high [version LV_02_PVC_Fussbodenbelag.pdf]",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "14.1.100",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Flush anodized aluminum flooring edge and transition profile, approximately 2–7 mm high [version LV_02_PVC_Fussbodenbelag.pdf]",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Finishing profile with a fixing flange for adhesive or screw mounting.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 2.0,
+          "evidence": "2,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "2,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": "yes – check",
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": [
+            "CONFLICT: another document of this project gives a different quantity for this position"
+          ],
+          "evidence": null
+        }
+      ],
+      "evidence": "14.1.100.\n[PERSON_095]\nAbschlussprofil zum bündigen Einbau mit Bodenbelag, mit\nBefestigungsschenkel zum Aufkleben oder Verschrauben auf dem\nUntergrund.\nZweck:\nBelagsabschluss an [PERSON_086] oder\nPodesten/Trennschiene bei Belagswechsel\n02\nMaterial:\nAluminium, eloxiert\nHöhe:\nca. 2-7 mm, entsprechend\n"
+    },
+    {
+      "name": "Material 14.1.130 – Aluminum-faced protective floor covering board, Tetrapak type",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "14.1.130",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Aluminum-faced protective floor covering board, Tetrapak type",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Temporary floor protection with dust-tight taped seams and wall junctions.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.1.130.\n*** Bedarfsposition ohne GB\nSchutzabdeck., Boden, Alukarton\nSchutzabdeckung für neu eingebauten Bodenbelag.\nLeistungsbestandteile\n\\- Aluminiumkaschierter Karton \"Tetrapak\"\n\\- Stöße staubdicht verklebt\n\\- Alle Wandanschlüsse staubdicht verklebt\n\\- Ausbau nach Anweisung der örtlichen Bauleit"
+    }
+  ],
+  "not_materials": [
+    {
+      "name": "Position 14.1.10",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "14.1.10",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "This position covers screed moisture testing only.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.1.10.\nMessung Estrichfeuchte\nMessung der Estrichfeuchte zur Feststellung der Belegreife.\nDie Orte der Messstellen sind zusammen mit der Bauleitung festzulegen.\n1,000 psch"
+    },
+    {
+      "name": "Position 14.1.20",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "14.1.20",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "This position covers substrate cleaning and waste disposal, not the supply of a new product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.1.20.\nReinigen des Untergrundes\nReinigung des Untergrundes von grober Verschmutzung anderer\nGewerke einschl. Entsorgung.\nAusführung nur nach Anweisung der örtlichen Bauleitung.\nLeistungsbestandteil"
+    },
+    {
+      "name": "Position 14.1.120",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "14.1.120",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "This is an initial cleaning and care service; the care agent is an incidental consumable, not a separately ordered product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "14.1.120.\nErsteinpflege\nErsteinpflege des zuvor beschriebenen Bodenbelag aus Vinyl.\nLeistungsbestandteile\n-Einschl. Ersteinpflege auf Sockelleisten aus Vinyl\n\\- Reinigung des Bodenbelages\n\\- Auftrag d"
+    }
+  ],
+  "not_reviewed": []
+}

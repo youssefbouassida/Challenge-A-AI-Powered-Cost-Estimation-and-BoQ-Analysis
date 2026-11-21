@@ -1,0 +1,936 @@
+{
+  "document": "LV_23_Sanitaertrennwaende.pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 8,
+    "with_quantity": 8,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Request for quotation",
+      "evidence": "Anfrage"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "79-222",
+      "evidence": "Projekt: 79-222"
+    },
+    {
+      "name": "LVNumber",
+      "type": "string",
+      "description": "Bill of quantities number (LV-Nr.)",
+      "value": "23",
+      "evidence": "LV: 23"
+    }
+  ],
+  "positions": [
+    {
+      "name": "Position 16.1.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "16.1.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "WC-Trennw, Melamin, Vollspanpl., UG WC Herren",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "WC-Trennwandsystem, flächenbündige Ausführung, bestehend aus Front- und Kabinentrennwänden einschl. Füße und Beschläge. System durch U-Profile [PERSON_115] über gesamte Elementhöhe unsichtbar an [PERSON_074] befestigt. Zweck: Wände / [FIRMA_095] Trockenraumnutzung, kratz- und stoßfest Melaminharz - direktbeschichtete Vollplanplatte mit ABS-Kanten, mit E6/EV1 eloxierten Aluminiumprofilen, d > 30mm Oberfäche: leicht strukturiert Kanten: farbigem ABS-Umleimer Garnitur: Drückergarnitur, [PERSON_115] SchlieBung: Riegelschloss mit Frei + Besetzt Anzeige Beschläge/Füße: [PERSON_115] Drehtür: 2 Stk Frontwandlänge: 185 cm Trennwandlänge: 153 cm Wandhöhe: 200 cm Bodenfreiheit: ca. 15 cm Gesamthöhe: ca. 2,15 m Anzahl der Kabinen: 2 Stk Farbe: RAL 7015 oder gleichwertig Zubehör: Kleiderhaken mit Puffer Anthrazitgrau / [PERSON_115] Einbauort: UG - 0.15 WC Herren",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "1,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "16.1.10."
+    },
+    {
+      "name": "Position 16.1.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "16.1.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "WC-Trennw,Melamin,Vollspanpl., EG-2.OG WC Damen",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "WC-Trennwandsystem, flächenbündige Ausführung, bestehend aus Front-/Seiten/- und Kabinentrennwänden einschl. Füße und Beschläge. System durch U-Profile [PERSON_115] über gesamte Elementhöhe unsichtbar an [PERSON_074] befestigt. Inkl. gleitendem Anschluss an Fassadenelement. Zweck: | Trockenraumnutzung, kratz- und stoßfest Wände / [FIRMA_095] | Melaminharz - direktbeschichtete Vollplanplatte mit ABS-Kanten, mit E6/EV1 eloxierten Aluminiumprofilen, d > 30mm Garnitur: | Drückergarnitur, [PERSON_115] Schließung: | Riegelschloss mit Frei + Besetzt Anzeige Beschläge/Füße: | [PERSON_115] Drehtür: | 2 Stk 23 Frontwandlänge: | 204,5 cm Trennwandlänge: | 130,5 cm Seitenwandlänge: | 130,5 cm Wandhöhe: | 200 cm Bodenfreiheit: | ca. 15 cm Gesamthöhe: | ca. 2,15 m Anzahl der Kabinen: | 2 Stk Farbe: | RAL 7015 oder gleichwertig Zubehör: | Kleiderhaken mit Puffer Anthrazitgrau / [PERSON_115] Einbauort: | EG - 1.13 WC Damen 1.OG - 2.12 WC Damen 2.OG - 3.11 WC Damen",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 3.0,
+          "evidence": "3,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "3,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "16.1.20."
+    },
+    {
+      "name": "Position 16.1.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "16.1.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "WC-Trennw,Melamin,Vollspanpl., EG-2.OG WC Herren",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "WC-Trennwandsystem, flächenbündige Ausführung, bestehend aus Front- und Seitenwänden einschl. Füße und Beschläge. System durch U- Profile [PERSON_115] über gesamte Elementhöhe unsichtbar an StB-/TB- [PERSON_074] befestigt. Inkl. gleitendem Anschluss an Fassadenelement. Zweck: | Trockenraumnutzung, kratz- und stoßfest Wände / [FIRMA_095] | Melaminharz - direktbeschichtete Vollplanplatte mit ABS-Kanten, mit E6/EV1 eloxierten Aluminiumprofilen, d > 30mm Garnitur: | Drückergarnitur, [PERSON_115] Schließung: | Riegelschloss mit Frei + Besetzt Anzeige Beschläge/Füße: | [PERSON_115] Drehtür: | 1 Stk Frontwandlänge: | 111,5 cm Seitenwandlänge: | 122,5 cm Wandhöhe: | 200 cm Bodenfreiheit: | ca. 15 cm Gesamthöhe: | ca. 2,15 m Anzahl der Kabinen: | 1 Stk Farbe: | RAL 7015 oder gleichwertig Zubehör: | Kleiderhaken mit Puffer Anthrazitgrau / [PERSON_115] Einbauort: | EG - 1.12 WC Herren 1.OG - 2.11 WC Herren 2.OG - 3.10 WC Herren",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 3.0,
+          "evidence": "3,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "3,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "16.1.30."
+    },
+    {
+      "name": "Position 16.1.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "16.1.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Schamw, Melamin, Vollspan, 40x90cm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Schamwand im System der zuvor beschriebenen WC-Trennwand. Trägermaterial: | Melaminharz - direktbeschichtete Vollplanplatte mit ABS-Kanten, mit E6/EV1 eloxierten Aluminiumprofilen, d > 30mm Beschläge: | [PERSON_115] Abmessung: | ca. 40x90 cm Bodenfreiheit: | ca. 15 cm Gesamthöhe: | ca. 2,15 m Farbe: | RAL 7015 oder gleichwertig Einbauort: | UG 0.15 WC Herren",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "2,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "16.1.40."
+    },
+    {
+      "name": "Position 16.1.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "16.1.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Sichtschutzw., Melamin, Vollspanpl., 100x200cm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Sichtschutzwand im System der zuvor beschriebenen WC-Trennwand mit Füßen. Trägermaterial: | Melaminharz - direktbeschichtete Vollplanplatte mit ABS-Kanten, mit E6/EV1 eloxierten Aluminiumprofilen, d > 30mm Beschläge/Füße: | [PERSON_115] Abmessung: | ca. 100x200 cm Bodenfreiheit: | ca. 15 cm Gesamthöhe: | ca. 2,15 m Farbe: | RAL 7015 oder gleichwertig Einbauort: | UG - 0.18 Umkleide Herren EG - 1.12 WC Herren 1.OG - 2.11 WC Herren 2.OG - 3.10 WC Herren",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 4.0,
+          "evidence": "4,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "4,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "16.1.50."
+    },
+    {
+      "name": "Position 16.1.60",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "16.1.60",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Duschtrennw. T-Form, HPL, Vollkern,90x200cm, T=60cm Sichtschutzwand im System der zuvor beschriebenen WC-Trennwand, als Duschtrennwand in T-Form mit Füßen und Beschlägen. Zweck: | Nassraumnutzung Oberfäche: | raumatte Oberflächenstruktur Trägermaterial: | Wasserfeste HPL-Compactplatte (Vollkernplatte) mit E6/EV1 eloxierten Aluminiumprofilen, d > 25 mm 23 OZ Leistungsbeschreibung Menge ME Einheitspreis in EUR Gesamtbetrag in EUR Kanten: farbigem ABS-Umleimer Beschläge/Füße: [PERSON_115] Abmessung: ca. 90x200 cm, T=60x200cm Bodenfreiheit: ca. 15cm Gesamthöhe: ca. 2,15m Farbe: RAL 7015 oder gleichwertig Einbauort: UG - 0.18a Dusche Herren",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "1,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "16.1.60."
+    },
+    {
+      "name": "Position 16.1.70",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "16.1.70",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Anarbeitung an bauliche Vor-/Rücksprünge",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Anarbeitung der zuvor beschriebenen WC-Trennwand an bauliche Vor-/Rücksprünge wie Vorwände, Nischen, Sockel etc. Stirnkanten: wie in Hauptposition",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 7.0,
+          "evidence": "7,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "7,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "16.1.70."
+    },
+    {
+      "name": "Position 16.1.80",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "16.1.80",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Fingerklemmschutz",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Fingerklemmschutz im System des zuvor beschriebenen WC- Trennwandsystems. Zweck: Quetschschutz Ausführung: bandseitig, über gesamte Türhöhe Türhöhe: 2,00 m",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 11.0,
+          "evidence": "11,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "11,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "16.1.80."
+    }
+  ],
+  "tables": [
+    {
+      "name": "Table 1",
+      "type": "table",
+      "description": "Table 1 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 2",
+      "type": "table",
+      "description": "Table 2 of the document (8 rows)",
+      "value": [
+        [
+          "Zweck:",
+          "Trockenraumnutzung, kratz- und stoßfest"
+        ],
+        [
+          "Wände / [FIRMA_095]",
+          "Melaminharz - direktbeschichtete Vollplanplatte mit ABS-Kanten, mit E6/EV1 eloxierten Aluminiumprofilen, d > 30mm"
+        ],
+        [
+          "Oberfäche:",
+          "leicht strukturiert"
+        ],
+        [
+          "Kanten:",
+          "farbigem ABS-Umleimer"
+        ],
+        [
+          "Garnitur:",
+          "Drückergarnitur, [PERSON_115]"
+        ],
+        [
+          "Schließung:",
+          "Riegelschloss mit Frei + Besetzt Anzeige"
+        ],
+        [
+          "Beschläge/Füße:",
+          "[PERSON_115]"
+        ],
+        [
+          "Drehtür:",
+          "2 Stk"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 3",
+      "type": "table",
+      "description": "Table 3 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 4",
+      "type": "table",
+      "description": "Table 4 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 5",
+      "type": "table",
+      "description": "Table 5 of the document (10 rows)",
+      "value": [
+        [
+          "Frontwandlänge:",
+          "204,5 cm"
+        ],
+        [
+          "Trennwandlänge:",
+          "130,5 cm"
+        ],
+        [
+          "Seitenwandlänge:",
+          "130,5 cm"
+        ],
+        [
+          "Wandhöhe:",
+          "200 cm"
+        ],
+        [
+          "Bodenfreiheit:",
+          "ca. 15 cm"
+        ],
+        [
+          "Gesamthöhe:",
+          "ca. 2,15 m"
+        ],
+        [
+          "Anzahl der Kabinen:",
+          "2 Stk"
+        ],
+        [
+          "Farbe:",
+          "RAL 7015 oder gleichwertig"
+        ],
+        [
+          "Zubehör:",
+          "Kleiderhaken mit Puffer Anthrazitgrau / [PERSON_115]"
+        ],
+        [
+          "Einbauort:",
+          "EG - 1.13 WC Damen 1.OG - 2.12 WC Damen 2.OG - 3.11 WC Damen"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 6",
+      "type": "table",
+      "description": "Table 6 of the document (18 rows)",
+      "value": [
+        [
+          "Zweck:",
+          "Trockenraumnutzung, kratz- und stoßfest"
+        ],
+        [
+          "Wände / [FIRMA_095]",
+          "Melaminharz - direktbeschichtete Vollplanplatte mit ABS-Kanten, mit E6/EV1 eloxierten Aluminiumprofilen, d > 30mm"
+        ],
+        [
+          "Oberfäche:",
+          "leicht strukturiert"
+        ],
+        [
+          "Kanten:",
+          "farbigem ABS-Umleimer"
+        ],
+        [
+          "Garnitur:",
+          "Drückergarnitur, [PERSON_115]"
+        ],
+        [
+          "Schließung:",
+          "Riegelschloss mit Frei + Besetzt Anzeige"
+        ],
+        [
+          "Beschläge/Füße:",
+          "[PERSON_115]"
+        ],
+        [
+          "Drehtür:",
+          "1 Stk"
+        ],
+        [
+          "Frontwandlänge:",
+          "111,5 cm"
+        ],
+        [
+          "Seitenwandlänge:",
+          "122,5 cm"
+        ],
+        [
+          "Wandhöhe:",
+          "200 cm"
+        ],
+        [
+          "Bodenfreiheit:",
+          "ca. 15 cm"
+        ],
+        [
+          "Gesamthöhe:",
+          "ca. 2,15 m"
+        ],
+        [
+          "Anzahl der Kabinen:",
+          "1 Stk"
+        ],
+        [
+          "Farbe:",
+          "RAL 7015 oder gleichwertig"
+        ],
+        [
+          "Zubehör:",
+          "Kleiderhaken mit Puffer Anthrazitgrau / [PERSON_115]"
+        ],
+        [
+          "Einbauort:",
+          "EG - 1.12 WC Herren 1.OG - 2.11 WC Herren"
+        ],
+        [
+          "2.OG - 3.10 WC Herren"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 7",
+      "type": "table",
+      "description": "Table 7 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 8",
+      "type": "table",
+      "description": "Table 8 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 9",
+      "type": "table",
+      "description": "Table 9 of the document (9 rows)",
+      "value": [
+        [
+          "Oberfäche:",
+          "leicht strukturiert"
+        ],
+        [
+          "Trägermaterial:",
+          "Melaminharz - direktbeschichtete Vollplanplatte mit ABS-Kanten, mit E6/EV1 eloxierten Aluminiumprofilen, d > 30mm"
+        ],
+        [
+          "Kanten:",
+          "farbigem ABS-Umleimer"
+        ],
+        [
+          "Beschläge:",
+          "[PERSON_115]"
+        ],
+        [
+          "Abmessung:",
+          "ca. 40x90 cm"
+        ],
+        [
+          "Bodenfreiheit:",
+          "ca. 15 cm"
+        ],
+        [
+          "Gesamthöhe:",
+          "ca. 2,15 m"
+        ],
+        [
+          "Farbe:",
+          "RAL 7015 oder gleichwertig"
+        ],
+        [
+          "Einbauort:",
+          "UG 0.15 WC Herren"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 10",
+      "type": "table",
+      "description": "Table 10 of the document (12 rows)",
+      "value": [
+        [
+          "Oberfäche:",
+          "leicht strukturiert"
+        ],
+        [
+          "Trägermaterial:",
+          "Melaminharz - direktbeschichtete Vollplanplatte mit ABS-Kanten, mit E6/EV1 eloxierten Aluminiumprofilen, d > 30mm"
+        ],
+        [
+          "Kanten:",
+          "farbigem ABS-Umleimer"
+        ],
+        [
+          "Beschläge/Füße:",
+          "[PERSON_115]"
+        ],
+        [
+          "Abmessung:",
+          "ca. 100x200 cm"
+        ],
+        [
+          "Bodenfreiheit:",
+          "ca. 15 cm"
+        ],
+        [
+          "Gesamthöhe:",
+          "ca. 2,15 m"
+        ],
+        [
+          "Farbe:",
+          "RAL 7015 oder gleichwertig"
+        ],
+        [
+          "Einbauort:",
+          "UG - 0.18 Umkleide Herren"
+        ],
+        [
+          "",
+          "EG - 1.12 WC Herren"
+        ],
+        [
+          "1.OG - 2.11 WC Herren"
+        ],
+        [
+          "2.OG - 3.10 WC Herren"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 11",
+      "type": "table",
+      "description": "Table 11 of the document (3 rows)",
+      "value": [
+        [
+          "Zweck:",
+          "Nassraumnutzung"
+        ],
+        [
+          "Oberfäche:",
+          "raumatte Oberflächenstruktur"
+        ],
+        [
+          "Trägermaterial:",
+          "Wasserfeste HPL-Compactplatte (Vollkernplatte) mit E6/EV1 eloxierten Aluminiumprofilen, d > 25 mm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 12",
+      "type": "table",
+      "description": "Table 12 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 13",
+      "type": "table",
+      "description": "Table 13 of the document (4 rows)",
+      "value": [
+        [
+          "Zuzüglich der gesetzlichen Mehrwertsteuer aus",
+          "EUR"
+        ],
+        [
+          "in Höhe von 19,00 %",
+          "EUR"
+        ],
+        [
+          "",
+          "EUR"
+        ],
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

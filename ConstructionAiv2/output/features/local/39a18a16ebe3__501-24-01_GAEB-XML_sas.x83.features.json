@@ -1,0 +1,1261 @@
+{
+  "document": "501-24-01_GAEB-XML_sas.x83",
+  "source": "local GAEB reader (exact values from the XML / GAEB file)",
+  "summary": {
+    "positions": 19,
+    "with_quantity": 19,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (GAEB LblPrj)",
+      "value": "[PROJEKT_006]",
+      "evidence": "GAEB file"
+    },
+    {
+      "name": "ProjectName",
+      "type": "string",
+      "description": "Project name (GAEB NamePrj)",
+      "value": "[PROJEKT_001]",
+      "evidence": "GAEB file"
+    },
+    {
+      "name": "GaebPhase",
+      "type": "string",
+      "description": "GAEB exchange phase (X83 = tender, X84 = offer …)",
+      "value": "X83",
+      "evidence": "GAEB file"
+    },
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Bill of quantities",
+      "evidence": "Leistungsverzeichnis [PROJEKT_001]"
+    }
+  ],
+  "positions": [
+    {
+      "name": "Position 01.01",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "01.01",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "im gesamten Trassenbereich der geplanten [PROJEKT_001].",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "BE Tiefbau Wasserleitung im Gewerk Tiefbau Wasserleitung BE Liefern und Verlegen der Wasserleitung im Gewerk Liefern und Verlegen der Wasserleitung. Verkehrssicherung für alle ausgeschriebenen Leistungen - Straßenbau / Wiederherstellung - Tiefbau Wasserleitung - Liefern und Verlegen der Wasserleitung Hinweis: Naturschutzrechtliche Vorgaben zur Durchführung der Gesamtmaßnahme [PROJEKT_001]. Alle nachfolgend aufgeführten Punkte werden im Hinblick auf die Realisierung der Maßnahme Vertragsgegenstand und sind unbedingt einzuhalten: - Baustelleneinrichtungen aller Art dürfen ausschließlich nur außerhalb des ausgewiesenen FFH - Gebietes (Natura2000) s. Übersicht Schutzgebiete, erstellt und betrieben werden. Sie müssen Straßen- und Wege nah liegen. - Betankungen von Fahrzeugen und Maschinen sind ausschließlich außerhalb des FFH - Gebietes (Waldbereich) , sowie der angrenzenden Bereiche vorzunehmen. s. vor Baustelleneinrichtungen. - Um eine Beeinträchtigung der Lebensstätten des Großen Mausohrs (Fledermaus) im FFH - Gebiet \" Obere Argen und Seitentäler\" auszuschließen, sind die Arbeiten im und direkt angrenzend an das FFH - Gebiet nur bei Tageslicht auszuführen. Eine Beleuchtung der Baustelle ist verboten! - Die WL - Trasse verläuft zwischen Station 0+580 und 0+600 mittels Spülbohrung durch das Offenlandbiotop Feuchtgebiet im Bereich der Rückgasse Waldweg. Der Bereich außerhalb der Rückgasse darf nicht beeinträchtigt werden und ist seitens des AN mit Bauzäunen abzugrenzen! - Grundsätzlich dürfen keine wassergefährdenden Stoffe auf die Baustelle geliefert und eingebaut werden. Generell hat sich der AN vor Beginn der Arbeiten genau über diese Sachverhalte auch mittels Planübersichten, ggf. vor Ort Besichtigung zu informieren. Alle daraus resultierenden Mehrkosten sind in die Baustellengemeinkosten einzukalkulieren und werden nicht gesondert vergütet! Hinweis: Hinweis für alle im Gesamt - LV ausgeschriebenen Positionen Baustelleneinrichtung und Verkehrssicherung. Der Kalkulator hat für diese Positionen, die Baubeschreibung, die besonderen Vertragsbedingungen und die Ausführungsplanung als Kalkulationsgrundlage zu beachten. Die hier ausgeschriebene Baustelleneinrichtung und ist für das Gewerk Straßenbauarbeiten, die Verkehrssicherung für alle Leistungen im Gesamt LV zu kalkulieren. Eventuell zusätzliche Leistungen bei einer möglichen Winterpause sind vom AN einzukalkulieren! Die Baustelleneinrichtungen der anderen Gewerke Tiefbauarbeiten Wasserleitung, Liefern und Verlegen Wasserleitung, sowie der 2 Spülbohrungen, sind in den jeweiligen Gewerken ausgeschrieben. Die Maßnahme kann nach [PERSON_125] des AN jahresübergreifend 2025 und 2026 in bis zu 2 Durchgängen ausgeführt werden. Es ist auch eine Ausführungszeit mit 1 Durchgang in 2025 oder 2026 möglich, Die Gesamtmaßnahme muss bis spätestens Ende Juni 2026 abgeschlossen sein. Es können zeitgleich Arbeiten in verschiedenen Bereichen (Mehrere Einsatzstellen) durchgeführt werden, Die Koordination der einzelnen Einsatzstellen obliegt dem AN in Absprache mit der Bauleitung des AG. Der Einsatz von gleichzeitig bis zu 2 Kolonnen (Tiefbau und Verlegung = 1 Kolonne), an bis zu 2 örtlich getrennten Einsatz- stellen ist mit einzukalkulieren! Hierbei ist für die erforderlichen verkehrsrechtlichen Anordnungen, eine genaue Absprache mit der zuständigen Straßenverkehrsbehörde zu halten. Die komplette inner- und überörtliche Umleitung wird durch den AN veranlasst und durchgeführt. Es ist zwingend darauf zu achten, dass die Anlieger vor Ort eine ständige Zu- und [PERSON_043], soweit möglich, besitzen. Die einzelnen Teilabschnitte sind dementsprechend festzulegen und ggf. mit Übergangsprovisorien in Kreuzungsbereichen zu realisieren. Die Arbeiten im Waldbereich sind zusätzlich mit dem Zuständigen der Waldbesitzergemeinschaft (Herr [PERSON_079]) zu koordinieren. Eine zusätzliche Vergütung über die ausgeschriebenen BE- und Verkehrssicherungspositionen Positionen hinaus, erfolgt nicht! 01.01.0001 Baustelle einrichten Dies.LV-Abschn.*Zufahrt vorh. Geräte, Werkzeuge und sonstige Betriebsmittel, die zur vertragsgemäßen Ausführung der Bauleistungen erforder- lich sind, auf die Baustelle bringen, bereitstellen und - soweit der Geräteeinsatz nicht gesondert vergütet wird - betriebsfertig aufstellen einschl. der dafür notwendigen Arbeiten. Die erforderlichen festen Anlagen herstellen. Baubüros, Unterkünfte, Werkstätten, Lager- schuppen und dgl., soweit erforderlich, antransportie- ren, aufbauen und einrichten. Strom-, [PERSON_029]-, Fern- sprechanschluss sowie Entsorgungseinrichtungen und dgl. für die Baustelle, soweit erforderlich, herstellen. Bei Bedarf Lagerplätze, sonstige Platzbefestigungen und We- ge im Baustellenbereich anlegen. Oberbodenarbeiten einschl. Beseitigen von Aufwuchs für die Baustellenein- richtung, soweit erforderlich, ausführen. Flächen be- schaffen, sofern die vom AG zur Verfügung gestellten nicht ausreichen. Kosten für Vorhalten, Unterhalten und Betreiben der Geräte, Anlagen und Einrichtungen einschl. Mieten, Pacht, Gebühren und dgl. werden nicht mit dieser Pauschale, sondern mit den Einheitspreisen der betreffenden Teilleistungen vergütet. Soweit nicht für bestimmte Leistungen für das Einrichten der Bau- stelle gesonderte Positionen im Leistungsverzeichnis enthalten sind, gilt die Pauschale für alle Leistungen dieses Abschnittes des Leistungs- verzeichnisses. Zufahrt zur Baustelle vorhanden.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "psch",
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 01.01 Baustelleneinrichtung für Straßenbau / Wiederherstellungsarbeiten"
+    },
+    {
+      "name": "Position 01.02",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "01.02",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Hinweis: Für die Ausführung gelten",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "die Zusätzlichen Technischen Vertragsbedingungen und Richtlinien für [ORT_030] im Straßenbau (ZTVE-StB), die Zusätzlichen Technischen Vertragsbedingungen und Richtlinien für die Ausführung von Tragschichten im Straßenbau (ZTVT-StB), die Zusätzlichen Technischen Vertragsbedingungen und Richtlinien für die Ausführung von Bodenverfestigungen und Bodenverbesserungen im Straßenbau (ZTVV-StB), die Technischen Lieferbedingungen für Mineralstoffe im Straßenbau (TL Min-StB). Die Zusätzlichen Technischen Vertragsbedingungen und Richtlinien für Aufgrabungen in Verkehrsflächen (ZTVA-StB). Das Merkblatt für das Verfüllen von Leitungsgräben. Des Weiteren folgende DIN Normen mit entsprechenden ATV`: - DIN [ORT_030] - DIN [ORT_019] - DIN [ORT_008] - DIN [ORT_031] außerhalb von Gebäuden - DIN [ORT_010] (für Oberbodenarbeiten) - DIN [ORT_018] Hinweis: Die Leistungen werden abgerechnet nach den jeweilig zuständigen DIN Normen. - DIN [ORT_030] - DIN [ORT_019] - DIN [ORT_008] - DIN [ORT_031] außerhalb von Gebäuden - DIN [ORT_010] (für Oberbodenarbeiten) - DIN [ORT_018] Hinweis: Die Mengenermittlung für die Abrechnung der Leistungen erfolgt nach Aufmaß und Ausführungszeichnungen. Hinweis: Bei der Ermittlung für Bodenaushub wird abgezogen das Raummaß der Leitungen mit einem äußeren Querschnitt von mehr als 0,1 m², das Raummaß von Baukörpern mit einem Rauminhalt von mehr als 0,10 m³. Hinweis: Hinweise zu allen [ORT_030] im Bereich [PROJEKT_001] zum sachgerechten Umgang mit kulturfähigem Bodenmaterial. Grundlage hierfür bildet das erstellte Bodenschutzkonzept für diese Maßnahme. Horizont Ah Mutterboden/ Kulturfähiger Oberboden Sachgerechter Umgang Oberboden ab- und wieder auftragen: Sofern Oberboden in Haufwerken zwischen gelagert wird, sind im Vorfeld des Oberbodenabtrags so gut wie möglich, oberirdische Pflanzenteile zu entfernen, um schädliche Umsetzungen bei der Zwischenlagerung in Haufwerken minimieren zu können. Die Oberbodenmieten sind in einer lockeren Schüttung, mit einer max. Höhe von 2,00 m anzulegen. Die Miete ist trapezförmig zu profilieren und muss geglättet werden, um witterungsbedingte Vernässung zu vermeiden. Bei der Zwischenlagerung soll die biologische Aktivität des Oberbodens erhalten bleiben. Notwendig sind daher ausreichende Belüftung, Schutz vor Vernässung und bei länger lagerndem Oberbodenmaterial eine Bepflanzung mit Lippenblütlern. Horizont Bv Kulturfähiger [PERSON_057] unterhalb vom Ah Horizont, bis ca. - 0,80 m unter Gel OK [PERSON_057] ausheben, seitlich lagern und wieder einbauen: Material kann und soll zum An- und Wiederverfüllen unter einer ausreichend mächtigen Ah - Schicht verwendet werden. Der kulturfähige [PERSON_057] (Verwitterungslehm/[PERSON_033])) ist mit Sorgfalt aus- und wieder einzubauen, eine zu starke Verdichtung und dadurch bedingte Gefügeveränderung und Vernässung muss vermieden werden. Die Unterbodenmieten sind mit geglätteten Flanken von max. 3 m Höhe anzulegen. Horizont C I Ab einer Tiefe von - 0,80 m unter Gel OK äolisch geprägte \"Deckschichten\" Gering bis schwach tonige, sandige, sowie schwach kiesige Schluffe. Horizont C II Tieferer Untergrund Decklehme und Moränesedimente Moränensand, Moränenkies und Grundmoräne. Generelle Anforderungen für den Umgang mit allen Horizonten: Die einzelnen Horizonte sollten nach Möglichkeit wieder in ihrer ursprünglichen Reihenfolge eingebaut werden, also A über B über C. Eine Durchmischung des Materials der einzelnen Horizonte ist zu vermeiden. Verdrängter, übriger Aushub muss auf einen Lagerplatz in Haufwerke aufgesetzt werden nach EBV/VwV Baden Württemberg beprobt und anschließend zu einer geeigneten Verwertungsstelle verbracht werden. Hierfür sind in der Ausschreibung entsprechende Positionen vorgesehen. Minimierung der Flächenbefahrung und maximale Reduktion der Transportstrecken, Einsatz von Kettenbaggern mit langstieligen Löffeln; Verzicht auf Schubraupen, Einsatz von Schleppern mit günstigem Reifendruck auf sensiblem Untergrund. Kein Befahren der umgebenden Freiflächen = Tabuflächen (z.B. landwirtschaftliche Flächen); unvermeidliche Überfahrung nur mit Fahrzeugen geringer Bodenpressung (Kettenfahrzeuge, Traktoren mit Muldenkipper, Radfahrzeuge nur in Verbindung mit geeigneten Unterlagen). Im Bereich der Leitungstrasse in öffentlichen Wegen mit Ausführung senkrecht im Verbau, hat der AN mit Arbeitsabläufen im Überkopfverfahren, sowohl für den Wegebau, wie auch für den Tiefbau Wasserleitung zu kalkulieren. Ein entsprechender zusätzlicher Einsatz von Maschinen und Personal ist hier unbedingt zu berücksichtigen! Die Gesamtlänge der betroffenen Weg- und Verlegestrecken im verbauten Graben beträgt ca. 90 - 100 m, davon ca. 80 m im Waldwegbereich von ca. Station 0+990 - bis 1+070 Bauende. Die Ausführung der Arbeiten generell, sind nach vorheriger Abstimmung mit den jeweiligen Grundstücksbesitzern, b.z.w. Pächtern der betroffenen Grundstücke auch im Hinblick auf notwendige Wiesenschnitte und Waldarbeiten auszuführen! Dies gilt für Abtrags- und Auftragsflächen! Dem Kalkulator wird dringend empfohlen, Einsicht in das entsprechend, vorliegende Bodenschutzkonzept zu nehmen! Hinweis: Im Gewerk Tiefbau Wasserleitung ist eine Erschwernisposition für alle Mehraufwendungen, für alle Gewerke im Hinblick auf das einzuhaltende Bodenschutzkonzept ausgeschrieben. Dort hat der Kalkulator den gesamten Mehraufwand der Gesamtmaßnahme einzukalkulieren! Hinweis: Hinweis zur Abfuhr und Weiterverwertung/Deponierung von zwischengelagertem, beprobtem [PERSON_093] Straßen- und Wegebau: Die Abrechnung erfolgt über die entsprechenden Positionen im Gewerk Tiefbau Wasserleitung! Hier im Gewerk Straßen- und Wegebau sind nur die Leistungen Aushub und Abfuhr auf den Zwischenlagerplatz zur Beprobung ausgeschrieben. Der Kalkulator hat dies zu beachten! Hinweis: Hinweis zu allen [ORT_030]: Die Tiefbauarbeiten sind im Wesentlichen nach der neuen DIN 18300 (2015-08) [ORT_030] in Anlehnung an die DIN 4020 Geotechnische Untersuchungen für bautechnische Zwecke mit den entsprechenden Homogenbereichen ausgeschrieben. Grundlage ist der Geotechnische Bericht von fm - Geotechnik Ingenieurbüro für Geotechnik. Die hier aufgeführten Homogenbereiche sind in den maßgebenden Aushubpositionen detailliert mit ihren jeweiligen, geschätzten anteiligen Mengen, beschrieben: HB A1: Auffüllungen Kies Bodenklasse DIN 18300 (2012-09) 3, 4, HB A2: Auffüllung [PERSON_033] Bodenklasse DIN 18300 (2012-09) 4 HB B 1: Torf Bodenklasse DIN 18300 (2012-09) 2/4 HB B 2: Verwitterungslehm/angewitterte Grundmoräne Bodenklasse DIN 18300 (2012-09) 4 HB B 3: Moränesand Bodenklasse DIN 18300 (2012-09) 2,3,4 HB B 4: Moränekies Bodenklasse DIN 18300 (2012-09) 3,4 HB B 5: Grundmoräne, [PERSON_033] Bodenklasse DIN 18300 (2012-09) 4 Da die angetroffenen bindigen Böden teilweise wasserempfindlich sind, können diese Böden bei nicht fachgerechter Zwischenlagerung und bei starken Niederschlägen während eines Transports oder durch mechanische Beanspruchung aufweichen, so dass diese ggf. in die Bodenklasse 2 nach DIN 18300 (2012-09) b.z.w. in eine breiige Konsistenz übergehen können. Der AN hat Sorge dafür zu tragen, dass diese empfindlichen Böden nicht in die Bodenklasse 2 übergehen. Eine Vergütung der Bodenklasse 2 erfolgt nicht! Hinweis: Übersicht der Homogenbereiche im Straßen- und Wegebau mit einer Aushubtiefe bis ca, 0,80 m ab OK Gelände: Homogenbereich 1 , mit 3 Bodengruppen, Bodengruppe 1 GU DIN 18196 (Kies-[PERSON_033]-Gemisch), Bodengruppe 2 GU* DIN 18196 (Kies-[PERSON_033]-Gemisch), Bodengruppe 3 UL DIN 18196 (leicht plastischer [PERSON_033]), Tiefe oberer Horizont des Homogenbereiches von 0 m, Tiefe unterer Horizont des Homogenbereiches bis 1 m, geschätzter Anteil des Homogenbereiches an der Gesamtaushubmenge 90,000 %, ortsübliche Bezeichnung Homogenbereich A 1 Auffüllung,Kies Bkl. 3,4, nach DIN 18300 (2012-09). Baumaßnahme der Geotechnischen Kategorie 2 DIN 4020, Kornverteilungsbereich DIN EN ISO 17892-4: - [PERSON_108] unterer Wert 0 %, - [PERSON_108] oberer Wert 2 %, - [PERSON_033] unterer Wert 2 %, - [PERSON_033] oberer Wert 25 %, - Massenanteile Sand unterer Wert 15 %, - Massenanteile Sand oberer Wert 40 %, - Massenanteile Kies unterer Wert 50 %, - Massenanteile Kies oberer Wert 70 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) unterer Wert 0 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) oberer Wert 15 %, - Feuchtdichte Boden DIN EN ISO 17892-2 oder DIN 18125-2 über 2000 bis 2200 kg/m3, - Wassergehalt bis 5 %, - Lagerungsdichte mitteldicht, - Organischer Masseanteil DIN 18128 größer 5 %, Homogenbereich 2 , mit 2 Bodengruppen, Bodengruppe 1 UL DIN 18196 (leicht plastischer [PERSON_033]), Bodengruppe 2 UM DIN 18196 (mittelplastischer [PERSON_033]), Tiefe oberer Horizont des Homogenbereiches von 0 m, Tiefe unterer Horizont des Homogenbereiches bis 1 m, geschätzter Anteil des Homogenbereiches an der Gesamtaushubmenge 10,000 %, ortsübliche Bezeichnung Homogenbereich A 2 Auffüllung, [PERSON_033] Bkl. 4, nach DIN 18300 (2012-09). Baumaßnahme der Geotechnischen Kategorie 2 DIN 4020, Kornverteilungsbereich DIN EN ISO 17892-4: - [PERSON_108] unterer Wert 2 %, - [PERSON_108] oberer Wert 20 %, - [PERSON_033] unterer Wert 55 %, - [PERSON_033] oberer Wert 75 %, - Massenanteile Sand unterer Wert 10 %, - Massenanteile Sand oberer Wert 30 %, - Massenanteile Kies unterer Wert 5 %, - Massenanteile Kies oberer Wert 15 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) unterer Wert 0 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) oberer Wert 5 %, - Feuchtdichte Boden DIN EN ISO 17892-2 oder DIN 18125-2 über 2000 bis 2200 kg/m3, - Scherfestigkeit undräniert von 20 kPa, - Scherfestigkeit undräniert bis 40 kPa, - Wassergehalt bis 5 %, - Konsistenzzahl DIN EN ISO 17892-12 Ic von 0,5, - Konsistenzzahl DIN EN ISO 17892-12 Ic bis 0,75, - Plastizitätszahl DIN EN ISO 17892-12 Ip von 4 %, - Plastizitätszahl DIN EN ISO 17892-12 Ip bis 25 %, - Organischer Masseanteil DIN 18128 größer 5 %. 01.02.0001 Boden Verkehrsfläche lösen mit Gerät laden transp. LKW AN entsorgen Vergüt.Entsorg. AN AVV170504 Abtrag-T 1m GW GI GU GT GU* Boden für Verkehrsflächen, ab Geländeoberfläche, nach Abtrag von Oberflächenbefestigungen (Asphalt), falls vorhanden, oder ab OK Kies- und Waldwege, profilgerecht lösen und direkt laden, Arbeiten mit Gerät, auf LKW des AN laden, transportieren und auf Zwischenlager des AN bis ca. 5 KM einfache Entfernung zur Beprobung fahren und abladen. Bereich Verkehrsflächen (Zufahrten Ortswege/Straßen mit Asphaltbefestigung) und unbefestigte Wald- und Verbindungswege (Kieswege). Ausführung und Abrechnung nur außerhalb vom Wasserleitungsgraben! Innerhalb vom Wasserleitungsgraben erfolgt die Abrechnung Aushub im Gewerk Tiefbau Wasserleitung bis OK Gel. Die Wiederaufnahme und Weiterverwertung/Entsorgung nach Analyseergebnis wird im Gewerk Tiefbau Wasserleitung in entsprechenden Positionen gesondert vergütet. Abtragtiefe bis 0,80 m, Ausführung einschl. Herstellen des Erdplanums zur Aufnahme der Kiesschicht, Straßen- und Wegebau. Mengenermittlung nach Aufmaß und Abtragprofilen. Hinweis: Sollten im Zuge der Baumaßnahme Aushubmengen nicht auf das Zwischenlager, sondern direkt von der Aushubstelle auf Weiterverwertungsstellen nach Angabe der Gemeinde oder Landwirte gefahren werden, so sind diese Mengen zur Abrechnung für die Gesamtmassenbilanz nach Fuhrberichten zu dokumentieren. Die Abrechnung erfolgt ebenfalls hier in dieser Position! Vor Ausführung ist die Bauleitung des AG zu informieren! Betreffende Homogenbereiche nachfolgend: Homogenbereich 1 , mit 3 Bodengruppen, Bodengruppe 1 GU DIN 18196 (Kies-[PERSON_033]-Gemisch), Bodengruppe 2 GU* DIN 18196 (Kies-[PERSON_033]-Gemisch), Bodengruppe 3 UL DIN 18196 (leicht plastischer [PERSON_033]), Tiefe oberer Horizont des Homogenbereiches von 0 m, Tiefe unterer Horizont des Homogenbereiches bis 1 m, geschätzter Anteil des Homogenbereiches an der Gesamtaushubmenge 90,000 %, ortsübliche Bezeichnung Homogenbereich A 1 Auffüllung,Kies Bkl. 3,4, nach DIN 18300 (2012-09). Baumaßnahme der Geotechnischen Kategorie 2 DIN 4020, Kornverteilungsbereich DIN EN ISO 17892-4: - [PERSON_108] unterer Wert 0 %, - [PERSON_108] oberer Wert 2 %, - [PERSON_033] unterer Wert 2 %, - [PERSON_033] oberer Wert 25 %, - Massenanteile Sand unterer Wert 15 %, - Massenanteile Sand oberer Wert 40 %, - Massenanteile Kies unterer Wert 50 %, - Massenanteile Kies oberer Wert 70 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) unterer Wert 0 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) oberer Wert 15 %, - Feuchtdichte Boden DIN EN ISO 17892-2 oder DIN 18125-2 über 2000 bis 2200 kg/m3, - Wassergehalt bis 5 %, - Lagerungsdichte mitteldicht, - Organischer Masseanteil DIN 18128 größer 5 %, Homogenbereich 2 , mit 2 Bodengruppen, Bodengruppe 1 UL DIN 18196 (leicht plastischer [PERSON_033]), Bodengruppe 2 UM DIN 18196 (mittelplastischer [PERSON_033]), Tiefe oberer Horizont des Homogenbereiches von 0 m, Tiefe unterer Horizont des Homogenbereiches bis 1 m, geschätzter Anteil des Homogenbereiches an der Gesamtaushubmenge 10,000 %, ortsübliche Bezeichnung Homogenbereich A 2 Auffüllung, [PERSON_033] Bkl. 4, nach DIN 18300 (2012-09). Baumaßnahme der Geotechnischen Kategorie 2 DIN 4020, Kornverteilungsbereich DIN EN ISO 17892-4: - [PERSON_108] unterer Wert 2 %, - [PERSON_108] oberer Wert 20 %, - [PERSON_033] unterer Wert 55 %, - [PERSON_033] oberer Wert 75 %, - Massenanteile Sand unterer Wert 10 %, - Massenanteile Sand oberer Wert 30 %, - Massenanteile Kies unterer Wert 5 %, - Massenanteile Kies oberer Wert 15 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) unterer Wert 0 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) oberer Wert 5 %, - Feuchtdichte Boden DIN EN ISO 17892-2 oder DIN 18125-2 über 2000 bis 2200 kg/m3, - Scherfestigkeit undräniert von 20 kPa, - Scherfestigkeit undräniert bis 40 kPa, - Wassergehalt bis 5 %, - Konsistenzzahl DIN EN ISO 17892-12 Ic von 0,5, - Konsistenzzahl DIN EN ISO 17892-12 Ic bis 0,75, - Plastizitätszahl DIN EN ISO 17892-12 Ip von 4 %, - Plastizitätszahl DIN EN ISO 17892-12 Ip bis 25 %, - Organischer Masseanteil DIN 18128 größer 5 %.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 100.0,
+          "evidence": "100 m3  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m3",
+          "evidence": "100 m3  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 01.02 [ORT_030] Straßen, Straßennebenflächen, Waldwege"
+    },
+    {
+      "name": "Position 01.03",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "01.03",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "01.03.0001",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Asphaltoberbau schneiden D 5-10cm T 100mm Asphaltoberbau schneiden, Dicke der Befestigung über 8 bis 16 cm, Ausführung mit Fugenschneidgerät, Tiefe bis 120 mm, Restdicke trennen.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 30.0,
+          "evidence": "30 m  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "30 m  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 01.03 Abbrucharbeiten / Wiederherstellung Bereich [PROJEKT_001]"
+    },
+    {
+      "name": "Position 02.01",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "02.01",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "02.01.0001",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Baustelle einrichten Dies.LV-Abschn.*Zufahrt vorh. Geräte, Werkzeuge und sonstige Betriebsmittel, die zur vertragsgemäßen Ausführung der Bauleistungen erforder- lich sind, auf die Baustelle bringen, bereitstellen und - soweit der Geräteeinsatz nicht gesondert vergütet wird - betriebsfertig aufstellen einschl. der dafür notwendigen Arbeiten. Die erforderlichen festen Anlagen herstellen. Baubüros, Unterkünfte, Werkstätten, Lager- schuppen und dgl., soweit erforderlich, antransportie- ren, aufbauen und einrichten. Strom-, [PERSON_029]-, Fern- sprechanschluss sowie Entsorgungseinrichtungen und dgl. für die Baustelle, soweit erforderlich, herstellen. Bei Bedarf Lagerplätze, sonstige Platzbefestigungen und We- ge im Baustellenbereich anlegen. Oberbodenarbeiten einschl. Beseitigen von Aufwuchs für die Baustellenein- richtung, soweit erforderlich, ausführen. Flächen be- schaffen, sofern die vom AG zur Verfügung gestellten nicht ausreichen. Kosten für Vorhalten, Unterhalten und Betreiben der Geräte, Anlagen und Einrichtungen einschl. Mieten, Pacht, Gebühren und dgl. werden nicht mit dieser Pauschale, sondern mit den Einheitspreisen der betreffenden Teilleistungen vergütet. Soweit nicht für bestimmte Leistungen für das Einrichten der Bau- stelle gesonderte Positionen im Leistungsverzeichnis enthalten sind, gilt die Pauschale für alle Leistungen dieses Abschnittes des Leistungs- verzeichnisses. Zufahrt zur Baustelle vorhanden.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "psch",
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 02.01 Baustelleneinrichtung Tiefbau [PROJEKT_001]"
+    },
+    {
+      "name": "Position 02.02",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "02.02",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Hinweis: VERMESSUNG WASSERLEITUNG",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "02.02.0001 Vermessungstechnische Leistungen - Absteckung der Wasserleitung Vermessungstechnische Leistungen - Absteckung der Wasserleitung Ausführung als Lageabsteckung für Bauwerke, Hydrantenschächte und Zwangspunkte der Rohrleitung bei Richtungswechsel in Leitungstrasse. Die erforderlichen digitalen Planunterlagen werden dem AN per DXF oder DWG - Datei zur Verfügung gestellt. Die Vergütung erfolgt ausschließlich für elektrooptisch abgesteckte Punkte (Tachymeterabsteckung und/oder Roverabsteckung mit GPS). Von Hand abgesteckte Punkte sind in die Gemeinkosten einzukalkulieren!",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 55.0,
+          "evidence": "55 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "55 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 02.02 Vermessungsarbeiten Wasserleitung"
+    },
+    {
+      "name": "Position 02.03",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "02.03",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Hinweis: Für die Ausführung gelten",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "die Zusätzlichen Technischen Vertragsbedingungen und Richtlinien für [ORT_030] im Straßenbau (ZTVE-StB), die Zusätzlichen Technischen Vertragsbedingungen und Richtlinien für die Ausführung von Tragschichten im Straßenbau (ZTVT-StB), die Zusätzlichen Technischen Vertragsbedingungen und Richtlinien für die Ausführung von Bodenverfestigungen und Bodenverbesserungen im Straßenbau (ZTVV-StB), die Technischen Lieferbedingungen für Mineralstoffe im Straßenbau (TL Min-StB). Die Zusätzlichen Technischen Vertragsbedingungen und Richtlinien für Aufgrabungen in Verkehrsflächen (ZTVA-StB). Das Merkblatt für das Verfüllen von Leitungsgräben. Des Weiteren folgende DIN Normen mit entsprechenden ATV`: - DIN [ORT_030] - DIN [ORT_019] - DIN [ORT_008] - DIN [ORT_031] außerhalb von Gebäuden - DIN [ORT_021] - DIN [ORT_010] (für Oberbodenarbeiten) - DIN [ORT_018] - DIN [ORT_003] mit DWA - A 125 Hinweis: Die Leistungen werden abgerechnet nach den jeweilig zuständigen DIN Normen. - DIN [ORT_030] - DIN [ORT_019] - DIN [ORT_008] - DIN [ORT_031] außerhalb von Gebäuden - DIN [ORT_021] - DIN [ORT_010] (für Oberbodenarbeiten) - DIN [ORT_018] - DIN [ORT_003] mit DWA - A 125 Hinweis: Belagsabbruch und Wiedereinbau wird unter den im Abschnitt Straßen aufgeführten Positionen vergütet. Hinweis: Die Mengenermittlung für die Abrechnung der Leistungen erfolgt nach Aufmaß und den entsprechenden Ausführungszeichnungen im Abgleich mit dem neu erstellten Bestandsplan. Die Rohrumhüllung wird wie folgt ausgeführt: - Untergrundverbesserung nur bei Bedarf - Untere Bettungsschicht d = 10 cm mit [PERSON_182] 0/16 oder 8/16 - Abdeckung über Rohrscheitel d = 30 cm mit anstehendem Material max. 100 mm Korngröße Grabenbreite in Aushubsohle nach EN 1610 1 x GGG Rohr DN 300 ZMU B = 1,20 m senkrecht mit Verbau Grabenbreite nach EN 1610 geböscht 45° bis 60°, Grabenbreite unten (OK Bettungsschicht = UK Rohr) für 1 x GGG DN 300 ZMU oder 1 x PE DA 355, B = 0,75 m ohne Verbau , (B = Aushubsohle von 0,55 m/45° - 0,65 m/60°). Maße gerundet. Hinweis: Die Tiefbauarbeiten sind im Wesentlichen nach der neuen DIN 18300 (2015-08) [ORT_030] in Anlehnung an die DIN 4020 Geotechnische Untersuchungen für bautechnische Zwecke mit den entsprechenden Homogenbereichen ausgeschrieben. Grundlage ist der Geotechnische Bericht von fm - Geotechnik Ingenieurbüro für Geotechnik. Die hier aufgeführten Homogenbereiche sind in den maßgebenden Aushubpositionen detailliert mit ihren jeweiligen, geschätzten anteiligen Mengen, beschrieben: HB A1: Auffüllungen Kies Bodenklasse DIN 18300 (2012-09) 3, 4, HB A2: Auffüllung [PERSON_033] Bodenklasse DIN 18300 (2012-09) 4 HB B 1: Torf Bodenklasse DIN 18300 (2012-09) 2/4 HB B 2: Verwitterungslehm/angewitterte Grundmoräne Bodenklasse DIN 18300 (2012-09) 4 HB B 3: Moränesand Bodenklasse DIN 18300 (2012-09) 2,3,4 HB B 4: Moränekies Bodenklasse DIN 18300 (2012-09) 3,4 HB B 5: Grundmoräne, [PERSON_033] Bodenklasse DIN 18300 (2012-09) 4 Da die angetroffenen bindigen Böden teilweise wasserempfindlich sind, können diese Böden bei nicht fachgerechter Zwischenlagerung und bei starken Niederschlägen während eines Transports oder durch mechanische Beanspruchung aufweichen, so dass diese ggf. in die Bodenklasse 2 nach DIN 18300 (2012-09) b.z.w. in eine breiige Konsistenz übergehen können. Der AN hat Sorge dafür zu tragen, dass diese empfindlichen Böden nicht in die Bodenklasse 2 übergehen. Eine Vergütung der Bodenklasse 2 erfolgt nicht! 02.03.0001 Erschwerniszulage zu allen Straßen- und Tiefbaupositionen in allen Gewerken für die Einhaltung der geforderten Sondermaßnahmen im Zuge des vorliegenden Bodenschutzkonzeptes wie folgt: Erschwerniszulage zu allen Straßen- und Tiefbaupositionen in allen Gewerken für die Einhaltung der geforderten Sondermaßnahmen im Zuge des vorliegenden Bodenschutzkonzeptes wie folgt: Horizont Ah Mutterboden/ Kulturfähiger Oberboden Sachgerechter Umgang Oberboden ab- und wieder auftragen: Sofern Oberboden in Haufwerken zwischen gelagert wird, sind im Vorfeld des Oberbodenabtrags so gut wie möglich, oberirdische Pflanzenteile zu entfernen, um schädliche Umsetzungen bei der Zwischenlagerung in Haufwerken minimieren zu können. Die Oberbodenmieten sind in einer lockeren Schüttung, mit einer max. Höhe von 2,00 m anzulegen. Die Miete ist trapezförmig zu profilieren und muss geglättet werden, um witterungsbedingte Vernässung zu vermeiden. Bei der Zwischenlagerung soll die biologische Aktivität des Oberbodens erhalten bleiben. Notwendig sind daher ausreichende Belüftung, Schutz vor Vernässung und bei länger lagerndem Oberbodenmaterial eine Bepflanzung mit Lippenblütlern. Horizont Bv Kulturfähiger [PERSON_057] unterhalb vom Ah Horizont, bis ca. - 0,80 m unter Gel OK [PERSON_057] ausheben, seitlich lagern und wieder einbauen: Material kann und soll zum An- und Wiederverfüllen unter einer ausreichend mächtigen Ah - Schicht verwendet werden. Der kulturfähige [PERSON_057] (Verwitterungslehm/[PERSON_033])) ist mit Sorgfalt aus- und wieder einzubauen, eine zu starke Verdichtung und dadurch bedingte Gefügeveränderung und Vernässung muss vermieden werden. Die Unterbodenmieten sind mit geglätteten Flanken von max. 3 m Höhe anzulegen. Horizont C I Ab einer Tiefe von - 0,80 m unter Gel OK äolisch geprägte \"Deckschichten\" Gering bis schwach tonige, sandige, sowie schwach kiesige Schluffe. Horizont C II Tieferer Untergrund Decklehme und Moränesedimente Moränensand, Moränenkies und Grundmoräne. Generelle Anforderungen für den Umgang mit allen Horizonten: Die einzelnen Horizonte sollten nach Möglichkeit wieder in ihrer ursprünglichen Reihenfolge eingebaut werden, also A über B über C. Eine Durchmischung des Materials der einzelnen Horizonte ist zu vermeiden. Verdrängter, übriger Aushub muss auf einen Lagerplatz in Haufwerke aufgesetzt werden nach EBV/VwV Baden Württemberg beprobt und anschließend zu einer geeigneten Verwertungsstelle verbracht werden. Hierfür sind in der Ausschreibung entsprechende Positionen vorgesehen. Minimierung der Flächenbefahrung und maximale Reduktion der Transportstrecken, Einsatz von Kettenbaggern mit langstieligen Löffeln; Verzicht auf Schubraupen, Einsatz von Schleppern mit günstigem Reifendruck auf sensiblem Untergrund. Kein Befahren der umgebenden Freiflächen = Tabuflächen ( z.B. landwirtschaftliche Flächen ); unvermeidliche Überfahrung nur mit Fahrzeugen geringer Bodenpressung ( Kettenfahrzeuge, Traktoren mit Muldenkipper, Radfahrzeuge nur in Verbindung mit geeigneten Unterlagen ). Im Bereich der Leitungstrasse in öffentlichen Wegen mit Ausführung senkrecht im Verbau, hat der AN mit Arbeitsabläufen im Überkopfverfahren, sowohl für den Wegebau, wie auch für den Tiefbau Wasserleitung zu kalkulieren. Ein entsprechender zusätzlicher Einsatz von Maschinen und Personal ist hier unbedingt zu berücksichtigen! Die Gesamtlänge der betroffenen Weg- und Verlegestrecken im verbauten Graben beträgt ca. 90 - 100 m, davon ca. 80 m im Waldwegbereich von ca. Station 0+990 - bis 1+070 Bauende. Die Ausführung der Arbeiten generell, sind nach vorheriger Abstimmung mit den jeweiligen Grundstücksbesitzern, b.z.w. Pächtern der betroffenen Grundstücke auch im Hinblick auf notwendige Wiesenschnitte und Waldarbeiten auszuführen! Dies gilt für Abtrags- und Auftragsflächen! Dem Kalkulator wird dringend empfohlen, Einsicht in das entsprechend, vorliegende Bodenschutzkonzept zu nehmen! Alle Mehraufwendungen gegenüber den ausgeschriebenen Leistungspositionen bezüglich einer herkömmlichen Bauweise, sind hier als Erschwerniszulage mit ein zu kalkulieren. Eine Vergütung darüber hinaus, erfolgt nicht!",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "psch",
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 02.03 [ORT_030] [PROJEKT_001] in offener Bauweise"
+    },
+    {
+      "name": "Position 02.04",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "02.04",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Offene Bauweise",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Hinweis: Hinweis zu allen Wasserhaltungsarbeiten: Die Wasserhaltung für Start- und Zielgruben für die geplanten Spülbohrungen, ist in den jeweiligen Positionen im Gewerk Tiefbau in geschlossener Bauweise ausgeschrieben und wird hier nicht vergütet! Im Bereich von punktuellen Wasserentnahmestellen (Bauwerke u.a.) wird die Wasserhaltung über Pumpensumpf und Pumpeneinsatz vergütet. Im Bereich von Wasserleitungsgräben wird eine offene Wasserhaltung für eine Grundwasser- oder Schichtwasserentnahme in lfm vergütet. Laut Gutachten werden für einen Wasserdurchlässigkeitsbeiwert von kf = 1,0 x 10 -4 m/s folgende Wasserentnahmemengen angenommen: Im Bereich [PERSON_006] Station 1+000 Waldweg ist eine Wasserhaltung im geschlossenen Verbau mit ca. 1,0 l/s und einem Absenkziel von ca. 1,60 m auszuführen. Im Bereich der Wasserleitungsgräben Station 0+990 bis 1+067 wird im Bereich von anstehenden Moränesanden eine Fördermenge von ca. 3 - 5 l/s angenommen. Nach starken Niederschlägen können in hochdurchlässigen Bereichen auch Pumpenleistungen bis ca. 10 l/s möglich werden. Im Bereich der offenen, geböschten Gräben der Wiesengrundstücke können in Teilbereichen Schichtwasser in temporärer Form bis max. 1,0 l/s auftreten. Die hier aufgeführten Werte finden sich in den nachfolgend ausgeschriebenen Positionen Wasserhaltung wieder. 02.04.0001 Pumpensumpf herstellen räumen Filterrohr DN400 T bis 1m Pumpensumpf innerhalb der Baugrube ab Aushubsohle herstellen und räumen, aus Filterrohren, mit Umhüllung aus dränfähigem Füllstoff, Dicke mind. 15 cm, lichter Durchmesser 400 mm, Tiefe bis 1 m.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 3.0,
+          "evidence": "3 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "3 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 02.04 Wasserhaltungsarbeiten für Wasserleitungsarbeiten für alle Bereiche"
+    },
+    {
+      "name": "Position 02.05",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "02.05",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Hinweis: Hinweis für die Ausführung/Versetzen der folgenden Positionen Wasserleitungsschächte:",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Der [PERSON_006] eckig lichtes Maß 2,00 x 3,00 m, Station 0+000 kann auf Grund seines Eigengewichtes nur mittels Schwerlastkran versetzt werden. Diese Leistung ist in der Position Schacht liefern und versetzen einzukalkulieren und wird nicht gesondert vergütet! Eine entsprechende Baustraße vom Asphaltweg bis zur Station 0+000 wird gesondert vergütet. Die beiden runden Wasserleitungsschächte DN 2500 können vor Ort mit entsprechenden Kettenbaggern ([TELEFON_036] to) transportiert und versetzt werden. Schacht DN 2500 bei Station 0+370 kann vom Asphaltweg über die Wasserleitungstrasse bis zum Einbauort transportiert werden.( ca. 270 m ) Schacht DN 2500 bei ca. Station 1+000 (Waldbereich) ist über einen Kiesweg von der [ADRESSE_018] aus erreichbar. B 12 bis Anfang Wald ca. 260 m, Anfang Wald bis Einbauort ca. 320 m, Gesamt von B 12 ca. 580 m Kiesweg. Sollte sich der AN für das Einheben von Fertigteilen DN 2500 mit z.B. 2 Baggern entscheiden, ist der 2 Bagger in die komplette Herstellung des Schachtbauwerkes mit ein zu kalkulieren. Eine Mehrvergütung über die Position Schachtbauwerk komplett erstellen, erfolgt nicht! Der Kalkulator hat dies zu beachten! 02.05.0001 Sicherheitssteigleiter entspr. DIN EN 14396, Sicherheitssteigleiter entspr. DIN EN 14396, DVGW 351, BGV D 36 vollständig aus [PERSON_115] Werkstoff-Nr. 1.4301/1.4307 Sprossen aus U-Profil mit gelochter Auftrittsfläche, 30 mm, Rutschhemmung R 13, Tritthöhe 280 mm, lichte Leiterbreite 400 mm. Holme aus Sonderprofil hoher Steifigkeit (57x25x2,5 mm), oben mit PVC - Kappen abgedeckt. Einschl. höhenverstellbaren Wandhaltern zur Dübelbefestigung, die eine Mindestauftrittstiefe von 150 mm (Abstand [PERSON_074] bis Mitte Sprosse) gewährleisten. Einschl. aller Befestigungsmaterialien aus [PERSON_115] mit Durchsteckanker HST - R M10 in Schachtwand montieren. Schachttiefe T = 2,35 m von OK Einstieg bis Schachtboden, mit Einstieghilfe aufsteckbar EH S, ausgeführt als Leiter- verlängerung, vollständig aus [PERSON_115], Höhe ca. 1200 mm, Fabrikat: z. B. [FIRMA_062]-[PERSON_115], [PERSON_129] SIS1 [PERSON_129] A) Senkrechter Einbau oder gleichwertiges Fabrikat, Fabrikat / [PERSON_129]: ____________________ Hinweis: Ausführung im eckigen Fertigteilschacht am Baubeginn 0+000.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 02.05 Schachtbauwerke Beton- und Tiefbau [PROJEKT_001]"
+    },
+    {
+      "name": "Position 03.01",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "03.01",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "03.01.0001",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Baustelle einrichten Dies.LV-Abschn.*Zufahrt vorh. Geräte, Werkzeuge und sonstige Betriebsmittel, die zur vertragsgemäßen Ausführung der Bauleistungen erforder- lich sind, auf die Baustelle bringen, bereitstellen und - soweit der Geräteeinsatz nicht gesondert vergütet wird - betriebsfertig aufstellen einschl. der dafür notwendigen Arbeiten. Die erforderlichen festen Anlagen herstellen. Baubüros, Unterkünfte, Werkstätten, Lager- schuppen und dgl., soweit erforderlich, antransportie- ren, aufbauen und einrichten. Strom-, [PERSON_029]-, Fern- sprechanschluss sowie Entsorgungseinrichtungen und dgl. für die Baustelle, soweit erforderlich, herstellen. Bei Bedarf Lagerplätze, sonstige Platzbefestigungen und Wege im Baustellenbereich anlegen. Oberbodenarbeiten einschl. Beseitigen von Aufwuchs für die Baustellenein- richtung, soweit erforderlich, ausführen. Flächen be- schaffen, sofern die vom AG zur Verfügung gestellten nicht ausreichen. Kosten für Vorhalten, Unterhalten und Betreiben der Geräte, Anlagen und Einrichtungen einschl. Mieten, Pacht, Gebühren und dgl. werden nicht mit dieser Pauschale, sondern mit den Einheitspreisen der betreffenden Teilleistungen vergütet. Soweit nicht für bestimmte Leistungen für das Einrichten der Bau- stelle gesonderte Positionen im Leistungsverzeichnis enthalten sind, gilt die Pauschale für alle Leistungen dieses Abschnittes des Leistungs- verzeichnisses. Zufahrt zur Baustelle vorhanden.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "psch",
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 03.01 Baustelleneinrichtung Liefern und Verlegen der Wasserleitung"
+    },
+    {
+      "name": "Position 03.02",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "03.02",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "03.02.0001",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Zulage - Position für alle Rohrverlege- und Montagearbeiten Zulage - Position für alle Rohrverlege- und Montagearbeiten im Anschlussbereich neue Leitung/ vorhandene Bestandsleitung GGG DN 300 am Baubeginn DZ NZ Isnyberg 400-401. Folgende Leistungen sind einzukalkulieren: - Die gesamte Anschlussleistung Rohrlieferung- und Montage, einschl. der erforderlichen Mitarbeiterstärke (bis zu 2. Kolonnen), einschl. aller erforderlichen Maschinen, Werkzeuge und Materialien (Schachtinstallation, Formstücke u.a.) muss innerhalb eines Zeitraumes von 6 - max. 8 h am selben Arbeitstag ausgeführt und abgeschlossen werden. - Alle zeitlich erforderlichen Koordinationsarbeiten ([PERSON_029] absagen, abstellen wieder in Betrieb gehen) sind rechtzeitig vor der geplanten Durchführung mit dem zuständigen Wassermeister zu besprechen und abzustimmen. - Nach Abschluss der Arbeiten muss die Wasserleitung wieder zwingend in Betrieb genommen werden! - Die Zulage - Position für die Tiefbauarbeiten wird im Gewerk Tiefbau Wasserleitung gesondert vergütet. - Die Koordination Tiefbau- und Montagearbeiten hat intern zwischen der Tiefbau- und Rohrverlegefirma zu erfolgen. Hinweis: Ein Abweichen der hier ausgeschriebenen Zeitvorgabe ist nicht zugelassen , der Anschluss am Bauende der Wasserleitung DZ NZ Isnyberg - 365 ist zeitlich getrennt auszuführen und wird auch getrennt vergütet! Der Kalkulator hat bezüglich Arbeitsaufwand und Logistik alle Mehraufwendungen gegenüber der sonst ausgeschriebenen LV - Positionen hier in der Zulage - Position einzurechnen. Eine Vergütung darüber hinaus erfolgt nicht!",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "psch",
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 03.02 Rohrleitungsbau DN 300 WV Offene Bauweise"
+    },
+    {
+      "name": "Position 03.03",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "03.03",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Wasserleitungsschächte und Hausanschlüsse",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Hinweis: Hinweis zur Kalkulation für folgende Positionen mit Material [PERSON_115]: Alle Rohre, Form- und Verbindungsstücke und Verbindungen sind soweit nicht anders beschrieben aus nichtrostendem [PERSON_089] nach DVGW W541. Rohre und Formstücke sind aus dem Werkstoff 1.4571 zu fertigen. Verbindungen unterschiedlicher Werkstoffe sind galvanisch zu trennen. Als Material für die Dichtung ist EPDM zu verwenden. 03.03.0001 Hosenbogen/ Hosen-T-Stück DN 300 mit Sattelstutzen DN 80 Hosenbogen/ Hosen-T-Stück DN 300 mit Sattelstutzen DN 80 allseitig Flanschverbindungen PN 16, aus 2 Stück Rohrbogen [PERSON_129] 3D 90° (r =1,5xD) DN 300 T-Stück mit allseitiger Flanschverbindung nach DIN EN 1092-1 PN 16 EN 10204/3.1. Formstück komplett aus [PERSON_115] Werkstoff 1.4571, Außendurchmesser entsprechend ISO 1127 Längen entsprechender der Ausführungsplanung: 1. Längen Rohrseite Zulauf DN 300 Länge ca. 914 mm (Rohrende - Rohrende) Wanddicke auf max. Betriebsdruck 16 bar mind. 3mm 2. Länge Zusammenführung DN 300 Länge ca. 457 mm (Rohrachse DN 300 bis Rohrende DN 300) Wanddicke auf max. Betriebsdruck 16 bar mind. 3 mm mit Losflansch 1x Hosen-Bogen DN300 PN 16 aus 2 Rohrbogen [PERSON_129] 3D 2x glatter Flansch DN 300 PN 16 1x Losflansch DN 300 PN 16 2x Sattelstutzen DN80 PN16 oben (für Be- Entlüfter) 2x glatter Flansch DN 100 PN 16 aus nichtrostendem [PERSON_089] Werkstoff 1.4571, Losflansch einschl. Bund nach DIN EN 1092-1, Flanschenform glatt, mit Schrauben aus nichtrostendem [PERSON_089] für Trinkwasser kalt, Verlegung in Schacht, Montagehöhe über Fußboden bis 1,5 m, Ausführung gemäß Zeichnung. Schacht am Baubeginn 0+000 Alle Flanschverbindungen sind komplett einzukalkulieren!",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 03.03 Schachtinstallationen, Armaturen, Formstücke für"
+    },
+    {
+      "name": "Position 03.04",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "03.04",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "03.04.0001",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Montagearbeiten des Mess-Sensors Montagearbeiten des Mess-Sensors AQUALINK, oder gleichwertig auf die bestehenden Trinkwasserleitung, im Gebäude und oder Schachtbauwerk inkl. Einbau der AQUALINK- Mess-Sonde für Durchfluss, Durchflussrichtung, Druck und Temperatur inkl. Inbetriebnahme, Einstellung und Justierung, Einweisung und Abnahme mit dem Betreiber-Personal vor Ort mit Protokollierung. Inkl. Abnahme-Protokoll und Betriebsanleitung, An- und Abfahrt des Fachpersonals durch den Hersteller.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "psch",
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 03.04 Messgeräte"
+    },
+    {
+      "name": "Position 03.05",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "03.05",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Hinweis: Hinweis für die folgenden Positionen Notversorgungen Hausanschlüsse",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Diese Leistungen sind im wesentlichen für Aus, - und Wiedereinbau von Notversorgungen von vorhandenen Wasserleitungshausanschlüssen, im Zuge der Gesamtmaßnahme Wasserleitungsverlegung. Eine reibungslose Koordination mit der Tiefbaukolonne ist zwingend notwendig. Unstimmigkeiten sind intern zu klären und dürfen nicht zu Lasten des AG gehen. Vor Ausführung der Arbeiten ist in jedem Fall der zuständige Wassermeister Herr [PERSON_104] zu informieren und der Ablauf mit ihm abzustimmen! 03.05.0001 Notleitungen (Notversorgung) mit PE - Rohren DN 32 - 40 aufbauen, Notleitungen (Notversorgung) mit PE - Rohren DN 32 - 40 aufbauen, unterhalten, sichern und nach Abschluss der Maßnahme wieder beseitigen. Die Verbindungen und Anschlüsse sind mit komplettem Anschlussmaterial (Fittings, Abzweige u.a.) zu kalkulieren. Ausführung für den Wasserleitungshausanschluss [PERSON_062]. 19. Aus hygienischen Gründen sind neue Leitungen zu verwenden. Das Abstellen der bestehenden Hausanschlussleitung und Abstimmung mit dem Hausbewohner einschl. rechtzeitiger Bekanntgabe der Betroffenen ist hier mit einzukalkulieren. Es ist sicherzustellen, dass die Anschlussnehmer ständig mit [PERSON_029] versorgt werden. Notleitungen sind für 1 Gebäude herzustellen. Anschluss am bestehenden [PERSON_006] DZ NZ Isnyberg 401. Anschlusslänge für das Haus bis ca. 150 m Die Abrechnung erfolgt 1 x pauschal. Erforderliche Überdeckungsarbeiten erfolgen durch die Tiefbaufirma (Überfahrten, Zufahrten u.a.).",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "psch",
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 03.05 Notversorgungen Hausanschlüsse"
+    },
+    {
+      "name": "Position 03.06",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "03.06",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "03.06.0001",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Druckrohr spülen desinfizieren TW [PERSON_029] Wasserstoffperoxid Desinfektionsm. DN355 Druckrohrleitung vor Inbetriebnahme spülen, desinfizieren DVGW W 291, für Trinkwasser, aus PE, mit [PERSON_029], Entkeimungsmittel Wasserstoffperoxid, einschl. Desinfektionsmittel, DN 355, Ausführung gemäß Einzelbeschreibung, Einzelbeschreibungs-Nr 'Ausführung im Bereich der 2 Spühlbohrungen mit den jeweiligen Übergängen auf die GGG DN 300 ZMU Rohre).' .",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 425.0,
+          "evidence": "425 m  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "425 m  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 03.06 Dichtigkeitsprüfung und Desinfektion"
+    },
+    {
+      "name": "Position 04.01",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "04.01",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Hinweis: Hinweis für die nachfolgenden Positionen",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Baustelleneinrichtung und Verkehrssicherung Der Kalkulator hat für diese Positionen, die Baubeschreibung, die besonderen Vertragsbedingungen und die Ausführungsplanung als Kalkulationsgrundlage zu beachten. Die Maßnahme wird mit 2 aneinanderliegenden Spülbohrungen 1 und 2 ausgeführt. Der Ausführungsbereich der Spülbohrung 1 beinhaltet die Unterquerung eines Waldweges (Ziehweg, Zugweg für Holztransporte)) Die Ausführung erfolgt in 1 Gesamtabschnitt von Station 0+580 bis 0+745, L = ca. 165 m. Der Ausführungsbereich der Spülbohrung 2 beinhaltet die Unterquerung eines darauffolgenden Waldverbindungsweges (Kiesweg) direkt am Anschluss an die Spülbohrung 1 von Station 0+745 bis 0+990, Die Ausführung erfolgt in 1 Gesamtabschnitt, L = ca. 245 m. Die Arbeiten befinden fast ausschließlich im Waldbereich. Absperrungen und Absicherungen der Bautätigkeit, werden überwiegend für die Absicherung direkt am Einsatzort benötigt. Die Start- und Zielgruben befinden sich in den vorgenannten Zieh- und Waldverbindungswegen. Eine gemeinsame Zufahrtsmöglichkeit zu beiden Spülbohrungen befindet sich von der [ADRESSE_018] bis Station 0+745 ca. 600 - 700 m, sowie vom Ortsende Burg bis Station 0+745 ca. 1600 - 1700 m. Die Waldwege sind überwiegend über eine Kiesschicht befahrbar und ca. 2,50 bis 3,00 m breit. Die Grundposition Baustelleneinrichtung ist für die gesamten Spülbohrarbeiten, das heißt für die Spülbohrungen 1 und 2 zu kalkulieren. Für die BE der Spülbohranlage selber, sind jeweils 2 gesonderte Positionen ausgeschrieben. 04.01.0001 Einrichten und Räumen der Baustelle für Spülbohrarbeiten PE DA = 355 mm Einrichten und Räumen der Baustelle für Spülbohrarbeiten PE DA = 355 mm Die Position beinhaltet Einrichten und Räumen der Baustelleneinrichtung für alle ausgeschriebenen Spülbohrarbeiten (Spülbohrung 1 und 2) Eingeschlossen sind die erforderlichen Lager- und Arbeitsplätze innerhalb des Baufeldes sowie deren Befestigung und Beseitigung. Genutzte Flächen sind in den früheren Zustand wieder herzustellen. Vergütung erfolgt entsprechend der erbrachten Leistung. Hinweis: Kosten für Vorhalten, Unterhalten und Betreiben der Geräte, Anlagen und Einrichtungen einschl. Mieten, Pacht, Gebühren und dergleichen. werden nicht mit dieser Pauschale, sondern in den folgenden Positionen mit Einheitspreisen der betreffenden Teilleistungen vergütet.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "psch",
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 04.01 Baustelleneinrichtung Spülbohrungen"
+    },
+    {
+      "name": "Position 04.02",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "04.02",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "04.02.0001",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Vermessungstechnische Leistungen - Absteckung Vermessungstechnische Leistungen - Absteckung Ausführung als Lageabsteckung für die geplante Leitungstrasse und Zwangspunkte. Die erforderlichen digitalen Planunterlagen werden dem AN per DXF oder DWG - Datei zur Verfügung gestellt. Die Vergütung erfolgt ausschließlich für elektrooptisch abgesteckte Punkte (Tachymeterabsteckung oder Roverabsteckung). Anzahl der Absteckpunkte für alle 2 Trassen ca. 45 Stück. Von Hand abgesteckte Punkte sind in die Gemeinkosten einzukalkulieren! Die Ausführung in 2 Abschnitten ist einzukalkulieren, Die Abrechnung erfolgt hier pauschal für alle 2 Spülbohrungen!",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "psch",
+          "evidence": "1 psch  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 04.02 Vermessung"
+    },
+    {
+      "name": "Position 04.03",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "04.03",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Hinweis: Geotechnischer Hinweis zur Kalkulation der Positionen",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Horizontales Spülbohrverfahren Spülbohrung 1 Waldweg Station 0+580 - 0+745, Spülbohrung 2 Waldweg Station 0+750 - 0+990. Die Homogenbereiche stellen sich wie folgt dar: HB 5 B 3: Moränensand HB 7 B 5: Grundmoräne, [PERSON_033] Übersicht aller Homogenbereiche im Bereich geschlossener Bauweise. Geschlossene Bauweise Wasserleitung im Spülbohrverfahren: Aufgeführt sind hier alle Homogenbereiche im Bereich geschlossene Bauweise ab OK Gelände, tatsächlich durchbohrt werden aber nur der HB 5 B 3 Moränesand anteilig ca. 33 % und der HB 7 B 5 Grundmoräne anteilig ca. 67 %! Bitte bei der Kalkulation beachten! Homogenbereich 1, mit 3 Bodengruppen, Bodengruppe 1 GU DIN 18196 (Kies-[PERSON_033]-Gemisch), Bodengruppe 2 GU* DIN 18196 (Kies-[PERSON_033]-Gemisch), Bodengruppe 3 UL DIN 18196 (leicht plastischer [PERSON_033]), Tiefe oberer Horizont des Homogenbereiches von 0 m, Tiefe unterer Horizont des Homogenbereiches bis 1 m, geschätzter Anteil des Homogenbereiches an der Gesamtaushubmenge 15,000 %, ortsübliche Bezeichnung Homogenbereich A 1 Auffüllung,Kies Bkl. 3,4, nach DIN 18300 (2012-09). Baumaßnahme der Geotechnischen Kategorie 2 DIN 4020, Kornverteilungsbereich DIN EN ISO 17892-4: - [PERSON_108] unterer Wert 0 %, - [PERSON_108] oberer Wert 2 %, - [PERSON_033] unterer Wert 2 %, - [PERSON_033] oberer Wert 25 %, - Massenanteile Sand unterer Wert 15 %, - Massenanteile Sand oberer Wert 40 %, - Massenanteile Kies unterer Wert 50 %, - Massenanteile Kies oberer Wert 70 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) unterer Wert 0 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) oberer Wert 15 %, - Feuchtdichte Boden DIN EN ISO 17892-2 oder DIN 18125-2 über 2000 bis 2200 kg/m3, - Wassergehalt bis 5 %, - Lagerungsdichte mitteldicht, - Organischer Masseanteil DIN 18128 größer 5 %, Homogenbereich 2, mit 2 Bodengruppen, Bodengruppe 1 UL DIN 18196 (leicht plastischer [PERSON_033]), Bodengruppe 2 UM DIN 18196 (mittelplastischer [PERSON_033]), Tiefe oberer Horizont des Homogenbereiches von 0 m, Tiefe unterer Horizont des Homogenbereiches bis 1 m, geschätzter Anteil des Homogenbereiches an der Gesamtaushubmenge 2,000 %, ortsübliche Bezeichnung Homogenbereich A 2 Auffüllung, [PERSON_033] Bkl. 4, nach DIN 18300 (2012-09). Baumaßnahme der Geotechnischen Kategorie 2 DIN 4020, Kornverteilungsbereich DIN EN ISO 17892-4: - [PERSON_108] unterer Wert 2 %, - [PERSON_108] oberer Wert 20 %, - [PERSON_033] unterer Wert 55 %, - [PERSON_033] oberer Wert 75 %, - Massenanteile Sand unterer Wert 10 %, - Massenanteile Sand oberer Wert 30 %, - Massenanteile Kies unterer Wert 5 %, - Massenanteile Kies oberer Wert 15 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) unterer Wert 0 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) oberer Wert 5 %, - Feuchtdichte Boden DIN EN ISO 17892-2 oder DIN 18125-2 über 2000 bis 2200 kg/m3, - Scherfestigkeit undräniert von 20 kPa, - Scherfestigkeit undräniert bis 40 kPa, - Wassergehalt bis 5 %, - Konsistenzzahl DIN EN ISO 17892-12 Ic von 0,5, - Konsistenzzahl DIN EN ISO 17892-12 Ic bis 0,75, - Plastizitätszahl DIN EN ISO 17892-12 Ip von 4 %, - Plastizitätszahl DIN EN ISO 17892-12 Ip bis 25 %, - Organischer Masseanteil DIN 18128 größer 5 %, Homogenbereich 3, mit einer Bodengruppe, Bodengruppe 1 HZ DIN 18196 (zersetzter Torf), Tiefe oberer Horizont des Homogenbereiches von 1 m, Tiefe unterer Horizont des Homogenbereiches bis 2 m, geschätzter Anteil des Homogenbereiches an der Gesamtaushubmenge 2 %, ortsübliche Bezeichnung Homogenbereich B 1 Torf Bkl. 2/4, nach DIN 18300 (2012-09). Baumaßnahme der Geotechnischen Kategorie 2 DIN 4020, Kornverteilungsbereich DIN EN ISO 17892-4: - [PERSON_108] unterer Wert 5 %, - [PERSON_108] oberer Wert 15 %, - [PERSON_033] unterer Wert 60 %, - [PERSON_033] oberer Wert 80 %, - Massenanteile Sand unterer Wert 5 %, - Massenanteile Sand oberer Wert 15 %, - Massenanteile Kies unterer Wert 0 %, - Massenanteile Kies oberer Wert 0 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) unterer Wert 0 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) oberer Wert 0 %, - Feuchtdichte Boden DIN EN ISO 17892-2 oder DIN 18125-2 über 1400 bis 1600 kg/m3, - Scherfestigkeit undräniert von 15 kPa, - Scherfestigkeit undräniert bis 30 kPa, - Wassergehalt über 20 bis 40 %, - Konsistenzzahl DIN EN ISO 17892-12 Ic von 0,5, - Konsistenzzahl DIN EN ISO 17892-12 Ic bis 0,75, - Organischer Masseanteil DIN 18128 größer 10 %, Homogenbereich 4, mit 2 Bodengruppen, Bodengruppe 1 UL DIN 18196 (leicht plastischer [PERSON_033]), Bodengruppe 2 UM DIN 18196 (mittelplastischer [PERSON_033]), Tiefe oberer Horizont des Homogenbereiches von 0 m, Tiefe unterer Horizont des Homogenbereiches bis 3 m, geschätzter Anteil des Homogenbereiches an der Gesamtaushubmenge 40,000 %, ortsübliche Bezeichnung Homogenbereich B 2 Verwitterungslehm/angewitterte Grundmoräne Bkl. 4, nach DIN 18300 (2012-09). Baumaßnahme der Geotechnischen Kategorie 2 DIN 4020, Kornverteilungsbereich DIN EN ISO 17892-4: - [PERSON_108] unterer Wert 5 %, - [PERSON_108] oberer Wert 20 %, - [PERSON_033] unterer Wert 55 %, - [PERSON_033] oberer Wert 75 %, - Massenanteile Sand unterer Wert 5 %, - Massenanteile Sand oberer Wert 25 %, - Massenanteile Kies unterer Wert 0 %, - Massenanteile Kies oberer Wert 10 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) unterer Wert 0 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) oberer Wert 2 %, - Feuchtdichte Boden DIN EN ISO 17892-2 oder DIN 18125-2 über 1800 bis 2000 kg/m3, - Scherfestigkeit undräniert von 20 kPa, - Scherfestigkeit undräniert bis 60 kPa, - Wassergehalt über 10 bis 20 %, - Konsistenzzahl DIN EN ISO 17892-12 Ic von 0,5, - Konsistenzzahl DIN EN ISO 17892-12 Ic bis 0,75, - Plastizitätszahl DIN EN ISO 17892-12 Ip von 4 %, - Plastizitätszahl DIN EN ISO 17892-12 Ip bis 25 %, - Organischer Masseanteil DIN 18128 größer 3 %, Ausführung Homogenbereich 5, mit 3 Bodengruppen, Bodengruppe 1 SW DIN 18196 (weitgestuftes Sand-Kies-Gemisch), Bodengruppe 2 SU DIN 18196 (Sand-[PERSON_033]-Gemisch), Bodengruppe 3 SU* DIN 18196 (Sand-[PERSON_033]-Gemisch), Tiefe oberer Horizont des Homogenbereiches von 0 m, Tiefe unterer Horizont des Homogenbereiches bis 4 m, geschätzter Anteil des Homogenbereiches an der Gesamtaushubmenge 13,000 %, ortsübliche Bezeichnung Homogenbereich B 3 Moränensand Bkl. 2,3,4, nach DIN 18300 (2012-09). Baumaßnahme der Geotechnischen Kategorie 2 DIN 4020, Kornverteilungsbereich DIN EN ISO 17892-4: - [PERSON_108] unterer Wert 1 %, - [PERSON_108] oberer Wert 3 %, - [PERSON_033] unterer Wert 2 %, - [PERSON_033] oberer Wert 30 %, - Massenanteile Sand unterer Wert 40 %, - Massenanteile Sand oberer Wert 70 %, - Massenanteile Kies unterer Wert 0 %, - Massenanteile Kies oberer Wert 5 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) unterer Wert 0 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) oberer Wert 0 %, - Feuchtdichte Boden DIN EN ISO 17892-2 oder DIN 18125-2 über 1800 bis 2000 kg/m3, - Scherfestigkeit undräniert von 0,15 kPa, - Scherfestigkeit undräniert bis 0,5 kPa, - Wassergehalt über 20 bis 40 %, - Lagerungsdichte locker bis mitteldicht, - Organischer Masseanteil DIN 18128 bis 3 %, Ausführung Homogenbereich 7 , mit 2 Bodengruppen, Bodengruppe 1 UL DIN 18196 (leicht plastischer [PERSON_033]), Bodengruppe 2 UM DIN 18196 (mittelplastischer [PERSON_033]), Tiefe oberer Horizont des Homogenbereiches von 1 m, Tiefe unterer Horizont des Homogenbereiches bis 6 m, geschätzter Anteil des Homogenbereiches an der Gesamtaushubmenge 28 %, ortsübliche Bezeichnung Homogenbereich B 5 Grundmoräne Bkl. 4,(6) je nach Anteil und Größe der Steine und Bblöcke/bei fester Konsistenz BKl. 6 nach DIN 18300 (2012-09). Baumaßnahme der Geotechnischen Kategorie 2 DIN 4020, Kornverteilungsbereich DIN EN ISO 17892-4: - [PERSON_108] unterer Wert 5 %, - [PERSON_108] oberer Wert 40 %, - [PERSON_033] unterer Wert 40 %, - [PERSON_033] oberer Wert 70 %, - Massenanteile Sand unterer Wert 20 %, - Massenanteile Sand oberer Wert 40 %, - Massenanteile Kies unterer Wert 5 %, - Massenanteile Kies oberer Wert 15 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) unterer Wert 0 %, - Massenanteil Steine DIN EN ISO 14688-1 (Co) oberer Wert 5 %, - Massenanteil Blöcke DIN EN ISO 14688-1 (Bo) oberer Wert 3 %, - Massenanteil große Blöcke DIN EN ISO 14688-1 (LBo) oberer Wert 1 %, - Feuchtdichte Boden DIN EN ISO 17892-2 oder DIN 18125-2 über 2000 bis 2200 kg/m3, - Scherfestigkeit undräniert von 60 kPa, - Scherfestigkeit undräniert bis 150 kPa, - Wassergehalt über 5 bis 10 %, - Konsistenzzahl DIN EN ISO 17892-12 Ic von 0,75, - Konsistenzzahl DIN EN ISO 17892-12 Ic bis 1, - Plastizitätszahl DIN EN ISO 17892-12 Ip von 12 %, - Plastizitätszahl DIN EN ISO 17892-12 Ip bis 30 %, - Organischer Masseanteil DIN 18128 bis 3 %. Hinweis: Hinweis zur Kalkulation der Start- und Zielgruben: Für die beiden Spülbohrungen 1 und 2 sind jeweils eine Start- und [PERSON_034] ausgeschrieben. Die Spülbohrungen sind jeweils in 1 Stück vorgesehen. Sollte wider Erwarten während der Spülbohrarbeiten zwischen den Start- und Zielgruben eine zusätzliche Grube, die der AN selber zu vertreten hat, zur Durchführung notwendig werden, ist diese in die Gesamtspülbohrung einzukalkulieren und wird nicht gesondert vergütet. Sollte eine zusätzliche Grube aus Gründen, die der AN nicht zu vertreten hat, notwendig werden (z.B. geologische Besonderheiten wie sehr große Steinbrocken oder starkes Wurzelwerk), werden diese in Zulagepositionen zu den Start- und Zielgruben vergütet. In jedem Fall hat vorab der Ausführung eine gemeinsame Klärung des Sachverhaltes zwischen AG und AN zu erfolgen! Für den Fall einer Fehlbohrung bei der Pilotbohrung, sind gesonderte Zulage Positionen ausgeschrieben und werden auch dort vergütet. 04.03.0001 [PERSON_073] für Rohr DA 355 [PERSON_073] für Rohr DA 355 Offene Baugrube als [PERSON_073] für die Horizontalbohrung herstellen und beseitigen, einschl. Vorhaltung der für die Bohrung erforderlichen Zusatzteile, für Rohr DA 355 Abmessungen nach [PERSON_125] AN. Tiefe ab GOK, Leitungstiefen s. Längenschnitt, Wiederherstellung der Geländeoberfläche wird gesondert vergütet. Verbau, Verbaudurchdringung nach [PERSON_125] des AN. Es sind einzurechnen: Verbau nach statischen Erfordernissen einbringen, vorhalten und beseitigen, ausheben, Baugrubensohle verfüllen und verdichten nach den ZTV und Richtlinien für Aufgrabungen in Verkehrsflächen (ZTVA-StB), Boden laden, innerhalb der Baustelle transportieren, lagern und wieder einbauen, Im Boden dürfen keine Verbauteile verbleiben. Wasserhaltung offen/ geschlossen nach [PERSON_125] des Auftragnehmers mit dem Ziel die Baugrubensohle wasserfrei zu halten, Bemessungswasserstand für Baubehelfe gemäß Gutachten s. unten. Die Abrechnung erfolgt hier pro Stück für die Spülbohrung 1 Waldweg Station ca. 0+580 - 0+745.Länge ca. 165 m! Die [PERSON_073] liegt zwischen RKS 4 und RKS 5 RKS 4 (Spülbohrung endet ca. 10-12 m vor RKS 4/25): 0,00 - 0,40 m Mutterboden, [PERSON_033] 0,40 - 1,90 m HB B 2 Verwitterungslehm, [PERSON_033], angewitterte Grundmoräne 1,90 - 2,80 m HB B 4 Moränenkies ( bei ca. 2,24 m Grundwasser angetroffen) 2,80 - 4,00 m HB B 5 Grundmoräne,[PERSON_033] RKS 5: 0,00 - 0,50 m HB A 1 Auffüllung Fein- Grobkies 0,50 - 1,70 m HB B 2 Verwitterungslehm, [PERSON_033], angewitterte Grundmoräne 1,70 - 4,00 m HB B 5 Grundmoräne,[PERSON_033] (bis 4,0 m kein [PERSON_029] angetroffen) RKS 6: 0,00 - 0,40 m HB A 1 Auffüllung Fein- Grobkies 0,40 1,50 m HB B 2 [PERSON_033], angewitterte Grundmoräne 1,50 - 3,00 m HB B 5 Grundmoräne, [PERSON_033]. (bis 3,0 m kein [PERSON_029] angetroffen)",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 04.03 Tiefbau Spülbohrarbeiten Wasserleitung (Hauptleitung)"
+    },
+    {
+      "name": "Position 04.04",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "04.04",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Hinweis: Druckrohr PE100RC TW AD/WD 355/32,2 mm PAS 1075 [PERSON_129] 3",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "04.04.0001 Druckrohr PE100RC TW AD/WD 355/32,2 mm PAS 1075 [PERSON_129] 3 Druckrohr PE100RC TW AD/WD 355/32,2 mm PAS 1075 [PERSON_129] 3 Druckrohr aus PE 100 mit äußerem Schutzmantel DIN 8074 und DIN 8075, mit höchstem Widerstand gegen langsames Risswachstum, einem Kernrohr aus PE 100 - RC und einer bi - axial orientierten Polymer - Matrix - Folie mit eingebetteter metallischer Diffussionssperre als Permeationssperre und einem Schutzmantel aus modifiziertem Polyolefincompound. Rohrfarbe [PERSON_031], Schutzmantel Farbe signalblau, für Trinkwasser geeignet, Rohr mit DVGW-Baumusterprüfzeichen, Werkstoffgüte zertifiziert durch anerkannte Prüf-, Zertifizier- und Überwachungsstelle gemäß PAS 1075, Außendurchmesser 355 mm, Wanddicke 32,2 mm, SDR 11 in geraden Längen, mit glatten Enden, Baulängen von 12 m, Verlegung DVGW GW 321, zur Verlegung mittels grabenlosem Verlegeverfahren (Spülbohrung/Berstlining), einschl. herstellen Montagefläche und Rollenlaufbahn, Spülbohrung wird gesondert vergütet, Rohre mit Entfernung und Wiederherstellung des Schutzmantels, sowie der Diffussionssperre, stumpf schweißbar, die Schweißung hat gemäß den Parametern der DVS 2207 - 1 unter Beachtung der für PE vorgegebenen Fügedrücke zu erfolgen. Verbindung wird gesondert vergütet. Hersteller/[PERSON_129]: GEROfit REX Trinkwasserdruckrohr [FIRMA_029] Fon [TELEFON_012] [URL_004] oder ein Produkt gleichwertiger Art................................................................... Das Produkt ist vom AN einzutragen. Abgerechnet wird die tatsächlich geschweißte, benötigte Gesamtlänge der Leitung. Ausführung im Bereich beider Spülbohrungen 1 und 2. Hinweis: PE - Rohre DA 355 an den Übergängen Spülbohrungen und Materialwechsel auf GGG DN 300 ZMU Rohre werden im Gewerk Liefern und Verlegen Wasserleitung im Bereich der offenen Bauweise gesondert vergütet!",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 405.0,
+          "evidence": "405 m  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "405 m  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 04.04 Rohrleitungen für Spülbohrungen"
+    },
+    {
+      "name": "Position 05.01",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "05.01",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "05.01.0001",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Polier-in sämtliche Kosten/Zuschläge Stundenlohnarbeiten durch Polier/-in der Verrechnungssatz für die jeweilige Arbeitskraft umfasst sämtliche Aufwendungen wie Lohn- und Gehaltskosten, Lohn- und Gehaltsnebenkosten, Zuschläge, lohngebundene und lohnabhängige Kosten, sonstige Sozialkosten, Gemeinkosten, Wagnis und Gewinn. [Bedarfsposition / contingency item – only ordered if needed]",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1 h  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "h",
+          "evidence": "1 h  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 05.01 VERRECHNUNGSSÄTZE FÜR LÖHNE UND GERÄTE"
+    }
+  ],
+  "tables": []
+}

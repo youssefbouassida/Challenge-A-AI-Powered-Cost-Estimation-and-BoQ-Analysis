@@ -1,0 +1,2657 @@
+{
+  "document": "LV_18_Estrich.pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 38,
+    "with_quantity": 33,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Request for quotation",
+      "evidence": "Anfrage"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "79-222",
+      "evidence": "Projekt: 79-222"
+    },
+    {
+      "name": "LVNumber",
+      "type": "string",
+      "description": "Bill of quantities number (LV-Nr.)",
+      "value": "18",
+      "evidence": "LV: 18"
+    }
+  ],
+  "positions": [
+    {
+      "name": "Position 11.1.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.1.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Budget KAS",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Budget KAS",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 PSCH"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "PSCH",
+          "evidence": "1,000 PSCH"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.1.10."
+    },
+    {
+      "name": "Position 11.3.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.3.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Ausgleichsschicht, EPS, WLS 035, 80mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Polystyrol-Hartschaumplatten, einlagig, als Ausgleichsschicht unter Estrich. Dämmung: EPS Anwendungsgebiet: DEO WLS: 035 Baustoffklasse: B1 Brandverhalten DIN EN 13501: E Plattendicke: 80 mm Einbauort: UG Angeb. Fabrikat: ' '",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 85.0,
+          "evidence": "85,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "85,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.3.20."
+    },
+    {
+      "name": "Position 11.3.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.3.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[FIRMA_071] auf TSD/WD,CT, 65mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "[FIRMA_091] auf Dämmung für Fußbodenheizung (schwimmender Estrich) inkl. Randdämmstreifen einbauen, nach Aushärtung Überstand Randdämmstreifen abschneiden. Die Randdämmstreifen sind an allen aufgehenden Bauteilen 20 mm höher als der Gesamtfußbodenaufbau einzubauen. Oberfläche planeben abgezogen zur Aufnahme von Bodenfliesen [PERSON_169] mit unterschiedlichen Oberbelägen werden durch den Einbau von Trennschienen oder nachträgliches Einschneiden unterteilt Der Estricheinbau erfolgt nach der Verlegung der FuBbodenheizung auf einer Rolljetdämmung. [BILD_001] 18 Die Rolljetdämmung wird vom Heizungsbauer verlegt. Estrichdicke: | 65 mm Festigkeitsklasse: | C35 Biegezugfestigkeit: | min. F5 Nutzlast: | Einzellast 5 kN, Flächenlast 5 kN/m2 Folgeleistung: | Bodenbelag keramisch Einbauort: | UG Sanitärräume",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 85.0,
+          "evidence": "85,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "85,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.3.30."
+    },
+    {
+      "name": "Position 11.3.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.3.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Bodeneinlauf anarbeiten",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Anarbeitung der zuvor beschriebenen Zementestrichbeläge an Bodeneinläufe. Einbauort: UG [FIRMA_013]",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 4.0,
+          "evidence": "4,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "4,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.3.40."
+    },
+    {
+      "name": "Position 11.3.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.3.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Zulage Gefälleausbildung an Bodeneinläufen",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Zulage Gefälleausbildung im Beerich von Bodeneinläufen. Verzugsgröße der Oberfläche: ca. 1,00-1,50 m2 Gefällerichtung 4-Seitig Gefälle ca. 1-2 %",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 4.0,
+          "evidence": "4,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "4,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.3.50."
+    },
+    {
+      "name": "Position 11.3.70",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.3.70",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Zulage für Schnellestrich (10 Tage) Zulage zu Zementestrichen, für ein Zusatzmittel als Schnellestrich mit einer Verlegereife nach 10 Tagen, für dampfdichte Bodenbeläge als Oberbelag Angeb. Fabrikat: ' '",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 85.0,
+          "evidence": "85,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "85,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.3.70."
+    },
+    {
+      "name": "Position 11.3.80",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.3.80",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Styroporfuge mit Querdübel",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Styroporfuge mit Querdübel",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 10.0,
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.3.80."
+    },
+    {
+      "name": "Position 11.3.90",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.3.90",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[PERSON_089] bis 150mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Abstellwinkel zum Einbau in Estrichbelägen, auf Betondecke montiert. Zweck: Randschalung für Deckenränder, Podeste, Schächte etc. ## Anfrage 18 Vorleistung (baus.): | [FIRMA_101] Folgeleistung: | Estricharbeiten Material: | [PERSON_089] feuerverzinkt Profil: | Winkelstahl Schenkellängen: | für Estrichdicken bis 150 mm Einbauort: | UG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "2,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.3.90."
+    },
+    {
+      "name": "Position 11.3.100",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.3.100",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Aussparung,< 0,1m2,Estrich",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Aussparung in Estrich herstellen und nachträglich an durchdringende Bauteile anarbeiten. Estrichart: [FIRMA_091] Aussparungsgröße: bis 0,10 m2 Konstruktionshöhe: < 185 mm Einbauort: UG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.3.100."
+    },
+    {
+      "name": "Position 11.4.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.4.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Ausgleichsschicht, EPS, WLS 035, 80mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Polystyrol-Hartschaumplatten, einlagig, als Ausgleichsschicht unter Estrich, inkl Reinigung der Betonoberfläche. Dämmschichten sind an im Fußbodenaufbau befindliche Rohrleitungen und Kabelkanälen dicht herangeführt zu verlegen. Hohlräume an den in der Dämmung eingebetteten Rohren sind durch Schüttungen (z.B. Perlit) zu dämmen. Zuvor sind nebenliegende Dämmplatten am Boden zu verkleben, um eine Unterwanderung der Dämmung durch die Schüttung zu vermeiden. Gleiches gilt für die Grundplatten zur Befestigung der Elementfassaden in den freien Randbereichen der Stahlbetondecke, welche im Abstand von 1,50 m montiert werden. Dämmung: EPS Anwendungsgebiet: DEO WLS: 035 Baustoffklasse: B1 Brandverhalten DIN EN 13501: E Plattendicke: 120 mm ### Anfrage 18 Einbauort: UG (Archiv, Lager, ELT, Flur) Angeb. Fabrikat: ' '",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 35.0,
+          "evidence": "35,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "35,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.4.10."
+    },
+    {
+      "name": "Position 11.4.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.4.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Ausgleichsschicht, EPS, WLS 035, 90mm wie Position zuvor, jedoch d=90mm Einbauort: UG [FIRMA_077] Teeküche, [FIRMA_125] Technik, Server)",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 150.0,
+          "evidence": "150,000 m2  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "150,000 m2  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.4.20"
+    },
+    {
+      "name": "Position 11.4.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.4.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Abdeckung, PE-Folie, 0,2 mm Abdeckung der Dämmschicht mit einer Lage Kunststofffolie, 15 cm überlappt und seitlich entsprechend der Estrichdicke hochgeschlagen, als Schutz- oder Trennlage. Folie: PE, 0,2 mm Angeb. Fabrikat: ' '",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 185.0,
+          "evidence": "185,000 m2  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "185,000 m2  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.4.40"
+    },
+    {
+      "name": "Position 11.4.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.4.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[FIRMA_091] auf TSD/WD, CT, 65mm [FIRMA_091] auf Dämmung (schwimmender Estrich) inkl. Randdämmstreifen einbauen, nach Aushärtung Überstand Randdämmstreifen abschneiden. Die Randdämmstreifen sind an allen aufgehenden Bauteilen 20 mm höher als der Gesamtfußbodenaufbau einzubauen Oberfläche planeben abgezogen zur Aufnahme von Teppich- und Kautschuk-Belägen.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "[PERSON_169] mit unterschiedlichen Oberbelägen werden durch den Einbau von Trennschienen oder nachträgliches Einschneiden unterteilt Estrichdicke: 65 mm Festigkeitsklasse: C35 min. F5 Biegezugfestigkeit: Nutzlast: Einzellast 5 kN, Flächenlast 5 kN/m2 Folgeleistung: Bodenbeläge keramisch/Kautschuk/Textil Einbauort: UG Schulungs- und [FIRMA_077] Teeküche",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 150.0,
+          "evidence": "150,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "150,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.4.50"
+    },
+    {
+      "name": "Position 11.4.60",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.4.60",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[FIRMA_091] auf TSD/WD, CT, 75mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "[FIRMA_091] auf Dämmung (schwimmender Estrich) inkl. Randdämmstreifen einbauen, nach Aushärtung Überstand Randdämmstreifen abschneiden. Die Randdämmstreifen sind an allen aufgehenden Bauteilen 20 mm höher als der Gesamtfußbodenaufbau einzubauen Oberfläche planeben abgezogen und geglättet, zur Aufnahme eines staubbindenden Anstriches. [PERSON_169] mit unterschiedlichen Oberbelägen werden durch den Einbau von Trennschienen oder nachträgliches Einschneiden unterteilt. Estrichdicke: | 75 mm Festigkeitsklasse: | C35 Biegezugfestigkeit: | min. F5 Nutzlast: | Einzellast 5 kN, Flächenlast 5 kN/m2 Folgeleistung: | Staubbindender Anstrich Einbauort: | Technikräume und Archiv",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 35.0,
+          "evidence": "35,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "35,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.4.60."
+    },
+    {
+      "name": "Position 11.4.70",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.4.70",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Bodeneinlauf anarbeiten",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Anarbeitung der zuvor beschriebenen Zementestrichbeläge an Bodeneinläufe. Einbauort: UG Technik",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.4.70."
+    },
+    {
+      "name": "Position 11.4.80",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.4.80",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Zulage Gefälleausbildung an Bodeneinläufen",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Zulage Gefälleausbildung im Beerich von Bodeneinläufen. Verzugsgröße der Oberfläche: ca. 1,00-1,50 m2 Gefällerichtung 4-Seitig Gefälle ca. 1-2%",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 Stk"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "1,000 Stk"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.4.80."
+    },
+    {
+      "name": "Position 11.4.100",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.4.100",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Zulage für Schnellestrich (10 Tage) Zulage zu Zementestrichen, für ein Zusatzmittel als Schnellestrich mit einer Verlegereife nach 10 Tagen, für dampfdichte Bodenbeläge als Oberbelag Angeb. Fabrikat: ' '",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 185.0,
+          "evidence": "185,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "185,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.4.100."
+    },
+    {
+      "name": "Position 11.4.110",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.4.110",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[PERSON_089] bis 150mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Abstellwinkel zum Einbau in Estrichbelägen, auf Betondecke montiert. Zweck: Randschalung für Deckenränder, Podeste, Schächte etc. Vorleistung (baus.): [FIRMA_101] Folgeleistung: Estricharbeiten Material: [PERSON_089] feuerverzinkt Profil: Winkelstahl Schenkellängen: für Estrichdicken bis 150 mm Einbauort: UG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 5.0,
+          "evidence": "5,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "5,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.4.110."
+    },
+    {
+      "name": "Position 11.4.120",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.4.120",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Aussparung,< 0,1m2,Estrich",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Aussparung in Estrich herstellen und nachträglich an durchdringende Bauteile anarbeiten. Aussparungsgröße: bis 0,10 m2 Konstruktionshöhe: < 185 mm Einbauort: UG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.4.120."
+    },
+    {
+      "name": "Position 11.4.140",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.4.140",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Bodentanks EDV anarbeiten",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Anarbeitung der zuvor beschriebenen Zementestrichbeläge an Bodentanks.. Einbauort: UGSchulungs- und Besürechungsraum, Teeküche",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 10.0,
+          "evidence": "10,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "10,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.4.140."
+    },
+    {
+      "name": "Position 11.4.160",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.4.160",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Styroporfuge mit Querdübel",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Styroporfuge mit Querdübel",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 10.0,
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.4.160."
+    },
+    {
+      "name": "Position 11.5.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.5.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Ausgleichsschicht, EPS, WLS 035, 50mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Polystyrol-Hartschaumplatten, einlagig, als Ausgleichsschicht unter Estrich, inkl Reinigung der Betonoberfläche. 18 Dämmschichten sind an im Fußbodenaufbau befindliche Rohrleitungen und Kabelkanälen dicht herangeführt zu verlegen. Hohlräume an den in der Dämmung eingebetteten Rohren sind durch Schüttungen (z.B. Perlit) zu dämmen. Zuvor sind nebenliegende Dämmplatten am Boden zu verkleben, um eine Unterwanderung der Dämmung durch die Schüttung zu vermeiden. Gleiches gilt für die Grundplatten zur Befestigung der Elementfassaden in den freien Randbereichen der Stahlbetondecke, welche im Abstand von 1,50 m montiert werden. Dämmung: EPS Anwendungsgebiet: DEO WLS: 035 Baustoffklasse: B1 Brandverhalten DIN EN 13501: E Plattendicke: 50 mm Einbauort: EG/1.OG/2.OG (WCs, Putzräume, Flure, Treppenhaus, Eingang, Teeküchen) Angeb. Fabrikat: ' '",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 260.0,
+          "evidence": "260,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "260,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.5.10."
+    },
+    {
+      "name": "Position 11.5.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.5.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Ausgleichsschicht, EPS, WLS 035, 60mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "wie Pos. zuvor, jedoch d=60 mm Einbauort: EG/1.OG/2.OG (Lohnbuchhaltung Büro und Besprechung, Büros, Besprecungsräume) Angeb. Fabrikat: ' '",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 520.0,
+          "evidence": "520,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "520,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.5.20."
+    },
+    {
+      "name": "Position 11.5.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.5.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Trittschalldämmung, EPS, WLS 045, 30mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Polystyrol-Hartschaumplatten als Trittschalldämmung unter Estrich. Dämmung: EPS-Trittschalldämmung (TSD) Baustoffklasse: B1 Brandverhalten DIN EN 13501: E Anwendungsgebiet: DES-sm WLS: 045 Plattendicke: 30 mm Zusammendrückbarkeit (CP): 2 mm Steifigkeitsgruppe: 15 Einbauort: EG/1.OG/2.OG 18",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.5.30."
+    },
+    {
+      "name": "Position 11.5.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.5.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Abdeckung, PE-Folie, 0,2 mm Abdeckung der Dämmschicht mit einer Lage Kunststofffolie, 15 cm überlappt und seitlich entsprechend der Estrichdicke hochgeschlagen, als Schutz- oder Trennlage. Folie: PE, 0,2 mm Angeb. Fabrikat: ' '",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 780.0,
+          "evidence": "780,000 m2  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "780,000 m2  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.5.40"
+    },
+    {
+      "name": "Position 11.5.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.5.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[FIRMA_091] auf TSD/WD, CT, 65mm [FIRMA_091] auf Dämmung (schwimmender Estrich) inkl. Randdämmstreifen einbauen, nach Aushärtung Überstand Randdämmstreifen abschneiden. Die Randdämmstreifen sind an allen aufgehenden Bauteilen 20 mm höher als der Gesamtfußbodenaufbau einzubauen Oberfläche planeben abgezogen. Zur Aufnahme von Bodenbelägen: Fliesen, Naturstein, Vinyl, Teppich [PERSON_169] mit unterschiedlichen Oberbelägen werden durch den Einbau von Trennschienen oder nachträgliches Einschneiden unterteilt",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Estrichdicke: 65 mm Festigkeitsklasse: C35 Biegezugfestigkeit: min. F5 Nutzlast: Einzellast 5 kN, Flächenlast 5 kN/m2 Folgeleistung: Bodenbeläge keramisch/Textil/Vinyl Einbauort: EG/1.OG/2.OG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 780.0,
+          "evidence": "780,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "780,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.5.50"
+    },
+    {
+      "name": "Position 11.5.70",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.5.70",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Zulage für Schnellestrich (10 Tage) Zulage zu Zementestrichen, für ein Zusatzmittel als Schnellestrich mit einer Verlegereife nach 10 Tagen, für dampfdichte Bodenbeläge als [BILD_001] ## Anfrage 18 Oberbelag Angeb. Fabrikat: ' '",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 780.0,
+          "evidence": "780,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "780,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.5.70."
+    },
+    {
+      "name": "Position 11.5.80",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.5.80",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[PERSON_089] bis 150mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Abstellwinkel zum Einbau in Estrichbelägen, auf Betondecke montiert. Zweck: Randschalung für Deckenränder, Podeste, Schächte etc. Vorleistung (baus.): [FIRMA_101] Folgeleistung: Estricharbeiten Material: [PERSON_089] feuerverzinkt Profil: Winkelstahl Schenkellängen: für Estrichdicken bis 150 mm Einbauort: UG - 2.OG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 20.0,
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "20,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.5.80."
+    },
+    {
+      "name": "Position 11.5.90",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.5.90",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Aussparung,< 0,1m2,Estrich",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Aussparung in Estrich herstellen und nachträglich an durchdringende Bauteile anarbeiten. Estrichart: [FIRMA_091] Aussparungsgröße: bis 0,10 m2 Konstruktionshöhe: < 185 mm Einbauort: UG2-OG2",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 6.0,
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.5.90."
+    },
+    {
+      "name": "Position 11.5.100",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.5.100",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Aussparung,< 2,5m2,Estrich Aussparung in Estrich herstellen und nachträglich an durchdringende Bauteile anarbeiten. Estrichart: [FIRMA_091] Aussparungsgröße: bis 2,5 m2 Konstruktionshöhe: < 185 mm Einbauort: UG2-OG2",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.5.100."
+    },
+    {
+      "name": "Position 11.5.110",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.5.110",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Aussparung Sauberlaufrmatte, 1000 x 1800 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Herstellen einer Aussparung innerhalb von [PERSON_169] für den bauseitigen Einbau einer Sauberlaufmnatte. Rahmenhöhe Sauberlaufmatte: ca. 25 mm Grösse Sauberlaufmatte: ca. 1800x1000 mm (b x t) ## Anfrage 18 Einbauort: Haupteingangsbereich EG | 1,000 St Summe 11.5. [FIRMA_091] EG-2.OG 11.6. Zwischenpodeste",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.5.110."
+    },
+    {
+      "name": "Position 11.6.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.6.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Trittschalldämmung, EPS, WLG 040, 20mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Polystyrol-Hartschaumplatten als Trittschalldämmung unter Estrich, inkl Reinigung der Betonoberfläche. . Dämmung: EPS-Trittschalldämmung (TSD) Baustoffklasse: B1 Brandverhalten DIN EN 13501: E Anwendungsgebiet: DES-sm WLG: 040 Plattendicke: 20 mm Zusammendrückbarkeit (CP): 2 mm Dyn. Steifigkeit 12 MN/m3 Einbauort: Podeste EG/1.OG/2.OG Angeb. Fabrikat: ' '",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 7.0,
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.6.10."
+    },
+    {
+      "name": "Position 11.6.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.6.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Abdeckung, PE-Folie, 0,2 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Abdeckung der Dämmschicht mit einer Lage Kunststofffolie, 15 cm überlappt und seitlich entsprechend der Estrich- dicke hochgeschlagen, als Schutz- oder Trennlage. Folie: PE, 0,2 mm Angeb. Fabrikat: ' '",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 7.0,
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.6.20."
+    },
+    {
+      "name": "Position 11.6.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.6.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[FIRMA_091] auf TSD, CT, 60mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "[FIRMA_091] auf Dämmung (schwimmender Estrich) inkl. Randdämmstreifen einbauen, nach Aushärtung Überstand Randdämmstreifen abschneiden. Die Randdämmstreifen sind an allen aufgehenden 18 Bauteilen 20 mm höher als der Gesamtfußbodenaufbau einzubauen. Die Randdämmstreifen sind aus nicht brennbarem Material einzubauen. Oberfläche planeben abgezogen. Zur Aufnahme von Bodenbelägen keramisch Estrichdicke: 65 mm Festigkeitsklasse: C35 Biegezugfestigkeit: min. F5 Nutzlast: Einzellast 5 kN, Flächenlast 5 kN/m2 Folgeleistung: Bodenbeläge keramisch/Textil Einbauort: Podeste EG/1.OG/2.OG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 7.0,
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m2",
+          "evidence": "7,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.6.30."
+    },
+    {
+      "name": "Position 11.6.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.6.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[PERSON_089] bis 100mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Abstellwinkel zum Einbau in Estrichbelägen, auf Betondecke montiert, auf der Fassadenseite und der Treppenlaufseite. Zweck: Randschalung für Deckenränder, Podeste, Schächte etc. Vorleistung (baus.): [FIRMA_101] Folgeleistung: Estricharbeiten Material: [PERSON_089] feuerverzinkt Profil: Winkelstahl Schenkellängen: für Estrichdicken bis 100 mm Einbauort: Podeste EG/1.OG/2.OG",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 15.0,
+          "evidence": "15,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "15,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.6.40."
+    },
+    {
+      "name": "Position 11.7.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.7.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Stundenlohn Vorarbeiter Stundensatz für Leistungen, welche nicht in den Positionen erfasst sind und nur auf ausdrückliche Anweisung der Bauleitung gegen Nachweis zur Ausführung kommen. Vorarbeiter",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "10,000 h | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.7.10"
+    },
+    {
+      "name": "Position 11.7.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.7.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Stundensatz Fachwerker Stundensatz für Leistungen, welche nicht in den Positionen erfasst sind und nur auf ausdrückliche Anweisung der Bauleitung gegen Nachweis zur Ausführung kommen. Fachwerker",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "10,000 h | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.7.20"
+    },
+    {
+      "name": "Position 11.7.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "11.7.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Stundensatz Bauhelfer Stundensatz für Leistungen, welche nicht in den Positionen erfasst sind und nur auf ausdrückliche Anweisung der Bauleitung gegen Nachweis zur Ausführung kommen. Bauhelfer",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "10,000 h | Nur Einh.-Pr. Summe 11.7. | Stundenlohnarbeiten Summe 11. | Estricharbeiten Summe LV 18 Estrich [BILD_001] 18 Zuzüglich der gesetzlichen Mehrwertsteuer aus in Höhe von 19,00 % EUR EUR EUR (Ort) (Datum) (rechtsgültige Unterschrift) Das LV besteht aus den Seiten 1 bis 14",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "11.7.30"
+    }
+  ],
+  "tables": [
+    {
+      "name": "Table 1",
+      "type": "table",
+      "description": "Table 1 of the document (6 rows)",
+      "value": [
+        [
+          "Estrichdicke:",
+          "65 mm"
+        ],
+        [
+          "Festigkeitsklasse:",
+          "C35"
+        ],
+        [
+          "Biegezugfestigkeit:",
+          "min. F5"
+        ],
+        [
+          "Nutzlast:",
+          "Einzellast 5 kN, Flächenlast 5 kN/m2"
+        ],
+        [
+          "Folgeleistung:",
+          "Bodenbelag keramisch"
+        ],
+        [
+          "Einbauort:",
+          "UG Sanitärräume"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 2",
+      "type": "table",
+      "description": "Table 2 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 3",
+      "type": "table",
+      "description": "Table 3 of the document (6 rows)",
+      "value": [
+        [
+          "Vorleistung (baus.):",
+          "[FIRMA_101]"
+        ],
+        [
+          "Folgeleistung:",
+          "Estricharbeiten"
+        ],
+        [
+          "Material:",
+          "[PERSON_089] feuerverzinkt"
+        ],
+        [
+          "Profil:",
+          "Winkelstahl"
+        ],
+        [
+          "Schenkellängen:",
+          "für Estrichdicken bis 150 mm"
+        ],
+        [
+          "Einbauort:",
+          "UG"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 5",
+      "type": "table",
+      "description": "Table 5 of the document (6 rows)",
+      "value": [
+        [
+          "Estrichdicke:",
+          "75 mm"
+        ],
+        [
+          "Festigkeitsklasse:",
+          "C35"
+        ],
+        [
+          "Biegezugfestigkeit:",
+          "min. F5"
+        ],
+        [
+          "Nutzlast:",
+          "Einzellast 5 kN, Flächenlast 5 kN/m2"
+        ],
+        [
+          "Folgeleistung:",
+          "Staubbindender Anstrich"
+        ],
+        [
+          "Einbauort:",
+          "Technikräume und Archiv"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 6",
+      "type": "table",
+      "description": "Table 6 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 7",
+      "type": "table",
+      "description": "Table 7 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 9",
+      "type": "table",
+      "description": "Table 9 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 10",
+      "type": "table",
+      "description": "Table 10 of the document (4 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "",
+          "Übertrag:"
+        ],
+        [
+          "Einbauort: Haupteingangsbereich EG",
+          "1,000 St",
+          "",
+          ""
+        ],
+        [
+          "Summe 11.5. [FIRMA_091] EG-2.OG",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 11",
+      "type": "table",
+      "description": "Table 11 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

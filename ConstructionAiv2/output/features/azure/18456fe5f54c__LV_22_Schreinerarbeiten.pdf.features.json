@@ -1,0 +1,1682 @@
+{
+  "document": "LV_22_Schreinerarbeiten.pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 23,
+    "with_quantity": 4,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Request for quotation",
+      "evidence": "Anfrage"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "79-222",
+      "evidence": "Projekt: 79-222"
+    },
+    {
+      "name": "LVNumber",
+      "type": "string",
+      "description": "Bill of quantities number (LV-Nr.)",
+      "value": "22",
+      "evidence": "LV: 22"
+    }
+  ],
+  "positions": [
+    {
+      "name": "Position 3.2.1",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.2.1",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Sämtliche Leistungen sind oberflächenfertig zu übergeben, soweit nicht",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "an anderer Stelle ausdrücklich abweichend beschrieben. Für jegliche Beschichtungs-, Maler- und Lackierarbeiten sind vom AN Probeflächen auszuführen. Diese sind nach angemessener Standzeit vor Ausführung der Hauptleistung auf ihre Haftfähigkeit und ihre Untergrundverträglichkeit zu prüfen. Sofern gebeizte und/oder furnierte Flächen unterschiedlicher Hersteller, Werkstoffuntergründe, Furnierlieferanten etc. gefordert sind, ist davon auszugehen, dass alle Oberflächen unterschiedlicher Bauteile absolut oberflächengleich aussehen sollen. In solchen Fällen sind vom AN so viele Muster anzufertigen, wie als Grundlage einer erfolgreichen Grenzbemusterung erforderlich werden. Die Oberflächen sichtbarer Stirnseiten sind in gleicher Art auszuführen wie diejenigen nebenliegender Flächen, sofern nicht an anderer Stelle abweichend beschrieben. Kanten sind mit überdeckten Hartholzleimern zu versehen. Zum Feuchtigkeitsausgleich sind Anleimer mit dem Grundmaterial gemeinsam einzulagern. Holzanleimer sollen mit stehenden Jahresringen ausgeführt werden. Ein bündiges Fräsen von Anleimern darf erst - in Abhängigkeit vom verwendeten Leim - nach 1 bis 2 Tagen nach dem Verleimen erfolgen. 22 Sichtbar verbleibende Deckfurniere sind ausschließlich in hochwertiger Güte zu verwenden, dies gilt auch für die nach Öffnung der Fronten sichtbaren Innenoberflächen von Möbeln.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.1 Oberflächen, Furniere"
+    },
+    {
+      "name": "Position 3.2.2",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.2.2",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Für alle Möbel sind unterseitig kunststoffbeschichtete, belüftete",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Sockelblenden in Dekor nach [PERSON_125] des AG mit höhenverstellbaren Füßen vorzusehen. Sockelblenden sind so auszuführen, dass alle unterseitigen, bodennahen Schnittkanten mit Kunststoffleimern verdeckt werden, um eine Wasseraufnahme über offene Stirnflächen von Holzwerkstoffen zu verzögern bzw. zu erschweren. Seitliche und obere Anschlüsse von Einbaumöbeln sind mit Deckleisten, die örtlich an vorhandene Wände anzupassen sind, auszuführen. Dauerplastische Versiegelungen sind zu diesem Zweck nur auf ausdrückliche Anforderung hin zulässig. Alle [FIRMA_095] von Einbaumöbeln erhalten qualitativ hochwertige Federtopfbänder mit Schließdämpfung. Der AN stimmt vor Ausführungsbeginn mit dem AG ab, ob Griffmulden oder Griffbeschläge zur Ausführung gelangen. Pop-up-Beschläge kommen als eingebohrte, möbelseitenintegrierte Beschläge (nicht als aufgeschraubte Beschläge) zur Ausführung. Standardmäßig sind Möbelschlösser als Sicherheitsschlösser (nicht als Buntbartschlösser) mit Rosettenabdeckung, im Material der übrigen Beschläge, raumweise gleichschließend vorzusehen.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.2 Einbaumöbel"
+    },
+    {
+      "name": "Position 3.2.7",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.2.7",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "sind grundsätzlich als vorgezogene Leistung zu",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "gesondertem Termin nach Aufforderung durch die Bauleitung zu montieren und vom AN gegen Beschädigung durch Folgegewerke wie Putzer und Maler umfänglich durch vollflächige Ummantelung zu schützen. [PERSON_119] sind mit vorderen und seitlichen Überständen von jeweils ca. 3 cm vorzusehen, sofern nicht an anderer Stelle abweichend beschrieben. Wenn [PERSON_119] nicht vor dem Verputzen der Laibungen eingesetzt werden, sind alle Wandanschlüsse nachträglich örtlich passig zu schneiden. Dauerplastische Versiegelungen zur optischen Überdeckung von Anschlussfugen sind untersagt, soweit nicht anderweitig abweichend geregelt. [PERSON_119] bis zu einer Länge von 3,00 m sind ungeteilt einzubauen, längere Fensterbänke sind unter 22 Bezugnahme auf die Achsen der Fensterelemente zu teilen. Die Befestigung von Innenfensterbänken erfolgt verdeckt als Klebebefestigung. [PERSON_119] mit Dekoroberfläche erhalten stirnseitig eine Bekleidung aus demselben Dekor. Kunststoff-Endkappen sind als Stirnseitenabdeckung nicht zulässig. [PERSON_119] sind grundsätzlich kipp- und trittsicher auszuführen. ## 3.3 [FIRMA_095] Der AN klärt mit Erstellung der Türliste rechtzeitig vor Bestellung der [FIRMA_095] die erforderliche Einbauhöhe der Türdrücker und weist den AG auf die Vorgabehöhe 850 mm aus DIN 18040 hin. Der AN trägt in die von ihm zu erstellende Türliste alle lichten Durchgangsbreiten von Türflügeln ein, die sich aus der Kombination seiner Türkonstruktionen und der vorhandenen Öffnungsmaße ergeben. Er gleicht unaufgefordert und zum Zeitpunkt der Erstellung der Türliste die von ihm ermittelten lichten Durchgangsbreiten mit den vom AG anzugebenden mindesterforderlichen Durchgangsbreiten ab und meldet erforderlichenfalls beim AG Bedenken an, wenn geforderte lichte Durchgangsbreiten nicht eingehalten werden können. Sind in Tür- oder Fensterlisten sowie Glasstärken in der Leistungsbeschreibung benannt, gelten diese nur als Kalkulations-, nicht aber als Ausführungsgrundlage. Eckstöße von Bekleidungen und Verleistungen sind auf Gehrung auszuführen. Bekleidungen und Verleistungen sind im Material und mit der gleichen Oberflächenbehandlung wie die Einbauelemente herzustellen. In der Altbausanierung sind bei Demontagearbeiten mit anschließender Türerneuerung die Bestandsdübel ggf. in der Türlaibung zu belassen und bündig abzuschneiden. Hülsen von Blendrahmenschrauben sollen in der [PERSON_074] verbleiben. Falzdichtungen und Türdrücker sind erst nach Ausführung der Malerarbeiten einzubauen und in den Türecken auf Gehrung zu schneiden.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 3.2.7 [PERSON_119]"
+    },
+    {
+      "name": "Position 3.3.1",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.3.1",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Türzargen sind so auszubilden, dass sie nach ihrem Einbau die Lehre für",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Innen- und AuBenputz bzw. bei mehrschichtigen Außenwänden für Innenputz und Wetterschutzhaut (Verblender o. Ä.) bilden. Daher sind alle 22 Zargen abschnittsweise in die Rohbauwandöffnungen einzumessen. Die Zargen und Türschlagrichtung aller [FIRMA_095] sind so auszuwählen, dass die Zargenspiegel-Ansichtsbreiten von [FIRMA_095] unterschiedlicher Funktion gleichartig erscheinen. Wegen der Lehrfunktion sind die Zargen flucht-, lot- und maßgerecht einzubauen. Dabei sind die zulässigen Toleranzen, speziell die Winkeltoleranzen in horizontaler und vertikaler Richtung, der vorleistenden Gewerke auszugleichen. Sind Umfassungszargen mit Mörtel zu füllen, ist die Tür bis zur Erhärtung geschlossen zu halten und gegen unbefugtes Öffnen zu sichern. Ein Einschäumen von [FIRMA_095] mit Rauch- oder Brandschutzanforderung ist nicht zulässig, es sind [FIRMA_095] mit entsprechender Einbauanweisung vorzusehen. Zargen ungefälzter [FIRMA_095] sind so maßhaltig zu setzen, dass die Fugenmaße zwischen Türblatt und Türzarge maximal 2 mm differieren. Der hierfür erforderliche erhöhte Aufwand ist vom AN zu berücksichtigen. Stahlzargen und Zargen aus Holzwerkstoffen müssen Abweichungen von geplanten Soll-Wanddicken von -5 bis +10 mm ausgleichen können. Stahlzargen sind mit einer Mindestblechdicke von 1,5 mm für [FIRMA_095] ohne Funktionsanforderung im Wohnungsbau, und 2 mm für alle übrigen [FIRMA_095] auszuführen.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 3.3.1 Zargen"
+    },
+    {
+      "name": "Position 3.3.2",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.3.2",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Der AN stellt durch seine Montage sicher, dass die Fuge unterhalb von",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Rauchschutztüren nicht größer als in der Einbauanleitung des Herstellers vorgegeben ist. Sollte die bauliche Vorleistung hierfür nicht geeignet sein, so informiert der AN den AG rechtzeitig vor Ausführung hierüber. Brandschutztüren dürfen unterseitig nur bis zu einer maximalen Höhe, in der Regel nicht mehr als 2 cm, gekürzt werden. Unterschnitte zur Nachströmung gemäß Prüfzeugnis oder bauaufsichtlicher Zulassung unter Brandschutztüren sind unzulässig. [FIRMA_095] in Bereichen mit Warenverkehr dürfen nur maximal 4 mm Schwellenhöhe aufweisen.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 3.3.2 Unterer Abschluss"
+    },
+    {
+      "name": "Position 3.3.3",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.3.3",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "und Brandschutztüren sind generell als geprüfte Einheit aus",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Türzarge, Türblatt und den für die Funktion erforderlichen Beschlägen als einheitliches System auszuführen. 22 Feuerschutztüren müssen selbstschließend sein. Als Betriebszustand gilt \"ständig geschlossen\", falls nicht beschrieben oder in den Planungsunterlagen ersichtlich. Zu jeder Funktionstür sind vom Hersteller Einbau- und Wartungsanleitungen sowie Einbaurichtlinien aus dem Zulassungsbescheid mitzuliefern. Erforderliche Abnahmen und Inbetriebnahmen sind als Leistung des AN rechtzeitig durchführen zu lassen und zu dokumentieren.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.3.3 Feuerschutzabschlüsse und [PERSON_041]"
+    },
+    {
+      "name": "Position 3.3.4",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.3.4",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Alle Rahmentüren sowie alle Mietbereichszugangstüren sind generell so",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "vorzurüsten, dass ein nachträglicher Austausch der Schließbleche gegen elektrische Türöffner ohne weitere Nachrüstungs- und Umbaumaßnahmen unter Wahrung der Zulassung des Elements stattfinden kann. Die entsprechenden Kabel sind als Vorrüstung verdeckt einzulegen, Schließbleche sind in entsprechender Dimensionierung vorzusehen. Die Kabelführung ist für die spätere Nachrüstung von im Türfalz liegenden (\"verdeckten\") Kabelschaukeln vorzusehen.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 3.3.4 SchlieBung"
+    },
+    {
+      "name": "Position 3.3.5",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.3.5",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Anti-Panikbeschläge sind an allen [FIRMA_095] in Flucht- und Rettungswegen",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "mit Betätigung in Fluchtrichtung erforderlich, um ein jederzeitiges ungehindertes Öffnen dieser [FIRMA_095] sicherzustellen. Soweit bei 2-flg. [FIRMA_095] die erforderliche lichte Türdurchgangsbreite vom Gangflügel alleine nicht gewährleistet wird, sind Vollpanikbeschläge mit Schaltschloss in die Standflügel zu integrieren, die Betätigungsseiten sind hierbei fluchtrichtungsabhängig festzulegen. Erforderlichenfalls sind beidseitige Betätigungen auf Standflügeln vorzusehen. Alle [FIRMA_095] in Flucht- und Rettungswegen sind ausschließlich mit nach EN 179 geprüften Türdrückern oder nach EN 1125 geprüften Panikstangenbeschlägen auszurüsten. Die in diesen Normen geforderten geringen Betätigungskräfte werden vom Türhersteller in der Kombinationsprüfung von Tür und Beschlag mit Prüfnachweisen belegt. Sofern [FIRMA_095] in Flucht- und Rettungswegen permanent geschlossen gehalten werden sollen, kann dies nur über Fluchttürterminals gewährleistet werden, die den Türverschluss bei Auslösung der Brandmeldeanlage aufheben. Alternativ hierzu können mechanisch-elektroakustische Fluchttürwächter eingesetzt werden, die akustischen Alarm bei unberechtigter Türöffnung geben. 22",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 3.3.5 [FIRMA_095] in Flucht- und Rettungswegen"
+    },
+    {
+      "name": "Position 3.3.6",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.3.6",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Soweit nicht anders beschrieben, ist die Oberfläche von Türschließern in",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Aluminiumsilber vorzusehen. Türschließer von Außentüren werden auf der Innenseite der Fassade (nicht auBenseitig, also Über-Kopf-Montage) montiert. Scherentürschließer sind nicht zulässig. Obentürschließer sind standardmäßig mindestens als Gleitschienentürschließer (GLS) mit mechanischer Feststellung auszuführen. Vollintegrierte Türschließer sind bei Holzrahmentüren als Mindeststandard festgelegt. Die Schließkraft und -geschwindigkeit sind örtlich vom AN unmittelbar vor der Abnahme einzustellen. Eine Nachbegehung ca. 3 Monate nach Inbetriebnahme zum Nachstellen aller Türschließer gehört zum Leistungsumfang des AN. Sämtliche Befestigungsmittel für [FIRMA_095] am Baukörper müssen aus nichtrostendem Material bestehen oder verzinkt sein. Gegebenenfalls sind Verstärkungen vorzusehen, die ein AusreiBen des Schließmechanismus verhindern, wenn die Türkonstruktion dies erfordert. Bauaufsichtlich erforderliche Türschließer an [FIRMA_095] deren Betätigung für die Nutzer einen außergewöhnlich hohen Kraftaufwand erfordern (Bettlägerige, Senioren, kleinere Kinder), sollen Freilaufvorrichtungen erhalten, die auf eine Brandmeldeanlage aufzuschalten sind und die sicherstellen, dass sich die Türschließer so lange im Freilauf befinden, bis die Gebäudebrandmeldeanlage oder die RMZ Alarm auslösen. Der AN weist den AG auf das Erfordernis solcher Freilauftürschließer im Rahmen seiner Werkstatt- und Montageplanung hin.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 3.3.6 Türschließer"
+    },
+    {
+      "name": "Position 3.3.7",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.3.7",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "dort, wo mit betriebsbedingter Offenhaltung von [FIRMA_095] und Toren",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "mit Brand- und/oder Rauchschutzanforderung zu rechnen ist, muss eine Türfeststellanlage (FSA) eingebaut werden. Bei allen flurquerenden [FIRMA_095] die keinen Nutzungseinheitenabschluss darstellen, ist davon auszugehen, dass diese mit einer FSA auszustatten sind. Der AN weist den AG auf das Erfordernis von Feststellanlagen im Rahmen seiner Werkstatt- und Montageplanung hin. Alle FSA erhalten einen separaten Wandtaster zur Auslösung der FSA mit Beschriftung \"Tür schließen\". Die Offenhaltung bei Drehflügeltüren erfolgt in der Regel als teilintegrierte Anlage im Obentürschließer mit im Sturz integriertem Rauchmelder, soweit nicht ausdrücklich mit 22 Haftmagneten beschrieben. Der Offenhaltungswinkel soll mindestens 117° betragen. Alle Feststellanlagen sind als in die Gleitschienentürschließer integrierte Feststellanlagen einschließlich Rauchmeldezentrale auszuführen. Die Höhe des auf den Rahmen aufbauenden Bauteils soll nicht mehr als 35 mm betragen. Alle Rauchmeldezentralen weisen die Möglichkeit zum Anschluss mindestens zwei externer Deckenrauchmelder sowie einen potenzialfreien Kontakt zur Aufschaltung eines (bauseitigen) Buskopplers einer Brandmeldeanlage zur zentralen Auslösung der Türschließfunktion auf. In Bereichen mit hohen mechanischen Beanspruchungen (Schulen, Warenhäusern, Produktionen) sind ausschließlich Wandhaftmagnete vorzusehen. Der AN weist den AG mit Erstellung der Türliste auf das Erfordernis von Wandverstärkungen zur Aufnahme der Wandhaftmagnete hin. Beschriftete Auslösetaster für die Haftmagnete sind beidseits der Türelemente anzuordnen. Soweit nicht an anderer Stelle anderslautend beschrieben, sollen folgende Schnittstellen bei der Ausführung von FSA gelten: Lieferung + Einbau Türschließer AN, Lieferung + Einbau Rauchmeldezentrale AN, Lieferung + Einbau FSAAN, Lieferung + Einbau Deckenmelder AN, Zuführung 230 V bis zur Tür AG (Elektrogewerk), Zuführung Buskabel bis zur FSAAG (Elektrogewerk), Zuleitung unter Putz für Deckenmelder AG, Zuleitung auf Putz für Deckenmelder AN, Zuleitung unter Putz für Taster, Taster AG (Elektrogewerk), BMA-Buskoppler zur Aufschaltung AG, Prüfbuch, Prüfbescheinigung, Inbetriebnahme AN.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "### 3.3.7 Feststellanlagen und [PERSON_109]"
+    },
+    {
+      "name": "Position 3.3.8",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.3.8",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Sofern Türantriebe vorgesehen sind, führt der AN im Rahmen seiner",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Werkstatt- und Montageplanung eine Gefährdungsanalyse nach DIN 18650 durch. Soweit sich aus dieser Analyse ergibt, dass weitere Schutzvorrichtungen (Sensorleisten, Bewegungsmelder, Einklemmschutz) erforderlich werden, teilt der AN dies dem AG rechtzeitig vor Beginn der Ausführung mit. Kraftbetätigte, (\"angetriebene\") [FIRMA_095] sind generell an behindertengerechten Gebäudezugängen, Gewerbeküchenzugängen und allen [FIRMA_095] die regelmäßig von Personen mit Warenverkehr begangen werden, 22 vorzusehen. Es sind ausschließlich flachbauende Antriebe, H < 70 mm, vorzusehen, alle Rahmenprofile sind hierauf abzustimmen. Alle kraftbetätigten [FIRMA_095] erhalten zusätzlich zum Sensorleistenantrieb beschriftete Unterputz-Betätigungstaster. Soweit nicht an anderer Stelle anderslautend beschrieben, sollen folgende Schnittstellen bei der Ausführung kraftbetätigter [FIRMA_095] gelten: Lieferung + Einbau Türantrieb AN, Lieferung + Einbau Türöffner 2-flg. [FIRMA_095] AN, Lieferung + Einbau Bedienterminal AN, Lieferung + Einbau Sensorleiste (n) AN, Zuführung 230 V bis zur Tür AG (Elektrogewerk), Unterputz-Taster und Kabelzuführung AG (Elektrogewerk), Prüfbuch, Prüfbescheinigung, Inbetriebnahme AN.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.3.8 Kraftbetätigte [FIRMA_095]"
+    },
+    {
+      "name": "Position 3.3.9",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.3.9",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Soweit nicht anders beschrieben, sind die Beschläge standardmäßig für",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "alle [FIRMA_095] mit Rundrosetten für Drücker und Schloss anstelle von Schildern vorzusehen. Sämtliche Bänder von Stahlblech- und Glas-Rahmentüren sind in der gleichen Farbe wie Türelemente zu verbauen. Außenliegende Bänder sind nach Montageende mit Sicherung gegen Abschrauben und Herausschlagen der Bandstifte zu versehen. Eloxiertes Leichtmetall oder polierte Beschläge sind vom AN während der Bauzeit gegen Beschädigung und Verunreinigung mit entsprechenden Folien oder Klebestreifen zu schützen. Diese sind später wieder restlos zu entfernen. Malerarbeiten sollen durch die Beschlagarbeiten nicht erschwert werden. Der AN wird - soweit technisch möglich - erst nach Abschluss der Malerarbeiten seine Beschläge anbauen. Alle eingebauten Werkstücke sind einwandfrei gangbar zu machen, Schlösser, Getriebe, Schließfallen, Riegel, Bänder und alle beweglichen Teile sind zu reinigen und - soweit zulässig - zu ölen. Die Länge von Schließzylindern ist so zu wählen, dass die Zylinder annähernd bündig zu Schildern oder Rosetten stehen, Überstände < 5 mm sind zulässig, Rückstände sind unzulässig. Werden Bodendichtungen für Schalldämmzwecke an [FIRMA_095] gefordert, so 22 sind diese seitenweise unterschiedlich einstellbar auszuführen. Das Nachstellen muss ohne Aushängen der [FIRMA_095] möglich sein. Die Art des Fußbodenbelages ist zu erfragen. Beschläge für Hauseingangstüren sind gegen Aushebeln gesichert zu gestalten, Hauseingangstüren von Mehrfamilienhäusern sollen Panikschlösser erhalten. Bei Balkontüren sind grundsätzlich ein Schnäpper mit Zuziehgriff und eine Aluminium-Sattelschiene als Trittschutz auszuführen. Für Kippflügel müssen zusätzlich zum Oberlichtbeschlag Fangscheren vorgesehen werden, welche die Kippbewegung des Flügels nach dem Aushängen der Öffnungsschere begrenzen (Fangstellung) und Durchschlagen verhindern. Stulpflügel sind mit verdeckt liegender Handhebelbedienung auszustatten. Kantenriegelverschlüsse sind nicht zugelassen. Bei Parallel-Schiebe-Kipptüren ist eine Aussperrsicherung vorzusehen. Oliven und Rosetten sind standardmäßig mit Edelstahloberfläche auszuführen. Farbbeschichtete Oberflächen sind unzulässig. Beschläge für Fernbedienung, z. B. Kurbeltriebe, sind nicht höher als 1,40 m über dem Fußboden anzubringen. Das gilt sinngemäß auch für aushängbare mechanische Fernbedienungen. Beschläge von Dreh-Kipp-Fenstern in Bereichen zur Nutzung von Kindern oder verwirrten Personen sind vom AN generell als Kipp-vor-Dreh-Beschläge mit abschließbaren Oliven auszuführen. Für alle abschließbaren Oliven innerhalb einer Nutzungseinheit sind gleichschließende Schlösser auszuführen. Beschläge benachbart angeordneter Elemente (z. B. Außentür und nebenliegendes Fenster) sollen auf gleicher Höhe über OKF eingebaut werden. 1. | Schreinerarbeiten ## 1.1. Fensterbänke",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.3.9 Beschläge, allgemein"
+    },
+    {
+      "name": "Position 1.1.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.1.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[PERSON_129] 1 Innenfensterbank,MDF/HPL,30x195mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Innenfensterbank, Melaminharz, Kanten gerundet, endbeschichtet, inkl. Silikonfuge an aufgehenden Bauteilen sowie benötigte 22 Ausschnitte/Anpassung an Stützen, kippsicher montiert. Bis über Brüstungskanäle mit bündigem Abschluss, siehe d=30 mm Dekor: Ahorn (wie Innentüren) maßgerecht liefern und montieren. Einbauort: Büros, EG-2.OG siehe Plan 130,000 m | Detail",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.10."
+    },
+    {
+      "name": "Position 1.1.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.1.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[PERSON_129] 2 Innenfensterbank,MDF/HPL,30x145mm Innenfensterbank, Melaminharz, Kanten gerundet, endbeschichtet, inkl. Silikonfuge an aufgehenden Bauteilen sowie benötigte Ausschnitte/Anpassung an Stützen, kippsicher montiert. Bis über Trockenbaubrüstung mit 2cm Überstand, siehe Detail d=30 mm Dekor: Ahorn (wie Innentüren) maßgerecht liefern und montieren. Einbauort: [FIRMA_077] WCs, Teeküchen UG-2.OG siehe Plan 77,000 m",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.20"
+    },
+    {
+      "name": "Position 1.1.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.1.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[PERSON_129] 2a Innenfensterbank [PERSON_114] d=30 mm Dekor: Ahorn (wie Innentüren) maßgerecht liefern und montieren. Einbauort: [FIRMA_126] [PERSON_114] siehe Plan 2,000 m Innenfensterbank, Melaminharz, Kanten gerundet, Silikonfuge an aufgehenden Bauteilen sowie benötigte Ausschnitte/Anpassung an Stützen, kippsicher montiert. ohne Überstand, bündig mit Mauerwerk. endbeschichtet, inkl.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.30"
+    },
+    {
+      "name": "Position 1.1.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.1.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "[PERSON_129] 3 Innenfensterbank,MDF/HPL,30x405mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Innenfensterbank, Melaminharz, Kanten gerundet, endbeschichtet, inkl. Silikonfuge an aufgehenden Bauteilen sowie benötigte Ausschnitte/Anpassung an Stützen, kippsicher montiert. Bis über Brüstungskanäle mit bündigem Abschluss, siehe Detail Übertrag: 22",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.40."
+    },
+    {
+      "name": "Position 1.1.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.1.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Zulage Farbton DB703 für [PERSON_129 Zulage für Fensterbank [PERSON_129] ] 2 2 für Farbton DB703 wie Fassade. 25,000 m",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.50"
+    },
+    {
+      "name": "Position 1.1.60",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.1.60",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Austritt Terasse d=30 d=30 mm Dekor: Wildeiche maßgerecht liefern und montieren. Einbauort: 2.OG zwischen Achse 6 und Terassenaustritt, Melaminharz, endbeschichtet aufgehenden Bauteilen sowie benötigte Stützen Ausbildung als begehbare Stufe/Kasten, 7 , inkl. Silikonfuge an Ausschnitte/Anpassung an kipp- und trittsicher, siehe Detail 10,500 m",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.60"
+    },
+    {
+      "name": "Position 1.1.70",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.1.70",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Zulage Farbton DB703 für Terassenaustritt Zulage für Farbton DB703 wie Fassade.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "10,500 m | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.70"
+    },
+    {
+      "name": "Position 1.1.80",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.1.80",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Brüstungsabdeckung Innen, MDF/HPL,30x125mm Brüstungsabdeckung, Melaminharz, Kanten gerundet, endbeschichtet, inkl. Silikonfuge an aufgehenden Bauteilen, kippsicher montiert. Bis über Brüstung mit 1-2cm Überstand d=30 mm Dekor: nach Bemusterung, in Anlehung an Küchendesign maßgerecht liefern und montieren. Einbauort: Empfang EG/ Teeküche EG-1OG",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 10.0,
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "10,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.80"
+    },
+    {
+      "name": "Position 1.2.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.2.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Holztürblatt, 885 x 2135 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Türblatt, mit einer Türblattdicke von ca. 40 mm, Röhrenspanplatte, nach DIN 4109, Klimakl. II, Beanspruchungsgruppe S, Massivholzrahmen umlaufend, unten doppelt, durchgehende Ver- stärkungseinlagen für Schloss und Bänder, norm- falz, mit farblich zur Oberfläche passenden Kunst- stoffkanten, 5 - fach verleimt, Rahmen mit Zusatzstab, ca. 50 mm breit, beidseitig mit einer klimatisch abge- stimmten Spanplatte, Lösungsmittel unempfindlicher Resopaloberfläche, d = ca. 0,70 mm, Oberflächen- material darf nicht schmutzanziehend durch elektro- statische Aufladung sein, Abriebbeanspruchung und Fleckenunempfindlichkeit nach EN 438 und DIN 53799, 2 - fach Bänder, Beschläge und Drückergarnitur aus Aluminium, PZ - vorgerichtet für mittelschweres Be- hördeneinsteckschloß, Drückergarnitur mit Rosetten, Türblatt herstellen, liefern und komplett gemäß DIN und Herstellervorschriften fachgerecht in bauseitige Stahlum- fassungszargen montieren, einschl. aller erf. Einstell- u. Justierarbeiten. Fabrikat Türblatt: z. B. WESTAG-GETALIT, o. glw. Fabrikat Beschläge, Bänder: z. B. Tectus, Simonswerk, o. glw. Fabrikat Drückergarnitur: z. B. FSB, Vieler, o. glw. Türblattfarbe/Oberfläche: Dekor: Ahorn Türgrösse: 885 x 2135 mm ( Rohbaumass ) Angebotenes [PERSON_129] ( Beschläge, Bänder ) Angebotenes [PERSON_129] ( Drückergarnitur )",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 6.0,
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.2.10."
+    },
+    {
+      "name": "Position 1.2.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.2.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Wandtürstopper",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Wandtürstopper aus Aluminium zu zuvor genannter Tür Übertrag: 22 liefern und montieren Angebotenes Fabrikat:",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 6.0,
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.2.20."
+    },
+    {
+      "name": "Position 1.2.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.2.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Möbeltüre Holz, 1000x2135 mm Türblattfarbe/Oberfläche: RAL 9003 Weiß Türgrösse: 1000 x 2135 mm ( Rohbaumass Angebotenes [PERSON_129] ( Beschläge, Angebotenes [PERSON_129] ( Drückergarnitur Möbeltüre aus Holz mit Unterschnitt, Herstellervorschriften fachgerecht einbauen Justierarbeiten. Einbau bündig mit [ Einschl. Möbeltürknauf flurseitig zum Unterschnitt ca. 10-20 mm ) Bänder ) ) liefern und komplett gemäß DIN und , einschl. aller erf. Einstell- u. PERSON_074] Bänder nicht sichtbar. Öffnen.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 4.0,
+          "evidence": "4,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "4,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.2.30"
+    }
+  ],
+  "tables": [
+    {
+      "name": "Table 1",
+      "type": "table",
+      "description": "Table 1 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 2",
+      "type": "table",
+      "description": "Table 2 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 3",
+      "type": "table",
+      "description": "Table 3 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 4",
+      "type": "table",
+      "description": "Table 4 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 5",
+      "type": "table",
+      "description": "Table 5 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 6",
+      "type": "table",
+      "description": "Table 6 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 7",
+      "type": "table",
+      "description": "Table 7 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 8",
+      "type": "table",
+      "description": "Table 8 of the document (4 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "",
+          "sind diese seitenweise unterschiedlich einstellbar auszuführen. Das Nachstellen muss ohne Aushängen der [FIRMA_095] möglich sein. Die Art des Fußbodenbelages ist zu erfragen. Beschläge für Hauseingangstüren sind gegen Aushebeln gesichert zu gestalten, Hauseingangstüren von Mehrfamilienhäusern sollen Panikschlösser erhalten. Bei Balkontüren sind grundsätzlich ein Schnäpper mit Zuziehgriff und eine Aluminium-Sattelschiene als Trittschutz auszuführen. Für Kippflügel müssen zusätzlich zum Oberlichtbeschlag Fangscheren vorgesehen werden, welche die Kippbewegung des Flügels nach dem Aushängen der Öffnungsschere begrenzen (Fangstellung) und Durchschlagen verhindern. Stulpflügel sind mit verdeckt liegender Handhebelbedienung auszustatten. Kantenriegelverschlüsse sind nicht zugelassen. Bei Parallel-Schiebe-Kipptüren ist eine Aussperrsicherung vorzusehen. Oliven und Rosetten sind standardmäßig mit Edelstahloberfläche auszuführen. Farbbeschichtete Oberflächen sind unzulässig. Beschläge für Fernbedienung, z. B. Kurbeltriebe, sind nicht höher als 1,40 m über dem Fußboden anzubringen. Das gilt sinngemäß auch für aushängbare mechanische Fernbedienungen.",
+          ""
+        ],
+        [
+          "",
+          "Beschläge von Dreh-Kipp-Fenstern in Bereichen zur Nutzung von Kindern oder verwirrten Personen sind vom AN generell als Kipp-vor-Dreh-Beschläge mit abschließbaren Oliven auszuführen. Für alle abschließbaren Oliven innerhalb einer Nutzungseinheit sind gleichschließende Schlösser auszuführen. Beschläge benachbart angeordneter Elemente (z. B. Außentür und nebenliegendes Fenster) sollen auf gleicher Höhe über OKF eingebaut werden.",
+          ""
+        ],
+        [
+          "1.",
+          "Schreinerarbeiten",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 9",
+      "type": "table",
+      "description": "Table 9 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 11",
+      "type": "table",
+      "description": "Table 11 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 13",
+      "type": "table",
+      "description": "Table 13 of the document (2 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "Summe 1.1. Fensterbänke",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 14",
+      "type": "table",
+      "description": "Table 14 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

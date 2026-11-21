@@ -1,0 +1,47 @@
+{
+  "document": "StBALV23040.D86",
+  "project_id": "single:StBALV23040",
+  "source": "local GAEB reader",
+  "summary": {
+    "positions_reviewed": 1,
+    "material_rows": 0,
+    "not_materials": 1,
+    "not_reviewed": 0,
+    "with_quantity": 0,
+    "with_unit_price": 0,
+    "conflicts": 0
+  },
+  "materials": [],
+  "not_materials": [
+    {
+      "name": "Position para1",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "para1",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "Position 01010001 covers setting up and removing a temporary site sanitary container. It does not require the purchase of a new container.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "01010001\nSanitärcontainer aufstellen räumen doppelwandig, isoliert L 5m B 2,1m Standplatz herrichten räumen, Benutzung mit Drittfirma\nSanitärcontainer, aufstellen und räumen, beheizbar,\nelektrisch, En"
+    }
+  ],
+  "not_reviewed": []
+}

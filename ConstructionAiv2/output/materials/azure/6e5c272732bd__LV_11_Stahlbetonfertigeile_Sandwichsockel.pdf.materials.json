@@ -1,0 +1,721 @@
+{
+  "document": "LV_11_Stahlbetonfertigeile_Sandwichsockel.pdf",
+  "project_id": "79-222",
+  "source": "Azure Content Understanding",
+  "summary": {
+    "positions_reviewed": 9,
+    "material_rows": 7,
+    "not_materials": 2,
+    "not_reviewed": 0,
+    "with_quantity": 7,
+    "with_unit_price": 0,
+    "conflicts": 0
+  },
+  "materials": [
+    {
+      "name": "Material 3.2.20 – FS 01 precast reinforced concrete sandwich plinth panel, approx. 6.35 m long, 30 cm thick, C35/45 XC2 XF2 WA, SB2 both faces, 8 cm XPS WLG 035",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.2.20",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "FS 01 precast reinforced concrete sandwich plinth panel, approx. 6.35 m long, 30 cm thick, C35/45 XC2 XF2 WA, SB2 both faces, 8 cm XPS WLG 035",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Chamfered panel with a 7 cm facing wythe, 15 cm structural wythe and integrally colored outer concrete.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.20\nFS 01: FT-Sockel, Sandwichelement, l=6,35m FT-Sockel als Sandwichelement mit Dämmung, d=30cm Inkl. Planung der Sandwichplattenanker und Bemessung Transportanker. 3-schichtig, aus Stb.-Fertigteilplatten in Sichtbeton, Außenflächen durchgefärbten Beton mit einheitlicher Porenstruktur ( Porenver"
+    },
+    {
+      "name": "Material 3.2.30 – FS 02 precast concrete sandwich plinth panel, approx. 7.00 m long, C35/45 XC2 XF2 WA, SB2 both faces, 8 cm XPS WLG 035",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.2.30",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "FS 02 precast concrete sandwich plinth panel, approx. 7.00 m long, C35/45 XC2 XF2 WA, SB2 both faces, 8 cm XPS WLG 035",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Chamfered panel with a 7 cm facing wythe and a 15 cm structural wythe, for grid D/2–3.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.30.\nFS 02: FT-Sockel, Sandwichelement, l=7,00m\n## Anfrage\n11\nDicke Vorsatzschale: | 7 cm\nDicke Tragschale: | 15 cm\nDämmschicht: Kanten: | XPS, WLG 035, d= 8 cm gefast\nBeton: | C35/45, XC2, XF2, WA\nOberfläche, innen: | Sichtbeton SB2\nOberfläche, außen: | Sichtbeton SB2\nLänge: | ca. 7,00m\nEinbauor"
+    },
+    {
+      "name": "Material 3.2.40 – FS 03 precast concrete sandwich plinth panel, approx. 1.25 m long, C35/45 XC2 XF2 WA, SB2 both faces, 8 cm XPS WLG 035",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.2.40",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "FS 03 precast concrete sandwich plinth panel, approx. 1.25 m long, C35/45 XC2 XF2 WA, SB2 both faces, 8 cm XPS WLG 035",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Chamfered panel with a 7 cm facing wythe and a 15 cm structural wythe, for grid D/1.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.40.\nFS 03: FT-Sockel, Sandwichelement, l=1,25m\nDicke Vorsatzschale: | 7 cm\nDicke Tragschale: | 15 cm\nDämmschicht: | XPS, WLG 035, d= 8 cm\nKanten: | gefast\nBeton: | C35/45, XC2, XF2, WA\nOberfläche, innen: | Sichtbeton SB2\nOberfläche, außen: | Sichtbeton SB2\nLänge: | ca. 1,25m\nEinbauort: | Achse D"
+    },
+    {
+      "name": "Material 3.2.50 – FS 04 precast concrete sandwich plinth panel, approx. 3.90 m long, C35/45 XC2 XF2 WA, SB2 both faces, 8 cm XPS WLG 035",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.2.50",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "FS 04 precast concrete sandwich plinth panel, approx. 3.90 m long, C35/45 XC2 XF2 WA, SB2 both faces, 8 cm XPS WLG 035",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Chamfered panel with a 7 cm facing wythe and a 15 cm structural wythe, for grid D–C/1.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.50.\nFS 04: FT-Sockel, Sandwichelement, l=3,90m\n# Anfrage\n11\nDicke Vorsatzschale: | 7 cm\nDicke Tragschale: | 15 cm\nDämmschicht: Kanten: | gefast XPS, WLG 035, d= 8 cm\nBeton: | C35/45, XC2, XF2, WA\nOberfläche, innen: | Sichtbeton SB2\nOberfläche, außen: | Sichtbeton SB2\nLänge: | ca. 3,90m\nEinbauort"
+    },
+    {
+      "name": "Material 3.2.60 – FS 05 precast concrete sandwich plinth panel, approx. 2.17 m long, C35/45 XC2 XF2 WA, SB2 both faces, 8 cm XPS WLG 035",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.2.60",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "FS 05 precast concrete sandwich plinth panel, approx. 2.17 m long, C35/45 XC2 XF2 WA, SB2 both faces, 8 cm XPS WLG 035",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Chamfered panel with a 7 cm facing wythe and a 15 cm structural wythe, for grid B/1.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.60.\nFS 05: FT-Sockel, Sandwichelement, l=2,17m\nEinschl. Transport und Montage\nDicke Vorsatzschale: | 7 cm\nDicke Tragschale: | 15 cm\nDämmschicht: | XPS, WLG 035, d= 8 cm\nKanten: | gefast\nBeton: | C35/45, XC2, XF2, WA\nOberfläche, innen: | Sichtbeton SB2\nOberfläche, außen: | Sichtbeton SB2\nLänge: |"
+    },
+    {
+      "name": "Material 3.2.70 – Grade 500 S and 500 M reinforcing steel",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.2.70",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Grade 500 S and 500 M reinforcing steel",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Reinforcing steel in assorted cross-sections and lengths, supplied, cut, bent and placed.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 0.7,
+          "evidence": "0,700 TO"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "TO",
+          "evidence": "0,700 TO"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.70.\nBetonstahl 500 S und 500 M\nBetonstahl 500 S + 500 M , in verschiedenen\nQuerschnitten und Längen, liefern,schneiden,\nbiegen und verlegen.\n0,700 TO"
+    },
+    {
+      "name": "Material 3.2.90 – Halfen fixing element [KENNZEICHEN_005], 150 mm long",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "3.2.90",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Halfen fixing element [KENNZEICHEN_005], 150 mm long",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Proprietary Halfen element supplied and installed; the exact model is anonymized in the position.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 15.0,
+          "evidence": "15,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "15,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.90\nHalfen [KENNZEICHEN_005] L=150 Liefern und Einbau von Halfen [ Länge=150 mm KENNZEICHEN_005] 15,000 St Elementen,\nSumme 3.2. | Stahlbetonfertigteile\nSumme 3. | Betonarbeiten\nSumme LV\n11 Stahlbetonfertigteile Sandwi..\nZuzüglich der gesetzlichen Mehrwertsteuer aus | EUR\nin Höhe von 19,00 % | EU"
+    }
+  ],
+  "not_materials": [
+    {
+      "name": "Position 3.2.10",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "3.2.10",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position calls only for preparing shop, assembly, and detail drawings.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.10\nWerkstattzeichnungen Erstellung von Montage-, Werkstatt- und Detailplänen für beschriebenen Leistungen, auf der Grundlage der vom AG übergebenen Architektenpläne. die nachfolgend an den AN\n1,00"
+    },
+    {
+      "name": "Position 3.2.80",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "3.2.80",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The surcharge is for forming door or gate openings up to 1.10 m wide, not for supplying doors or gates.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.2.80\nZulage Aussparungen Öffnungen Tür und Tore Zulage für Aussparungen für [FIRMA_095] Breite bis 1,10m.\n1,000 m  EP ........  GP ........"
+    }
+  ],
+  "not_reviewed": []
+}

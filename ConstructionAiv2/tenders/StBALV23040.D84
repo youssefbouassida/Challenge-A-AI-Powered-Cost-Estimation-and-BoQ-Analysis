@@ -1,0 +1,565 @@
+T0                                                                        000001
+T1ErgÑnzung der Angebotsanforderung                                       000002
+T1                                                                        000003
+T1In diesem Leistungsverzeichnis verwendete Einheiten                     000004
+T1cm Zentimeter                                                           000005
+T1cm2  Quadratzentimeter                                                  000006
+T1d   Tag                                                                 000007
+T1h   Stunde                                                              000008
+T1Jr   Jahr                                                               000009
+T1kg  Kilogramm                                                           000010
+T1km   Kilometer                                                          000011
+T1km2  Quadratkilometer                                                   000012
+T1kwh  Kilowattstunde                                                     000013
+T1l   Liter                                                               000014
+T1m   Meter                                                               000015
+T1m2   Quadratmeter                                                       000016
+T1m3   Kubikmeter                                                         000017
+T1Mt   Monat                                                              000018
+T1psch  Pauschal                                                          000019
+T1St   StÅck                                                              000020
+T1t   Tonne                                                               000021
+T1Wo   Wochen                                                             000022
+T1md   m x Tag                                                            000023
+T1mMt  m x Monat                                                          000024
+T1mWo  m x Woche                                                          000025
+T1m2d  m2 x Tag                                                           000026
+T1m2Mt  m2 x Monat                                                        000027
+T1m2Wo  m2 x Woche                                                        000028
+T1m3d  m3 x Tag                                                           000029
+T1m3Mt  m3 x Monat                                                        000030
+T1m3Wo  m3 X Woche                                                        000031
+T1Sth  StÅck x Stunde                                                     000032
+T1Std  StÅck x Tag                                                        000033
+T1StMt  StÅck x Monat                                                     000034
+T1StWo  StÅck x Woche                                                     000035
+T1St/M  StÅck pro Monat                                                   000036
+T1St/J  StÅck pro Jahr                                                    000037
+T1                                                                        000038
+T1Ende der ErgÑnzung der Angebotsanforderung                              000039
+T0                                                                        000040
+T1Fortsetzung Weitere Besondere Vertragsbedingungen                       000041
+T1siehe Formblatt 214.H - Besondere Vertragsbedingungen -                 000042
+T1                                                                        000043
+T110.1  Beginn der Leistung                                               000044
+T1Beginn der Leistung im Sinne des Formblattes 214.H, Nr. 1 ist die Aufnah000045
+T1                                                                        000046
+T110.2  Nachtragsangebote (ı 2)                                           000047
+T1Alle Nachtragsangebote sind einschlie·lich der notwendigen begrÅndenden 000048
+T1                                                                        000049
+T110.3  Werbung der Firma / Bautafel (ı 4 Abs. 1)                         000050
+T1Auf der Baustelle ist Firmenwerbung grundsÑtzlich verboten.             000051
+T1Dies betrifft auch GerÅste, Container und Schutzvorrichtungen. Ausnahmen000052
+T1                                                                        000053
+T1Auf der bauseitigen Bautafel kann der Auftragnehmer auf eigene Kosten Zu000054
+T1                                                                        000055
+T110.4  Besichtigung von Baustellen (ı 4 Abs. 1)                          000056
+T1Die Besichtigung von Baustellen durch Dritte bedarf der vorherigen Zusti000057
+T1                                                                        000058
+T110.5  öbernachtungsverbot (ı 4 Abs. 1)                                  000059
+T1Auf der gesamten Baustelle besteht striktes öbernachtungsverbot         000060
+T1                                                                        000061
+T110.6  ErgÑnzung zu ı 4 Nr. 4 VOB/B:                                     000062
+T1                                                                        000063
+T110.6.1 Anschlu·mîglichkeiten fÅr Bauwasser und Baustrom                 000064
+T1Bauwasser kann aus dem einem Hydranten îstlich der Immerwahrstra·e neben000065
+T12 Festkupplung B Din 14318.                                             000066
+T1Nach der Entnahme ist der Anschluss wieder ordnungsgemÑ· abzusperren. Ei000067
+T1Der Auftragnehmer hat die Entnahme bei der technischen Abteilung der FAU000068
+T1Die Baustromversorgung erfolgt bauseits aus dem GebÑude 114 (GebÑude Wer000069
+T1Die Leistungen fÅr die öberquerung der Immerwahrstra·e siehe dazu "Baust000070
+T1                                                                        000071
+T110.6.2 Die Kosten des Verbrauchs fÅr Strom und PER029 Åbernimmt der AG. 000072
+T1                                                                        000073
+T110.6.3 Notwendige Lager- und ArbeitsplÑtze werden von der Bauleitung zug000074
+T1                                                                        000075
+T110.6.4 SanitÑranlagen stehen auf der Baustelle keine bereit.            000076
+T1SanitÑranlagen sind vom AN zuliefern, siehe dazu "Baustelleneinrichtung"000077
+T1Die SanitÑreinrichtungen werden auch durch eine Dritte benutzt          000078
+T1                                                                        000079
+T110.6.5 Lager- und Aufenthaltscontainer stehen bauseits nicht zur VerfÅgu000080
+T1                                                                        000081
+T110.7  Nachunternehmereinsatz (ı 4 Abs. 8)                               000082
+T1FÅr die Leistungen, auf die der Betrieb des AN eingerichtet ist, besteht000083
+T1Jeglicher Nachunternehmerwechsel ist vor Aufnahme der TÑtigkeiten auf de000084
+T1FÅr die Genehmigung sind die kompletten Eignungsnachweise nach Formblatt000085
+T1Einem Wechsel des Nachunternehmers wird grundsÑtzlich nur zugestimmt, we000086
+T1Die VertrÑge mit Nachunternehmern sind nach VOB/B zu schlie·en. Verstî·e000087
+T1Der Vergabe von Leistungen aus dem Vertrag an Nach-Nachunternehmer wird 000088
+T1                                                                        000089
+T110.8  Rechnungen (ı 14)                                                 000090
+T1Alle Rechnungen sind 1-fach beim Auftraggeber rechtsgÅltig und zugleich 000091
+T1Die Rechnungen sind kumulierend und fortlaufend aufzustellen.           000092
+T1                                                                        000093
+T110.9  Anordnung von Stundenlohnarbeiten (ı 15)                          000094
+T1Die Stundenlohnzettel sind wîchentlich einzureichen.                    000095
+T1                                                                        000096
+T110.10  Bauleiter                                                        000097
+T1Auf der Baustelle muss stÑndig eine fachlich qualifizierte deutsch sprec000098
+T1                                                                        000099
+T110.11  Baustellenbesprechungen                                          000100
+T1Der Auftragnehmer hat zu den Baustellenbesprechungen, die der Auftraggeb000101
+T1Die Besprechungen finden jeweils nach Abstimmung bei Baubeginn statt.   000102
+T1                                                                        000103
+T110.12 Sicherheits- und Gesundheitsschutzplan                            000104
+T1Zur DurchfÅhrung der Ma·nahme wird durch den AG und den SIGE-Koordinator000105
+T1Der AN hat seine BeschÑftigten Åber den SIGE-Plan zu informieren.       000106
+T1Der SIGE-Plan ist zu beachten und in der Firmenbauleitung bereitzuhalten000107
+T1                                                                        000108
+T110.13 öbergabe von AusfÅhrungszeichnungen                               000109
+T1Die AusfÅhrungszeichnungen werden in PERSON_097 und in digitaler Form (P000110
+T1                                                                        000111
+T110.14 Herstellen von Zeichnungen und Unterlagen                         000112
+T1- Vorgaben des Auftraggebers -                                          000113
+T1                                                                        000114
+T1Der Auftraggeber stellt als Grundlage fÅr die vom Auftragnehmer zu erste000115
+T1                                                                        000116
+T1- P5_15145_F_07.043_LP-LTG_VAM-OST_[PERSON_000000133] Bestand + Planung 000117
+T1                                                                        000118
+T110.15  Herstellen von Zeichnungen und Unterlagen                        000119
+T1- Formerfordernisse -                                                   000120
+T1Der Auftragnehmer hat die Zeichnungen und Unterlagen normgerecht herzust000121
+T1Der Planstempel des Auftraggebers ist nach dessen Anweisung anzuwenden. 000122
+T1- Vermessungsleistungen, Aufma·verfahren -                              000123
+T1FÅr alle Leistungen des AN sind AbrechnungsplÑne und Abrechnungsskizzen 000124
+T1Die Vermessungsleistungen sind im UTM-Koordinatensystem anzulegen.      000125
+T1FÅr die einzelnen Positionen sind jeweils getrennte AufmassblÑtter anzul000126
+T1                                                                        000127
+T110.16  Baufristenplan                                                   000128
+T1Der Auftragnehmer hat auf Basis des vom AG vorgelegten Bauablaufplanes e000129
+T1Die Festlegungen des Auftraggebers, z.B. zur baufachlichen oder terminli000130
+T1                                                                        000131
+T110.17  Abnahme                                                          000132
+T1Eine fîrmliche Abnahme der Leistung wird verlangt.                      000133
+T1                                                                        000134
+T1Ende der Weiteren Besonderen Vertragsbedingungen                        000135
+T0                                                                        000136
+T1ZusÑtzliche Technische Vertragsbedingungen (ZTV)                        000137
+T1ZusÑtzliche Technische Vertragsbedingungen (ZTV)                        000138
+T1ZusÑtzliche Technische Vertragsbedingungen                              000139
+T1im Sinne von ı 1 Abs. 2 Nr 4 VOB/B sind                                 000140
+T1- fÅr [ORT_00030]                                                       000141
+T1- fÅr Stra·en- und Wegebaubauarbeiten                                   000142
+T1- fÅr [ORT_0000000000000010]                                            000143
+T1im Formblatt 9002.StB_ZTV des VHB Bayern geregelt. Die dort genannten   000144
+T1ZTV werden Vertragsbestandteil                                          000145
+T1Ende der ZusÑtzlichen Technischen Vertragsbedingungen (ZTV)             000146
+T0                                                                        000147
+T1Baubeschreibung - Tiefbauarbeiten                                       000148
+T11.  ALLGEMEINE BESCHREIBUNG DER LEISTUNG                                000149
+T11.1  Bauvorhaben                                                        000150
+T1[ORT_0000000022] / Immerwahrstra·estra·e                                000151
+T1Neubau Neue Technische Chemie                                           000152
+T1Vorbereitende Arbeiten:                                                 000153
+T1ErgÑnzung [PERSON_132] - Haupttrasse                                    000154
+T1ErgÑnzung Brunnenwasserleitung                                          000155
+T1ErgÑnzung [PERSON_132] - Anschluss an Rohbau                            000156
+T12.  ANGABEN ZUR BAUSTELLE                                               000157
+T12.1 Lage der Baustelle                                                  000158
+T1[ORT_00000001], FAU-GelÑnde SÅd                                         000159
+T1Die Baustelle befindet sich in am sÅdîstlichen Stadtrand von [ORT_22] au000160
+T1Innerhalb des Baufeldes bestehen beengte VerhÑltnisse; vorhandener Baumb000161
+T1[PERSON_000000133] siehe Anlage 1                                       000162
+T1Lageplan der Bauma·nahme siehe Anlage 2                                 000163
+T12.2 Vorhandene îffentliche Verkehrswege                                 000164
+T1Die Zufahrt zur Baustelle erfolgt Åber Cauerstra·e und Immerwahrstra·e v000165
+T12.3 Parallel stattfindende Bauma·nahmen                                 000166
+T1Parallel zur Verlegung der [PERSON_132] und der Brunnenwasserleitung fin000167
+T1Eine temporÑre Nutzung des sÅdlichen Baufeldes NTC fÅr die Zwischenlager000168
+T12.4 Erddeponien                                                         000169
+T1Es bestehen zwei temporÑre Zwischenlager fÅr Bodenmaterial auf die jedoc000170
+T1Bodenlager 1:                                                           000171
+T1öberschÅssiger Rohboden der im Zuge der [ORT_00030] wieder unmittelbar g000172
+T1Die LagerflÑche westlich der Immerwahrstra·e wird wÑhrend der Bauzeit pa000173
+T1Bodenlager 2:                                                           000174
+T1Ein weiteres, temporÑres Zwischenlager fÅr Bodenmaterial das spÑter, nac000175
+T1Der Weg in das Zwischenlager selbst ist nicht befestigt                 000176
+T1Zufahrt zum Bodenlager 2 siehe Anlage Nr. 3                             000177
+T12.5 Seitenentnahmen und Ablagerungsstelle                               000178
+T1FÅr die AuffÅllarbeiten in der VerfÅllzone soll mîglichst Material aus d000179
+T12.6 Schutzbereiche und Schutzobjekte                                    000180
+T1Der vorhandene Baumbestand au·erhalb des Baufeldes muss erhalten und ent000181
+T12.7 Anlagen im Baubereich                                               000182
+T1Vorhand. Versorgungs- u. Entsorgungseinrichtungen                       000183
+T1Die in den PlÑnen eingetragene Lage von bestehenden Leitungen, Kabeln, D000184
+T1Elektroleitungen:                                                       000185
+T1Im direkten Baubereich sind Elektroleitungen bekannt.                   000186
+T1Telekomleitungen, Fernmeldekabel:                                       000187
+T1Im direkten Baubereich sind Fernmeldeleitungen bekannt.                 000188
+T1KÑlteleitungen:                                                         000189
+T1I m direkten Baubereich sind KÑlteleitungen vorhanden.                  000190
+T1Wasserleitungen:                                                        000191
+T1Im direkten Baubereich sind Wasserleitungen bekannt.                    000192
+T1Die Brunnenwasserleitung verlÑuft ebenfalls im Baubereich. Informationen000193
+T1Kanalleitungen:                                                         000194
+T1Im Baufeld sind keine Schmutzwasserleitungen bekannt.                   000195
+T12.8 ôffentlicher Verkehr im Baubereich                                  000196
+T1Im Umfeld des Baufeld findet îffentlicher Verkehr statt - Fu·gÑnger und 000197
+T1Ende der Allgemeinen Baubeschreibung                                    000198
+T0                                                                        000199
+T11 . ANGABEN ZUR AUSFUEHRUNG                                             000200
+T11.1 VerkehrsfÅhrung, Verkehrssicherung                                  000201
+T1Die Zufahrtsmîglichkeiten zur Baustelle fÅr die Feuerwehr mu· freigehalt000202
+T1Der AN mu· seine Baustelle so einrichten, dass am Wochenende und nachts 000203
+T1Der Auftragnehmer hat fÅr die Verkehrssicherheit auf der Baustelle zu so000204
+T1Der Auftragnehmer hat tÑglich eigenstÑndig fÅr eine SÑuberung der durch 000205
+T1Die Baustelle selbst ist ebenfalls geordnet zu betreiben, insbesondere z000206
+T1Verkehrsrechtliche Anordnung                                            000207
+T1Obwohl es sich bei dem BauglÑnde insgesamt um ein PrivatgelÑnde der FAU 000208
+T1FÅr die Bauma·nahme sind auch innerhalb der halbîffentlichen Bereiche ve000209
+T1Notwendige Absperrungen und Beschilderungen sowie deren baubedingte VerÑ000210
+T11.2 Bauablauf                                                           000211
+T1In einem ersten Abschnitt ist die neue [PERSON_132], zusammen mit der Br000212
+T1In einem zweiten, zeitlich versetzten Abschnitt ist dann die KÑlteleitun000213
+T11.3 Wasserhaltung                                                       000214
+T1Nach dem Bodengutachten tritt das Grundwasser unterhalb der Baugrundsohl000215
+T11.4 Beweissicherung                                                     000216
+T1Vor Baubeginn wird mit dem Auftragnehmer und der BauÅberwachung des Auft000217
+T11.5 Sicherungsma·nahmen / Baustellensicherung                           000218
+T1Das Baufeld, ist mit einem Bauzaun abzusperren.                         000219
+T1Aufgrund des lÑngere Zeit offenen Rohrgrabens ist dieser so abzusperren,000220
+T11.6 Bautagesberichte                                                    000221
+T1Der Auftragnehmer hat Bautagesberichte zu fÅhren und dem Auftraggeber tÑ000222
+T11.7 PrÅfungen                                                           000223
+T1FÅr die angegebenen Verdichtungsleistungen und fÅr alle VerfÅllarbeiten 000224
+T1Ende der Technischen Angaben                                            000225
+T0                                                                        000226
+T1T echnische Anlagen PERSON_0127 in Au·enanlagen                         000227
+T1                                                                        000228
+T1Ringschluss Brunnenwasserleitung                                        000229
+T1                                                                        000230
+T1Die Brunnenwasserleitung wird im gesamten Bereich der KÑltetrasse neu ve000231
+T1                                                                        000232
+T1Der Anschluss an die Hauptversorgungsleitung DN160 in der Immerwahrstra·000233
+T1                                                                        000234
+T1Die fÅr den Anschluss erforderliche Betriebsunterbrechung ist mindestens000235
+T1Betriebstechnik und dem FIR001 anzukÅndigen.                            000236
+T1                                                                        000237
+T1Die Arbeiten zum Rohranschluss fÅhren zu einer Betriebsunterbrechung. Di000238
+T1abgesperrt und entleert werden. Der Absperrschieber befindet sich nicht 000239
+T1sondern am Rohrabzweig an der Cauerstra·e. Der Anschluss an die Versorgu000240
+T1                                                                        000241
+T1KÑltetechnische Anlagen, Anschluss KÑlteverbund                         000242
+T1FÅr die KÑlteversorgung des NTC werden die Anschlussleitungen im Au·enbe000243
+T1Der Anschluss erfolgt an den KÑlteverbund in der Dimension DN 250.      000244
+T1                                                                        000245
+T1Der Anschluss an das Liegenschaftsnetz erfolgt an einen vorhandenen Abga000246
+T1                                                                        000247
+T1Ende der Baubeschreibung                                                000248
+T0                                                                        000249
+T1Technische Angaben                                                      000250
+T1Befestigung von Rohrleitungen/Konsolen etc.                             000251
+T1Die Befestigung von Rohrleitungen, Kabeltrassen, Konsolen etc. beinhalte000252
+T1Diese Leistungen sind in die jeweiligen Positionen mit einzukalkulieren.000253
+T1Abfallmaterial                                                          000254
+T1Aus dem Bereich des AN (BaustellenabfÑlle, z.B. Verpackungsmaterial, Res000255
+T1                                                                        000256
+T1Vor der Abnahme hat der AN nachstehende allgemeine Leistungen zu erfÅlle000257
+T1                                                                        000258
+T1Dokumentation                                                           000259
+T1Ohne besondere VergÅtung:                                               000260
+T1Inbetriebnahme und Probebetrieb der Anlage                              000261
+T1Einweisung des Bedienungspersonals                                      000262
+T1öbergabe folgender Unterlagen an den AG (3-fach):                       000263
+T1Listen Åber vorzuhaltende Ersatzteile und spezielle Hilfsmittel sowie de000264
+T1                                                                        000265
+T1Gegen VergÅtung, gemÑ· gesonderter LV-Positionen:                       000266
+T1MÑngelfreie Abnahme-, PrÅf- und Genehmigungsunterlagen einschlie·lich de000267
+T1Bedienungs-, Betriebs- und Wartungsanweisungen einschl. Hinweis zum Eing000268
+T1Anlage- und Funktionsbeschreibung der gesamten Anlage als auch Einzelagg000269
+T1[PERSON_0118] Åber FÅhrung von Kabeln, Leitungen, KanÑlen und Trassen so000270
+T1[PERSON_0118] wie vor beschrieben, jedoch als cad - file im Format *.dwg000271
+T1Die Struktur der AusfÅhrungsplÑne muss beibehalten werden, insbesondere 000272
+T1                                                                        000273
+T1Ende der Technischen Angaben                                            000274
+T9                                                                        000275
+00        84L23A0051                                          1122PPPPI90 000276
+01RINGSCHLUSS BRUNNENWASSER, [PERSON_132] 15.03.23             0          000277
+02                                                                        000278
+03[FIRMA_0000000113]                                                      000279
+04                                                                        000280
+08Eur   Euro                                                              000281
+2301010001  0001600000  000001600000                                      000282
+2301010002  0000000020  000000000560                                      000283
+2301010003  0000001650  000000049500                                      000284
+2301010004  0000056000  000000056000                                      000285
+2301010005  0000000008  000000006720                                      000286
+2301010006  0000073600  000000073600                                      000287
+2301010007  0000000007  000000000196                                      000288
+2301010008  0000001274  000000063700                                      000289
+2301010009  0000000003  000000004200                                      000290
+2301010010  0000001050  000000073500                                      000291
+2301010011  0000000003  000000005880                                      000292
+2301010012  0000600000  000009000000                                      000293
+2301010013  0000000950  000000399000                                      000294
+2301010014  0000015000  000000015000                                      000295
+2301010015  0000000050  000000000500                                      000296
+2301010016  0000029400  000000058800                                      000297
+2301010017  0000000014  000000000280                                      000298
+2301010018  0000015000  000000015000                                      000299
+2301010019  0000029400  000000058800                                      000300
+2301010020  0000000350  000000007000                                      000301
+2301010021  0000015000  000000015000                                      000302
+320101      0000115032361000000                                           000303
+2301020001  0000002180  000001090000                                      000304
+2301020002  0000001000  000000200000                                      000305
+2301020003  0000000003  000000030000                                      000306
+320102      0000013200001000000                                           000307
+2301030001  0000000480  000000024000                                      000308
+2301030002  0000000480  000000009600                                      000309
+2301030003  0000000336  000000336000                                      000310
+2301030004  0000002400  000000004800                                      000311
+2301030005  0000000588  000000023520                                      000312
+2301030006  0000002400  000000004800                                      000313
+2301030007  0000000588  000000023520                                      000314
+2301030008  0000001200  000000002400                                      000315
+2301030009  0000000168  000000006720                                      000316
+320103      0000004353601000000                                           000317
+3201        0000132585961000000                                           000318
+2302010001  0000020000  000000020000                                      000319
+2302010002  0000000500  000000001000                                      000320
+2302010003  0000000500  000000001000                                      000321
+2302010004  0000040000  000000040000                                      000322
+2302010005  0000000500  000000001000                                      000323
+2302010006  0000000500  000000001000                                      000324
+320201      0000000640001000000                                           000325
+3202        0000000640001000000                                           000326
+2303010001  0000004090  000000245400                                      000327
+2303010002  0000003850  000000327250                                      000328
+2303010003  0000004550  000001820000                                      000329
+2303010004  0000004550  000000068250                                      000330
+2303010005  0000003600  000000036000                                      000331
+2303010006  0000003600  000000792000                                      000332
+2303010007  0000000890  000000133500                                      000333
+2303010008  0000002469  000000074070                                      000334
+2303010009  0000030000  000000300000                                      000335
+2303010010  0000030000  000000300000                                      000336
+2303010011  0000033800  000000101400                                      000337
+2303010012  0000033800  000000101400                                      000338
+320301      0000042992701000000                                           000339
+2303020001  0000015700  000000392500                                      000340
+2303020002  0000001000  000000010000                                      000341
+2303020003  0000014588  000016630320                                      000342
+2303020004  0000001540  000000030800                                      000343
+2303020005  0000001750  000000035000                                      000344
+2303020006  0000021000  000000315000                                      000345
+2303020007  0000017505  000002100600                                      000346
+2303020008  0000025200  000000126000                                      000347
+2303020009  0000029176  000001750560                                      000348
+2303020010  0000005600  000002968000                                      000349
+2303020011  0000000005  000000132500                                      000350
+2303020012  0000011000  000001540000                                      000351
+2303020013  0000000005  000000035000                                      000352
+2303020014  0000001200  000000264000                                      000353
+2303020015  0000006350  000002540000                                      000354
+2303020016  0000000027  000000004590                                      000355
+2303020017  0000004250  000004207500                                      000356
+2303020018  0000000580  000000881600                                      000357
+2303020019  0000002100  000000021000                                      000358
+2303020020  0000002100  000000010500                                      000359
+2303020021  0000002450  000000049000                                      000360
+2303020022  0000002450  000000049000                                      000361
+2303020023  0000001960  000000058800                                      000362
+2303020024  0000002100  000000021000                                      000363
+2303020025  0000004195  000000125850                                      000364
+2303020026  0000000960  000000014400                                      000365
+2303020027  0000000491  000000073650                                      000366
+2303020028  0000000346  000000051900                                      000367
+320302      0000344390701000000                                           000368
+2303030001  0000006950  000000486500                                      000369
+2303030002  0000006950  000000868750                                      000370
+2303030003  0000008004  000000680340                                      000371
+2303030004  0000009847  000000590820                                      000372
+2303030005  0000030450  000000182700                                      000373
+2303030006  0000008750  000003500000                                      000374
+2303030007  0000011150  000000167250                                      000375
+2303030008  0000008750  000000131250                                      000376
+2303030009  0000004630  000000231500                                      000377
+320303      0000068391101000000                                           000378
+2303040001  0000000214  000000032100                                      000379
+2303040002  0000000204  000000010200                                      000380
+320304      0000000423001000000                                           000381
+2303050001  0000008500  000000680000                                      000382
+2303050002  0000008000  000000480000                                      000383
+2303050003  0000014200  000000014200                                      000384
+2303050004  0000003500  000000017500                                      000385
+2303050005  0000050000  000000050000                                      000386
+2303050006  0000010000  000000100000                                      000387
+2303050007  0000008000  000000080000                                      000388
+320305      0000014217001000000                                           000389
+3203        0000470414501000000                                           000390
+2304010001  0000009721  000000534655                                      000391
+2304010002  0000011666  000000349980                                      000392
+2304010003  0000021000  000000105000                                      000393
+2304010004  0000002500  000000050000                                      000394
+2304010005  0000006350  000000412750                                      000395
+2304010006  0000000027  000000004725                                      000396
+320401      0000014571101000000                                           000397
+2304020001  0000012974  000000090818                                      000398
+2304020002  0000021104  000000021104                                      000399
+320402      0000001119221000000                                           000400
+3204        0000015690321000000                                           000401
+2305010001  0000004090  000000020450                                      000402
+2305010002  0000003850  000000019250                                      000403
+2305010003  0000001790  000000007160                                      000404
+2305010004  0000022100  000000088400                                      000405
+2305010005  0000004200  000000008400                                      000406
+2305010006  0000002200  000000004400                                      000407
+320501      0000001480601000000                                           000408
+2305020001  0000015700  000000031400                                      000409
+2305020002  0000001000  000000001000                                      000410
+2305020003  0000000500  000000001000                                      000411
+2305020004  0000000500  000000001000                                      000412
+2305020005  0000014588  000000802340                                      000413
+2305020006  0000021000  000000042000                                      000414
+2305020007  0000005600  000000134400                                      000415
+2305020008  0000000005  000000002400                                      000416
+2305020009  0000011000  000000066000                                      000417
+2305020010  0000000005  000000000600                                      000418
+2305020011  0000001200  000000021600                                      000419
+2305020012  0000006350  000000127000                                      000420
+2305020013  0000000027  000000000297                                      000421
+2305020014  0000004250  000000178500                                      000422
+2305020015  0000000580  000000030160                                      000423
+2305020016  0000002100  000000002100                                      000424
+2305020017  0000002100  000000002100                                      000425
+2305020018  0000002450  000000007350                                      000426
+2305020019  0000002450  000000007350                                      000427
+2305020020  0000002450  000000007350                                      000428
+2305020021  0000002100  000000006300                                      000429
+320502      0000014722471000000                                           000430
+2305030001  0000006950  000000006950                                      000431
+2305030002  0000006950  000000013900                                      000432
+2305030003  0000008004  000000016008                                      000433
+2305030004  0000009705  000000038820                                      000434
+2305030005  0000007734  000000030936                                      000435
+2305030006  0000001626  000000006504                                      000436
+320503      0000001131181000000                                           000437
+2305040001  0000008500  000000170000                                      000438
+2305040002  0000008000  000000040000                                      000439
+2305040003  0000002180  000000054500                                      000440
+2305040004  0000001000  000000015000                                      000441
+2305040005  0000000003  000000001500                                      000442
+2305040006  0000000480  000000001920                                      000443
+2305040007  0000000480  000000001920                                      000444
+2305040008  0000000336  000000026880                                      000445
+2305040009  0000029400  000000029400                                      000446
+2305040010  0000000014  000000000280                                      000447
+2305040011  0000015000  000000015000                                      000448
+2305040012  0000029400  000000029400                                      000449
+2305040013  0000000350  000000007000                                      000450
+2305040014  0000015000  000000015000                                      000451
+2305040015  0000010000  000000100000                                      000452
+2305040016  0000008000  000000080000                                      000453
+320504      0000005878001000000                                           000454
+3205        0000023212251000000                                           000455
+2306010001  0000001000  000000020000                                      000456
+2306010002  0000001000  000000030000                                      000457
+2306010003  0000000500  000000001500                                      000458
+2306010004  0000000500  000000001000                                      000459
+2306010005  0000040000  000000040000                                      000460
+2306010006  0000000500  000000001500                                      000461
+2306010007  0000000500  000000001000                                      000462
+2306010008  0000250000  000000250000                                      000463
+2306010009  0000350000  000000350000                                      000464
+320601      0000006950001000000                                           000465
+2306020001  0000008500  000000850000                                      000466
+320602      0000008500001000000                                           000467
+3206        0000015450001000000                                           000468
+2307010001  0000023647  000007519746                                      000469
+2307010002  0000074466  000000148932                                      000470
+2307010003  0000096920  000000387680                                      000471
+2307010004  0000057829  000002428818                                      000472
+2307010005  0000179658  000000359316                                      000473
+2307010006  0000756386  000001512772                                      000474
+2307010007  0000153296  000000613184                                      000475
+2307010008  0000210000  000000840000                                      000476
+2307010009  0000055398  000000110796                                      000477
+2307010010  0000013125  000000052500                                      000478
+2307010011  0000026063  000000104252                                      000479
+2307010012  0000024988  000000049976                                      000480
+2307010013  0000008470  000000016940                                      000481
+2307010014  0000002371  000000189680                                      000482
+2307010015  0000000018  000000004500                                      000483
+2307010016  0000000018  000000004500                                      000484
+320701      0000143435921000000                                           000485
+2307020001  0000070000  000000070000                                      000486
+2307020002  0000021600  000000432000                                      000487
+2307020003  0000000840  000000294000                                      000488
+2307020004  0000022200  000000466200                                      000489
+320702      0000012622001000000                                           000490
+3207        0000156057921000000                                           000491
+2308010001  0000004272  000000939840                                      000492
+2308010002  0000000090  000000019800                                      000493
+23TEL00009  0000003274  000000098220                                      000494
+2308010004  0000005480  000000109600                                      000495
+2308010005  0000005480  000000109600                                      000496
+2308010006  0000003005  000000030050                                      000497
+2308010007  0000004129  000000012387                                      000498
+2308010008  0000004462  000000004462                                      000499
+2308010009  0000022992  000000137952                                      000500
+2308010010  0000010700  000000107000                                      000501
+2308010011  0000064331  000000064331                                      000502
+2308010012  0000043094  000000129282                                      000503
+2308010013  0000017340  000000052020                                      000504
+2308010014  0000010038  000000040152                                      000505
+2308010015  0000003287  000000013148                                      000506
+2308010016  0000232664  000000232664                                      000507
+2308010017  0000009520  000000009520                                      000508
+2308010018  0000060136  000000060136                                      000509
+2308010019  0000006740  000000006740                                      000510
+2308010020  0000203593  000000203593                                      000511
+2308010021  0000033092  000000033092                                      000512
+2308010022  0000036600  000000073200                                      000513
+2308010023  0000006740  000000006740                                      000514
+2308010024  0000015120  000000015120                                      000515
+320801      0000025086491000000                                           000516
+2308020001  0000054209  000000054209                                      000517
+2308020002  0000025000  000000050000                                      000518
+2308020003  0000030000  000000030000                                      000519
+2308020004  0000035000  000000035000                                      000520
+2308020005  0000060000  000000060000                                      000521
+2308020006  0000005000  000000015000                                      000522
+2308020007  0000000870  000000191400                                      000523
+2308020008  0000000420  000000210000                                      000524
+320802      0000006456091000000                                           000525
+3208        0000031542581000000                                           000526
+2309010001  0000061086  000001099548                                      000527
+2309010002  0000088384  000000353536                                      000528
+2309010003  0000057829  000000115658                                      000529
+2309010004  0000140000  000000280000                                      000530
+2309010005  0000055398  000000110796                                      000531
+2309010006  0000011250  000000022500                                      000532
+2309010007  0000015842  000000031684                                      000533
+2309010008  0000014071  000000028142                                      000534
+2309010009  0000003061  000000030610                                      000535
+2309010010  0000045433  000000090866                                      000536
+2309010011  0000002660  000000005320                                      000537
+2309010012  0000002371  000000014226                                      000538
+2309010013  0000000018  000000000180                                      000539
+2309010014  0000000018  000000000180                                      000540
+2309010015  0000030000  000000060000                                      000541
+2309010016  0000038400  000000076800                                      000542
+2309010017  0000073075  000000146150                                      000543
+2309010018  0000013609  000000054436                                      000544
+2309010019  0000035460  000000141840                                      000545
+2309010020  0000051101  000000204404                                      000546
+2309010021  0000029962  000000059924                                      000547
+320901      0000029268001000000                                           000548
+2309020001  0000235493  000000235493                                      000549
+2309020002  0000070000  000000700000                                      000550
+2309020003  0000021600  000000043200                                      000551
+2309020004  0000140000  000000140000                                      000552
+2309020005  0000070000  000000070000                                      000553
+2309020006  0000304500  000000304500                                      000554
+2309020007  0000022200  000000466200                                      000555
+2309020008  0000120000  000000120000                                      000556
+2309020009  0000039600  000000079200                                      000557
+2309020010  0000025681  000000025681                                      000558
+2309020011  0000060000  000000060000                                      000559
+320902      0000022442741000000                                           000560
+3209        0000051710741000000                                           000561
+2310010001  0000000118  000000000118                                      000562
+321001      0000000001181000000                                           000563
+3210        0000000001181000000                                           000564
+9900000000000010000001900000000000000                          00000000249000565

@@ -1,0 +1,1706 @@
+{
+  "document": "LV_00_Roh_und_Erdauarbeiten.pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 3,
+    "with_quantity": 3,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Request for quotation",
+      "evidence": "Anfrage"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "79-222",
+      "evidence": "Projekt: 79-222"
+    },
+    {
+      "name": "LVNumber",
+      "type": "string",
+      "description": "Bill of quantities number (LV-Nr.)",
+      "value": "24",
+      "evidence": "LV: 24"
+    }
+  ],
+  "positions": [
+    {
+      "name": "Position 3.4.89.0",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.4.89.0",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "An- und Abfahrt An- und Abfahrt",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Vorbemerkungen Stundenlohnarbeiten [PERSON_126] enthalten die Zulagen für Feiertags-, Samstags- und Sonntagsarbeit sowie für Überstunden. Mit den Stundenlöhnen sind im Weiteren Fahrkosten, Aufwendungen für Verpflegung, Übernachtung sowie Kleinmaterialien, Einsatz von Kleinmaschinen und Verbrauchsmaterialien usw. abgegolten. Ein Anspruch auf Ableistung der nachstehend genannten Stunden besteht generell nicht. Ein Vergütungsanspruch für Zeitaufwendungen entsteht nur, wenn die voraussichtlich benötigten Aufwendungen vor Arbeitsausführung von der Bauleitung bestätigt/beauftragt wurden. Für einfache Tätigkeiten, wie Transport, Reinigung, Stemm- und Abbrucharbeiten etc., gelangen grundsätzlich nur die Stundensätze für Bauhelfer zur Abrechnung. Die vom AN angegebenen Stundensätze werden als Grundlage wechselseitiger Zeitaufwandsverrechnung zwischen AN und AG herangezogen.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 Stk  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "2,000 Stk  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.4.89.0"
+    },
+    {
+      "name": "Position 3.7.24.0",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.7.24.0",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Vergießen Fertigteile Vergießen Fertigteile",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 PSCH"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "PSCH",
+          "evidence": "1,000 PSCH"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.7.24.0"
+    },
+    {
+      "name": "Position 3.7.24.1",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "3.7.24.1",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Stabanker liefern und einbauen Stabanker liefern und einbauen",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Bewehrung",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 14.0,
+          "evidence": "14,000 Stk  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "Stk",
+          "evidence": "14,000 Stk  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "3.7.24.1"
+    }
+  ],
+  "tables": [
+    {
+      "name": "Table 1",
+      "type": "table",
+      "description": "Table 1 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 3",
+      "type": "table",
+      "description": "Table 3 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 5",
+      "type": "table",
+      "description": "Table 5 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 6",
+      "type": "table",
+      "description": "Table 6 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 10",
+      "type": "table",
+      "description": "Table 10 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 11",
+      "type": "table",
+      "description": "Table 11 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 12",
+      "type": "table",
+      "description": "Table 12 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 13",
+      "type": "table",
+      "description": "Table 13 of the document (8 rows)",
+      "value": [
+        [
+          "Zweck:",
+          "Lastverteilungspolster, kapillarbrechende"
+        ],
+        [
+          "Schicht",
+          ""
+        ],
+        [
+          "Anforderung:",
+          "wasserdurchlässig, spezifische Versickerungsfähigkeit (k > 10^-4 m/s) gem. DIN 18130-1"
+        ],
+        [
+          "Vorleistung:",
+          "Aushub, verdichtet"
+        ],
+        [
+          "Folgeleistung:",
+          "Sauberkeitsschicht oder Wärmedämmplatten"
+        ],
+        [
+          "Körnung:",
+          "8-32 mm"
+        ],
+        [
+          "Einbauschichtdicke:",
+          "ca. 30 cm"
+        ],
+        [
+          "Toleranz:",
+          "DIN 18202, Tab. 3, Zeile 1"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 14",
+      "type": "table",
+      "description": "Table 14 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 16",
+      "type": "table",
+      "description": "Table 16 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 19",
+      "type": "table",
+      "description": "Table 19 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 20",
+      "type": "table",
+      "description": "Table 20 of the document (5 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "Breite Grabensohle:",
+          "ca. 0,50 m i. L.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Tiefe Rohrgraben:",
+          "bis 1,00 m",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Bodenklasse:",
+          "3-5",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "6,000 m3",
+          "",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 21",
+      "type": "table",
+      "description": "Table 21 of the document (3 rows)",
+      "value": [
+        [
+          "Material:",
+          "Kies"
+        ],
+        [
+          "Körnung:",
+          "8/16 mm"
+        ],
+        [
+          "Schichtdicke:",
+          "≥ 20 cm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 22",
+      "type": "table",
+      "description": "Table 22 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 23",
+      "type": "table",
+      "description": "Table 23 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 24",
+      "type": "table",
+      "description": "Table 24 of the document (6 rows)",
+      "value": [
+        [
+          "Material:",
+          "Kunststoff, PVC-U, quergerippt"
+        ],
+        [
+          "Form:",
+          "A, DIN 1187"
+        ],
+        [
+          "Schlitzbreite:",
+          "0,8-1,2 mm"
+        ],
+        [
+          "Mindestwasser-",
+          ""
+        ],
+        [
+          "eintrittsfläche:",
+          "80 cm2/m"
+        ],
+        [
+          "Nennweite:",
+          "DN 100"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 25",
+      "type": "table",
+      "description": "Table 25 of the document (4 rows)",
+      "value": [
+        [
+          "Größe:",
+          "DN 315"
+        ],
+        [
+          "Anschlüsse:",
+          "bis DN 200"
+        ],
+        [
+          "Bauhöhe:",
+          "80 cm"
+        ],
+        [
+          "Nutzhöhe:",
+          "35 cm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 26",
+      "type": "table",
+      "description": "Table 26 of the document (2 rows)",
+      "value": [
+        [
+          "Gesamtlänge:",
+          "105 cm"
+        ],
+        [
+          "Nutzlänge:",
+          "80 cm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 27",
+      "type": "table",
+      "description": "Table 27 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 28",
+      "type": "table",
+      "description": "Table 28 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 29",
+      "type": "table",
+      "description": "Table 29 of the document (2 rows)",
+      "value": [
+        [
+          "Foliendicke:",
+          "mind. 0,2 mm"
+        ],
+        [
+          "Stoßüberlappung:",
+          "mind. 15 cm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 30",
+      "type": "table",
+      "description": "Table 30 of the document (6 rows)",
+      "value": [
+        [
+          "Zweck:",
+          "Unterbau für Bewehrung und Abdichtung"
+        ],
+        [
+          "Vorleistung:",
+          "verdichteter Baugrund"
+        ],
+        [
+          "Folgeleistung:",
+          "ggf. Dämmung, Bewehrung"
+        ],
+        [
+          "Beton:",
+          "C12/15"
+        ],
+        [
+          "Expositionsklasse:",
+          "X0"
+        ],
+        [
+          "Stärke:",
+          "ca. 8 cm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 31",
+      "type": "table",
+      "description": "Table 31 of the document (6 rows)",
+      "value": [
+        [
+          "Zweck:",
+          "Unterbau für Bewehrung und Abdichtung"
+        ],
+        [
+          "Vorleistung:",
+          "verdichteter Baugrund"
+        ],
+        [
+          "Folgeleistung:",
+          "ggf. Dämmung, Bewehrung"
+        ],
+        [
+          "Beton:",
+          "C12/15"
+        ],
+        [
+          "Expositionsklasse:",
+          "X0"
+        ],
+        [
+          "Stärke:",
+          "ca. 8 cm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 32",
+      "type": "table",
+      "description": "Table 32 of the document (7 rows)",
+      "value": [
+        [
+          "Vorleistung:",
+          "Sauberkeitsschicht"
+        ],
+        [
+          "Material:",
+          "extrudierter Polystyrolhartschaum, XPS (DIN EN 13164)"
+        ],
+        [
+          "Anwendungstyp:",
+          "PB-dh (DIN 4108-10)"
+        ],
+        [
+          "Druckfestigkeit:",
+          "CS(10\\Y)500, 50 N/cm2"
+        ],
+        [
+          "Plattendicke:",
+          "100 mm"
+        ],
+        [
+          "Baustoffklasse:",
+          "B1/E (DIN 4102 bzw. EN 13501)"
+        ],
+        [
+          "Wärmeleitfähigkeit:",
+          "0,035 W/(m*K)"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 33",
+      "type": "table",
+      "description": "Table 33 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 34",
+      "type": "table",
+      "description": "Table 34 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 35",
+      "type": "table",
+      "description": "Table 35 of the document (3 rows)",
+      "value": [
+        [
+          "Vorleistung:",
+          "Sauberkeitsschicht"
+        ],
+        [
+          "Abmessungen:",
+          "bis 60x70 cm"
+        ],
+        [
+          "Köchertiefe:",
+          "bis ca. 90 cm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 36",
+      "type": "table",
+      "description": "Table 36 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 37",
+      "type": "table",
+      "description": "Table 37 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 39",
+      "type": "table",
+      "description": "Table 39 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 41",
+      "type": "table",
+      "description": "Table 41 of the document (3 rows)",
+      "value": [
+        [
+          "Beton:",
+          "C25/30"
+        ],
+        [
+          "Expositionsklasse:",
+          "XC1"
+        ],
+        [
+          "Wanddicke:",
+          "<25 cm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 42",
+      "type": "table",
+      "description": "Table 42 of the document (7 rows)",
+      "value": [
+        [
+          "Beton:",
+          "C25/30 WU"
+        ],
+        [
+          "Expositionsklasse:",
+          "XC2/XA1"
+        ],
+        [
+          "Überwachungsklasse:",
+          "Ü2"
+        ],
+        [
+          "Anforderung:",
+          "WU/\"Weiße Wanne\""
+        ],
+        [
+          "Nutzungsklasse:",
+          "A*** (gem. DBV-Merkblatt \"Hochwertige Nutzung von Untergeschossen\")"
+        ],
+        [
+          "Beanspruchungsklasse:",
+          "1 (drückendes [PERSON_029]"
+        ],
+        [
+          "Wanddicke:",
+          "25 cm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 43",
+      "type": "table",
+      "description": "Table 43 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 44",
+      "type": "table",
+      "description": "Table 44 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 45",
+      "type": "table",
+      "description": "Table 45 of the document (3 rows)",
+      "value": [
+        [
+          "Beton:",
+          "C25/30"
+        ],
+        [
+          "Expositionsklasse:",
+          "XC3"
+        ],
+        [
+          "Deckendicke:",
+          "24 cm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 46",
+      "type": "table",
+      "description": "Table 46 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 48",
+      "type": "table",
+      "description": "Table 48 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 49",
+      "type": "table",
+      "description": "Table 49 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 50",
+      "type": "table",
+      "description": "Table 50 of the document (3 rows)",
+      "value": [
+        [
+          "Stahlgüte:",
+          "S235JR"
+        ],
+        [
+          "Oberfläche:",
+          "grundiert"
+        ],
+        [
+          "Einzelgewichte:",
+          "bis 50 kg"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 51",
+      "type": "table",
+      "description": "Table 51 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 52",
+      "type": "table",
+      "description": "Table 52 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 53",
+      "type": "table",
+      "description": "Table 53 of the document (8 rows)",
+      "value": [
+        [
+          "Zweck:",
+          "Auflagerung und thermische Entkopplung Stb.-"
+        ],
+        [
+          "Balkonplatte",
+          ""
+        ],
+        [
+          "Wärmedämmung:",
+          "XPS, d= 80 mm"
+        ],
+        [
+          "WLG:",
+          "035"
+        ],
+        [
+          "Tragstufe:",
+          "[PERSON_129] K30-CV35-H180 o. glw."
+        ],
+        [
+          "Balkonplattendicke:",
+          "H= 18 cm"
+        ],
+        [
+          "Elementlänge:",
+          "100 cm"
+        ],
+        [
+          "Einbauort:",
+          "???"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 54",
+      "type": "table",
+      "description": "Table 54 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 55",
+      "type": "table",
+      "description": "Table 55 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 56",
+      "type": "table",
+      "description": "Table 56 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 58",
+      "type": "table",
+      "description": "Table 58 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 59",
+      "type": "table",
+      "description": "Table 59 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 60",
+      "type": "table",
+      "description": "Table 60 of the document (5 rows)",
+      "value": [
+        [
+          "Folgeleistung:",
+          "sichtbar bleibend"
+        ],
+        [
+          "Beton:",
+          "C30/37, XC1"
+        ],
+        [
+          "Stützenhöhe:",
+          "ca. 7,60 m"
+        ],
+        [
+          "Querschnitt:",
+          "40x50 cm"
+        ],
+        [
+          "Oberfläche:",
+          "SB2"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 61",
+      "type": "table",
+      "description": "Table 61 of the document (5 rows)",
+      "value": [
+        [
+          "Folgeleistung:",
+          "sichtbar bleibend"
+        ],
+        [
+          "Beton:",
+          "C30/37, XC1"
+        ],
+        [
+          "Stützenhöhe:",
+          "ca. 7,60 m"
+        ],
+        [
+          "Querschnitt:",
+          "40x40 cm"
+        ],
+        [
+          "Oberfläche:",
+          "SB2"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 62",
+      "type": "table",
+      "description": "Table 62 of the document (5 rows)",
+      "value": [
+        [
+          "Beton:",
+          "C30/37 XC1"
+        ],
+        [
+          "Länge:",
+          "ca.9,93m"
+        ],
+        [
+          "Breite:",
+          "40 cm"
+        ],
+        [
+          "Höhe:",
+          "75 cm am Auflager"
+        ],
+        [
+          "Oberfläche:",
+          "SB2"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 63",
+      "type": "table",
+      "description": "Table 63 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 65",
+      "type": "table",
+      "description": "Table 65 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 67",
+      "type": "table",
+      "description": "Table 67 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 68",
+      "type": "table",
+      "description": "Table 68 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 70",
+      "type": "table",
+      "description": "Table 70 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 71",
+      "type": "table",
+      "description": "Table 71 of the document (7 rows)",
+      "value": [
+        [
+          "Dämmschicht:",
+          "XPS, WLG 035, d= 8 cm"
+        ],
+        [
+          "Kanten:",
+          "gefast"
+        ],
+        [
+          "Beton:",
+          "C35/45, XC2, XF2, WA"
+        ],
+        [
+          "Oberfläche, innen:",
+          "Sichtbeton SB2"
+        ],
+        [
+          "Oberfläche, außen:",
+          "Sichtbeton SB2"
+        ],
+        [
+          "Länge:",
+          "ca. 6,35m"
+        ],
+        [
+          "Einbauort:",
+          "Achse D/4-6"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 72",
+      "type": "table",
+      "description": "Table 72 of the document (9 rows)",
+      "value": [
+        [
+          "Dicke Vorsatzschale:",
+          "7 cm"
+        ],
+        [
+          "Dicke Tragschale:",
+          "15 cm"
+        ],
+        [
+          "Dämmschicht:",
+          "XPS, WLG 035, d= 8 cm"
+        ],
+        [
+          "Kanten:",
+          "gefast"
+        ],
+        [
+          "Beton:",
+          "C35/45, XC2, XF2, WA"
+        ],
+        [
+          "Oberfläche, innen:",
+          "Sichtbeton SB2"
+        ],
+        [
+          "Oberfläche, außen:",
+          "Sichtbeton SB2"
+        ],
+        [
+          "Länge:",
+          "ca. 7,00m"
+        ],
+        [
+          "Einbauort:",
+          "Achse D/2-3"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 73",
+      "type": "table",
+      "description": "Table 73 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 74",
+      "type": "table",
+      "description": "Table 74 of the document (8 rows)",
+      "value": [
+        [
+          "Dicke Vorsatzschale:",
+          "7 cm"
+        ],
+        [
+          "Dicke Tragschale:",
+          "15 cm"
+        ],
+        [
+          "Dämmschicht: Kanten:",
+          "XPS, WLG 035, d= 8 cm gefast"
+        ],
+        [
+          "Beton:",
+          "C35/45, XC2, XF2, WA"
+        ],
+        [
+          "Oberfläche, innen:",
+          "Sichtbeton SB2"
+        ],
+        [
+          "Oberfläche, außen:",
+          "Sichtbeton SB2"
+        ],
+        [
+          "Länge:",
+          "ca. 1,25m"
+        ],
+        [
+          "Einbauort:",
+          "Achse D/1"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 75",
+      "type": "table",
+      "description": "Table 75 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 76",
+      "type": "table",
+      "description": "Table 76 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 78",
+      "type": "table",
+      "description": "Table 78 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 79",
+      "type": "table",
+      "description": "Table 79 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 80",
+      "type": "table",
+      "description": "Table 80 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 81",
+      "type": "table",
+      "description": "Table 81 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 82",
+      "type": "table",
+      "description": "Table 82 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 84",
+      "type": "table",
+      "description": "Table 84 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 85",
+      "type": "table",
+      "description": "Table 85 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 86",
+      "type": "table",
+      "description": "Table 86 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 87",
+      "type": "table",
+      "description": "Table 87 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 88",
+      "type": "table",
+      "description": "Table 88 of the document (7 rows)",
+      "value": [
+        [
+          "Beton:",
+          "C25/30 WU"
+        ],
+        [
+          "Expositionsklasse:",
+          "XC2/XA1"
+        ],
+        [
+          "Überwachungsklasse:",
+          "Ü2"
+        ],
+        [
+          "Anforderung:",
+          "WU/\"Weiße Wanne\""
+        ],
+        [
+          "Nutzungsklasse:",
+          "A*** (gem. DBV-Merkblatt \"Hochwertige Nutzung von Untergeschossen\")"
+        ],
+        [
+          "Beanspruchungsklasse:",
+          "1 (drückendes [PERSON_029]"
+        ],
+        [
+          "Wanddicke:",
+          "25 cm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 89",
+      "type": "table",
+      "description": "Table 89 of the document (3 rows)",
+      "value": [
+        [
+          "Beton:",
+          "C25/30"
+        ],
+        [
+          "Expositionsklasse:",
+          "XC3"
+        ],
+        [
+          "Deckendicke:",
+          "24 cm"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 90",
+      "type": "table",
+      "description": "Table 90 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 91",
+      "type": "table",
+      "description": "Table 91 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 93",
+      "type": "table",
+      "description": "Table 93 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 95",
+      "type": "table",
+      "description": "Table 95 of the document (10 rows)",
+      "value": [
+        [
+          "Zweck:",
+          "Innenwand"
+        ],
+        [
+          "Beanspruchung:",
+          "tragend/nichttragend"
+        ],
+        [
+          "Material:",
+          "Kalksandstein"
+        ],
+        [
+          "Steinart:",
+          "KS-R(P) 20-2,0"
+        ],
+        [
+          "Format:",
+          "8DF"
+        ],
+        [
+          "Rohdichte:",
+          "2,0 kg/dm3"
+        ],
+        [
+          "Festigkeit:",
+          "20 N/mm2"
+        ],
+        [
+          "Brandschutz:",
+          "F90 (DIN 4102) nichttragend= EI90 (EN 13501) tragend REI 90= (EN 13501)"
+        ],
+        [
+          "Wandstärke:",
+          "24,0 cm"
+        ],
+        [
+          "Wandhöhe:",
+          "bis 3,50 m"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 96",
+      "type": "table",
+      "description": "Table 96 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 98",
+      "type": "table",
+      "description": "Table 98 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 100",
+      "type": "table",
+      "description": "Table 100 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 101",
+      "type": "table",
+      "description": "Table 101 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 102",
+      "type": "table",
+      "description": "Table 102 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 103",
+      "type": "table",
+      "description": "Table 103 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 105",
+      "type": "table",
+      "description": "Table 105 of the document (4 rows)",
+      "value": [
+        [
+          "Zuzüglich der gesetzlichen Mehrwertsteuer aus",
+          "EUR"
+        ],
+        [
+          "in Höhe von 19,00 %",
+          "EUR"
+        ],
+        [
+          "",
+          "EUR"
+        ],
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "document": "StBALV23040.D86",
+  "source": "local GAEB reader (exact values from the XML / GAEB file)",
+  "summary": {
+    "positions": 0,
+    "with_quantity": 0,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "VATRate",
+      "type": "number",
+      "description": "VAT rate in %",
+      "value": 3.0,
+      "evidence": "ustand max. 3 %"
+    }
+  ],
+  "positions": [],
+  "tables": []
+}

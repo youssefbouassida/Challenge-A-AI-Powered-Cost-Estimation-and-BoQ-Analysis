@@ -1,0 +1,769 @@
+{
+  "document": "LV_09_Porenbetondach.pdf",
+  "project_id": "79-222",
+  "source": "Azure Content Understanding",
+  "summary": {
+    "positions_reviewed": 14,
+    "material_rows": 5,
+    "not_materials": 10,
+    "not_reviewed": 0,
+    "with_quantity": 5,
+    "with_unit_price": 0,
+    "conflicts": 0
+  },
+  "materials": [
+    {
+      "name": "Material 9.2.4 – Autoclaved aerated concrete roof panel, P 4.4-0,55, 250 mm thick, 625 mm wide, F 90",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.2.4",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Autoclaved aerated concrete roof panel, P 4.4-0,55, 250 mm thick, 625 mm wide, F 90",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Panels up to 5.50 m long, with chamfered longitudinal edges and a stated snow load of approximately 2.95 kN/m².",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 230.0,
+          "evidence": "230,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "230,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.4\nPorenbeton-Dachplatten, P 4.4-0,55, d = 250 mm Porenbeton-Dachplatten P 4.4-0,55, nach Zulassungsbescheid und DIN 4223/DIN 1050, inkl. aller Vergussarbeiten, planeben lagerflächen verlegen. Technische Beschreibung: Plattenlänge: ca. bis 5,50 m Plattenbreite: ca. 625 mm Plattendicke: ca. 250 mm"
+    },
+    {
+      "name": "Material 9.2.4 – Autoclaved aerated concrete roof panel, P 4.4-0,55, 300 mm thick, 625 mm wide, F 90",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.2.4",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Autoclaved aerated concrete roof panel, P 4.4-0,55, 300 mm thick, 625 mm wide, F 90",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Optional thicker variant of the specified roof panel, with chamfered longitudinal edges.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.4\nPorenbeton-Dachplatten, P 4.4-0,55, d = 250 mm Porenbeton-Dachplatten P 4.4-0,55, nach Zulassungsbescheid und DIN 4223/DIN 1050, inkl. aller Vergussarbeiten, planeben lagerflächen verlegen. Technische Beschreibung: Plattenlänge: ca. bis 5,50 m Plattenbreite: ca. 625 mm Plattendicke: ca. 250 mm"
+    },
+    {
+      "name": "Material 9.2.10 – Custom-width infill panel surcharge, excluding 500 mm and 625 mm widths",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.2.10",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Custom-width infill panel surcharge, excluding 500 mm and 625 mm widths",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Add-on for infill panels in widths other than 500 mm and 625 mm.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 35.0,
+          "evidence": "35,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "35,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.10\nZulage Passplatten Passplatten (alle Breiten, außer 500, 625 mm), als Zulage.\n35,000 m2  EP ........  GP ........"
+    },
+    {
+      "name": "Material 9.2.12 – Underside connection-joint sealing add-on with plastoelastic sealant, approx. 20 mm joint width",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.2.12",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Underside connection-joint sealing add-on with plastoelastic sealant, approx. 20 mm joint width",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Seals the underside connection joint against existing solid structural elements.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "1,000 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.12\n*** Bedarfsposition ohne GB Zulage Verfugung unterseitige Anschlussfuge Unterseitige Verfugung der Anschlussfuge, an vorhandene Massiv- bauteile, mit plastoelastischem Material, Fugenbreite = ca. 20 mm, als Zulage.\n1,000 m | Nur Einh.-Pr.\nÜbertrag:\n## Anfrage\n09\nOZ"
+    },
+    {
+      "name": "Material 9.2.13 – Beveled roof soffit joint sealing add-on with plastoelastic sealant, concave profile, approx. 20 mm joint width",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "79-222",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "9.2.13",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Beveled roof soffit joint sealing add-on with plastoelastic sealant, concave profile, approx. 20 mm joint width",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Forms a concave seal along the longitudinal joint at the roof soffit.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m2",
+          "evidence": "1,000 m2"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": "contingency – only ordered if needed (Bedarfs-/Eventualposition)",
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.13\n*** Bedarfsposition ohne GB Zulage Fasenverfugung Dachuntersicht Fasenverfugung der Längsfuge, an Dachuntersicht, mit einem plastoelastischen Material, Fugenausbildung als Hohlkehlfuge, Fugenbreite = ca. 20 mm, als Zulage.\n1,000 m2 | Nur Einh.-Pr."
+    }
+  ],
+  "not_materials": [
+    {
+      "name": "Position 9.2.0",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.2.0",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "This is temporary site setup, upkeep, and dismantling, including travel.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.0\nBaustelleneinrichtung\nBaustelle einrichten, vorhalten und wieder abbauen, einschl. aller Baustellenan- und Abfahrten, als pauschale Komplettleistung.\n1,000 pau  EP ........  GP ........"
+    },
+    {
+      "name": "Position 9.2.1",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.2.1",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "This specifies occupational safety measures without identifying a new product to supply.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.1\nMaßnahmen zur Arbeitssicherheit gem. UVV Maßnahmen zur Gewährleistung der Arbeitssicherheit gem. der UVV ZH 1/164 UVV bei Montagearbeiten. Max. Montagehöhe: ca. bis 8,00 m ab OK-Gelände\n1,000 pa"
+    },
+    {
+      "name": "Position 9.2.2",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.2.2",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "This is preparation of structural calculations and verification documents.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.2\nStatische Nachweise (Ausführungs-/Typenstatik) Erstellung der Ausführungs-/Typenstatik für die nachfolgend schriebenen Leistungen, auf der Grundlage der vom AG an AN übergebenen Planunterlagen. "
+    },
+    {
+      "name": "Position 9.2.3",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.2.3",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "This is preparation of installation, shop, and detail drawings.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.3\nMontage-, Werkstatt- und Detailzeichnungen Erstellung von Montage-, Werkstatt- und Detailplänen für beschriebene Porenbetonfassade, auf der Grundlage der AN übergebenen Planunterlagen. die nachf"
+    },
+    {
+      "name": "Position 9.2.9",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.2.9",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The surcharge covers bevel, miter, and fit cuts in 250 mm panels, including cutting waste. It does not specify a new product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"Herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.9\n*** Bedarfsposition ohne GB Zulage Schräg-/Gehrungs-/Passschnitte Herstellen von Schräg-/Gehrungs-/Passschnitte bei einer Plattendicke von 250 mm, einschließlich Materialverlust, als Zulage.\n1,0"
+    },
+    {
+      "name": "Position 9.2.15",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.2.15",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers making 50 mm round ceiling openings, not supplying a physical product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.15\n*** Bedarfsposition ohne GB Deckendurchbrüche, rund, Ø 50 mm Deckendurchbruch nach Angabe der Bauleitung herstellen Form: rund Durchmesser: Ø 50mm\n1,000 St | Nur Einh.-Pr."
+    },
+    {
+      "name": "Position 9.2.16",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.2.16",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers making 100 mm round ceiling openings, not supplying a physical product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.16\nDeckendurchbrüche, rund, Ø 100 mm Deckendurchbruch nach Angabe der Bauleitung herstellen Form: rund Durchmesser: Ø 100mm\n4,000 St  EP ........  GP ........"
+    },
+    {
+      "name": "Position 9.2.17",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.2.17",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers making 150 mm round ceiling openings, not supplying a physical product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.17\nDeckendurchbrüche, rund, Ø 150 mm Deckendurchbruch nach Angabe der Bauleitung herstellen Form: rund Durchmesser: Ø 150mm\n2,000 St  EP ........  GP ........"
+    },
+    {
+      "name": "Position 9.2.18",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.2.18",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers making 200 mm round ceiling openings, not supplying a physical product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.18\nDeckendurchbrüche, rund, Ø 200 mm Deckendurchbruch nach Angabe der Bauleitung herstellen Form: rund Durchmesser: Ø 200mm\n2,000 St  EP ........  GP ........"
+    },
+    {
+      "name": "Position 9.2.21",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "9.2.21",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers making angular ceiling openings up to 150 cm², not supplying a physical product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "9.2.21\n*** Bedarfsposition ohne GB Deckendurchbrüche, eckig, bis 150 cm2 Deckendurchbruch nach Angabe der Bauleitung herstellen Form: eckig Querschnitt: bis 150 cm2\n1,000 St | Nur Einh.-Pr.\nSumme 9.2."
+    }
+  ],
+  "not_reviewed": []
+}

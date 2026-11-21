@@ -1,0 +1,982 @@
+{
+  "document": "LV_14b_Dachentwaesserung.pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 0,
+    "with_quantity": 0,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Request for quotation",
+      "evidence": "Anfrage"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "79-222",
+      "evidence": "Projekt: 79-222"
+    },
+    {
+      "name": "LVNumber",
+      "type": "string",
+      "description": "Bill of quantities number (LV-Nr.)",
+      "value": "verpreist_2004..",
+      "evidence": "LV: verpreist_2004.."
+    }
+  ],
+  "positions": [],
+  "tables": [
+    {
+      "name": "Table 1",
+      "type": "table",
+      "description": "Table 1 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 2",
+      "type": "table",
+      "description": "Table 2 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 3",
+      "type": "table",
+      "description": "Table 3 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 4",
+      "type": "table",
+      "description": "Table 4 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 5",
+      "type": "table",
+      "description": "Table 5 of the document (13 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          ".6",
+          "Brandschutzeinsatz/-manschette für Dachabläufe Brandschutzeinsatz/-manschette für Dachabläufe DN 70",
+          "Übertrag:",
+          ""
+        ],
+        [
+          "",
+          "2,000 St",
+          "",
+          ""
+        ],
+        [
+          ".7",
+          "Anschluss an bauseitigen Dachablauf Anschluss eines bauseitigen Dachablaufes DN 70 (LORO-DRAINLET 84 o. glw.) an Fallleitung PE-Rohr 75 x 3 mm, einschl. Übergangs-Formteil",
+          "",
+          ""
+        ],
+        [
+          "",
+          "4,000 St",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Rohrleitungen: Rohrleitungen:",
+          "",
+          ""
+        ],
+        [
+          ".8",
+          "PE-Rohr 40 x 3 mm PE-Rohrleitung 40 x 3 mm, aus PE-HD, AuBendurchmesser: 40 mm Fabrikat: Geberit oder gleichwertig gew. [PERSON_129]",
+          "",
+          ""
+        ],
+        [
+          "",
+          "12,000 m",
+          "",
+          ""
+        ],
+        [
+          ".9",
+          "PE-Rohr 50 x 3 mm PE-Rohrleitung wie zuvor in vollem Wortlaut beschrieben, jedoch AuBendurchmesser: 50 mm",
+          "",
+          ""
+        ],
+        [
+          "",
+          "55,000 m",
+          "",
+          ""
+        ],
+        [
+          ".10",
+          "PE-Rohr 56 x 3 mm PE-Rohrleitung wie zuvor in vollem Wortlaut beschrieben, jedoch AuBendurchmesser: 56 mm 38,000 m",
+          "",
+          ""
+        ],
+        [
+          ".11",
+          "PE-Rohr 75 x 3 mm PE-Rohrleitung wie zuvor in vollem Wortlaut",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Übertrag:"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 6",
+      "type": "table",
+      "description": "Table 6 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 7",
+      "type": "table",
+      "description": "Table 7 of the document (17 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "",
+          "",
+          "Übertrag:"
+        ],
+        [
+          "beschrieben, jedoch",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "AuBendurchmesser: 75 mm",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "35,000 m",
+          "",
+          ""
+        ],
+        [
+          ".12",
+          "PE-Rohr 110 x 4,3 mm PE-Rohrleitung wie zuvor in vollem beschrieben, jedoch AuBendurchmesser: 110 mm",
+          "Wortlaut 6,000 m",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Schweißmuffen: Schweißmuffen:",
+          "",
+          "",
+          ""
+        ],
+        [
+          ".13",
+          "Schweißmuffe 40 PE-Elektroschweißmuffe, Dimension Material: PE, zum Herstellen PE- Schweißverbindungen. Passend und als Zubehör zum Entwässerungssystem.",
+          "40 mm, längskraftschlüssiger beschriebenen",
+          "",
+          ""
+        ],
+        [
+          "",
+          "12,000 St",
+          "",
+          ""
+        ],
+        [
+          ".14",
+          "Schweißmuffe 50 PE-Elektroschweißmuffe wie zuvor in beschrieben, jedoch Dimension 50 mm",
+          "vollem Wortlaut",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "23,000 St",
+          "",
+          ""
+        ],
+        [
+          ".15",
+          "Schweißmuffe 56 PE-Elektroschweißmuffe wie zuvor in beschrieben, jedoch Dimension 56 mm",
+          "vollem Wortlaut",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "22,000 St",
+          "",
+          ""
+        ],
+        [
+          ".16",
+          "Schweißmuffe 75 PE-Elektroschweißmuffe wie zuvor in beschrieben, jedoch Dimension 75 mm",
+          "vollem Wortlaut",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "20,000 St",
+          "",
+          ""
+        ],
+        [
+          ".17",
+          "Schweißmuffe 110 PE-Elektroschweißmuffe wie zuvor in beschrieben, jedoch Dimension 110",
+          "vollem Wortlaut mm",
+          "",
+          ""
+        ],
+        [
+          "",
+          "4,000 St",
+          "Übertrag:",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 8",
+      "type": "table",
+      "description": "Table 8 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 9",
+      "type": "table",
+      "description": "Table 9 of the document (10 rows)",
+      "value": [
+        [
+          "",
+          "Übertrag:"
+        ],
+        [
+          "Formteile: Formteile:"
+        ],
+        [
+          ".18 Reduzierung 50/40 Exzentrische Reduktion, kurz, aus PE-HD, von AuBendurchmesser 50 mm auf AuBendurchmesser 40 mm. Passend und als Zubehör zum beschriebenen Entwässerungssystem.",
+          ""
+        ],
+        [
+          "3,000 St .19 Reduzierung 56/50 Exzentrische Reduktion, kurz, aus PE-HD, von AuBendurchmesser 56 mm auf AuBendurchmesser 50 mm. Passend und als Zubehör zum beschriebenen Entwässerungssystem.",
+          ""
+        ],
+        [
+          "6,000 St",
+          ""
+        ],
+        [
+          ".20 Reduzierung 56/40 Exzentrische Reduktion, kurz, aus PE-HD, von AuBendurchmesser 56 mm auf AuBendurchmesser 40 mm. Passend und als Zubehör zum beschriebenen Entwässerungssystem."
+        ],
+        [
+          "2,000 St",
+          ""
+        ],
+        [
+          ".21 Reduzierung 110/75 Exzentrische Reduktion, kurz, aus PE-HD, von AuBendurchmesser 110 mm auf AuBendurchmesser 75 mm. Passend und als Zubehör zum beschriebenen Entwässerungssystem."
+        ],
+        [
+          "6,000 St",
+          ""
+        ],
+        [
+          ".22 Bogen 45°, 50 mm Bögen 45° aus PE-HD, Abmessung: 50 mm. Passend und als Zubehör zum beschriebenen Entwässerungssystem."
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 10",
+      "type": "table",
+      "description": "Table 10 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 11",
+      "type": "table",
+      "description": "Table 11 of the document (16 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "Übertrag:"
+        ],
+        [
+          ".23",
+          "Bogen 45°, 56 mm Bogen 45° aus PE-HD, Abmessung: 56 mm. Passend und als Zubehör zum beschriebenen Entwässerungssystem.",
+          "",
+          ""
+        ],
+        [
+          "",
+          "14,000 St",
+          "",
+          ""
+        ],
+        [
+          ".24",
+          "Bogen 45°, 75 mm Bogen 45° aus PE-HD, Abmessung: 75 mm. Passend und als Zubehör zum beschriebenen Entwässerungssystem.",
+          "",
+          ""
+        ],
+        [
+          "",
+          "8,000 St",
+          "",
+          ""
+        ],
+        [
+          ".25",
+          "Bogen 90°, 40 mm Bögen aus PE-HD wie zuvor in vollem Wortlaut beschrieben, jedoch 90°, Abmessung: 40 mm.",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1,000 St",
+          "",
+          ""
+        ],
+        [
+          ".26",
+          "Bogen 90°, 50 mm Bögen aus PE-HD wie zuvor in vollem Wortlaut beschrieben, jedoch 90°,",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Abmessung: 50 mm.",
+          "",
+          ""
+        ],
+        [
+          "",
+          "4,000 St",
+          "",
+          ""
+        ],
+        [
+          ".27",
+          "Bogen 90°, 75 mm Bögen aus PE-HD wie zuvor in vollem Wortlaut beschrieben, jedoch 90°, Abmessung: 75 mm.",
+          "",
+          ""
+        ],
+        [
+          "",
+          "16,000 St",
+          "",
+          ""
+        ],
+        [
+          ".28",
+          "Abzweig 45°, 40/40 mm Abzweig 45°, aus PE-HD, Abmessung: 40/40 mm. Passend und als Zubehör zum beschriebenen Entwässerungssystem.",
+          "",
+          ""
+        ],
+        [
+          "1,000 St",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "Übertrag:",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 12",
+      "type": "table",
+      "description": "Table 12 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 13",
+      "type": "table",
+      "description": "Table 13 of the document (16 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          ".29",
+          "Abzweig 45°, 56/50 mm Abzweig 45°, aus PE-HD, Abmessung: 56/50 mm. Passend und als Zubehör zum beschriebenen Entwässerungssystem.",
+          "",
+          "Übertrag:",
+          ""
+        ],
+        [
+          "",
+          "",
+          "2,000 St",
+          "",
+          ""
+        ],
+        [
+          ".30",
+          "Abzweig 45°, 56/56 mm Abzweig 45°, aus PE-HD, Abmessung: 56/56 mm. Passend und als Zubehör zum beschriebenen Entwässerungssystem.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "1,000 St",
+          "",
+          ""
+        ],
+        [
+          ".31",
+          "Gewindestutzen mit Schraubkappe d40 Gewindestutzen mit Schraubkappe d40"
+        ],
+        [
+          "",
+          "",
+          "1,000 St",
+          "",
+          ""
+        ],
+        [
+          ".32",
+          "Gewindestutzen mit Schraubkappe d56 Gewindestutzen mit Schraubkappe d56",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1,000 St",
+          "",
+          ""
+        ],
+        [
+          ".33",
+          "Reinigungsrohr 90°, 110 mm Reinigungsrohre 90° aus PE-HD, Abmessung d1: 110 mm, Abmessung d2: 110 mm. Passend und als Zubehör zum beschriebenen Entwässerungssystem.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "6,000 St",
+          "",
+          ""
+        ],
+        [
+          ".34",
+          "Grundleitungsanschluss DN 100 Anschluss eines PE-Fallrohres DN 100 an Grundleitung, einschl. Übergangs-Formteil",
+          "vorhandene",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "5,000 St",
+          "",
+          ""
+        ],
+        [
+          ".35",
+          "Grundleitungsanschluss DN 125 Anschluss eines PE-Fallrohres DN 125 an vorhandene Grundleitung, einschl. Übergangs-Formteil",
+          ""
+        ],
+        [
+          "",
+          "",
+          "1,000 St",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Übertrag:"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 14",
+      "type": "table",
+      "description": "Table 14 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 15",
+      "type": "table",
+      "description": "Table 15 of the document (9 rows)",
+      "value": [
+        [
+          "",
+          "Befestigungsmaterial: Befestigungsmaterial:",
+          "Übertrag:"
+        ],
+        [
+          ".36",
+          "Rohrschelle 40 Rohrschelle zur Befestigung der zuvor beschriebenen Entwässerungsleitung 40 x 3 mm, passend und als Zubehör beschriebenen Entwässerungssystem.",
+          ""
+        ],
+        [
+          ".37",
+          "12,000 St Rohrschelle 50 Rohrschelle zur Befestigung der zuvor beschriebenen Entwässerungsleitung 50 x 3 mm, passend und als Zubehör beschriebenen Entwässerungssystem.",
+          ""
+        ],
+        [
+          "",
+          "65,000 St",
+          ""
+        ],
+        [
+          ".38",
+          "Rohrschelle 56 Rohrschelle zur Befestigung der zuvor beschriebenen Entwässerungsleitung 56 x 3 mm, passend und als Zubehör beschriebenen Entwässerungssystem.",
+          ""
+        ],
+        [
+          "",
+          "48,000 St",
+          ""
+        ],
+        [
+          ".39",
+          "Rohrschelle 75 Rohrschelle zur Befestigung der zuvor beschriebenen Entwässerungsleitung 75 x 3 mm, passend und als Zubehör beschriebenen Entwässerungssystem.",
+          ""
+        ],
+        [
+          "",
+          "40,000 St",
+          ""
+        ],
+        [
+          ".40",
+          "Rohrschelle 110 Rohrschelle zur Befestigung der zuvor beschriebenen Entwässerungsleitung 110 x 4,3 mm, passend und als Zubehör beschriebenen Entwässerungssystem.",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 16",
+      "type": "table",
+      "description": "Table 16 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 17",
+      "type": "table",
+      "description": "Table 17 of the document (16 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "",
+          "",
+          "Übertrag:"
+        ],
+        [
+          ".41",
+          "[PERSON_069] 1/2\" Halteplatte 1/2\" rechteckig, passend und als Zubehör beschriebener Fallrohrschelle.",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "170,000 St",
+          "",
+          ""
+        ],
+        [
+          ".42",
+          "Fixpunkt mit Elektroschweißband PE-HD d50 Fixpunkt mit Elektroschweißband PE-HD d50, passend und als Zubehör zu zuvor beschriebenem Entwässerungssystem.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "18,000 St",
+          "",
+          ""
+        ],
+        [
+          ".43",
+          "Fixpunkt mit Elektroschweißband PE-HD d56 Fixpunkt mit Elektroschweißband PE-HD d56, passend und als Zubehör zu zuvor beschriebenem Entwässerungssystem.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "16,000 St",
+          "",
+          ""
+        ],
+        [
+          ".44",
+          "Fixpunkt mit Elektroschweißband PE-HD d75 Fixpunkt mit Elektroschweißband PE-HD d75, passend und als Zubehör zu zuvor beschriebenem Entwässerungssystem.",
+          ""
+        ],
+        [
+          "",
+          "",
+          "8,000 St",
+          "",
+          ""
+        ],
+        [
+          ".45",
+          "Tragschale verzinkt und lackiert d 40 Tragschale verzinkt und lackiert d 40",
+          "1,000 m",
+          "",
+          ""
+        ],
+        [
+          ".46",
+          "Tragschale verzinkt und lackiert d 50 Tragschale verzinkt und lackiert d 50",
+          "25,000 m",
+          "",
+          ""
+        ],
+        [
+          ".47",
+          "Tragschale verzinkt und lackiert d 56 Tragschale verzinkt und lackiert d 56",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "8,000 m",
+          "",
+          ""
+        ],
+        [
+          ".48",
+          "Außenwand-Rohrdurchführung DN 100 Außenwand-Durchführung für Regenwasserleitung, Dichtungseinsatz für Kernbohrung, Ausführung entsprechend Außenwandaufbau, gegen nichtdrückendes [PERSON_029] für 1 Medienrohr mit Außendurchmesser 105-115 mm,",
+          ""
+        ],
+        [
+          "",
+          "Übertrag:"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 18",
+      "type": "table",
+      "description": "Table 18 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 19",
+      "type": "table",
+      "description": "Table 19 of the document (5 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "Kernbohrungs-Innendurchmesser 200 mm bestehend aus: Spezialfaserzement-Futterrohr DN 200, 500 mm lang Fabrikat / [PERSON_129] Doyma / Curaflex oder gleichwertig gew. [PERSON_129] 2 x Dichtungseinsatz mit EPDM-Vollgummidichtung Stahlteile galv. verzinkt, chromatiert und temperaturbeständig von -40°C bis 140°C und Elastomer-Mittelring Einschl. Konservierungsmittel, Befestigungsmaterial allem erforderlichen Zubehör liefern, und in herzustellende Kernbohrung (in anderer beschrieben) nach Herstellerangabe einbauen",
+          ". versiegelt, und Pos. . 2,000 St",
+          "Übertrag:",
+          ""
+        ],
+        [
+          ".49 Auslaufstück mit Endrohrklappe (Froschklappe) DN 100 Auslaufstück mit Endrohrklappe DN 100 als Austrittsformstück der Notentwässerung einschl. Übergangsformteil/Anschluss an Notentwässerungsleitung DN 100 2,000 St"
+        ],
+        [
+          ".50 Regenwasser-Dammung an Rohr d40 Thermische und schalltechnische Dämmung an Regenwasserleitungen 40 x 3 mm, als Dämmung für zuvor beschriebenes PE-Rohr zur Verhinderung von Schwitzwasserbildung und zur Reduzierung der Körperschallübertragung, einschl. Dämmung aller Form- und Verbindungsstücke, alle Nähte dampfdiffusionsdicht mit Kleber fachgerecht verschließen, einschl. allen erforderlichen Zubehörs. Für Rohraußendurchmesser 40 mm. [PERSON_129] Rockwool RS 800 oder gleichwertig gew. [PERSON_129]"
+        ],
+        [
+          "",
+          "12,000 m",
+          "",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 20",
+      "type": "table",
+      "description": "Table 20 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 21",
+      "type": "table",
+      "description": "Table 21 of the document (9 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          ".51",
+          "Regenwasser-Dämmung an Rohr d50 Thermische und schalltechnische Dämmung an Regenwasserleitungen wie zuvor in vollem Wortlaut beschrieben, jedoch für Rohre 50 x 3 mm",
+          "Übertrag:",
+          ""
+        ],
+        [
+          "",
+          "55,000 m",
+          "",
+          ""
+        ],
+        [
+          ".52",
+          "Regenwasser-Dämmung an Rohr d56 Thermische und schalltechnische Dämmung an Regenwasserleitungen wie zuvor in vollem Wortlaut beschrieben, jedoch für Rohre 56 x 3 mm 38,000 m",
+          "",
+          ""
+        ],
+        [
+          ".53",
+          "Regenwasser-Dämmung an Rohr d75 mit PVC-Mantel Thermische und schalltechnische Dämmung an Regenwasserleitungen wie zuvor in vollem Wortlaut beschrieben, jedoch für Rohre 75 x 3 mm mit PVC-Ummantelung",
+          "",
+          ""
+        ],
+        [
+          "",
+          "35,000 m",
+          "",
+          ""
+        ],
+        [
+          ".54",
+          "Regenwasser-Dämmung an Rohr d110 mit PVC-Mantel Thermische und schalltechnische Dämmung an Regenwasserleitungen wie zuvor in vollem Wortlaut beschrieben, jedoch für Rohre 110 x 4,3 mm mit PVC-Ummantelung",
+          "",
+          ""
+        ],
+        [
+          "",
+          "6,000 m",
+          "",
+          ""
+        ],
+        [
+          ".55",
+          "Brandschutz-Dämmmanschette R90 bis d75 Brandschutzrohrschale für die Abschottung von brennbaren Versorgungsrohren,zur Verhinderung der Feuer- und Rauchübertragung, für [PERSON_074] und Deckendurchführung brennbarer Abwasserleitungen, für zuvor beschriebenes PE-Rohr bis 75 x 3 mm, Feuerwiderstandsklasse R90, komplett einschl. brandschutztechnischem Verschluss zum Bauwerk. [PERSON_129] Conlit / 150 U oder gleichwertig gewähltes [PERSON_129]",
+          "",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 22",
+      "type": "table",
+      "description": "Table 22 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 23",
+      "type": "table",
+      "description": "Table 23 of the document (18 rows)",
+      "value": [
+        [
+          "Übertrag:"
+        ],
+        [
+          ".56",
+          "Profilstahlkonstruktion, verzinkt"
+        ],
+        [
+          "",
+          "Profilstahlkonstruktion als Stuetz-, Haenge- und Tragkonstruktion einschl. Befestigungsmaterial, feuerverzinkt, Ausfuehrung: verschraubt mit zugelassenen, verzinkten Schrauben, Muttern und Unterlagscheiben; geschweißte oder beschädigte Stellen mit anschlieBender Nachverzinkung. Abrechnung nach Einheitsgewichten."
+        ],
+        [
+          "",
+          "50,000 kg"
+        ],
+        [
+          ".57",
+          "Bestandsunterlagen"
+        ],
+        [
+          "",
+          "Bestandsunterlagen mit Eintragung und Vermaßung des verlegten Systems, 1fach Papier, 1fach elektronisch, erstellen und übergeben"
+        ],
+        [
+          "1,000 Satz"
+        ],
+        [
+          ".58",
+          "*** Bedarfsposition ohne GB A-Monteurstunden Stundenverrechnungssatz Obermonteur/Bauleitender Monteur, einschl. aller Zulagen"
+        ],
+        [
+          "",
+          "1,000 h Nur Einh.-Pr."
+        ],
+        [
+          ".59",
+          "*** Bedarfsposition ohne GB B-Monteurstunden Stundenverrechnungssatz Monteur, einschl. aller Zulagen"
+        ],
+        [
+          "1,000 h Nur Einh.-Pr."
+        ],
+        [
+          ".60",
+          "*** Bedarfsposition ohne GB Helferstunden Stundenverrechnugssatz Helfer/Auszubildender, einschl. aller Zulagen"
+        ],
+        [
+          "1,000 h Nur Einh.-Pr."
+        ],
+        [
+          "Summe LV verpreist_200403_Dachentwässeru.."
+        ],
+        [
+          "",
+          "Zuzüglich der gesetzlichen Mehrwertsteuer aus EUR"
+        ],
+        [
+          "",
+          "in Höhe von 19,00 % EUR"
+        ],
+        [
+          "",
+          "EUR"
+        ],
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

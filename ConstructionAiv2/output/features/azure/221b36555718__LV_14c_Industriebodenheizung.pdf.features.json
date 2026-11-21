@@ -1,0 +1,406 @@
+{
+  "document": "LV_14c_Industriebodenheizung.pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 0,
+    "with_quantity": 0,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Request for quotation",
+      "evidence": "Anfrage"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "79-222",
+      "evidence": "Projekt: 79-222"
+    },
+    {
+      "name": "LVNumber",
+      "type": "string",
+      "description": "Bill of quantities number (LV-Nr.)",
+      "value": "verpreist_2004..",
+      "evidence": "LV: verpreist_2004.."
+    }
+  ],
+  "positions": [],
+  "tables": [
+    {
+      "name": "Table 1",
+      "type": "table",
+      "description": "Table 1 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 2",
+      "type": "table",
+      "description": "Table 2 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 3",
+      "type": "table",
+      "description": "Table 3 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 4",
+      "type": "table",
+      "description": "Table 4 of the document (4 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "Ventil-VoreinstellungAnzeige des Einstellwertes, Aufnahmefeldern für [PERSON_135] Heizkreisabgang 25x2,3 mit Klemmringverschraubung, mit Durchflussmesser je Heizkreis, - Rücklauf-Einzelsegmenten mit Rücklaufventil mit Bauschutzkappe, [PERSON_178] direkt auf das Rücklaufventil adaptierbar, Heizkreisabgang 25x2,3 mit Klemmringverschraubung. - Inkl. Wandhalter - FE-Hahn [PERSON_176] - Thermometer 0 - 60°C - Manometer mit Montageventil - Endkappen - Kreuzstück mit Übergangsverschaubung G - 11/2 flachdichtend, Anschluss für FE-Hahn, - Werkstoff: Glasfaser. Polyamid-max. Betriebstemperatur: 60 °C - max. Betriebsdruck: 6 bar - Uponor Magna Verteiler Kugelhahn (Set) 2x G 11/2\" Werkstoff: [PERSON_176] Anzahl Heizgruppen: 11 Verteiler liefern, einbringen, ggf. aus Verteilersegmenten zusammenbauen, befestigen, komplettieren, Heizkreisanschlüsse herstellen, einschl. allem notwendigen Material und aller erforderlicher Leistungen. [PERSON_129] der Planung: Uponor / Industrieverteiler Magna 11 Kreise oder gleichwertig gewähltes [PERSON_129]",
+          "Übertrag:",
+          ""
+        ],
+        [
+          "1,000 St .3 Thermo - Kleinstellantrieb für Industriebodenheizung Thermo - Kleinstellantrieb, passend zu zuvor beschriebenem Rücklaufventil (Industriebodenheizung) für Thermostat-Ventilunterteile thermomechanischer Antrieb, stromlos zu, Netz: 230 V Stellzeit: 3min Stellkraft: 100N Schutzart: IP54",
+          "",
+          ""
+        ],
+        [
+          "Übertrag:"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 5",
+      "type": "table",
+      "description": "Table 5 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 6",
+      "type": "table",
+      "description": "Table 6 of the document (14 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "",
+          "",
+          "",
+          "Übertrag:",
+          ""
+        ],
+        [
+          "",
+          "Gewicht kg: 0,073 gew. [PERSON_129]",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "11,000 St",
+          "",
+          ""
+        ],
+        [
+          ".4",
+          "Verbindungsstücke PE-Xa 20 Verbindungsstücke für Anschluss der PE-Xa Rohre an zuvor beschriebenen Heizkreisverteiler und an Einzelvorlauf-Feinstregulierventile und Einzelrücklaufventile",
+          "zuvor beschriebenen",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "22,000 St",
+          "",
+          ""
+        ],
+        [
+          ".5",
+          "Rohrführungsbogen Kunststoff -20 Rohrführungsbogen Kunststoff -20",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "22,000 St",
+          "",
+          ""
+        ],
+        [
+          ".6",
+          "Messstellenmarkierung 100mm Markierung zur Ausweisung einer Messstelle Feuchtemessung im Estrich, mit rotem Markierungsende. Die Befestigung auf Abdeckung gem. DIN 18560 erfolgt mittels Klebestreifen. Die Abdeckung wird nicht zerstört. Der Mindestabstand von der Messstelle bis zum nächsten Heizungsrohr muss 10 cm betragen. Materialbedarf: 1 St. / Raum oder größer 50 m2 entsprechend mehr Werkstoff: Rundstab Kautschuk, Fuß aus Kunststoff mit Klebestreifen.",
+          "für die der",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "5,000 St",
+          "",
+          ""
+        ],
+        [
+          ".7",
+          "*** Bedarfsposition ohne GB Bewegungsfugenprofil 1800x100x10 Bewegungsfugenprofil für die normgerechte von Bewegungsfugen [PERSON_144] aus Hart-PVC, PE-Schaum-Dehnungsstreifen",
+          "mm Herstellung .",
+          "",
+          ""
+        ],
+        [
+          "",
+          "",
+          "10,000 m",
+          "",
+          "Nur Einh.-Pr."
+        ],
+        [
+          ".8",
+          "*** Grundposition 1.0 Verteilerschrank Aufputz für 11 Heizkreise Verteilerschrank für zuvor beschriebenen Heizkreisverteiler mit 11 Heizkreisen als Aufputzlösung.",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Übertrag:"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 7",
+      "type": "table",
+      "description": "Table 7 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 8",
+      "type": "table",
+      "description": "Table 8 of the document (6 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "Mit verriegelbarer Klapptür und Zylinderschloss. Werkstoff: verzinktes Stahlblech Farbe: pulverbeschichtet in weiß RAL 9016 1,000 St",
+          "Übertrag:",
+          ""
+        ],
+        [
+          ".9 *** Wahlposition 1.1 zu 1.0 Verteilerschrank Unterputz für 11 Heizkreise Verteilerschrank für zuvor beschriebenen Heizkreisverteiler mit 11 Heizkreisen als Unterputzlösung. Mit verriegelbarer Klapptür und Zylinderschloss. Werkstoff: verzinktes Stahlblech Farbe: pulverbeschichtet in weiß RAL 9016"
+        ],
+        [
+          "1,000 St",
+          "",
+          "Nur Einh.-Pr."
+        ],
+        [
+          ".10 Druckprobe, Einregulierung, Funktionsheizen Industriebodenheizung Vor der Befüllung sind sämtliche Rohre und Anschlüsse auf korrekte Lage und Unversehrtheit nochmals zu prüfen. Sämtliche eingebrachte Rohre und Einbauteile sind mit aufbereitetem [PERSON_029] zu füllen und vor und während der Einbringung der umschließenden und überdeckenden Fußodenschichten unter Druck zu halten, der Prüfdruck muss das Doppelte des Betriebsdrucks, mindestens jedoch 10 bar betragen, die Wasserdruckprobe ist vom Auftragnehmer zu protokollieren. Beim Einbringen der umschließenden und überdeckenden Schichten muss ein Mitarbeiter des Auftragnehmers ständig anwesend sein, um Beschädigungen sofort beheben zu können. Die Einstellung der Anlage ist gem. VOB DIN 18380, 3.5, durch hydraulischen Abgleich der Heizkreise untereinander vorzunehmen, einschließlich Dokumentierung in den Abnahmeunterlagen gem. Punkt 3.7 der VOB DIN 18380 mit Übergabe der 10-jährigen Haftungserklärung des Herstellers. Nachfolgend Funktionsheizen mit Funktionsheizprotokoll."
+        ],
+        [
+          "",
+          "Übertrag:"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 9",
+      "type": "table",
+      "description": "Table 9 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 10",
+      "type": "table",
+      "description": "Table 10 of the document (21 rows)",
+      "value": [
+        [
+          "OZ",
+          "Leistungsbeschreibung Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ],
+        [
+          "",
+          "Übertrag:"
+        ],
+        [
+          "",
+          "Für alle im Titel beschriebenen Heizkreise der Industriebodenheizung.",
+          "",
+          ""
+        ],
+        [
+          "1,000 Psch",
+          "",
+          ""
+        ],
+        [
+          ".11",
+          "Bestandsunterlagen",
+          "",
+          ""
+        ],
+        [
+          "Bestandsunterlagen mit Eintragung und Vermaßung des verlegten Systems, 1fach Papier, 1fach elektronisch, erstellen und übergeben",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1,000 Satz",
+          "",
+          ""
+        ],
+        [
+          ".12",
+          "*** Bedarfsposition ohne GB A-Monteurstunden",
+          "",
+          ""
+        ],
+        [
+          "Stundenverrechnungssatz Obermonteur/Bauleitender Monteur, einschl. aller Zulagen",
+          "",
+          ""
+        ],
+        [
+          "1,000 h",
+          "",
+          "Nur Einh.-Pr."
+        ],
+        [
+          ".13",
+          "*** Bedarfsposition ohne GB B-Monteurstunden",
+          "",
+          ""
+        ],
+        [
+          "Stundenverrechnungssatz Monteur, einschl. aller Zulagen",
+          "",
+          ""
+        ],
+        [
+          "",
+          "1,000 h",
+          "",
+          "Nur Einh.-Pr."
+        ],
+        [
+          ".14",
+          "*** Bedarfsposition ohne GB",
+          "",
+          ""
+        ],
+        [
+          "Helferstunden",
+          "",
+          ""
+        ],
+        [
+          "Stundenverrechnugssatz Helfer/Auszubildender, einschl. aller Zulagen",
+          "",
+          ""
+        ],
+        [
+          "1,000 h",
+          "",
+          "Nur Einh.-Pr."
+        ],
+        [
+          "Summe LV verpreist_200403_Industrieboden",
+          "..",
+          ""
+        ],
+        [
+          "",
+          "Zuzüglich der gesetzlichen Mehrwertsteuer aus",
+          "",
+          "EUR"
+        ],
+        [
+          "in Höhe von 19,00 %",
+          "",
+          "EUR"
+        ],
+        [
+          "",
+          "",
+          "",
+          "EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 11",
+      "type": "table",
+      "description": "Table 11 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

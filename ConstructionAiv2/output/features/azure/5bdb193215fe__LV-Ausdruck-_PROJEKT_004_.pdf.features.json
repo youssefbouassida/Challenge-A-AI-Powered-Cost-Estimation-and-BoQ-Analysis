@@ -1,0 +1,502 @@
+{
+  "document": "LV-Ausdruck-[PROJEKT_004].pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 0,
+    "with_quantity": 0,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Bill of quantities",
+      "evidence": "Leistungsverzeichnis"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "[PROJEKT_004]",
+      "evidence": "Projekt: | [PROJEKT_004]"
+    },
+    {
+      "name": "Client",
+      "type": "string",
+      "description": "Client (Auftraggeber / Bauherr / Vergabestelle)",
+      "value": "Gemeinde Maierhöfen / Ldkr. Lindau (B)",
+      "evidence": "Bauherr: | Gemeinde Maierhöfen / Ldkr. Lindau (B)"
+    },
+    {
+      "name": "VATRate",
+      "type": "number",
+      "description": "VAT rate in %",
+      "value": 19.0,
+      "evidence": "MWSt. 19,0 %"
+    }
+  ],
+  "positions": [],
+  "tables": [
+    {
+      "name": "Table 1",
+      "type": "table",
+      "description": "Table 1 of the document (5 rows)",
+      "value": [
+        [
+          "01",
+          "LV",
+          "[PROJEKT_004]",
+          ""
+        ],
+        [
+          "01",
+          "Titel",
+          "Baustelleneinrichtung und -räumung",
+          "3"
+        ],
+        [
+          "02",
+          "Titel",
+          "Tiefbauarbeiten",
+          "6"
+        ],
+        [
+          "03",
+          "Titel",
+          "Stahlbetonrohre, Schächte, Einlaufbauwerk",
+          "15"
+        ],
+        [
+          "04",
+          "Titel",
+          "Stundenlohnarbeiten (Regie)",
+          "20"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 2",
+      "type": "table",
+      "description": "Table 2 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 3",
+      "type": "table",
+      "description": "Table 3 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 4",
+      "type": "table",
+      "description": "Table 4 of the document (3 rows)",
+      "value": [
+        [
+          "01 Baustelleneinrichtung und -räumung",
+          ""
+        ],
+        [
+          "MWSt. 19,0 %",
+          ""
+        ],
+        [
+          "Gesamtsumme inkl. MWSt.",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 6",
+      "type": "table",
+      "description": "Table 6 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 7",
+      "type": "table",
+      "description": "Table 7 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 8",
+      "type": "table",
+      "description": "Table 8 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 9",
+      "type": "table",
+      "description": "Table 9 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 10",
+      "type": "table",
+      "description": "Table 10 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 11",
+      "type": "table",
+      "description": "Table 11 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 12",
+      "type": "table",
+      "description": "Table 12 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 13",
+      "type": "table",
+      "description": "Table 13 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 14",
+      "type": "table",
+      "description": "Table 14 of the document (3 rows)",
+      "value": [
+        [
+          "02 Tiefbauarbeiten"
+        ],
+        [
+          "MWSt. 19,0 %"
+        ],
+        [
+          "Gesamtsumme inkl. MWSt."
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 15",
+      "type": "table",
+      "description": "Table 15 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 16",
+      "type": "table",
+      "description": "Table 16 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 18",
+      "type": "table",
+      "description": "Table 18 of the document (1 rows)",
+      "value": [
+        [
+          "Pos Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 19",
+      "type": "table",
+      "description": "Table 19 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 20",
+      "type": "table",
+      "description": "Table 20 of the document (3 rows)",
+      "value": [
+        [
+          "Projekt:",
+          "[PROJEKT_004]"
+        ],
+        [
+          "Bauherr:",
+          "Gemeinde Maierhöfen / Ldkr. Lindau (B)"
+        ],
+        [
+          "DV-Nr. AG:",
+          "152516"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 21",
+      "type": "table",
+      "description": "Table 21 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 22",
+      "type": "table",
+      "description": "Table 22 of the document (2 rows)",
+      "value": [
+        [
+          "MWSt. 19,0 %",
+          ""
+        ],
+        [
+          "Gesamtsumme inkl. MWSt.",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 23",
+      "type": "table",
+      "description": "Table 23 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 25",
+      "type": "table",
+      "description": "Table 25 of the document (1 rows)",
+      "value": [
+        [
+          "Pos",
+          "Stl-Nr.",
+          "Menge / Einheit",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 26",
+      "type": "table",
+      "description": "Table 26 of the document (3 rows)",
+      "value": [
+        [
+          "04 Stundenlohnarbeiten (Regie)",
+          ""
+        ],
+        [
+          "MWSt. 19,0 %",
+          ""
+        ],
+        [
+          "Gesamtsumme inkl. MWSt.",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 27",
+      "type": "table",
+      "description": "Table 27 of the document (4 rows)",
+      "value": [
+        [
+          "Projekt:",
+          "[PROJEKT_004]",
+          "Seite 22"
+        ],
+        [
+          "Bauherr:",
+          "Gemeinde Maierhöfen / Ldkr. Lindau (B)",
+          "Datum 16.05.2025"
+        ],
+        [
+          "DV-Nr. AG:",
+          "152516",
+          ""
+        ],
+        [
+          "OZ",
+          "Abschnitt",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 28",
+      "type": "table",
+      "description": "Table 28 of the document (4 rows)",
+      "value": [
+        [
+          "01",
+          "Baustelleneinrichtung und -räumung",
+          ""
+        ],
+        [
+          "02",
+          "Tiefbauarbeiten",
+          ""
+        ],
+        [
+          "03",
+          "Stahlbetonrohre, Schächte, Einlaufbauwerk",
+          ""
+        ],
+        [
+          "04",
+          "Stundenlohnarbeiten (Regie)",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 29",
+      "type": "table",
+      "description": "Table 29 of the document (2 rows)",
+      "value": [
+        [
+          "MWSt. 19,0 %",
+          ""
+        ],
+        [
+          "Gesamtsumme inkl. MWSt.",
+          ""
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

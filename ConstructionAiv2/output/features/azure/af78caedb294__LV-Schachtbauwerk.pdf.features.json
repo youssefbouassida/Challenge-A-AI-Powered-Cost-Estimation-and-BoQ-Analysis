@@ -1,0 +1,1931 @@
+{
+  "document": "LV-Schachtbauwerk.pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 28,
+    "with_quantity": 22,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Bill of quantities",
+      "evidence": "Leistungsverzeichnis Kurz- und Langtext"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "2024-001",
+      "evidence": "Projekt: 2024-001"
+    },
+    {
+      "name": "LVNumber",
+      "type": "string",
+      "description": "Bill of quantities number (LV-Nr.)",
+      "value": "0001",
+      "evidence": "LV: 0001"
+    }
+  ],
+  "positions": [
+    {
+      "name": "Position 5.2.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.2.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Abzweigschacht",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Lichte Grundrißfläche | 2,65 m x 2,65 m lichte Schachthohe | 2,00 m Sohlenstärke | 0,30 m Wandstärken | 0,20 m Deckenstärke | 0,20 m Ausführung mit allem Zubehör wie herstellen. | vorstehend beschrieben, Überschlägige Massen für die Kalkulation | pro Schacht: Sauberkeitsschicht | ca. 0,8 m3 Gefällebeton | ca. 8,0 m2 Auffüllmaterial | ca. 1,0 m3 Rohrstützen aus V2A, höhenverstellbar | ca. 1 Stück Sohlenbeton | ca. 2,1 m3 Wandbeton | ca. 6,4 m3 Deckenbeton | ca. 1,4 m3 [FIRMA_091] | ca. 0 m2 Bitumenschutzanstrich | ca. 0 m2 Innenanstrich | ca. 0 m2 Wärmedämmung [FIRMA_101] | ca. 20 m2 Schachthals | ca. 0,70 m Leiterlänge ohne Einhaltung | ca. 2,80 m Erdungspunkt innen (M12) | 1,00 St Erdungspunkt auBen (M12) | 1,00 St Erdungseisen mit zwei Verbindungsklemmen einbauen bzw. verlegen | liefern und ca. 30 m Kabeldurchführungen für Leerrohr da 2 sowie 2 x Steuerkabel A2Y-F (L) 20 x 2 | x 50 x 4,6 mm (4 x 0,8 | Stück) einschlieBlich Abdichtung Rohrdurchführungen: | DN 150 V2A 1 St | . DN 300 GGG 2 St | . DN 250 GGG 1 St | . Futterrohre für Kabeleinführungen | di = 70 mm 2 St | . di = 100 mm 4 St | .",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.2.10"
+    },
+    {
+      "name": "Position 5.2.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.2.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Schachtvierungen i.L. 1,00/1,00 m liefern und montieren",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Schachtvierung aus Feinbeton mit mind. 300 kg Z/m3 FB und einer Körnung bis höchstens 15 mm, einschließlich Stahleinlagen liefern und montieren. Die Sichtflächen sind zu stocken, die Kanten mit Kantenschlag zu versehen. Der Betonquerschnitt beträgt b/h = 25/30 cm. Schachtvierungen i.L. 1,00/1,00 m",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.2.20."
+    },
+    {
+      "name": "Position 5.2.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.2.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Schachtdeckel [PERSON_115] 1000/1000 mm liefern und",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "montieren Schachtdeckel aus einem 4 mm starken Edelstahlblechstück gepreßt und in der Mitte überhöht, auf einer 60/40 mm starken mit 8 Befestigungslaschen versehenen Winkel-Eisenvierung zum nachträglichen befestigen, Fuge dauerelastisch ausgespritzt, mit Scharnieren angebracht, Scharniere mit herausnehmbaren, versplintetem Messingbolzen, mit einer völlig abschließenden Hochdruckgummidichtung und einem selbsttätig einfallenden, ebenfalls aus [PERSON_115] oder [PERSON_176] gefertigten Verschluß (sicher gegen widerrechtliches Öffnen - Sicherheitssteckschloss zur Einbruchsicherung), mit [PERSON_115] und selbsttätiger, nur mit der Hand zu lösender, starrer Aufhaltevorrichtung, mit stabilen verdeckt liegenden Scharnieren. Verschlußverschraubungen entweder aus BronzeguB oder rostfreiem [PERSON_115] Umlaufende, völlig abschließende, insektensichere Gummidichtung (frost- und witterungsbeständig) im Deckel, liefern und montieren Gesamte Konstruktion in [PERSON_115] rostfrei, unter Schutzgas geschweißte Ausführung, im Tauchbad gebeizt und passiviert, einschlieBlich 25 mm starker Hartschaumisolierung, die unterseitig durch ein Edelstahlblech, abgekantet auf Deckelhöhe, zur zusätzlichen Versteifung geschützt wird, einschließlich Bedienungsschlüssel. Fabrikat [FIRMA_062] oder gleichwertiger Art Angebotenes Fabrikat: ' ' Deckelgröe 1000/1000 mm, mit 8 Befestigungslaschen",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.2.30."
+    },
+    {
+      "name": "Position 5.2.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.2.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Mehrpreis Dunstkamin DN 150",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Mehrpreis für die Ausführung des Schachtdeckels mit Dunstkamin DN 150 aus [PERSON_115] mit eingelegtem insektensicheren Kunststoffsieb und unterem Abschluß mit Lochblech.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.2.40."
+    },
+    {
+      "name": "Position 5.2.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.2.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Edelstahlleiter liefern und montieren",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Schachtleiter aus [PERSON_115] 1.4571, Breite 300 mm Ausziehbare Einholm-Einsteighilfe aus [PERSON_115] 1.4571 liefern und montieren Länge bis ca. 2,80 m",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.2.50."
+    },
+    {
+      "name": "Position 5.2.60",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.2.60",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Belüftungskamin DN 150, l = ca. 3.50 m liefern und",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "einbauen Belüftungskamin DN 150, Wandstärke 2 mm mit Haube, nur von innen zu lösen mit insektensicherem Edelstahlsieb, mit Mauerflansch und 1 Rohrschelle, liefern und einbauen. Genaues Maß ist am Bau zu nehmen. Gesamtlänge l = ca. 3,50 m",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.2.60."
+    },
+    {
+      "name": "Position 5.2.70",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.2.70",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Spülschächte ausbauen und entsorgen",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Schacht aus Stahlbeton ausbauen und entsorgen inkl. bestehender Rohrleitungsinstallation Zum Abbruch kann von folgenden Stahlbetonmengen / sonstigen Abbruchgut wie Dämmungen ausgegangen werden: Lichte Grundrißfläche | 2,70 m x 2,40 m lichte Schachthohe | 2,52 m Sohlenstärke | 0,30 m Wandstärken | 0,30 m Deckenstärke | 0,20 m Sauberkeitsschicht | ca. 1,1 m3 Gefällebeton | ca. 6,2 m2 Auffüllmaterial | ca. 1,0 m3 Rohrstützen aus V2A, höhenverstellbar | ca. 2 Stück Sohlenbeton | ca. 3,3 m3 Wandbeton | ca. 7,2 m3 Deckenbeton | ca. 2,2 m3 Wärmedämmung [FIRMA_101] | ca. 20 m2 Schachthals | ca. 0,70 m Leiterlänge ohne Einhaltung | ca. 3,00 m Erdungspunkt innen | 1,00 St. Das vorhandene Steuerkabel ist vor Beginn der Abbrucharbeiten frei zu legen und zu sichern. Rohrdurchführungen: DN 150 V2A 1 St. DN 300 GG 2 St. DN 80 GG 1 St. Zum Abbruch kann von folgender Installation ausgegangen werden: Belüftungskamin VA DN 150 DN 300 GG L = 2,00 m T-Stück DN 300/80 1 St KOS DN 80 1 St DN 80 GG L= 2,00 m",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.2.70."
+    },
+    {
+      "name": "Position 5.3.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Formstücke aus GGG liefern und einbauen - FF DN 300/1000 mm lg mit Mauerflansch",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "2,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.10"
+    },
+    {
+      "name": "Position 5.3.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "wie vor, jedoch FF DN 250 / 1000 mm lg mit Mauerflansch 1,000 St",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.20"
+    },
+    {
+      "name": "Position 5.3.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "wie vor, jedoch T DN 300/300 mit einem Abgang DN 100 und 1 Bohrung 1\" [PERSON_115] V4A) Baulängen sind dem beiliegenden Schachtplan zu entnehmen 1,000 St",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.30"
+    },
+    {
+      "name": "Position 5.3.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "wie vor, jedoch FFR DN 300/250 [PERSON_115] V4A) 1,000 St",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.40"
+    },
+    {
+      "name": "Position 5.3.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "wie vor, jedoch Q DN 100 [PERSON_115] V4A) 1,000 St",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.50"
+    },
+    {
+      "name": "Position 5.3.60",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.60",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "wie vor, jedoch Q DN 100 mit 1 Bohrung 1\" [PERSON_115] V4A)",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.60"
+    },
+    {
+      "name": "Position 5.3.70",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.70",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Klemmring DN 300 mit 2 Bohrungen 1\" liefern und",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "einbauen Liefern und Einbauen von Klemmringen aus [PERSON_115] V4A entsprechender Nennweite und Nenndruck. Erforderliche Dichtungen sowie überlange Schrauben im Material der restlichen Installation sind einzurechnen. Klemmring DN 300 MDP 10/16, 2 Bohrungen mit Innengewinde 1\" Baulänge ca. 500 mm 0001",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.70."
+    },
+    {
+      "name": "Position 5.3.80",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.80",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "wie vor, jedoch Klemmring DN 250 mit 2 Bohrungen 1\"",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "liefern und einbauen",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.80."
+    },
+    {
+      "name": "Position 5.3.90",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.90",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Storzkupplung / Storzübergangstück D 110 (A) mit",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Deckel Storz-Festkupplung - mit Innengewinde - Baugröße DIN 110-A für schnelles Verbinden und Losen durch 120°-Drehung zum Verbinden oder Anschluss von Schläuchen mit großen Durchmessern. Technische Daten Baugröße - nach DIN 110-A Nockenabstand (innen) - 133 mm Werkstoff Kupplung - [PERSON_115] Werkstoff Dichtung - NBR (bei [PERSON_115] Viton) Temperaturbereich - -40°C bis +110°C (bei [PERSON_115] -15°C bis +200°C) Druckbereich - bis 16 bar",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.90."
+    },
+    {
+      "name": "Position 5.3.100",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.100",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Wasserschieber m. HRD MDP 16, DN 100 Kurzbaul.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Wasserschieber mit ovalem Gehäuse und kurzer Baulänge aus Gußeisen nach DIN 3352 Gehäuse innen und außen korrosionsgeschützt, mit elastisch-dichtendem Abschlußkeil, zuverlässig wirkender Stopfbüchsenausrüstung o. ä. ohne Schiebersack, innenliegende Spindelgewinde, fettfrei. Anschlußflansche nach DIN 2532 bearbeitet und gebohrt. Sämtliche am [PERSON_017] freiliegenden Schrauben und Muttern sind entweder in [PERSON_089] auszuführen oder mittels Kunststoffüberzug oder Umhüllung einwandfrei dicht gegen aggressives Medium zu schützen. Handrad aus Guss mit Kunststoffüberzug mit nichtrostender Beilagscheibe und Schraube gesichert. Liefern und montieren, einschließlich Dichtung mit Stahleinlage, Schrauben, Beilagscheiben und Muttern (siehe Vorbemerkung). Prüfdruck im Gehäuse 16 bar Prüfdruck im Keilabschluß 16 bar Fabrikat Erhard oder gleichwertiger Bauart MDP 16 Fabrikat: ' ' Type: ' ' DN 150 0001",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.100."
+    },
+    {
+      "name": "Position 5.3.110",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.110",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "wie vor, jedoch [PERSON_017] DN 250 (weichdichtend) und einbauen liefern",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.110"
+    },
+    {
+      "name": "Position 5.3.120",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.120",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "wie vor, jedoch [PERSON_017] DN 300 (weichdichtend) und einbauen liefern",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.120"
+    },
+    {
+      "name": "Position 5.3.130",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.130",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Ausbaustücke DN 250 liefern und montieren Liefern und einbauen von Ausbaustücken, feststellbar, mit einseitig durchgehenden Gewindespindeln, z.B. Type VF PF, Schrauben und Muttern in rostgeschützter Ausführung Ausbaustücke aus [PERSON_115] Werkstoff 1.4571. An den Spindeln sind unter den Muttern Unterlagsscheiben verwenden. Alle Gewindestangen sind einzufetten und mit einem geschlitzten Schlauch zu überziehen. Die Enden der Gewindestangen sind mit einem Schlauch zu überziehen. Ist bei der einzelnen Position eine Längenangabe vorgegeben so sind diese Ausbaustücke so zu liefern, daß sie in der Mittelstellung die angegebene Länge aufweisen. Wenn keine Längenangabe festgeschrieben ist, so ist das Ausbaustück gemäß Normlänge zu liefern und einzubauen. Die Ausbaustücke sind immer so einzubauen, daß das bewegliche [ORT_016] (kleinerer Außendurchmesser) mit nicht an der Armatur befestigt wird sondern der Festflansch (größerer Außendurchmesser). Hersteller : ' ' Soweit in den nachfolgenden Positionen keine näheren Angaben zu den Ausbaustücken gemacht werden, sind in der Ausführung VF zu liefern und einzubauen. 1,000 St oder , zu , Spindeln diese",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.130"
+    },
+    {
+      "name": "Position 5.3.140",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.140",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Kugelhahn 1\" aus [PERSON_115] MDP 16 Kugelhahn aus [PERSON_115] mit 2 Innengewinden, mit kunststoffgesintertem Schaltgriff, für [PERSON_029] liefern montieren, mit DVGW-Zulassung und",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "R 1\" MDP 16 | 6,000 St",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.140"
+    },
+    {
+      "name": "Position 5.3.150",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.150",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "wie vor, jedoch [PERSON_115] R 1\" V4A",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 m  EP"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "m",
+          "evidence": "1,000 m  EP"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.150"
+    },
+    {
+      "name": "Position 5.3.160",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.160",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Umwickeln erdberührten [PERSON_076] DN 250",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Umwickeln der erdberührten [PERSON_076] (z. B. F-Stücke) auBerhalb der Bauwerke mit warm aufgebrachten Bitumenschutzbinden, einschlieBlich Anschluß an die SchachtauBenkante und aller evtl. notwendigen Nebenarbeiten. (z.B. System RAYCHEM) Abrechnung nach umwickelter Rohrlänge ca. 30 cm = 1 Stück. Angebotenes Fabrikat: ' ' DN 250",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.160."
+    },
+    {
+      "name": "Position 5.3.170",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.170",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "wie vor, jedoch Umwickeln erdberührten [PERSON_076] DN",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "300",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.170."
+    },
+    {
+      "name": "Position 5.3.180",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.180",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Isolierflanschenpaar DN 100 MDP 10/16",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Isolierflanschenpaar wie folgt ausbilden: Liefern und Montieren von hochfesten Isolierstoffröhrchen aus Phenolhartpapier Geax-P Kl. 2 [PERSON_129] 2061. Die Phenolhartpapierscheiben müssen bündig mit den Flanschen abschließen. Runde Isolierstoffunterlagscheiben mit der erforderlichen Bohrung, aus Phenolhartpapier Material wie vor, sowie eines verstärkten Isolierstoffdichtringes und der erforderlichen hochfesten Edelstahlschrauben mit 2 Stück Beilagscheiben (mind. 8 mm) und Edelstahlmuttern. Isolierspannung gröBer 1 kV Abrechnung: Zuschlag pro Flanschenpaar = 1 Stück Angebotenes Fabrikat: ' ' DN 100 MDP 10/16",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 3.0,
+          "evidence": "3,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "3,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.180."
+    },
+    {
+      "name": "Position 5.3.190",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.190",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "wie vor, jedoch Isolierflanschenpaar DN 250 MDP 10/16",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 4.0,
+          "evidence": "4,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "4,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.190."
+    },
+    {
+      "name": "Position 5.3.200",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.200",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "wie vor, jedoch Isolierflanschenpaar DN 300 MDP 10/16",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 6.0,
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "6,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.200."
+    },
+    {
+      "name": "Position 5.3.210",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "5.3.210",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Profilstahlkonstruktionen aus [PERSON_115] h bis 60 DN 250 Profilstahlkonstruktionen für Stütz-, Hänge- und Sonder- konstruktionen, einschl. Befestigungsmaterial Ausführung in [PERSON_115] V2A (Werkstoff-Nr.1.4301). In den Einheitspreis einzurechnen ist die evtl. notwendige statische Berechnung. Die Konstruktionsstärke soll ca. 1/4 zu unterstützenden Rohraußendurchmessers betragen. Alle hängenden und stehenden Konstruktionen sind höhenverstellbar/verschiebbar auszurüsten, die Rohre mit 2-teiligen Rohrschellen aus Flachstahl mit Gummieinlage einzubauen. Bohren der Dübellöcher und das Liefern und Einbringen der Dübel und Schrauben [PERSON_115] einzurechnen. Sämtliche Unterstützungen sind unmittelbar nach Erstellung Rohrleitung einzubauen. Die Unterstützungen sind bis zur Übergabe der Anlage mit zu schützen. Bei mehrfacher Rohrlage übereinander werden die Abstützungen einzeln vergütet. Als Länge wird der Abstand Rohrachse von Boden bzw. [FIRMA_101] vergütet. An der untersten Abstützung ist eine [PERSON_069] gemäß [PERSON_115] mit 4 Schraubenlöchern, das Befestigen [PERSON_069] auf der Bauwerkssohle / [PERSON_074] / cm, bis des der Folie der Statik der [FIRMA_101] das",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Unterstützungshöhe bzw. Abhängelänge für Nennweite bis h= bis 60 cm DN 300 [BILD_029] oder gleichwertiger Bauart",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "5.3.210"
+    }
+  ],
+  "tables": [
+    {
+      "name": "Table 3",
+      "type": "table",
+      "description": "Table 3 of the document (16 rows)",
+      "value": [
+        [
+          "Lichte Grundrißfläche",
+          "2,70 m x 2,40 m"
+        ],
+        [
+          "lichte Schachthohe",
+          "2,52 m"
+        ],
+        [
+          "Sohlenstärke",
+          "0,30 m"
+        ],
+        [
+          "Wandstärken",
+          "0,30 m"
+        ],
+        [
+          "Deckenstärke",
+          "0,20 m"
+        ],
+        [
+          "Sauberkeitsschicht",
+          "ca. 1,1 m3"
+        ],
+        [
+          "Gefällebeton",
+          "ca. 6,2 m2"
+        ],
+        [
+          "Auffüllmaterial",
+          "ca. 1,0 m3"
+        ],
+        [
+          "Rohrstützen aus V2A, höhenverstellbar",
+          "ca. 2 Stück"
+        ],
+        [
+          "Sohlenbeton",
+          "ca. 3,3 m3"
+        ],
+        [
+          "Wandbeton",
+          "ca. 7,2 m3"
+        ],
+        [
+          "Deckenbeton",
+          "ca. 2,2 m3"
+        ],
+        [
+          "Wärmedämmung [FIRMA_101]",
+          "ca. 20 m2"
+        ],
+        [
+          "Schachthals",
+          "ca. 0,70 m"
+        ],
+        [
+          "Leiterlänge ohne Einhaltung",
+          "ca. 3,00 m"
+        ],
+        [
+          "Erdungspunkt innen",
+          "1,00 St."
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 9",
+      "type": "table",
+      "description": "Table 9 of the document (4 rows)",
+      "value": [
+        [
+          "GGG DN 250 bis DN 300",
+          "ca.",
+          "2.380 m"
+        ],
+        [
+          "GGG DN 100",
+          "ca.",
+          "70 m"
+        ],
+        [
+          "Kabelleerrohre 2 x da 50",
+          "ca.",
+          "2.380 m"
+        ],
+        [
+          "Steuerkabel",
+          "ca.",
+          "400 m"
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

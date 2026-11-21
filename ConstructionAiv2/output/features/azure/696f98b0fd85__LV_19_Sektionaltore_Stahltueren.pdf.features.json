@@ -1,0 +1,1168 @@
+{
+  "document": "LV_19_Sektionaltore_Stahltueren.pdf",
+  "source": "Azure Content Understanding (prebuilt-layout)",
+  "summary": {
+    "positions": 11,
+    "with_quantity": 6,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Request for quotation",
+      "evidence": "Anfrage"
+    },
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (Projekt-Nr.)",
+      "value": "79-222",
+      "evidence": "Projekt: 79-222"
+    },
+    {
+      "name": "LVNumber",
+      "type": "string",
+      "description": "Bill of quantities number (LV-Nr.)",
+      "value": "19",
+      "evidence": "LV: 19"
+    }
+  ],
+  "positions": [
+    {
+      "name": "Position 1.1.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.1.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Sektionaltor mit elektr. Antrieb, ca. 4000 x 4000 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Sectionaltor, herstellen, liefern und inkl. aller Einbau-, Zubehör-, Verbindungs- und Befes- tigungsteile, fachgerecht montieren, wie folgt: Richtfabrikat: z. B. Hoermann APU F42, oder gleichwertig \\- Doppelwandiges wärmegedämmtes Sektionaltor, als verglastes Aluminiumtor, mit [PERSON_089] \\- Oberfläche im Stuccodesign \\- Torfarbe in RAL nach [PERSON_125] des AG \\- mit gleichmäßiger Ein-/Aufteilung der einzelnen Sektionen übereinander \\- verglaste Sektionen, über die gesamte Torbreite, mit gleichmäßiger Feldteilung der einzelnen Glasfelder \\- Verglasung mit Doppelverglasung, d = 26 mm \\- Torzarge, Laufschienen, Abhängungen, etc., aus verzinkten [PERSON_089] \\- Torausstattung: ---E-Drehstrommotor --- Drucktastensteuerung AuBen/Innen --- Drucktastensteuerung mit AUF-STOP-AB und Endabschaltung Schlüsselschalter innen Lichtschranke Aufschiebesicherung Schließkantensicherung Klemmschutz Fangvorrichtung --- sowie allen weiteren notwendigen und erforderlichen Sicherheitseinrichtungen, ---DGUV/UVV-Vorschriften, etc. \\- Montageuntergrund -horizontal- <> Unterseite Stahlbetonbinder \\- Montageuntergrund -vertikal- <> Porenbeton-Wandplatten, d = 300 mm \\- Bauseits vorhanden <> Toröffnung m i t Porenbeton-Wandplatten-Einfassprofil (3-seitig umlaufende Blechzarge) \\- Torführung mit höhergeführten Beschlag (Umlenkung) \\- Höhe ab OK-Toröffnung bis UK-Stahlbetondachbinder = ca. 6050 mm Größe Sektionaltor: ca. 4000 x 4000 mm (Rohbauöffnung) Einbauort: Untergeschoss <> Achse D / 1 - 2; 3 - 4 19",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.1.10."
+    },
+    {
+      "name": "Position 1.2.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.2.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Stahltürlement (Türblatt + Oberteil + Zarge), verzinkt und grundiert, mit",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Umfasungs-/Eckzarge (= U bzw. E), herstellen, liefern und als komplette fix und fertige Abnahmefähige und Gebrauchsfertige Leistung fachgerecht montieren, inkl. aller Zargenhinterfüll-/Verguss-/Ausschäumarbeiten. Eignung Türelement/Türtyp: | Außentüre Zargentyp: | E Zargenbreite: | --- Brandschutz: | --- Schallschutz: | --- dB im eingebauten Zustand Widerstandsklasse (Einbruchschutz): [PERSON_129] Oberteil: | Lüftungsgitter, mit umlaufenden Rahmen, Lüftungsgitter aus durchstecksicherem Stahlblech, mit innenliegendem Lochblech, mit starren Lamellen, Lüftungsgitter verzinkt und grundiert Türausstattung: | 1 - flügelig OTS mit Gleitschiene Bodendichtung PZ-Vorgerichtet Beschlagsteile und Türgriffgarni-- turen, etc. aus [PERSON_115] AuBen Knopf/Knauf <> Innen Drücker Wandmaterial: | Porenbeton-Wandplatten Wanddicke: | ca. 300 mm Bauseits vorhanden: | Türöffnung o h n e Porenbeton-Wandplatten- Einfassprofil (3-seitig umlaufende Blechzarge) Größe Oberteil: | ca. 1320 x 570 mm Größe Türe: | ca. 1320 x 2135 mm Größe Türelement: | ca. 1320 x 2705 mm (Rohbauöffnung) Höhe <> Rohbauöffnung = ab OKF Konstruktionshöhe Fußboden: Einbauort: | ca. --- mm (OKR - OKF) Erdgeschoss <> Achse A / 4 - 5 [FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009] 19",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "### 1.2.10. Stahltürelement mit Oberteil, 1320 x 2705 mm"
+    },
+    {
+      "name": "Position 1.2.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.2.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "Eignung Türelement/Türtyp: | Außentüre",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Zargentyp: | E Zargenbreite: | --- Brandschutz: | --- Widerstandsklasse (Einbruchschutz): Türausstattung: | 1 - flügelig OTS mit Gleitschiene Fluchtwegausstattung (Panikfunktion) = NA Bodendichtung PZ-Vorgerichtet Beschlagsteile und Türgriffgarni-- turen, etc. aus [PERSON_115] Außen Knopf/Knauf <> Innen Drücker Wandmaterial: | Porenbeton-Wandplatten Wanddicke: | ca. 300 mm Bauseits vorhanden: | Türöffnung m i t Porenbeton-Wandplatten- Einfassprofil (3-seitig umlaufende Blechzarge) Größe Türelement: | ca. 1010 x 2300 mm (Rohbauöffnung) Höhe <> Rohbauöffnung = ab OKF Konstruktionshöhe Fußboden: | ca. --- mm (OKR - OKF) Einbauort: | Untergeschoss <> Achse D / 4 - 5 Untergeschoss <> Achse 1 / C Angebotenes Fabrikat: Angebotenes System: Angebotener [PERSON_129]",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 2.0,
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "2,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 1.2.20. Stahltürelement, 1010 x 2300 mm"
+    },
+    {
+      "name": "Position 1.2.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.2.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "T 30 RS - Stahltürelement, 1260 x 2135 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Stahltürlement (Türblatt + Zarge), verzinkt und grundiert, mit Umfasungs-/Eckzarge (= U bzw. E), herstellen, liefern und als komplette fix und fertige Abnahmefähige und Gebrauchsfertige Leistung fachgerecht montieren, inkl. aller Eignung Türelement/Türtyp: Innentüre Zargentyp: U Zargenbreite: 125 mm 19 Brandschutz: | T 30 RS Widerstandsklasse (Einbruchschutz): Türausstattung: | 1 - flügelig OTS mit Gleitschiene Bodendichtung PZ-Vorgerichtet Beschlagsteile und Türgriffgarni-- turen, etc. aus [PERSON_115] Außen Drücker <> Innen Drücker Wandmaterial: | Trockenbauwand Wanddicke: | ca. 125 mm Größe Türelement: | ca. 1010 x 2135 mm (Rohbauöffnung) Höhe <> Rohbauöffnung = ab OKF Konstruktionshöhe Fußboden: | ca. 200 mm (OKR - OKF) Einbauort: | Untergeschoss <> 0.05 Flur <> 0.12 Technik",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.2.30."
+    },
+    {
+      "name": "Position 1.2.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.2.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "T 30 RS - Stahltürelement, 1010 x 2135 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Eignung Türelement/Türtyp: | Innentüre Zargentyp: | U Zargenbreite: | 125 mm Brandschutz: | T 30 RS Schallschutz: | --- dB im eingebauten Zustand Widerstandsklasse (Einbruchschutz): Türausstattung: | 1 - flügelig OTS mit Gleitschiene Bodendichtung PZ-Vorgerichtet Beschlagsteile und Türgriffgarni-- turen, etc. aus [PERSON_115] Außen Drücker <> Innen Drücker Wandmaterial: | Trockenbauwand Wanddicke: | ca. 125 mm Größe Türelement: | ca. 1010 x 2135 mm (Rohbauöffnung) Höhe <> Rohbauöffnung = ab OKF Konstruktionshöhe Fußboden: | ca. 200 mm (OKR - OKF) Einbauort: | Untergeschoss <> 0.12 Technik <> 0.13 Server 19",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.2.40."
+    },
+    {
+      "name": "Position 1.2.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "1.2.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "T 30 RS - Stahltürelement, 885 x 2135 mm",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "Eignung Türelement/Türtyp: | Innentüre Zargentyp: | U Zargenbreite: | 125 mm Brandschutz: | T 30 RS Widerstandsklasse (Einbruchschutz): Türausstattung: | 1 - flügelig OTS mit Gleitschiene Bodendichtung PZ-Vorgerichtet Beschlagsteile und Türgriffgarni-- turen, etc. aus [PERSON_115] Außen Drücker <> Innen Drücker Wandmaterial: | Trockenbauwand Wanddicke: | ca. 125 mm Größe Türelement: | ca. 885 x 2135 mm (Rohbauöffnung) Höhe <> Rohbauöffnung = ab OKF Konstruktionshöhe Fußboden: | ca. 200 mm (OKR - OKF) Einbauort: | Untergeschoss <> 0.08 Teeküche <> 0.10 ELT/HA Angebotenes Fabrikat: Angebotenes System:",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": 1.0,
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": "St",
+          "evidence": "1,000 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "1.2.50."
+    },
+    {
+      "name": "Position 2.1.10",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "2.1.10",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Stundenlohn Vorarbeiter Stundenlohnarbeiten für unvorher- gesehene Leistungen, auf gegen- seitigkeit.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "1,000 Std | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.1.10"
+    },
+    {
+      "name": "Position 2.1.20",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "2.1.20",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Stundenlohn [PERSON_020] Stundenlohnarbeiten für unvorher- gesehene Leistungen, auf gegen- seitigkeit.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "1,000 Std | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.1.20"
+    },
+    {
+      "name": "Position 2.1.30",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "2.1.30",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Stundenlohn Helfer Stundenlohnarbeiten für unvorher- gesehene Leistungen, auf gegen- seitigkeit.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "1,000 Std | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.1.30"
+    },
+    {
+      "name": "Position 2.1.40",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "2.1.40",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Stundenlohn Lehrling im 2. Jahr Stundenlohnarbeiten für unvorher- gesehene Leistungen, auf gegen- seitigkeit.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "1,000 Std | Nur Einh.-Pr.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.1.40"
+    },
+    {
+      "name": "Position 2.1.50",
+      "type": "object",
+      "description": "Bill of quantities position",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position number (OZ)",
+          "value": "2.1.50",
+          "evidence": null
+        },
+        {
+          "name": "ShortText",
+          "type": "string",
+          "description": "Short text (first line of the description)",
+          "value": "*** Bedarfsposition ohne GB Stundenlohn Lehrling im 3. Jahr Stundenlohnarbeiten für unvorher- gesehene Leistungen, auf gegen- seitigkeit.",
+          "evidence": null
+        },
+        {
+          "name": "LongText",
+          "type": "string",
+          "description": "Rest of the description",
+          "value": "1,000 Std | Nur Einh.-Pr. Summe 2.1. | Stundenlohnarbeiten Summe 2. | Stundenlohnarbeiten Summe LV 19 Sektionaltore, Stahltüren [BILD_001] 19 Zuzüglich der gesetzlichen Mehrwertsteuer aus in Höhe von 19,00 % EUR EUR EUR (Ort) (Datum) (rechtsgültige Unterschrift) Das LV besteht aus den Seiten 1 bis 8",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Ordered quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity (St, m, m2, m3, psch …)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP)",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PriceCheck",
+          "type": "string",
+          "description": "Quantity × UnitPrice compared with TotalPrice",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "2.1.50"
+    }
+  ],
+  "tables": [
+    {
+      "name": "Table 1",
+      "type": "table",
+      "description": "Table 1 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 2",
+      "type": "table",
+      "description": "Table 2 of the document (17 rows)",
+      "value": [
+        [
+          "Eignung Türelement/Türtyp:",
+          "Außentüre"
+        ],
+        [
+          "Zargentyp:",
+          "E"
+        ],
+        [
+          "Zargenbreite:",
+          "---"
+        ],
+        [
+          "Brandschutz:",
+          "---"
+        ],
+        [
+          "Schallschutz:",
+          "--- dB im eingebauten Zustand"
+        ],
+        [
+          "Widerstandsklasse (Einbruchschutz):",
+          ""
+        ],
+        [
+          "[PERSON_129] Oberteil:",
+          "Lüftungsgitter, mit umlaufenden Rahmen, Lüftungsgitter aus durchstecksicherem Stahlblech, mit innenliegendem Lochblech, mit starren Lamellen, Lüftungsgitter verzinkt und grundiert"
+        ],
+        [
+          "Türausstattung:",
+          "1 - flügelig OTS mit Gleitschiene Bodendichtung PZ-Vorgerichtet Beschlagsteile und Türgriffgarni-- turen, etc. aus [PERSON_115] AuBen Knopf/Knauf <> Innen Drücker"
+        ],
+        [
+          "Wandmaterial:",
+          "Porenbeton-Wandplatten"
+        ],
+        [
+          "Wanddicke:",
+          "ca. 300 mm"
+        ],
+        [
+          "Bauseits vorhanden:",
+          "Türöffnung o h n e Porenbeton-Wandplatten- Einfassprofil (3-seitig umlaufende Blechzarge)"
+        ],
+        [
+          "Größe Oberteil:",
+          "ca. 1320 x 570 mm"
+        ],
+        [
+          "Größe Türe:",
+          "ca. 1320 x 2135 mm"
+        ],
+        [
+          "Größe Türelement:",
+          "ca. 1320 x 2705 mm (Rohbauöffnung) Höhe <> Rohbauöffnung = ab OKF"
+        ],
+        [
+          "Konstruktionshöhe Fußboden: Einbauort:",
+          "ca. --- mm (OKR - OKF) Erdgeschoss <> Achse A / 4 - 5"
+        ],
+        [
+          "Angebotenes Fabrikat:",
+          ""
+        ],
+        [
+          "Angebotenes System:",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 3",
+      "type": "table",
+      "description": "Table 3 of the document (16 rows)",
+      "value": [
+        [
+          "Eignung Türelement/Türtyp:",
+          "Außentüre"
+        ],
+        [
+          "Zargentyp:",
+          "E"
+        ],
+        [
+          "Zargenbreite:",
+          "---"
+        ],
+        [
+          "Brandschutz:",
+          "---"
+        ],
+        [
+          "Schallschutz:",
+          "--- dB im eingebauten Zustand"
+        ],
+        [
+          "Widerstandsklasse (Einbruchschutz):",
+          ""
+        ],
+        [
+          "Türausstattung:",
+          "1 - flügelig OTS mit Gleitschiene Fluchtwegausstattung (Panikfunktion) = NA Bodendichtung PZ-Vorgerichtet Beschlagsteile und Türgriffgarni-- turen, etc. aus [PERSON_115] Außen Knopf/Knauf <> Innen Drücker"
+        ],
+        [
+          "Wandmaterial:",
+          "Porenbeton-Wandplatten"
+        ],
+        [
+          "Wanddicke:",
+          "ca. 300 mm"
+        ],
+        [
+          "Bauseits vorhanden:",
+          "Türöffnung m i t Porenbeton-Wandplatten- Einfassprofil (3-seitig umlaufende Blechzarge)"
+        ],
+        [
+          "Größe Türelement:",
+          "ca. 1010 x 2300 mm (Rohbauöffnung) Höhe <> Rohbauöffnung = ab OKF"
+        ],
+        [
+          "Konstruktionshöhe Fußboden:",
+          "ca. --- mm (OKR - OKF)"
+        ],
+        [
+          "Einbauort:",
+          "Untergeschoss <> Achse D / 4 - 5 Untergeschoss <> Achse 1 / C"
+        ],
+        [
+          "Angebotenes Fabrikat:",
+          ""
+        ],
+        [
+          "Angebotenes System:",
+          ""
+        ],
+        [
+          "Angebotener [PERSON_129]",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 4",
+      "type": "table",
+      "description": "Table 4 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 5",
+      "type": "table",
+      "description": "Table 5 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 6",
+      "type": "table",
+      "description": "Table 6 of the document (13 rows)",
+      "value": [
+        [
+          "Übertrag:"
+        ],
+        [
+          "Brandschutz:",
+          "T 30 RS"
+        ],
+        [
+          "Schallschutz:",
+          "--- dB im eingebauten Zustand"
+        ],
+        [
+          "Widerstandsklasse (Einbruchschutz):",
+          ""
+        ],
+        [
+          "Türausstattung:",
+          "1 - flügelig OTS mit Gleitschiene Bodendichtung PZ-Vorgerichtet Beschlagsteile und Türgriffgarni-- turen, etc. aus [PERSON_115] Außen Drücker <> Innen Drücker"
+        ],
+        [
+          "Wandmaterial:",
+          "Trockenbauwand"
+        ],
+        [
+          "Wanddicke:",
+          "ca. 125 mm"
+        ],
+        [
+          "Größe Türelement:",
+          "ca. 1010 x 2135 mm (Rohbauöffnung) Höhe <> Rohbauöffnung = ab OKF"
+        ],
+        [
+          "Konstruktionshöhe Fußboden:",
+          "ca. 200 mm (OKR - OKF)"
+        ],
+        [
+          "Einbauort:",
+          "Untergeschoss <> 0.05 Flur <> 0.12 Technik"
+        ],
+        [
+          "Angebotenes Fabrikat:",
+          ""
+        ],
+        [
+          "Angebotenes System:",
+          ""
+        ],
+        [
+          "Angebotener [PERSON_129]",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 7",
+      "type": "table",
+      "description": "Table 7 of the document (16 rows)",
+      "value": [
+        [
+          "Eignung Türelement/Türtyp:",
+          "Innentüre"
+        ],
+        [
+          "Zargentyp:",
+          "U"
+        ],
+        [
+          "Zargenbreite:",
+          "125 mm"
+        ],
+        [
+          "Brandschutz:",
+          "T 30 RS"
+        ],
+        [
+          "Schallschutz:",
+          "--- dB im eingebauten Zustand"
+        ],
+        [
+          "Widerstandsklasse (Einbruchschutz):",
+          ""
+        ],
+        [
+          "Türausstattung:",
+          "1 - flügelig"
+        ],
+        [
+          "OTS mit Gleitschiene Bodendichtung PZ-Vorgerichtet"
+        ],
+        [
+          "Beschlagsteile und Türgriffgarni-- turen, etc. aus [PERSON_115]"
+        ],
+        [
+          "Außen Drücker <> Innen Drücker"
+        ],
+        [
+          "Wandmaterial:",
+          "Trockenbauwand"
+        ],
+        [
+          "Wanddicke:",
+          "ca. 125 mm"
+        ],
+        [
+          "Größe Türelement:",
+          "ca. 1010 x 2135 mm (Rohbauöffnung)"
+        ],
+        [
+          "Höhe <> Rohbauöffnung = ab OKF"
+        ],
+        [
+          "Konstruktionshöhe Fußboden:",
+          "ca. 200 mm (OKR - OKF)"
+        ],
+        [
+          "Einbauort:",
+          "Untergeschoss <> 0.12 Technik <> 0.13 Server"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 8",
+      "type": "table",
+      "description": "Table 8 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 9",
+      "type": "table",
+      "description": "Table 9 of the document (1 rows)",
+      "value": [
+        [
+          "OZ Leistungsbeschreibung",
+          "Menge ME",
+          "Einheitspreis in EUR",
+          "Gesamtbetrag in EUR"
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 10",
+      "type": "table",
+      "description": "Table 10 of the document (17 rows)",
+      "value": [
+        [
+          "Eignung Türelement/Türtyp:",
+          "Innentüre"
+        ],
+        [
+          "Zargentyp:",
+          "U"
+        ],
+        [
+          "Zargenbreite:",
+          "125 mm"
+        ],
+        [
+          "Brandschutz:",
+          "T 30 RS"
+        ],
+        [
+          "Schallschutz:",
+          "--- dB im eingebauten Zustand"
+        ],
+        [
+          "Widerstandsklasse (Einbruchschutz):",
+          ""
+        ],
+        [
+          "Türausstattung:",
+          "1 - flügelig"
+        ],
+        [
+          "OTS mit Gleitschiene Bodendichtung"
+        ],
+        [
+          "PZ-Vorgerichtet Beschlagsteile und Türgriffgarni-- turen, etc. aus [PERSON_115] Außen Drücker <> Innen Drücker"
+        ],
+        [
+          "Wandmaterial:",
+          "Trockenbauwand"
+        ],
+        [
+          "Wanddicke:",
+          "ca. 125 mm"
+        ],
+        [
+          "Größe Türelement:",
+          "ca. 885 x 2135 mm (Rohbauöffnung) Höhe <> Rohbauöffnung = ab OKF"
+        ],
+        [
+          "Konstruktionshöhe Fußboden:",
+          "ca. 200 mm (OKR - OKF)"
+        ],
+        [
+          "Einbauort:",
+          "Untergeschoss <> 0.08 Teeküche <> 0.10 ELT/HA"
+        ],
+        [
+          "Angebotenes Fabrikat:",
+          ""
+        ],
+        [
+          "Angebotenes System:",
+          ""
+        ],
+        [
+          "Angebotener [PERSON_129]",
+          ""
+        ]
+      ],
+      "evidence": null
+    },
+    {
+      "name": "Table 11",
+      "type": "table",
+      "description": "Table 11 of the document (1 rows)",
+      "value": [
+        [
+          "[BILD_001]",
+          "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]"
+        ]
+      ],
+      "evidence": null
+    }
+  ]
+}

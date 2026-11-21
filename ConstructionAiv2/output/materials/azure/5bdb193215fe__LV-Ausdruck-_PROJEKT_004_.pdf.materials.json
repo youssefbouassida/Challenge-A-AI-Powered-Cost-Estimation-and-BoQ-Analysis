@@ -1,0 +1,47 @@
+{
+  "document": "LV-Ausdruck-[PROJEKT_004].pdf",
+  "project_id": "152516",
+  "source": "Azure Content Understanding",
+  "summary": {
+    "positions_reviewed": 1,
+    "material_rows": 0,
+    "not_materials": 1,
+    "not_reviewed": 0,
+    "with_quantity": 0,
+    "with_unit_price": 0,
+    "conflicts": 0
+  },
+  "materials": [],
+  "not_materials": [
+    {
+      "name": "Position para1",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "para1",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The candidate is a complete bill of quantities, not a single procurement position. It contains separately numbered material and service positions and has no single ordered quantity of its own.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "Leistungsverzeichnis\n152516 [PROJEKT_004]\n01 LV [PROJEKT_004]\nOrdnungszahl\nBezeichnung der Leistungsverzeichnisebene\nSeitennummer\n# Inhaltsverzeichnis\n01 | LV | [PROJEKT_004]\n01 | Titel | Baustellenei"
+    }
+  ],
+  "not_reviewed": []
+}

@@ -1,0 +1,44 @@
+{
+  "document": "GAEB-[PROJEKT_004].X83",
+  "source": "local GAEB reader (exact values from the XML / GAEB file)",
+  "summary": {
+    "positions": 0,
+    "with_quantity": 0,
+    "with_unit_price": 0,
+    "with_total_price": 0,
+    "sum_of_total_prices": null,
+    "price_check_failed": 0
+  },
+  "features": [
+    {
+      "name": "ProjectNumber",
+      "type": "string",
+      "description": "Project number (GAEB LblPrj)",
+      "value": "[PROJEKT_004]",
+      "evidence": "GAEB file"
+    },
+    {
+      "name": "ProjectName",
+      "type": "string",
+      "description": "Project name (GAEB NamePrj)",
+      "value": "152516",
+      "evidence": "GAEB file"
+    },
+    {
+      "name": "GaebPhase",
+      "type": "string",
+      "description": "GAEB exchange phase (X83 = tender, X84 = offer …)",
+      "value": "X83",
+      "evidence": "GAEB file"
+    },
+    {
+      "name": "DocumentType",
+      "type": "string",
+      "description": "Kind of document (from its title)",
+      "value": "Bill of quantities",
+      "evidence": "Leistungsverzeichnis 01"
+    }
+  ],
+  "positions": [],
+  "tables": []
+}

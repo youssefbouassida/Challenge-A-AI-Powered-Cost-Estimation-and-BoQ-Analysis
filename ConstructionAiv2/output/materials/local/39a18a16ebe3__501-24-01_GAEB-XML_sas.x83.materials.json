@@ -1,0 +1,1011 @@
+{
+  "document": "501-24-01_GAEB-XML_sas.x83",
+  "project_id": "[PROJEKT_006]",
+  "source": "local GAEB reader",
+  "summary": {
+    "positions_reviewed": 19,
+    "material_rows": 7,
+    "not_materials": 12,
+    "not_reviewed": 0,
+    "with_quantity": 7,
+    "with_unit_price": 0,
+    "conflicts": 0
+  },
+  "materials": [
+    {
+      "name": "Material 02.04 – DN 400 filter-pipe pump sump, up to 1 m deep, with minimum 15 cm drainage surround",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "[PROJEKT_006]",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "02.04",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "DN 400 filter-pipe pump sump, up to 1 m deep, with minimum 15 cm drainage surround",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Temporary sump formed from filter pipe with a 400 mm clear diameter and a free-draining fill surround.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 3.0,
+          "evidence": "3 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "3 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 02.04 Wasserhaltungsarbeiten für Wasserleitungsarbeiten für alle Bereiche\nOffene Bauweise\nHinweis: Hinweis zu allen Wasserhaltungsarbeiten:\nDie Wasserhaltung für Start- und Zielgruben für die geplanten Spülbohrungen, ist in den jeweiligen Positionen im Gewerk Tiefbau in geschlossener Bauweise aus"
+    },
+    {
+      "name": "Material 02.05 – DIN EN 14396 vertical manhole safety ladder, stainless steel 1.4301/1.4307, 400 mm clear width, 280 mm rung spacing, R13 rungs, for 2.35 m shaft depth, with 1,200 mm EH S entry extension",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "[PROJEKT_006]",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "02.05",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "DIN EN 14396 vertical manhole safety ladder, stainless steel 1.4301/1.4307, 400 mm clear width, 280 mm rung spacing, R13 rungs, for 2.35 m shaft depth, with 1,200 mm EH S entry extension",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Safety ladder with perforated U-profile rungs, adjustable wall brackets, M10 anchors, and a removable entry extension.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "1 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 02.05 Schachtbauwerke Beton- und Tiefbau [PROJEKT_001]\nHinweis: Hinweis für die Ausführung/Versetzen der folgenden Positionen Wasserleitungsschächte:\nDer [PERSON_006] eckig lichtes Maß 2,00 x 3,00 m, Station 0+000 kann auf Grund seines Eigengewichtes nur mittels Schwerlastkran versetzt\nwerden.\nDi"
+    },
+    {
+      "name": "Material 03.02 – Start-of-works pipe and fitting supply surcharge for the tie-in to the existing DN 300 ductile-iron main at DZ NZ Isnyberg 400–401",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "[PROJEKT_006]",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "03.02",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "Start-of-works pipe and fitting supply surcharge for the tie-in to the existing DN 300 ductile-iron main at DZ NZ Isnyberg 400–401",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Includes pipe, fittings, and chamber installation materials for the same-day connection to the existing main.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1 psch"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "psch",
+          "evidence": "1 psch"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 03.02 Rohrleitungsbau DN 300 WV Offene Bauweise\n03.02.0001\nZulage - Position für alle Rohrverlege- und Montagearbeiten\nZulage\n-\nPosition für alle Rohrverlege- und Montagearbeiten\nim Anschlussbereich neue Leitung/\nvorhandene Bestandsleitung GGG DN 300 am Baubeginn DZ NZ Isnyberg 400-401.\nFolgende "
+    },
+    {
+      "name": "Material 03.03 – DN 300 PN 16 grade 1.4571 stainless steel flanged wye assembly with two 3D 90° elbows, two DN 80 saddle branches, DN 100 flanges and DN 300 loose flange, approximately 914 × 457 mm, minimum 3 mm wall",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "[PROJEKT_006]",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "03.03",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "DN 300 PN 16 grade 1.4571 stainless steel flanged wye assembly with two 3D 90° elbows, two DN 80 saddle branches, DN 100 flanges and DN 300 loose flange, approximately 914 × 457 mm, minimum 3 mm wall",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Complete cold drinking-water chamber fitting with EN 1092-1 flanges, stainless steel bolts, and EPDM seals.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1 St"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "St",
+          "evidence": "1 St"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 03.03 Schachtinstallationen, Armaturen, Formstücke für\nWasserleitungsschächte und Hausanschlüsse\nHinweis: Hinweis zur Kalkulation für folgende Positionen mit Material [PERSON_115]:\nAlle Rohre, Form- und Verbindungsstücke und Verbindungen sind soweit nicht anders beschrieben aus nichtrostendem [PE"
+    },
+    {
+      "name": "Material 03.04 – AQUALINK or equivalent drinking-water flow, flow-direction, pressure and temperature probe",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "[PROJEKT_006]",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "03.04",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "AQUALINK or equivalent drinking-water flow, flow-direction, pressure and temperature probe",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "Multiparameter probe for an existing drinking-water main, including installation, commissioning, adjustment, and operator instruction.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1 psch"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "psch",
+          "evidence": "1 psch"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 03.04 Messgeräte\n03.04.0001\nMontagearbeiten des Mess-Sensors\nMontagearbeiten des Mess-Sensors\nAQUALINK, oder gleichwertig\nauf die bestehenden Trinkwasserleitung,\nim Gebäude und oder Schachtbauwerk\ninkl.\nEinbau der AQUALINK- Mess-Sonde für\nDurchfluss, Durchflussrichtung, Druck und\nTemperatur inkl."
+    },
+    {
+      "name": "Material 03.05 – DN 32–40 polyethylene temporary drinking-water service line with connection fittings, up to approximately 150 m",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "[PROJEKT_006]",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "03.05",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "DN 32–40 polyethylene temporary drinking-water service line with connection fittings, up to approximately 150 m",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "New temporary supply line for one building, including branches and connection fittings.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 1.0,
+          "evidence": "1 psch"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "psch",
+          "evidence": "1 psch"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 03.05 Notversorgungen Hausanschlüsse\nHinweis: Hinweis für die folgenden Positionen Notversorgungen Hausanschlüsse\nDiese Leistungen sind im wesentlichen für Aus, - und Wiedereinbau\nvon Notversorgungen von vorhandenen Wasserleitungshausanschlüssen,\nim Zuge der Gesamtmaßnahme Wasserleitungsverlegung"
+    },
+    {
+      "name": "Material 04.04 – PE100-RC potable-water pressure pipe, 355 mm OD × 32.2 mm wall, SDR 11, PAS 1075 Type 3, with metallic diffusion barrier and signal-blue polyolefin jacket",
+      "type": "object",
+      "description": "Material to buy (decision by the LLM, numbers by Python)",
+      "value": [
+        {
+          "name": "Project",
+          "type": "string",
+          "description": "Project the document belongs to",
+          "value": "[PROJEKT_006]",
+          "evidence": null
+        },
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ) the material comes from",
+          "value": "04.04",
+          "evidence": null
+        },
+        {
+          "name": "MaterialName",
+          "type": "string",
+          "description": "Name of the material to buy (LLM)",
+          "value": "PE100-RC potable-water pressure pipe, 355 mm OD × 32.2 mm wall, SDR 11, PAS 1075 Type 3, with metallic diffusion barrier and signal-blue polyolefin jacket",
+          "evidence": null
+        },
+        {
+          "name": "Description",
+          "type": "string",
+          "description": "Short description (LLM)",
+          "value": "DVGW-certified pipe for trenchless installation, supplied in straight 12 m lengths with plain ends.",
+          "evidence": null
+        },
+        {
+          "name": "Quantity",
+          "type": "number",
+          "description": "Quantity to buy (extracted by Python, checked against the text)",
+          "value": 405.0,
+          "evidence": "405 m"
+        },
+        {
+          "name": "Unit",
+          "type": "string",
+          "description": "Unit of the quantity",
+          "value": "m",
+          "evidence": "405 m"
+        },
+        {
+          "name": "UnitPrice",
+          "type": "number",
+          "description": "Unit price in EUR (EP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "TotalPrice",
+          "type": "number",
+          "description": "Total price in EUR (GP), empty if not in the document",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PerUnitAmount",
+          "type": "string",
+          "description": "Amount given per unit (e.g. per filter) and multiplied by the position quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "PositionKind",
+          "type": "string",
+          "description": "Special kind of position; empty = normal position. A contingency is only bought if needed, an alternative replaces another position",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Conflict",
+          "type": "string",
+          "description": "Another document of the project gives a different quantity",
+          "value": null,
+          "evidence": null
+        },
+        {
+          "name": "Notes",
+          "type": "array",
+          "description": "Checks done by Python",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 04.04 Rohrleitungen für Spülbohrungen\nHinweis: Druckrohr PE100RC TW AD/WD 355/32,2 mm PAS 1075 [PERSON_129] 3\n04.04.0001\nDruckrohr PE100RC TW AD/WD 355/32,2 mm PAS 1075 [PERSON_129] 3\nDruckrohr PE100RC TW AD/WD 355/32,2 mm PAS 1075 [PERSON_129] 3\nDruckrohr aus PE 100 mit äußerem Schutzmantel DIN "
+    }
+  ],
+  "not_materials": [
+    {
+      "name": "Position 01.01",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "01.01",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The lump sum covers site setup. “Liefern und Verlegen” refers to a separate water-main work package, not a new product supplied under this position.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"Liefern\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "## 01.01 Baustelleneinrichtung für Straßenbau / Wiederherstellungsarbeiten\nim gesamten Trassenbereich der geplanten [PROJEKT_001].\nBE Tiefbau Wasserleitung im Gewerk Tiefbau Wasserleitung\nBE Liefern u"
+    },
+    {
+      "name": "Position 01.02",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "01.02",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers excavation, hauling of existing soil, and subgrade preparation. It does not include supplying the gravel layer.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 01.02 [ORT_030] Straßen, Straßennebenflächen, Waldwege\nHinweis: Für die Ausführung gelten\ndie Zusätzlichen Technischen Vertragsbedingungen und\nRichtlinien für [ORT_030] im Straßenbau (ZTVE-StB),\ndi"
+    },
+    {
+      "name": "Position 01.03",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "01.03",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers cutting existing asphalt pavement only; no new material is supplied.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 01.03 Abbrucharbeiten / Wiederherstellung Bereich [PROJEKT_001]\n01.03.0001\nAsphaltoberbau schneiden D 5-10cm T 100mm\nAsphaltoberbau schneiden, Dicke der Befestigung über 8 bis 16 cm, Ausführung mit"
+    },
+    {
+      "name": "Position 02.01",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "02.01",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The lump sum covers site setup. “Herstellen” refers to establishing site facilities and utility connections, not supplying a distinct new product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"herstellen\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "## 02.01 Baustelleneinrichtung Tiefbau [PROJEKT_001]\n02.01.0001\nBaustelle einrichten\nDies.LV-Abschn.*Zufahrt vorh.\nGeräte, Werkzeuge und sonstige Betriebsmittel, die zur\nvertragsgemäßen Ausführung der"
+    },
+    {
+      "name": "Position 02.02",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "02.02",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The ordered quantity counts survey points staked out for the water main, not physical products supplied.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 02.02 Vermessungsarbeiten Wasserleitung\nHinweis: VERMESSUNG WASSERLEITUNG\n02.02.0001\nVermessungstechnische Leistungen - Absteckung der Wasserleitung\nVermessungstechnische Leistungen -\nAbsteckung de"
+    },
+    {
+      "name": "Position 02.03",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "02.03",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The lump-sum surcharge covers extra labour and equipment use for soil protection, including careful excavation, storage, and reuse of existing soil. No new product is ordered.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 02.03 [ORT_030] [PROJEKT_001] in offener Bauweise\nHinweis: Für die Ausführung gelten\ndie Zusätzlichen Technischen Vertragsbedingungen und\nRichtlinien für [ORT_030] im Straßenbau (ZTVE-StB),\ndie Zus"
+    },
+    {
+      "name": "Position 03.01",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "03.01",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "“Liefern und Verlegen” names the water-main work package in the section heading. This position covers only site setup, not supply of the water main.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": "CHECK: text contains supply wording \"Liefern\"",
+          "evidence": null
+        }
+      ],
+      "evidence": "## 03.01 Baustelleneinrichtung Liefern und Verlegen der Wasserleitung\n03.01.0001\nBaustelle einrichten\nDies.LV-Abschn.*Zufahrt vorh.\nGeräte, Werkzeuge und sonstige Betriebsmittel, die zur\nvertragsgemäß"
+    },
+    {
+      "name": "Position 03.06",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "03.06",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "This is a flushing and disinfection service; hydrogen peroxide is an included process consumable, not a separately ordered product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 03.06 Dichtigkeitsprüfung und Desinfektion\n03.06.0001\nDruckrohr spülen desinfizieren TW [PERSON_029] Wasserstoffperoxid Desinfektionsm. DN355\nDruckrohrleitung vor Inbetriebnahme spülen, desinfizier"
+    },
+    {
+      "name": "Position 04.01",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "04.01",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "This position covers temporary site setup, clearance, and restoration for both boreholes. It does not order PE pipe or any other new physical product.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 04.01 Baustelleneinrichtung Spülbohrungen\nHinweis: Hinweis für die nachfolgenden Positionen\nBaustelleneinrichtung und Verkehrssicherung\nDer Kalkulator hat für diese Positionen, die Baubeschreibung,"
+    },
+    {
+      "name": "Position 04.02",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "04.02",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "This position pays for surveying and setting out the two pipeline alignments. No new physical product is ordered.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 04.02 Vermessung\n04.02.0001\nVermessungstechnische Leistungen - Absteckung\nVermessungstechnische Leistungen - Absteckung\nAusführung als Lageabsteckung für die geplante Leitungstrasse\nund Zwangspunkt"
+    },
+    {
+      "name": "Position 04.03",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "04.03",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers temporary excavation, shoring, dewatering, and backfilling with existing site soil. The DA 355 pipe is referenced but not supplied under this position.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 04.03 Tiefbau Spülbohrarbeiten Wasserleitung (Hauptleitung)\nHinweis: Geotechnischer Hinweis zur Kalkulation der Positionen\nHorizontales Spülbohrverfahren\nSpülbohrung 1 Waldweg Station 0+580 - 0+745"
+    },
+    {
+      "name": "Position 05.01",
+      "type": "object",
+      "description": "Position that is NOT a material to buy",
+      "value": [
+        {
+          "name": "PositionNumber",
+          "type": "string",
+          "description": "Position (OZ)",
+          "value": "05.01",
+          "evidence": null
+        },
+        {
+          "name": "Reason",
+          "type": "string",
+          "description": "Why the LLM rejected it",
+          "value": "The position covers hourly foreperson labour only; no physical product is supplied.",
+          "evidence": null
+        },
+        {
+          "name": "Check",
+          "type": "string",
+          "description": "Supply wording found – please glance at it",
+          "value": null,
+          "evidence": null
+        }
+      ],
+      "evidence": "## 05.01 VERRECHNUNGSSÄTZE FÜR LÖHNE UND GERÄTE\n05.01.0001\nPolier-in sämtliche Kosten/Zuschläge\nStundenlohnarbeiten durch Polier/-in\nder Verrechnungssatz für die jeweilige Arbeitskraft umfasst sämtlic"
+    }
+  ],
+  "not_reviewed": []
+}

@@ -1,0 +1,4935 @@
+{
+ "id": "216523de-39fb-40e9-b0ff-5d9238985af2",
+ "status": "Succeeded",
+ "result": {
+  "analyzerId": "prebuilt-layout",
+  "apiVersion": "2025-11-01",
+  "createdAt": "2026-11-21T11:40:48Z",
+  "stringEncoding": "codePoint",
+  "warnings": [],
+  "contents": [
+   {
+    "path": "input1",
+    "markdown": "<!-- PageHeader: [BILD_001] -->\n<!-- PageHeader: [FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009] -->\n\n\n# Anfrage\n\nProjekt:\n79-222\n\nLV:\n152\n\nAusbildungszentrum und Bürogebäude -AK Juni 21\nAbdichtung Bodenplatte Büro\n\nOZ\n\nLeistungsbeschreibung\n\nMenge ME\n\nEinheitspreis\nin EUR\n\nGesamtbetrag\nin EUR\n\n1\\.\nAbdichtung Bodenplatte Büro\n\n1.1.\nAbdichtung Bodenplatte Büro\n\n1.1.10.\n[FIRMA_078]\n\nVoranstrich unter Bodenabdichtung, vollflächig auf Betonboden, inkl.\nReinigung der Bodenfläche und Trocknung feuchter Stellen auf\nBodenplatte.\n\nDampfsperre aus einer Lage Bitumenschweißbahn mit Glasgewebe- und\nAluminiumeinlage, mit mind. 10 cm Stoßüberdeckung verlegt und\nunterlaufsicher verklebt einschl. Wandaufkantung und Voranstrich an\nStützen und Stahlbetonwänden.\n\nAbdichtung an Bodeneinläufen u.ä. in gesonderter Position.\n\nUntergrund:\nStb.-Bodenplatte\n\nMaterial:\nBitumenschweißbahn mitGlasgewebe-\n/Aluminiumeinlage PYP G200 S4 Al 0,1 gem.\nDIN EN 13969\n\nVerlegeart:\nvollflächig verschweißt\n\nEinbauort:\nUG Büro\n\nangeb. Fabrikat:\n\n280,000 m2\n\n1.1.15.\nAbdichtung an Bodeneinläufen\n\nAbdichtung an aufgehenden PVC-Grundrohren aus Bodenplatte,\nAbdichtung den Richtlinien entsprechend an die Bodenabläufen\nanarbeiten und abdichten.\n\n17,000 Stk\n\n1.1.20.\nAbdichtung Sockelbereich Fassade\n\nAbdichtung des vertikalen Sockelbereichs mit Bitumenbahn einschl.\nVoranstrich (Stirnseite Bodenplatte und Fassadenblech) gem. Detail\nABS_KAS-S_8_MET_SCN_BÜ_UG_104_0_F\n\nUntergrund:\nStb.-Bodenplatte / [PERSON_095] Blech Fassade\n\nMaterial:\nBitumenschweißbahn mitGlasgewebe-\n/Aluminiumeinlage PYP G200 S4 Al 0,1 gem.\nDIN EN 13969\n\nVerlegeart:\nvollflächig verschweißt\n\nEinbauort:\nUG Sockelbereich\n\nangeb. Fabrikat:\n\n17,000 m2\n\n<!-- PageFooter: Druckdatum: 21.4.2026 -->\n<!-- PageNumber: Seite: 1 -->\n<!-- PageBreak -->\n\n\n<table>\n<tr>\n<td>[BILD_001]</td>\n<td>[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]</td>\n</tr>\n</table>\n\n\n## Anfrage\n\nProjekt:\n79-222\n\nLV:\n\n152\n\nAusbildungszentrum und Bürogebäude -AK Juni 21\nAbdichtung Bodenplatte Büro\n\nOZ\n\nLeistungsbeschreibung\n\nMenge ME\n\nEinheitspreis\nin EUR\n\nGesamtbetrag\nin EUR\n\nSumme 1.1.\n\nAbdichtung Bodenplatte Büro\n\nSumme 1.\n\nAbdichtung Bodenplatte Büro\n\nSumme LV\n152 Abdichtung Bodenplatte Büro\n\nZuzüglich der gesetzlichen Mehrwertsteuer aus\nin Höhe von 19,00 %\n\nEUR\nEUR\n\nEUR\n\n(Ort)\n\n(Datum)\n\n(rechtsgültige Unterschrift)\n\nDas LV besteht aus den Seiten 1 bis 2\n\n<!-- PageFooter: Druckdatum: 21.4.2026 -->\n<!-- PageNumber: Seite: 2 -->\n",
+    "kind": "document",
+    "startPageNumber": 1,
+    "endPageNumber": 2,
+    "unit": "inch",
+    "pages": [
+     {
+      "pageNumber": 1,
+      "angle": 0,
+      "width": 8.2639,
+      "height": 11.6806,
+      "spans": [
+       {
+        "offset": 0,
+        "length": 1824
+       }
+      ],
+      "words": [
+       {
+        "content": "[",
+        "span": {
+         "offset": 17,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(1,5.169,0.482,5.2064,0.4823,5.2064,0.6173,5.169,0.6168)"
+       },
+       {
+        "content": "BILD_001",
+        "span": {
+         "offset": 18,
+         "length": 8
+        },
+        "confidence": 0.925,
+        "source": "D(1,5.2064,0.4823,5.6784,0.4852,5.6784,0.6218,5.2064,0.6173)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 26,
+         "length": 1
+        },
+        "confidence": 0.996,
+        "source": "D(1,5.6878,0.4853,5.7298,0.4855,5.7298,0.6221,5.6878,0.6218)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 49,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,5.8227,0.2928,5.8603,0.2928,5.8603,0.4196,5.8227,0.4195)"
+       },
+       {
+        "content": "FIRMA_102",
+        "span": {
+         "offset": 50,
+         "length": 9
+        },
+        "confidence": 0.888,
+        "source": "D(1,5.8624,0.2928,6.4485,0.2926,6.4485,0.4215,5.8624,0.4196)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 59,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(1,6.4464,0.2926,6.4925,0.2926,6.4925,0.4218,6.4464,0.4215)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 61,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(1,5.8227,0.4257,5.8589,0.4256,5.8589,0.5573,5.8227,0.5571)"
+       },
+       {
+        "content": "ADRESSE_007",
+        "span": {
+         "offset": 62,
+         "length": 11
+        },
+        "confidence": 0.878,
+        "source": "D(1,5.8498,0.4256,6.6308,0.4231,6.6307,0.5605,5.8498,0.5572)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 73,
+         "length": 1
+        },
+        "confidence": 0.994,
+        "source": "D(1,6.6308,0.4231,6.6624,0.4231,6.6624,0.5606,6.6307,0.5605)"
+       },
+       {
+        "content": "ž",
+        "span": {
+         "offset": 75,
+         "length": 1
+        },
+        "confidence": 0.98,
+        "source": "D(1,6.6941,0.423,6.7462,0.4229,6.7462,0.5608,6.6941,0.5607)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 76,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,6.753,0.4229,6.7824,0.4229,6.7824,0.5609,6.753,0.5608)"
+       },
+       {
+        "content": "ORT_026",
+        "span": {
+         "offset": 77,
+         "length": 7
+        },
+        "confidence": 0.968,
+        "source": "D(1,6.7847,0.4229,7.2623,0.4232,7.2623,0.561,6.7847,0.5609)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 84,
+         "length": 1
+        },
+        "confidence": 0.996,
+        "source": "D(1,7.2646,0.4232,7.3076,0.4232,7.3076,0.561,7.2646,0.561)"
+       },
+       {
+        "content": "Tel",
+        "span": {
+         "offset": 86,
+         "length": 3
+        },
+        "confidence": 0.993,
+        "source": "D(1,5.8267,0.5599,5.9744,0.5597,5.9744,0.6963,5.8267,0.6953)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 89,
+         "length": 1
+        },
+        "confidence": 0.993,
+        "source": "D(1,5.9815,0.5597,6.0049,0.5597,6.0049,0.6965,5.9815,0.6964)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 90,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,6.0119,0.5597,6.0448,0.5597,6.0448,0.6968,6.0119,0.6966)"
+       },
+       {
+        "content": "TELEFON_010",
+        "span": {
+         "offset": 91,
+         "length": 11
+        },
+        "confidence": 0.895,
+        "source": "D(1,6.0424,0.5597,6.7975,0.559,6.7975,0.7007,6.0424,0.6968)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 102,
+         "length": 1
+        },
+        "confidence": 0.989,
+        "source": "D(1,6.7952,0.559,6.828,0.559,6.828,0.7007,6.7951,0.7007)"
+       },
+       {
+        "content": "žFax",
+        "span": {
+         "offset": 104,
+         "length": 4
+        },
+        "confidence": 0.953,
+        "source": "D(1,6.8561,0.5589,7.1047,0.5587,7.1047,0.7013,6.8561,0.7008)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 108,
+         "length": 1
+        },
+        "confidence": 0.992,
+        "source": "D(1,7.1023,0.5587,7.1258,0.5587,7.1258,0.7014,7.1023,0.7013)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 109,
+         "length": 1
+        },
+        "confidence": 0.995,
+        "source": "D(1,7.1258,0.5587,7.1539,0.5586,7.1539,0.7014,7.1258,0.7014)"
+       },
+       {
+        "content": "TELEFON_063",
+        "span": {
+         "offset": 110,
+         "length": 11
+        },
+        "confidence": 0.877,
+        "source": "D(1,7.1563,0.5586,7.9137,0.5577,7.9137,0.7002,7.1563,0.7014)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 121,
+         "length": 1
+        },
+        "confidence": 0.992,
+        "source": "D(1,7.916,0.5577,7.9653,0.5576,7.9653,0.7,7.916,0.7002)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 123,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(1,5.8267,0.7008,5.863,0.701,5.863,0.8324,5.8267,0.8318)"
+       },
+       {
+        "content": "EMAIL_009",
+        "span": {
+         "offset": 124,
+         "length": 9
+        },
+        "confidence": 0.897,
+        "source": "D(1,5.8607,0.701,6.4304,0.7024,6.4304,0.8367,5.8607,0.8323)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 133,
+         "length": 1
+        },
+        "confidence": 0.996,
+        "source": "D(1,6.4327,0.7024,6.4804,0.7023,6.4804,0.8367,6.4327,0.8367)"
+       },
+       {
+        "content": "Anfrage",
+        "span": {
+         "offset": 143,
+         "length": 7
+        },
+        "confidence": 0.996,
+        "source": "D(1,3.9665,0.8808,4.6081,0.8908,4.6081,1.0698,3.9645,1.0626)"
+       },
+       {
+        "content": "Projekt",
+        "span": {
+         "offset": 152,
+         "length": 7
+        },
+        "confidence": 0.999,
+        "source": "D(1,0.7399,1.2376,1.2136,1.2362,1.2135,1.3866,0.7389,1.3853)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 159,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,1.2161,1.2362,1.264,1.2362,1.264,1.3866,1.216,1.3866)"
+       },
+       {
+        "content": "79-222",
+        "span": {
+         "offset": 161,
+         "length": 6
+        },
+        "confidence": 0.995,
+        "source": "D(1,1.719,1.2352,2.1669,1.2367,2.1669,1.3753,1.719,1.3723)"
+       },
+       {
+        "content": "LV",
+        "span": {
+         "offset": 169,
+         "length": 2
+        },
+        "confidence": 0.99,
+        "source": "D(1,0.7379,1.4054,0.9148,1.4065,0.9144,1.5377,0.7379,1.5365)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 171,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,0.9102,1.4066,0.9614,1.4059,0.9609,1.5371,0.9098,1.5378)"
+       },
+       {
+        "content": "152",
+        "span": {
+         "offset": 173,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(1,1.7341,1.4057,1.9691,1.4058,1.9691,1.5371,1.7341,1.5371)"
+       },
+       {
+        "content": "Ausbildungszentrum",
+        "span": {
+         "offset": 178,
+         "length": 18
+        },
+        "confidence": 0.993,
+        "source": "D(1,3.0909,1.2339,4.4654,1.2325,4.4654,1.3939,3.0909,1.3935)"
+       },
+       {
+        "content": "und",
+        "span": {
+         "offset": 197,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(1,4.5134,1.2324,4.7558,1.2321,4.7558,1.3935,4.5134,1.3939)"
+       },
+       {
+        "content": "Bürogebäude",
+        "span": {
+         "offset": 201,
+         "length": 11
+        },
+        "confidence": 0.99,
+        "source": "D(1,4.8117,1.2321,5.7041,1.2309,5.7041,1.3915,4.8117,1.3935)"
+       },
+       {
+        "content": "-",
+        "span": {
+         "offset": 213,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,5.7414,1.2308,5.7893,1.2307,5.7893,1.3912,5.7414,1.3914)"
+       },
+       {
+        "content": "AK",
+        "span": {
+         "offset": 214,
+         "length": 2
+        },
+        "confidence": 0.984,
+        "source": "D(1,5.784,1.2307,5.9864,1.2304,5.9864,1.3905,5.784,1.3912)"
+       },
+       {
+        "content": "Juni",
+        "span": {
+         "offset": 217,
+         "length": 4
+        },
+        "confidence": 0.845,
+        "source": "D(1,6.0157,1.2304,6.2928,1.2299,6.2928,1.3895,6.0157,1.3904)"
+       },
+       {
+        "content": "21",
+        "span": {
+         "offset": 222,
+         "length": 2
+        },
+        "confidence": 0.991,
+        "source": "D(1,6.3327,1.2299,6.5005,1.2296,6.5005,1.3887,6.3327,1.3893)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 225,
+         "length": 10
+        },
+        "confidence": 0.994,
+        "source": "D(1,3.0929,1.3987,3.8619,1.3993,3.8619,1.5608,3.0929,1.5575)"
+       },
+       {
+        "content": "Bodenplatte",
+        "span": {
+         "offset": 236,
+         "length": 11
+        },
+        "confidence": 0.996,
+        "source": "D(1,3.9095,1.3993,4.7049,1.3999,4.7049,1.5586,3.9095,1.5608)"
+       },
+       {
+        "content": "Büro",
+        "span": {
+         "offset": 248,
+         "length": 4
+        },
+        "confidence": 0.997,
+        "source": "D(1,4.7525,1.3999,5.0802,1.4001,5.0802,1.5563,4.7525,1.5583)"
+       },
+       {
+        "content": "OZ",
+        "span": {
+         "offset": 254,
+         "length": 2
+        },
+        "confidence": 0.987,
+        "source": "D(1,0.742,1.7282,0.9503,1.7292,0.9498,1.8621,0.742,1.8623)"
+       },
+       {
+        "content": "Leistungsbeschreibung",
+        "span": {
+         "offset": 258,
+         "length": 21
+        },
+        "confidence": 0.988,
+        "source": "D(1,1.719,1.7253,3.2947,1.7306,3.2947,1.8929,1.719,1.8857)"
+       },
+       {
+        "content": "Menge",
+        "span": {
+         "offset": 281,
+         "length": 5
+        },
+        "confidence": 0.999,
+        "source": "D(1,4.3498,1.7291,4.7933,1.7269,4.7933,1.8815,4.3498,1.8815)"
+       },
+       {
+        "content": "ME",
+        "span": {
+         "offset": 287,
+         "length": 2
+        },
+        "confidence": 0.998,
+        "source": "D(1,4.8706,1.7273,5.0923,1.7299,5.0923,1.8812,4.8706,1.8814)"
+       },
+       {
+        "content": "Einheitspreis",
+        "span": {
+         "offset": 291,
+         "length": 13
+        },
+        "confidence": 0.992,
+        "source": "D(1,5.4191,1.7268,6.2988,1.7331,6.2988,1.8785,5.4191,1.8735)"
+       },
+       {
+        "content": "in",
+        "span": {
+         "offset": 305,
+         "length": 2
+        },
+        "confidence": 0.998,
+        "source": "D(1,5.8267,1.895,5.9549,1.8924,5.9549,2.0288,5.8267,2.0303)"
+       },
+       {
+        "content": "EUR",
+        "span": {
+         "offset": 308,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(1,5.9961,1.8918,6.3028,1.8935,6.3028,2.0304,5.9961,2.0285)"
+       },
+       {
+        "content": "Gesamtbetrag",
+        "span": {
+         "offset": 313,
+         "length": 12
+        },
+        "confidence": 0.998,
+        "source": "D(1,6.4965,1.7272,7.4407,1.7348,7.4407,1.8809,6.4965,1.8716)"
+       },
+       {
+        "content": "in",
+        "span": {
+         "offset": 326,
+         "length": 2
+        },
+        "confidence": 0.998,
+        "source": "D(1,6.9727,1.8936,7.0942,1.8934,7.0942,2.0299,6.9727,2.0284)"
+       },
+       {
+        "content": "EUR",
+        "span": {
+         "offset": 329,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(1,7.1392,1.8934,7.4407,1.8945,7.4407,2.0299,7.1392,2.0303)"
+       },
+       {
+        "content": "1",
+        "span": {
+         "offset": 334,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,0.747,2.4066,0.7967,2.4056,0.7967,2.5182,0.747,2.5192)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 335,
+         "length": 2
+        },
+        "confidence": 0.998,
+        "source": "D(1,0.8067,2.4051,0.8423,2.4018,0.8423,2.5144,0.8067,2.5177)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 338,
+         "length": 10
+        },
+        "confidence": 0.996,
+        "source": "D(1,1.7149,2.3782,2.4825,2.3764,2.4825,2.5394,1.7149,2.5401)"
+       },
+       {
+        "content": "Bodenplatte",
+        "span": {
+         "offset": 349,
+         "length": 11
+        },
+        "confidence": 0.996,
+        "source": "D(1,2.5339,2.3765,3.3285,2.3792,3.3285,2.5395,2.5339,2.5394)"
+       },
+       {
+        "content": "Büro",
+        "span": {
+         "offset": 361,
+         "length": 4
+        },
+        "confidence": 0.997,
+        "source": "D(1,3.3745,2.3795,3.7042,2.3815,3.7042,2.5397,3.3745,2.5395)"
+       },
+       {
+        "content": "1.1",
+        "span": {
+         "offset": 367,
+         "length": 3
+        },
+        "confidence": 0.992,
+        "source": "D(1,0.7445,2.7356,0.8942,2.7345,0.8942,2.8543,0.7445,2.8565)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 370,
+         "length": 1
+        },
+        "confidence": 0.996,
+        "source": "D(1,0.9003,2.7348,0.9387,2.7367,0.9387,2.8567,0.9003,2.8546)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 372,
+         "length": 10
+        },
+        "confidence": 0.996,
+        "source": "D(1,1.7159,2.7102,2.4832,2.7116,2.4832,2.8758,1.7159,2.8725)"
+       },
+       {
+        "content": "Bodenplatte",
+        "span": {
+         "offset": 383,
+         "length": 11
+        },
+        "confidence": 0.996,
+        "source": "D(1,2.5345,2.7116,3.3287,2.7088,3.3287,2.8702,2.5345,2.8756)"
+       },
+       {
+        "content": "Büro",
+        "span": {
+         "offset": 395,
+         "length": 4
+        },
+        "confidence": 0.998,
+        "source": "D(1,3.3773,2.7085,3.7042,2.7065,3.7042,2.8656,3.3774,2.8696)"
+       },
+       {
+        "content": "1.1.10",
+        "span": {
+         "offset": 401,
+         "length": 6
+        },
+        "confidence": 0.946,
+        "source": "D(1,0.7435,3.06,1.0493,3.0603,1.0493,3.1825,0.7435,3.1825)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 407,
+         "length": 1
+        },
+        "confidence": 0.995,
+        "source": "D(1,1.0532,3.0603,1.0885,3.0597,1.0885,3.1825,1.0532,3.1825)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 409,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,1.727,3.0391,1.7683,3.0388,1.7683,3.19,1.727,3.1901)"
+       },
+       {
+        "content": "FIRMA_078",
+        "span": {
+         "offset": 410,
+         "length": 9
+        },
+        "confidence": 0.923,
+        "source": "D(1,1.7683,3.0388,2.4929,3.039,2.4929,3.1902,1.7683,3.19)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 419,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,2.4929,3.039,2.5522,3.0396,2.5522,3.1904,2.4929,3.1902)"
+       },
+       {
+        "content": "Voranstrich",
+        "span": {
+         "offset": 422,
+         "length": 11
+        },
+        "confidence": 0.994,
+        "source": "D(1,1.72,3.1926,2.4103,3.1929,2.4103,3.3524,1.72,3.3507)"
+       },
+       {
+        "content": "unter",
+        "span": {
+         "offset": 434,
+         "length": 5
+        },
+        "confidence": 0.996,
+        "source": "D(1,2.4556,3.193,2.7701,3.1931,2.7701,3.3533,2.4556,3.3525)"
+       },
+       {
+        "content": "Bodenabdichtung",
+        "span": {
+         "offset": 440,
+         "length": 15
+        },
+        "confidence": 0.991,
+        "source": "D(1,2.8074,3.1932,3.8789,3.1932,3.8789,3.3541,2.8074,3.3533)"
+       },
+       {
+        "content": ",",
+        "span": {
+         "offset": 455,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,3.8843,3.1932,3.9136,3.1932,3.9136,3.3541,3.8843,3.3541)"
+       },
+       {
+        "content": "vollflächig",
+        "span": {
+         "offset": 457,
+         "length": 11
+        },
+        "confidence": 0.943,
+        "source": "D(1,3.9562,3.1932,4.5613,3.1931,4.5613,3.3539,3.9562,3.3541)"
+       },
+       {
+        "content": "auf",
+        "span": {
+         "offset": 469,
+         "length": 3
+        },
+        "confidence": 0.983,
+        "source": "D(1,4.5986,3.1931,4.7985,3.1929,4.7985,3.3533,4.5986,3.3538)"
+       },
+       {
+        "content": "Betonboden",
+        "span": {
+         "offset": 473,
+         "length": 10
+        },
+        "confidence": 0.934,
+        "source": "D(1,4.8305,3.1929,5.5661,3.1923,5.5661,3.3514,4.8305,3.3532)"
+       },
+       {
+        "content": ",",
+        "span": {
+         "offset": 483,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,5.5768,3.1923,5.6061,3.1922,5.6061,3.3513,5.5768,3.3514)"
+       },
+       {
+        "content": "inkl",
+        "span": {
+         "offset": 485,
+         "length": 4
+        },
+        "confidence": 0.993,
+        "source": "D(1,5.6541,3.1922,5.8567,3.192,5.8567,3.3507,5.6541,3.3512)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 489,
+         "length": 1
+        },
+        "confidence": 0.996,
+        "source": "D(1,5.8673,3.192,5.8993,3.192,5.8993,3.3506,5.8673,3.3507)"
+       },
+       {
+        "content": "Reinigung",
+        "span": {
+         "offset": 491,
+         "length": 9
+        },
+        "confidence": 0.997,
+        "source": "D(1,1.722,3.3535,2.3373,3.3541,2.3373,3.5123,1.722,3.5104)"
+       },
+       {
+        "content": "der",
+        "span": {
+         "offset": 501,
+         "length": 3
+        },
+        "confidence": 0.998,
+        "source": "D(1,2.3794,3.3541,2.5845,3.3543,2.5845,3.5131,2.3794,3.5125)"
+       },
+       {
+        "content": "Bodenfläche",
+        "span": {
+         "offset": 505,
+         "length": 11
+        },
+        "confidence": 0.995,
+        "source": "D(1,2.6239,3.3543,3.3838,3.3544,3.3838,3.514,2.6239,3.5132)"
+       },
+       {
+        "content": "und",
+        "span": {
+         "offset": 517,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(1,3.4259,3.3544,3.6468,3.3543,3.6468,3.5137,3.4259,3.5139)"
+       },
+       {
+        "content": "Trocknung",
+        "span": {
+         "offset": 521,
+         "length": 9
+        },
+        "confidence": 0.995,
+        "source": "D(1,3.6915,3.3543,4.3436,3.3539,4.3436,3.5127,3.6915,3.5136)"
+       },
+       {
+        "content": "feuchter",
+        "span": {
+         "offset": 531,
+         "length": 8
+        },
+        "confidence": 0.994,
+        "source": "D(1,4.3831,3.3538,4.8879,3.3529,4.8879,3.5096,4.3831,3.5124)"
+       },
+       {
+        "content": "Stellen",
+        "span": {
+         "offset": 540,
+         "length": 7
+        },
+        "confidence": 0.964,
+        "source": "D(1,4.9195,3.3529,5.3428,3.3521,5.3428,3.5071,4.9195,3.5095)"
+       },
+       {
+        "content": "auf",
+        "span": {
+         "offset": 548,
+         "length": 3
+        },
+        "confidence": 0.989,
+        "source": "D(1,5.3849,3.3521,5.5927,3.3517,5.5927,3.5057,5.3849,3.5069)"
+       },
+       {
+        "content": "Bodenplatte",
+        "span": {
+         "offset": 552,
+         "length": 11
+        },
+        "confidence": 0.999,
+        "source": "D(1,1.723,3.5175,2.457,3.5203,2.457,3.6685,1.723,3.6705)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 563,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,2.4646,3.5202,2.4977,3.5201,2.4977,3.6683,2.4646,3.6685)"
+       },
+       {
+        "content": "Dampfsperre",
+        "span": {
+         "offset": 566,
+         "length": 11
+        },
+        "confidence": 0.985,
+        "source": "D(1,1.724,3.6763,2.5237,3.6734,2.5237,3.8303,1.724,3.8301)"
+       },
+       {
+        "content": "aus",
+        "span": {
+         "offset": 578,
+         "length": 3
+        },
+        "confidence": 0.994,
+        "source": "D(1,2.5655,3.6732,2.7876,3.6724,2.7876,3.8303,2.5655,3.8303)"
+       },
+       {
+        "content": "einer",
+        "span": {
+         "offset": 582,
+         "length": 5
+        },
+        "confidence": 0.971,
+        "source": "D(1,2.8268,3.6723,3.1404,3.6711,3.1404,3.8304,2.8268,3.8303)"
+       },
+       {
+        "content": "Lage",
+        "span": {
+         "offset": 588,
+         "length": 4
+        },
+        "confidence": 0.945,
+        "source": "D(1,3.1796,3.671,3.4723,3.6707,3.4723,3.8303,3.1796,3.8304)"
+       },
+       {
+        "content": "Bitumenschweißbahn",
+        "span": {
+         "offset": 593,
+         "length": 18
+        },
+        "confidence": 0.846,
+        "source": "D(1,3.5167,3.6706,4.8312,3.6701,4.8312,3.8294,3.5167,3.8303)"
+       },
+       {
+        "content": "mit",
+        "span": {
+         "offset": 612,
+         "length": 3
+        },
+        "confidence": 0.975,
+        "source": "D(1,4.8782,3.6702,5.069,3.6706,5.069,3.8291,4.8782,3.8293)"
+       },
+       {
+        "content": "Glasgewebe",
+        "span": {
+         "offset": 616,
+         "length": 10
+        },
+        "confidence": 0.937,
+        "source": "D(1,5.1056,3.6707,5.8686,3.6724,5.8686,3.828,5.1056,3.829)"
+       },
+       {
+        "content": "-",
+        "span": {
+         "offset": 626,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,5.8713,3.6724,5.9131,3.6725,5.9131,3.8279,5.8713,3.828)"
+       },
+       {
+        "content": "und",
+        "span": {
+         "offset": 628,
+         "length": 3
+        },
+        "confidence": 0.982,
+        "source": "D(1,5.9523,3.6726,6.1979,3.6732,6.1979,3.8275,5.9523,3.8279)"
+       },
+       {
+        "content": "Aluminiumeinlage",
+        "span": {
+         "offset": 632,
+         "length": 16
+        },
+        "confidence": 0.994,
+        "source": "D(1,1.7159,3.828,2.8084,3.8254,2.8084,3.9835,1.7159,3.9809)"
+       },
+       {
+        "content": ",",
+        "span": {
+         "offset": 648,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,2.8162,3.8254,2.8447,3.8253,2.8447,3.9836,2.8162,3.9835)"
+       },
+       {
+        "content": "mit",
+        "span": {
+         "offset": 650,
+         "length": 3
+        },
+        "confidence": 0.993,
+        "source": "D(1,2.8887,3.8252,3.0803,3.8249,3.0803,3.9841,2.8887,3.9837)"
+       },
+       {
+        "content": "mind",
+        "span": {
+         "offset": 654,
+         "length": 4
+        },
+        "confidence": 0.971,
+        "source": "D(1,3.1165,3.8249,3.4065,3.8249,3.4065,3.9841,3.1165,3.9841)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 658,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(1,3.4194,3.8249,3.4453,3.8249,3.4453,3.9841,3.4194,3.9841)"
+       },
+       {
+        "content": "10",
+        "span": {
+         "offset": 660,
+         "length": 2
+        },
+        "confidence": 0.737,
+        "source": "D(1,3.5023,3.8249,3.6421,3.8249,3.6421,3.9841,3.5023,3.9841)"
+       },
+       {
+        "content": "cm",
+        "span": {
+         "offset": 663,
+         "length": 2
+        },
+        "confidence": 0.769,
+        "source": "D(1,3.6835,3.8249,3.8595,3.8249,3.8595,3.984,3.6835,3.9841)"
+       },
+       {
+        "content": "Stoßüberdeckung",
+        "span": {
+         "offset": 666,
+         "length": 15
+        },
+        "confidence": 0.899,
+        "source": "D(1,3.9087,3.8249,5.0012,3.8264,5.0012,3.9825,3.9087,3.984)"
+       },
+       {
+        "content": "verlegt",
+        "span": {
+         "offset": 682,
+         "length": 7
+        },
+        "confidence": 0.963,
+        "source": "D(1,5.0401,3.8265,5.462,3.8275,5.462,3.9814,5.0401,3.9824)"
+       },
+       {
+        "content": "und",
+        "span": {
+         "offset": 690,
+         "length": 3
+        },
+        "confidence": 0.973,
+        "source": "D(1,5.4957,3.8275,5.7339,3.8281,5.7339,3.9807,5.4957,3.9813)"
+       },
+       {
+        "content": "unterlaufsicher",
+        "span": {
+         "offset": 694,
+         "length": 15
+        },
+        "confidence": 0.994,
+        "source": "D(1,1.7179,3.9911,2.6346,3.9908,2.6353,4.1459,1.719,4.143)"
+       },
+       {
+        "content": "verklebt",
+        "span": {
+         "offset": 710,
+         "length": 8
+        },
+        "confidence": 0.997,
+        "source": "D(1,2.6656,3.9908,3.1602,3.9906,3.1609,4.1474,2.6664,4.146)"
+       },
+       {
+        "content": "einschl",
+        "span": {
+         "offset": 719,
+         "length": 7
+        },
+        "confidence": 0.944,
+        "source": "D(1,3.1939,3.9906,3.6237,3.9907,3.6242,4.1478,3.1945,4.1475)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 726,
+         "length": 1
+        },
+        "confidence": 0.986,
+        "source": "D(1,3.6289,3.9907,3.6548,3.9907,3.6553,4.1478,3.6294,4.1478)"
+       },
+       {
+        "content": "Wandaufkantung",
+        "span": {
+         "offset": 728,
+         "length": 14
+        },
+        "confidence": 0.947,
+        "source": "D(1,3.6936,3.9907,4.7474,3.9912,4.7477,4.1482,3.6941,4.1478)"
+       },
+       {
+        "content": "und",
+        "span": {
+         "offset": 743,
+         "length": 3
+        },
+        "confidence": 0.993,
+        "source": "D(1,4.7889,3.9912,5.0116,3.9914,5.0118,4.1477,4.7891,4.1481)"
+       },
+       {
+        "content": "Voranstrich",
+        "span": {
+         "offset": 747,
+         "length": 11
+        },
+        "confidence": 0.959,
+        "source": "D(1,5.053,3.9914,5.7443,3.9921,5.7444,4.1466,5.0532,4.1477)"
+       },
+       {
+        "content": "an",
+        "span": {
+         "offset": 759,
+         "length": 2
+        },
+        "confidence": 0.987,
+        "source": "D(1,5.778,3.9921,5.9437,3.9923,5.9437,4.1463,5.778,4.1465)"
+       },
+       {
+        "content": "Stützen",
+        "span": {
+         "offset": 762,
+         "length": 7
+        },
+        "confidence": 0.996,
+        "source": "D(1,1.7179,4.147,2.1776,4.1462,2.1784,4.2946,1.719,4.2949)"
+       },
+       {
+        "content": "und",
+        "span": {
+         "offset": 770,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(1,2.2265,4.1461,2.4441,4.1459,2.4447,4.2945,2.2273,4.2946)"
+       },
+       {
+        "content": "Stahlbetonwänden",
+        "span": {
+         "offset": 774,
+         "length": 16
+        },
+        "confidence": 0.995,
+        "source": "D(1,2.4955,4.146,3.63,4.1489,3.63,4.2943,2.4961,4.2945)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 790,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,3.6397,4.1489,3.674,4.149,3.674,4.2943,3.6397,4.2943)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 793,
+         "length": 10
+        },
+        "confidence": 0.997,
+        "source": "D(1,1.7139,4.3023,2.4034,4.3025,2.4034,4.4623,1.7139,4.4611)"
+       },
+       {
+        "content": "an",
+        "span": {
+         "offset": 804,
+         "length": 2
+        },
+        "confidence": 0.999,
+        "source": "D(1,2.4437,4.3025,2.5939,4.3025,2.5939,4.4626,2.4437,4.4624)"
+       },
+       {
+        "content": "Bodeneinläufen",
+        "span": {
+         "offset": 807,
+         "length": 14
+        },
+        "confidence": 0.995,
+        "source": "D(1,2.6449,4.3025,3.5973,4.3021,3.5973,4.463,2.6449,4.4627)"
+       },
+       {
+        "content": "u",
+        "span": {
+         "offset": 822,
+         "length": 1
+        },
+        "confidence": 0.992,
+        "source": "D(1,3.6456,4.3021,3.7127,4.3021,3.7127,4.463,3.6456,4.463)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 823,
+         "length": 1
+        },
+        "confidence": 0.993,
+        "source": "D(1,3.7234,4.3021,3.7502,4.3021,3.7502,4.463,3.7234,4.463)"
+       },
+       {
+        "content": "ä",
+        "span": {
+         "offset": 824,
+         "length": 1
+        },
+        "confidence": 0.984,
+        "source": "D(1,3.7556,4.302,3.8254,4.302,3.8254,4.463,3.7556,4.463)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 825,
+         "length": 1
+        },
+        "confidence": 0.968,
+        "source": "D(1,3.8334,4.302,3.8602,4.302,3.8602,4.463,3.8334,4.463)"
+       },
+       {
+        "content": "in",
+        "span": {
+         "offset": 827,
+         "length": 2
+        },
+        "confidence": 0.952,
+        "source": "D(1,3.9085,4.302,4.0051,4.3019,4.0051,4.4629,3.9085,4.463)"
+       },
+       {
+        "content": "gesonderter",
+        "span": {
+         "offset": 830,
+         "length": 11
+        },
+        "confidence": 0.98,
+        "source": "D(1,4.048,4.3019,4.7939,4.3009,4.7939,4.4615,4.048,4.4629)"
+       },
+       {
+        "content": "Position",
+        "span": {
+         "offset": 842,
+         "length": 8
+        },
+        "confidence": 0.992,
+        "source": "D(1,4.8288,4.3008,5.317,4.3001,5.317,4.4604,4.8288,4.4614)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 850,
+         "length": 1
+        },
+        "confidence": 0.996,
+        "source": "D(1,5.3251,4.3001,5.3627,4.3,5.3627,4.4603,5.3251,4.4603)"
+       },
+       {
+        "content": "Untergrund",
+        "span": {
+         "offset": 853,
+         "length": 10
+        },
+        "confidence": 0.998,
+        "source": "D(1,1.722,4.6228,2.4119,4.6263,2.4119,4.7803,1.722,4.7783)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 863,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(1,2.4197,4.6263,2.4634,4.6264,2.4634,4.7805,2.4197,4.7803)"
+       },
+       {
+        "content": "Stb",
+        "span": {
+         "offset": 865,
+         "length": 3
+        },
+        "confidence": 0.996,
+        "source": "D(1,3.2926,4.6177,3.5043,4.6212,3.5043,4.7752,3.2926,4.7716)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 868,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,3.5069,4.6212,3.5382,4.6217,3.5382,4.7757,3.5069,4.7752)"
+       },
+       {
+        "content": "-",
+        "span": {
+         "offset": 869,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(1,3.5434,4.6218,3.5905,4.6226,3.5905,4.7766,3.5434,4.7758)"
+       },
+       {
+        "content": "Bodenplatte",
+        "span": {
+         "offset": 870,
+         "length": 11
+        },
+        "confidence": 0.998,
+        "source": "D(1,3.5931,4.6226,4.3377,4.6275,4.3377,4.7815,3.5931,4.7766)"
+       },
+       {
+        "content": "Material",
+        "span": {
+         "offset": 883,
+         "length": 8
+        },
+        "confidence": 0.997,
+        "source": "D(1,1.719,4.9363,2.2181,4.9363,2.2181,5.0789,1.719,5.0789)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 891,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,2.2205,4.9363,2.2617,4.9363,2.2617,5.0789,2.2205,5.0789)"
+       },
+       {
+        "content": "Bitumenschweißbahn",
+        "span": {
+         "offset": 893,
+         "length": 18
+        },
+        "confidence": 0.921,
+        "source": "D(1,3.2967,4.9323,4.6158,4.9281,4.6158,5.0881,3.2967,5.0864)"
+       },
+       {
+        "content": "mitGlasgewebe",
+        "span": {
+         "offset": 912,
+         "length": 13
+        },
+        "confidence": 0.982,
+        "source": "D(1,4.6581,4.9282,5.6098,4.9372,5.6098,5.0948,4.6581,5.0882)"
+       },
+       {
+        "content": "-",
+        "span": {
+         "offset": 925,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,5.6124,4.9372,5.6653,4.9378,5.6653,5.0953,5.6124,5.0949)"
+       },
+       {
+        "content": "/",
+        "span": {
+         "offset": 927,
+         "length": 1
+        },
+        "confidence": 0.984,
+        "source": "D(1,3.2866,5.0926,3.3398,5.0925,3.3398,5.2491,3.2866,5.249)"
+       },
+       {
+        "content": "Aluminiumeinlage",
+        "span": {
+         "offset": 928,
+         "length": 16
+        },
+        "confidence": 0.958,
+        "source": "D(1,3.3265,5.0926,4.4196,5.0911,4.4196,5.252,3.3265,5.2491)"
+       },
+       {
+        "content": "PYP",
+        "span": {
+         "offset": 945,
+         "length": 3
+        },
+        "confidence": 0.992,
+        "source": "D(1,4.4648,5.0912,4.7308,5.0915,4.7308,5.2529,4.4648,5.2522)"
+       },
+       {
+        "content": "G200",
+        "span": {
+         "offset": 949,
+         "length": 4
+        },
+        "confidence": 0.947,
+        "source": "D(1,4.7734,5.0916,5.1058,5.092,5.1058,5.254,4.7734,5.2531)"
+       },
+       {
+        "content": "S4",
+        "span": {
+         "offset": 954,
+         "length": 2
+        },
+        "confidence": 0.92,
+        "source": "D(1,5.1484,5.0922,5.3133,5.0929,5.3133,5.2547,5.1484,5.2542)"
+       },
+       {
+        "content": "Al",
+        "span": {
+         "offset": 957,
+         "length": 2
+        },
+        "confidence": 0.531,
+        "source": "D(1,5.3478,5.0931,5.4649,5.0936,5.4649,5.2551,5.3478,5.2548)"
+       },
+       {
+        "content": "0,1",
+        "span": {
+         "offset": 960,
+         "length": 3
+        },
+        "confidence": 0.503,
+        "source": "D(1,5.5101,5.0938,5.6803,5.0946,5.6803,5.2558,5.5101,5.2553)"
+       },
+       {
+        "content": "gem",
+        "span": {
+         "offset": 964,
+         "length": 3
+        },
+        "confidence": 0.77,
+        "source": "D(1,5.7362,5.0949,6.0021,5.0961,6.0021,5.2568,5.7361,5.256)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 967,
+         "length": 1
+        },
+        "confidence": 0.995,
+        "source": "D(1,6.0181,5.0962,6.0527,5.0963,6.0527,5.2569,6.0181,5.2568)"
+       },
+       {
+        "content": "DIN",
+        "span": {
+         "offset": 969,
+         "length": 3
+        },
+        "confidence": 0.979,
+        "source": "D(1,3.2947,5.256,3.5235,5.2544,3.5235,5.3983,3.2947,5.3983)"
+       },
+       {
+        "content": "EN",
+        "span": {
+         "offset": 973,
+         "length": 2
+        },
+        "confidence": 0.989,
+        "source": "D(1,3.5754,5.254,3.75,5.254,3.75,5.3983,3.5754,5.3983)"
+       },
+       {
+        "content": "13969",
+        "span": {
+         "offset": 976,
+         "length": 5
+        },
+        "confidence": 0.993,
+        "source": "D(1,3.8066,5.2541,4.2005,5.2567,4.2005,5.3983,3.8066,5.3983)"
+       },
+       {
+        "content": "Verlegeart",
+        "span": {
+         "offset": 983,
+         "length": 10
+        },
+        "confidence": 0.996,
+        "source": "D(1,1.719,5.4208,2.3614,5.4217,2.3614,5.5703,1.719,5.5694)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 993,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,2.3564,5.4218,2.3989,5.4213,2.3989,5.57,2.3564,5.5703)"
+       },
+       {
+        "content": "vollflächig",
+        "span": {
+         "offset": 995,
+         "length": 11
+        },
+        "confidence": 0.934,
+        "source": "D(1,3.2926,5.4192,3.902,5.4205,3.902,5.5723,3.2926,5.5692)"
+       },
+       {
+        "content": "verschweißt",
+        "span": {
+         "offset": 1007,
+         "length": 11
+        },
+        "confidence": 0.989,
+        "source": "D(1,3.9421,5.4204,4.6969,5.4156,4.6969,5.563,3.9421,5.5721)"
+       },
+       {
+        "content": "Einbauort",
+        "span": {
+         "offset": 1020,
+         "length": 9
+        },
+        "confidence": 0.998,
+        "source": "D(1,1.723,5.5723,2.3235,5.5728,2.3235,5.7153,1.723,5.7139)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 1029,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,2.3188,5.5729,2.3585,5.5723,2.3585,5.7148,2.3188,5.7154)"
+       },
+       {
+        "content": "UG",
+        "span": {
+         "offset": 1031,
+         "length": 2
+        },
+        "confidence": 0.993,
+        "source": "D(1,3.2926,5.5727,3.4953,5.5732,3.4953,5.7125,3.2926,5.7128)"
+       },
+       {
+        "content": "Büro",
+        "span": {
+         "offset": 1034,
+         "length": 4
+        },
+        "confidence": 0.994,
+        "source": "D(1,3.5437,5.5735,3.8455,5.5754,3.8455,5.7132,3.5437,5.7126)"
+       },
+       {
+        "content": "angeb",
+        "span": {
+         "offset": 1040,
+         "length": 5
+        },
+        "confidence": 0.987,
+        "source": "D(1,1.7169,6.0511,2.1011,6.0493,2.1023,6.2049,1.719,6.206)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 1045,
+         "length": 1
+        },
+        "confidence": 0.992,
+        "source": "D(1,2.1086,6.0494,2.1339,6.0496,2.1351,6.2049,2.1099,6.2049)"
+       },
+       {
+        "content": "Fabrikat",
+        "span": {
+         "offset": 1047,
+         "length": 8
+        },
+        "confidence": 0.989,
+        "source": "D(1,2.187,6.05,2.6898,6.0581,2.6899,6.2077,2.188,6.205)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 1055,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(1,2.6898,6.0581,2.7277,6.0589,2.7277,6.208,2.6899,6.2077)"
+       },
+       {
+        "content": "280,000",
+        "span": {
+         "offset": 1058,
+         "length": 7
+        },
+        "confidence": 0.93,
+        "source": "D(1,4.2893,6.3603,4.7941,6.3585,4.794,6.5171,4.2893,6.5188)"
+       },
+       {
+        "content": "m2",
+        "span": {
+         "offset": 1066,
+         "length": 2
+        },
+        "confidence": 0.716,
+        "source": "D(1,4.8747,6.36,5.0802,6.3649,5.0802,6.5165,4.8747,6.5169)"
+       },
+       {
+        "content": "1.1.15",
+        "span": {
+         "offset": 1070,
+         "length": 6
+        },
+        "confidence": 0.978,
+        "source": "D(1,0.7435,6.7015,1.0523,6.7015,1.0523,6.827,0.7435,6.827)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 1076,
+         "length": 1
+        },
+        "confidence": 0.996,
+        "source": "D(1,1.0567,6.7015,1.0915,6.7015,1.0915,6.827,1.0567,6.827)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 1078,
+         "length": 10
+        },
+        "confidence": 0.994,
+        "source": "D(1,1.7179,6.6787,2.4801,6.6787,2.4801,6.8384,1.7179,6.8384)"
+       },
+       {
+        "content": "an",
+        "span": {
+         "offset": 1089,
+         "length": 2
+        },
+        "confidence": 0.998,
+        "source": "D(1,2.5257,6.6787,2.6813,6.6787,2.6813,6.8384,2.5257,6.8384)"
+       },
+       {
+        "content": "Bodeneinläufen",
+        "span": {
+         "offset": 1092,
+         "length": 14
+        },
+        "confidence": 0.996,
+        "source": "D(1,2.7323,6.6787,3.7789,6.6787,3.7789,6.8384,2.7323,6.8384)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 1108,
+         "length": 10
+        },
+        "confidence": 0.994,
+        "source": "D(1,1.7159,6.845,2.4108,6.8423,2.4108,7.002,1.7159,7.0047)"
+       },
+       {
+        "content": "an",
+        "span": {
+         "offset": 1119,
+         "length": 2
+        },
+        "confidence": 0.993,
+        "source": "D(1,2.4534,6.8421,2.5998,6.8416,2.5998,7.0012,2.4534,7.0018)"
+       },
+       {
+        "content": "aufgehenden",
+        "span": {
+         "offset": 1122,
+         "length": 11
+        },
+        "confidence": 0.99,
+        "source": "D(1,2.6477,6.8414,3.4491,6.8394,3.4491,6.9991,2.6477,7.0011)"
+       },
+       {
+        "content": "PVC",
+        "span": {
+         "offset": 1134,
+         "length": 3
+        },
+        "confidence": 0.996,
+        "source": "D(1,3.4943,6.8394,3.7632,6.8391,3.7632,6.9988,3.4943,6.9991)"
+       },
+       {
+        "content": "-",
+        "span": {
+         "offset": 1137,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,3.7632,6.8391,3.8085,6.839,3.8085,6.9987,3.7632,6.9988)"
+       },
+       {
+        "content": "Grundrohren",
+        "span": {
+         "offset": 1138,
+         "length": 11
+        },
+        "confidence": 0.986,
+        "source": "D(1,3.8165,6.839,4.5938,6.8388,4.5938,6.9985,3.8165,6.9987)"
+       },
+       {
+        "content": "aus",
+        "span": {
+         "offset": 1150,
+         "length": 3
+        },
+        "confidence": 0.986,
+        "source": "D(1,4.6364,6.8389,4.8601,6.8393,4.8601,6.999,4.6364,6.9986)"
+       },
+       {
+        "content": "Bodenplatte",
+        "span": {
+         "offset": 1154,
+         "length": 11
+        },
+        "confidence": 0.975,
+        "source": "D(1,4.9053,6.8394,5.6401,6.8407,5.6401,7.0004,4.9053,6.9991)"
+       },
+       {
+        "content": ",",
+        "span": {
+         "offset": 1165,
+         "length": 1
+        },
+        "confidence": 0.994,
+        "source": "D(1,5.6375,6.8407,5.6774,6.8407,5.6774,7.0004,5.6375,7.0003)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 1167,
+         "length": 10
+        },
+        "confidence": 0.998,
+        "source": "D(1,1.7139,6.996,2.4049,6.9961,2.4049,7.1544,1.7139,7.1512)"
+       },
+       {
+        "content": "den",
+        "span": {
+         "offset": 1178,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(1,2.4439,6.9961,2.6725,6.9962,2.6725,7.1556,2.4439,7.1546)"
+       },
+       {
+        "content": "Richtlinien",
+        "span": {
+         "offset": 1182,
+         "length": 11
+        },
+        "confidence": 0.998,
+        "source": "D(1,2.7218,6.9962,3.3505,6.9966,3.3505,7.1571,2.7218,7.1559)"
+       },
+       {
+        "content": "entsprechend",
+        "span": {
+         "offset": 1194,
+         "length": 12
+        },
+        "confidence": 0.997,
+        "source": "D(1,3.3946,6.9966,4.2233,6.9975,4.2233,7.1569,3.3946,7.1571)"
+       },
+       {
+        "content": "an",
+        "span": {
+         "offset": 1207,
+         "length": 2
+        },
+        "confidence": 0.998,
+        "source": "D(1,4.2675,6.9976,4.4156,6.9978,4.4156,7.1563,4.2675,7.1569)"
+       },
+       {
+        "content": "die",
+        "span": {
+         "offset": 1210,
+         "length": 3
+        },
+        "confidence": 0.998,
+        "source": "D(1,4.4571,6.9979,4.6364,6.9983,4.6364,7.1552,4.4571,7.1561)"
+       },
+       {
+        "content": "Bodenabläufen",
+        "span": {
+         "offset": 1214,
+         "length": 13
+        },
+        "confidence": 0.997,
+        "source": "D(1,4.6805,6.9984,5.6209,7.0003,5.6209,7.1501,4.6805,7.155)"
+       },
+       {
+        "content": "anarbeiten",
+        "span": {
+         "offset": 1228,
+         "length": 10
+        },
+        "confidence": 0.998,
+        "source": "D(1,1.7179,7.1707,2.3671,7.1653,2.3671,7.3132,1.7179,7.315)"
+       },
+       {
+        "content": "und",
+        "span": {
+         "offset": 1239,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(1,2.4161,7.1651,2.6341,7.1641,2.6341,7.3125,2.4161,7.313)"
+       },
+       {
+        "content": "abdichten",
+        "span": {
+         "offset": 1243,
+         "length": 9
+        },
+        "confidence": 0.998,
+        "source": "D(1,2.6807,7.1639,3.2759,7.1635,3.2759,7.3113,2.6807,7.3124)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 1252,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,3.2857,7.1635,3.3249,7.1636,3.3249,7.3113,3.2857,7.3113)"
+       },
+       {
+        "content": "17,000",
+        "span": {
+         "offset": 1255,
+         "length": 6
+        },
+        "confidence": 0.972,
+        "source": "D(1,4.3781,7.4784,4.7874,7.4727,4.7874,7.621,4.3781,7.6267)"
+       },
+       {
+        "content": "Stk",
+        "span": {
+         "offset": 1262,
+         "length": 3
+        },
+        "confidence": 0.989,
+        "source": "D(1,4.8663,7.472,5.0883,7.471,5.0883,7.6193,4.8663,7.6203)"
+       },
+       {
+        "content": "1.1.20",
+        "span": {
+         "offset": 1267,
+         "length": 6
+        },
+        "confidence": 0.977,
+        "source": "D(1,0.7435,7.8168,1.0515,7.8114,1.0514,7.9369,0.743,7.9423)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 1273,
+         "length": 1
+        },
+        "confidence": 0.996,
+        "source": "D(1,1.0536,7.8113,1.0905,7.8097,1.0905,7.9352,1.0536,7.9368)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 1275,
+         "length": 10
+        },
+        "confidence": 0.997,
+        "source": "D(1,1.7179,7.795,2.4848,7.794,2.4848,7.9542,1.7179,7.9561)"
+       },
+       {
+        "content": "Sockelbereich",
+        "span": {
+         "offset": 1286,
+         "length": 13
+        },
+        "confidence": 0.996,
+        "source": "D(1,2.5276,7.7939,3.4655,7.7921,3.4655,7.9518,2.5276,7.9541)"
+       },
+       {
+        "content": "Fassade",
+        "span": {
+         "offset": 1300,
+         "length": 7
+        },
+        "confidence": 0.997,
+        "source": "D(1,3.5083,7.792,4.0694,7.7908,4.0694,7.9504,3.5083,7.9517)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 1309,
+         "length": 10
+        },
+        "confidence": 0.992,
+        "source": "D(1,1.7159,7.9586,2.4102,7.9565,2.4102,8.1107,1.7159,8.1088)"
+       },
+       {
+        "content": "des",
+        "span": {
+         "offset": 1320,
+         "length": 3
+        },
+        "confidence": 0.994,
+        "source": "D(1,2.4487,7.9564,2.6699,7.9557,2.6699,8.1114,2.4487,8.1108)"
+       },
+       {
+        "content": "vertikalen",
+        "span": {
+         "offset": 1324,
+         "length": 10
+        },
+        "confidence": 0.982,
+        "source": "D(1,2.7084,7.9556,3.2972,7.9541,3.2973,8.1124,2.7084,8.1115)"
+       },
+       {
+        "content": "Sockelbereichs",
+        "span": {
+         "offset": 1335,
+         "length": 14
+        },
+        "confidence": 0.987,
+        "source": "D(1,3.3435,7.9541,4.2769,7.9526,4.2769,8.1113,3.3435,8.1123)"
+       },
+       {
+        "content": "mit",
+        "span": {
+         "offset": 1350,
+         "length": 3
+        },
+        "confidence": 0.964,
+        "source": "D(1,4.3206,7.9525,4.5109,7.9523,4.5109,8.111,4.3206,8.1113)"
+       },
+       {
+        "content": "Bitumenbahn",
+        "span": {
+         "offset": 1354,
+         "length": 11
+        },
+        "confidence": 0.856,
+        "source": "D(1,4.5494,7.9523,5.3568,7.9521,5.3568,8.1068,4.5495,8.1108)"
+       },
+       {
+        "content": "einschl",
+        "span": {
+         "offset": 1366,
+         "length": 7
+        },
+        "confidence": 0.921,
+        "source": "D(1,5.398,7.9521,5.8299,7.9521,5.8299,8.1045,5.398,8.1066)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 1373,
+         "length": 1
+        },
+        "confidence": 0.993,
+        "source": "D(1,5.8377,7.9521,5.8711,7.9521,5.8711,8.1043,5.8377,8.1044)"
+       },
+       {
+        "content": "Voranstrich",
+        "span": {
+         "offset": 1375,
+         "length": 11
+        },
+        "confidence": 0.992,
+        "source": "D(1,1.7159,8.1102,2.4103,8.1102,2.4103,8.2698,1.7159,8.2693)"
+       },
+       {
+        "content": "(",
+        "span": {
+         "offset": 1387,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,2.4555,8.1102,2.498,8.1102,2.498,8.2699,2.4555,8.2699)"
+       },
+       {
+        "content": "Stirnseite",
+        "span": {
+         "offset": 1388,
+         "length": 10
+        },
+        "confidence": 0.995,
+        "source": "D(1,2.5007,8.1102,3.0727,8.1102,3.0727,8.2704,2.5007,8.2699)"
+       },
+       {
+        "content": "Bodenplatte",
+        "span": {
+         "offset": 1399,
+         "length": 11
+        },
+        "confidence": 0.995,
+        "source": "D(1,3.1179,8.1102,3.8468,8.1102,3.8468,8.2701,3.1179,8.2704)"
+       },
+       {
+        "content": "und",
+        "span": {
+         "offset": 1411,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(1,3.892,8.1102,4.1102,8.1102,4.1102,8.27,3.892,8.2701)"
+       },
+       {
+        "content": "Fassadenblech",
+        "span": {
+         "offset": 1415,
+         "length": 13
+        },
+        "confidence": 0.978,
+        "source": "D(1,4.166,8.1102,5.0865,8.1102,5.0865,8.2687,4.166,8.2699)"
+       },
+       {
+        "content": ")",
+        "span": {
+         "offset": 1428,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,5.0945,8.1102,5.1397,8.1102,5.1397,8.2686,5.0945,8.2687)"
+       },
+       {
+        "content": "gem",
+        "span": {
+         "offset": 1430,
+         "length": 3
+        },
+        "confidence": 0.488,
+        "source": "D(1,5.1743,8.1102,5.4376,8.1102,5.4376,8.2681,5.1743,8.2686)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 1433,
+         "length": 1
+        },
+        "confidence": 0.943,
+        "source": "D(1,5.4483,8.1102,5.4775,8.1102,5.4775,8.268,5.4483,8.2681)"
+       },
+       {
+        "content": "Detail",
+        "span": {
+         "offset": 1435,
+         "length": 6
+        },
+        "confidence": 0.523,
+        "source": "D(1,5.5228,8.1102,5.8872,8.1102,5.8872,8.2673,5.5228,8.2679)"
+       },
+       {
+        "content": "ABS_KAS",
+        "span": {
+         "offset": 1442,
+         "length": 7
+        },
+        "confidence": 0.848,
+        "source": "D(1,1.7159,8.2704,2.342,8.2697,2.342,8.427,1.7159,8.4257)"
+       },
+       {
+        "content": "-",
+        "span": {
+         "offset": 1449,
+         "length": 1
+        },
+        "confidence": 0.976,
+        "source": "D(1,2.3473,8.2697,2.3897,8.2697,2.3897,8.4271,2.3473,8.427)"
+       },
+       {
+        "content": "S_8_MET_SCN_BÜ_UG_104_0_F",
+        "span": {
+         "offset": 1450,
+         "length": 25
+        },
+        "confidence": 0.533,
+        "source": "D(1,2.3924,8.2697,4.5597,8.2699,4.5597,8.4294,2.3924,8.4271)"
+       },
+       {
+        "content": "Untergrund",
+        "span": {
+         "offset": 1477,
+         "length": 10
+        },
+        "confidence": 0.998,
+        "source": "D(1,1.722,8.5931,2.4119,8.5966,2.4119,8.7491,1.722,8.7477)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 1487,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,2.4197,8.5965,2.4634,8.5956,2.4634,8.7491,2.4197,8.7491)"
+       },
+       {
+        "content": "Stb",
+        "span": {
+         "offset": 1489,
+         "length": 3
+        },
+        "confidence": 0.994,
+        "source": "D(1,3.2926,8.5896,3.5006,8.5895,3.5006,8.7485,3.2926,8.7482)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 1492,
+         "length": 1
+        },
+        "confidence": 0.996,
+        "source": "D(1,3.5032,8.5895,3.5322,8.5895,3.5322,8.7485,3.5032,8.7485)"
+       },
+       {
+        "content": "-",
+        "span": {
+         "offset": 1493,
+         "length": 1
+        },
+        "confidence": 0.993,
+        "source": "D(1,3.5401,8.5895,3.5822,8.5894,3.5822,8.7486,3.5401,8.7485)"
+       },
+       {
+        "content": "Bodenplatte",
+        "span": {
+         "offset": 1494,
+         "length": 11
+        },
+        "confidence": 0.994,
+        "source": "D(1,3.5927,8.5894,4.3193,8.5891,4.3193,8.7497,3.5927,8.7486)"
+       },
+       {
+        "content": "/",
+        "span": {
+         "offset": 1506,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,4.3509,8.5891,4.4062,8.5891,4.4062,8.7496,4.3509,8.7497)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 1508,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,4.4351,8.5892,4.472,8.5892,4.472,8.7495,4.4351,8.7495)"
+       },
+       {
+        "content": "PERSON_095",
+        "span": {
+         "offset": 1509,
+         "length": 10
+        },
+        "confidence": 0.942,
+        "source": "D(1,4.4825,8.5892,5.3644,8.5897,5.3644,8.7479,4.4825,8.7494)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 1519,
+         "length": 1
+        },
+        "confidence": 0.995,
+        "source": "D(1,5.3591,8.5897,5.3986,8.5897,5.3986,8.7477,5.3592,8.7479)"
+       },
+       {
+        "content": "Blech",
+        "span": {
+         "offset": 1521,
+         "length": 5
+        },
+        "confidence": 0.978,
+        "source": "D(1,5.4434,8.5898,5.7935,8.5904,5.7935,8.7458,5.4434,8.7475)"
+       },
+       {
+        "content": "Fassade",
+        "span": {
+         "offset": 1527,
+         "length": 7
+        },
+        "confidence": 0.986,
+        "source": "D(1,5.8356,8.5904,6.3674,8.5913,6.3674,8.743,5.8356,8.7456)"
+       },
+       {
+        "content": "Material",
+        "span": {
+         "offset": 1536,
+         "length": 8
+        },
+        "confidence": 0.997,
+        "source": "D(1,1.719,8.9087,2.2164,8.9087,2.2164,9.0456,1.719,9.0456)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 1544,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,2.2232,8.9087,2.2617,8.9087,2.2617,9.0456,2.2232,9.0456)"
+       },
+       {
+        "content": "Bitumenschweißbahn",
+        "span": {
+         "offset": 1546,
+         "length": 18
+        },
+        "confidence": 0.848,
+        "source": "D(1,3.2947,8.9083,4.6151,8.9026,4.6151,9.063,3.2947,9.0601)"
+       },
+       {
+        "content": "mitGlasgewebe",
+        "span": {
+         "offset": 1565,
+         "length": 13
+        },
+        "confidence": 0.969,
+        "source": "D(1,4.6593,8.9026,5.6081,8.9063,5.6081,9.0621,4.6593,9.063)"
+       },
+       {
+        "content": "-",
+        "span": {
+         "offset": 1578,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,5.6107,8.9063,5.6653,8.9066,5.6653,9.062,5.6107,9.0621)"
+       },
+       {
+        "content": "/",
+        "span": {
+         "offset": 1580,
+         "length": 1
+        },
+        "confidence": 0.988,
+        "source": "D(1,3.2866,9.068,3.3416,9.0677,3.3416,9.2199,3.2866,9.2197)"
+       },
+       {
+        "content": "Aluminiumeinlage",
+        "span": {
+         "offset": 1581,
+         "length": 16
+        },
+        "confidence": 0.963,
+        "source": "D(1,3.3259,9.0677,4.4208,9.0626,4.4208,9.2224,3.3259,9.2198)"
+       },
+       {
+        "content": "PYP",
+        "span": {
+         "offset": 1598,
+         "length": 3
+        },
+        "confidence": 0.993,
+        "source": "D(1,4.4653,9.0625,4.7325,9.0624,4.7325,9.2226,4.4653,9.2224)"
+       },
+       {
+        "content": "G200",
+        "span": {
+         "offset": 1602,
+         "length": 4
+        },
+        "confidence": 0.956,
+        "source": "D(1,4.7744,9.0623,5.1071,9.0621,5.1071,9.2229,4.7744,9.2226)"
+       },
+       {
+        "content": "S4",
+        "span": {
+         "offset": 1607,
+         "length": 2
+        },
+        "confidence": 0.923,
+        "source": "D(1,5.1516,9.0622,5.3166,9.063,5.3166,9.2227,5.1516,9.2229)"
+       },
+       {
+        "content": "Al",
+        "span": {
+         "offset": 1610,
+         "length": 2
+        },
+        "confidence": 0.523,
+        "source": "D(1,5.3507,9.0631,5.4685,9.0636,5.4685,9.2225,5.3507,9.2226)"
+       },
+       {
+        "content": "0,1",
+        "span": {
+         "offset": 1613,
+         "length": 3
+        },
+        "confidence": 0.494,
+        "source": "D(1,5.5078,9.0638,5.6833,9.0646,5.6833,9.2222,5.5078,9.2224)"
+       },
+       {
+        "content": "gem",
+        "span": {
+         "offset": 1617,
+         "length": 3
+        },
+        "confidence": 0.716,
+        "source": "D(1,5.7383,9.0648,6.0029,9.066,6.0029,9.2218,5.7383,9.2221)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 1620,
+         "length": 1
+        },
+        "confidence": 0.995,
+        "source": "D(1,6.0186,9.0661,6.0527,9.0663,6.0527,9.2217,6.0186,9.2218)"
+       },
+       {
+        "content": "DIN",
+        "span": {
+         "offset": 1622,
+         "length": 3
+        },
+        "confidence": 0.984,
+        "source": "D(1,3.2987,9.2228,3.5245,9.2233,3.5245,9.365,3.2987,9.365)"
+       },
+       {
+        "content": "EN",
+        "span": {
+         "offset": 1626,
+         "length": 2
+        },
+        "confidence": 0.992,
+        "source": "D(1,3.5757,9.2235,3.7526,9.2246,3.7526,9.365,3.5757,9.365)"
+       },
+       {
+        "content": "13969",
+        "span": {
+         "offset": 1629,
+         "length": 5
+        },
+        "confidence": 0.994,
+        "source": "D(1,3.8061,9.225,4.1925,9.2293,4.1925,9.365,3.8061,9.365)"
+       },
+       {
+        "content": "Verlegeart",
+        "span": {
+         "offset": 1636,
+         "length": 10
+        },
+        "confidence": 0.995,
+        "source": "D(1,1.7179,9.3821,2.3619,9.3821,2.3619,9.5304,1.7179,9.5304)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 1646,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(1,2.3569,9.3821,2.3969,9.3821,2.3969,9.5304,2.3569,9.5304)"
+       },
+       {
+        "content": "vollflächig",
+        "span": {
+         "offset": 1648,
+         "length": 11
+        },
+        "confidence": 0.946,
+        "source": "D(1,3.2926,9.3821,3.902,9.3821,3.902,9.5304,3.2926,9.5304)"
+       },
+       {
+        "content": "verschweißt",
+        "span": {
+         "offset": 1660,
+         "length": 11
+        },
+        "confidence": 0.992,
+        "source": "D(1,3.9421,9.3821,4.6969,9.3821,4.6969,9.5304,3.9421,9.5304)"
+       },
+       {
+        "content": "Einbauort",
+        "span": {
+         "offset": 1673,
+         "length": 9
+        },
+        "confidence": 0.998,
+        "source": "D(1,1.723,9.5404,2.3213,9.5308,2.3212,9.6791,1.721,9.6887)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 1682,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(1,2.3188,9.5309,2.3585,9.529,2.3585,9.6773,2.3187,9.6792)"
+       },
+       {
+        "content": "UG",
+        "span": {
+         "offset": 1684,
+         "length": 2
+        },
+        "confidence": 0.996,
+        "source": "D(1,3.2926,9.5267,3.4947,9.5315,3.4947,9.6797,3.2926,9.6744)"
+       },
+       {
+        "content": "Sockelbereich",
+        "span": {
+         "offset": 1687,
+         "length": 13
+        },
+        "confidence": 0.993,
+        "source": "D(1,3.5385,9.5325,4.4225,9.533,4.4225,9.6787,3.5385,9.6809)"
+       },
+       {
+        "content": "angeb",
+        "span": {
+         "offset": 1702,
+         "length": 5
+        },
+        "confidence": 0.986,
+        "source": "D(1,1.7149,10.0195,2.1014,10.0215,2.1014,10.1727,1.7149,10.1732)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 1707,
+         "length": 1
+        },
+        "confidence": 0.993,
+        "source": "D(1,2.109,10.0214,2.1344,10.0211,2.1345,10.1722,2.109,10.1726)"
+       },
+       {
+        "content": "Fabrikat",
+        "span": {
+         "offset": 1709,
+         "length": 8
+        },
+        "confidence": 0.989,
+        "source": "D(1,2.1853,10.0206,2.6911,10.0093,2.6911,10.1572,2.1853,10.1713)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 1717,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(1,2.6911,10.0093,2.7318,10.0081,2.7318,10.1558,2.6911,10.1572)"
+       },
+       {
+        "content": "17,000",
+        "span": {
+         "offset": 1720,
+         "length": 6
+        },
+        "confidence": 0.944,
+        "source": "D(1,4.3781,10.3288,4.7949,10.3288,4.7949,10.4771,4.3781,10.4771)"
+       },
+       {
+        "content": "m2",
+        "span": {
+         "offset": 1727,
+         "length": 2
+        },
+        "confidence": 0.876,
+        "source": "D(1,4.8734,10.3288,5.0842,10.3288,5.0842,10.4771,4.8734,10.4771)"
+       },
+       {
+        "content": "Druckdatum",
+        "span": {
+         "offset": 1748,
+         "length": 10
+        },
+        "confidence": 0.986,
+        "source": "D(1,0.7566,11.1789,1.3463,11.1817,1.3463,11.3009,0.7566,11.2977)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 1758,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,1.3583,11.1817,1.3862,11.1816,1.3862,11.3011,1.3583,11.301)"
+       },
+       {
+        "content": "21.4.2026",
+        "span": {
+         "offset": 1760,
+         "length": 9
+        },
+        "confidence": 0.987,
+        "source": "D(1,1.5077,11.1815,2.0317,11.1772,2.0317,11.302,1.5077,11.3015)"
+       },
+       {
+        "content": "Seite",
+        "span": {
+         "offset": 1791,
+         "length": 5
+        },
+        "confidence": 0.998,
+        "source": "D(1,7.4286,11.1787,7.6894,11.1787,7.6893,11.2934,7.4286,11.2867)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 1796,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(1,7.6931,11.1787,7.7192,11.1787,7.7191,11.293,7.693,11.2933)"
+       },
+       {
+        "content": "1",
+        "span": {
+         "offset": 1798,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(1,7.7564,11.1787,7.816,11.1787,7.816,11.2919,7.7564,11.2926)"
+       }
+      ],
+      "lines": [
+       {
+        "content": "[BILD_001]",
+        "source": "D(1,5.169,0.482,5.7299,0.4855,5.7298,0.6221,5.1681,0.6186)",
+        "span": {
+         "offset": 17,
+         "length": 10
+        }
+       },
+       {
+        "content": "[FIRMA_102]",
+        "source": "D(1,5.8227,0.2923,6.4925,0.2926,6.4925,0.4218,5.8226,0.4215)",
+        "span": {
+         "offset": 49,
+         "length": 11
+        }
+       },
+       {
+        "content": "[ADRESSE_007] ž[ORT_026]",
+        "source": "D(1,5.8227,0.4228,7.3076,0.4228,7.3076,0.561,5.8227,0.561)",
+        "span": {
+         "offset": 61,
+         "length": 24
+        }
+       },
+       {
+        "content": "Tel.[TELEFON_010] žFax.[TELEFON_063]",
+        "source": "D(1,5.8265,0.5599,7.9653,0.5576,7.9654,0.7009,5.8267,0.7031)",
+        "span": {
+         "offset": 86,
+         "length": 36
+        }
+       },
+       {
+        "content": "[EMAIL_009]",
+        "source": "D(1,5.8267,0.7008,6.4807,0.7023,6.4804,0.8374,5.8264,0.8359)",
+        "span": {
+         "offset": 123,
+         "length": 11
+        }
+       },
+       {
+        "content": "Anfrage",
+        "source": "D(1,3.9665,0.8807,4.6101,0.8879,4.6081,1.0698,3.9645,1.0626)",
+        "span": {
+         "offset": 143,
+         "length": 7
+        }
+       },
+       {
+        "content": "Projekt:",
+        "source": "D(1,0.7389,1.2362,1.264,1.2362,1.264,1.3867,0.7389,1.3867)",
+        "span": {
+         "offset": 152,
+         "length": 8
+        }
+       },
+       {
+        "content": "79-222",
+        "source": "D(1,1.719,1.2352,2.1673,1.2367,2.1668,1.3756,1.7185,1.3741)",
+        "span": {
+         "offset": 161,
+         "length": 6
+        }
+       },
+       {
+        "content": "LV:",
+        "source": "D(1,0.7379,1.4054,0.9614,1.4059,0.961,1.5383,0.7376,1.5377)",
+        "span": {
+         "offset": 169,
+         "length": 3
+        }
+       },
+       {
+        "content": "152",
+        "source": "D(1,1.7341,1.4057,1.9691,1.4057,1.9691,1.5371,1.7341,1.5371)",
+        "span": {
+         "offset": 173,
+         "length": 3
+        }
+       },
+       {
+        "content": "Ausbildungszentrum und Bürogebäude -AK Juni 21",
+        "source": "D(1,3.0907,1.2339,6.5005,1.2296,6.5008,1.3914,3.0909,1.3957)",
+        "span": {
+         "offset": 178,
+         "length": 46
+        }
+       },
+       {
+        "content": "Abdichtung Bodenplatte Büro",
+        "source": "D(1,3.0929,1.3987,5.0803,1.4001,5.0802,1.5618,3.0928,1.5604)",
+        "span": {
+         "offset": 225,
+         "length": 27
+        }
+       },
+       {
+        "content": "OZ",
+        "source": "D(1,0.742,1.7282,0.9503,1.7282,0.9503,1.8623,0.742,1.8623)",
+        "span": {
+         "offset": 254,
+         "length": 2
+        }
+       },
+       {
+        "content": "Leistungsbeschreibung",
+        "source": "D(1,1.719,1.7224,3.2954,1.7273,3.2947,1.8929,1.7182,1.8857)",
+        "span": {
+         "offset": 258,
+         "length": 21
+        }
+       },
+       {
+        "content": "Menge ME",
+        "source": "D(1,4.3498,1.7267,5.0923,1.7267,5.0923,1.8816,4.3498,1.8816)",
+        "span": {
+         "offset": 281,
+         "length": 8
+        }
+       },
+       {
+        "content": "Einheitspreis",
+        "source": "D(1,5.4191,1.7264,6.2996,1.7314,6.2988,1.8785,5.4183,1.8734)",
+        "span": {
+         "offset": 291,
+         "length": 13
+        }
+       },
+       {
+        "content": "in EUR",
+        "source": "D(1,5.8267,1.8913,6.3029,1.8914,6.3028,2.0304,5.8267,2.0303)",
+        "span": {
+         "offset": 305,
+         "length": 6
+        }
+       },
+       {
+        "content": "Gesamtbetrag",
+        "source": "D(1,6.4965,1.7272,7.4419,1.7349,7.4407,1.8817,6.4953,1.8741)",
+        "span": {
+         "offset": 313,
+         "length": 12
+        }
+       },
+       {
+        "content": "in EUR",
+        "source": "D(1,6.9727,1.8931,7.441,1.8941,7.4407,2.0311,6.9724,2.0301)",
+        "span": {
+         "offset": 326,
+         "length": 6
+        }
+       },
+       {
+        "content": "1.",
+        "source": "D(1,0.747,2.4018,0.8423,2.4018,0.8423,2.5192,0.747,2.5192)",
+        "span": {
+         "offset": 334,
+         "length": 3
+        }
+       },
+       {
+        "content": "Abdichtung Bodenplatte Büro",
+        "source": "D(1,1.7149,2.3764,3.7042,2.376,3.7043,2.5397,1.7149,2.5401)",
+        "span": {
+         "offset": 338,
+         "length": 27
+        }
+       },
+       {
+        "content": "1.1.",
+        "source": "D(1,0.7445,2.7331,0.9388,2.7333,0.9387,2.8567,0.7443,2.8565)",
+        "span": {
+         "offset": 367,
+         "length": 4
+        }
+       },
+       {
+        "content": "Abdichtung Bodenplatte Büro",
+        "source": "D(1,1.7156,2.7102,3.7042,2.7065,3.7045,2.8736,1.7159,2.8774)",
+        "span": {
+         "offset": 372,
+         "length": 27
+        }
+       },
+       {
+        "content": "1.1.10.",
+        "source": "D(1,0.7435,3.0597,1.0885,3.0597,1.0885,3.1825,0.7435,3.1825)",
+        "span": {
+         "offset": 401,
+         "length": 7
+        }
+       },
+       {
+        "content": "[FIRMA_078]",
+        "source": "D(1,1.727,3.0367,2.5523,3.037,2.5522,3.1904,1.727,3.1901)",
+        "span": {
+         "offset": 409,
+         "length": 11
+        }
+       },
+       {
+        "content": "Voranstrich unter Bodenabdichtung, vollflächig auf Betonboden, inkl.",
+        "source": "D(1,1.7199,3.1926,5.8993,3.192,5.8993,3.3538,1.72,3.3544)",
+        "span": {
+         "offset": 422,
+         "length": 68
+        }
+       },
+       {
+        "content": "Reinigung der Bodenfläche und Trocknung feuchter Stellen auf",
+        "source": "D(1,1.7219,3.3535,5.5927,3.3517,5.5927,3.5132,1.722,3.5151)",
+        "span": {
+         "offset": 491,
+         "length": 60
+        }
+       },
+       {
+        "content": "Bodenplatte.",
+        "source": "D(1,1.723,3.5175,2.4977,3.5175,2.4977,3.6705,1.723,3.6705)",
+        "span": {
+         "offset": 552,
+         "length": 12
+        }
+       },
+       {
+        "content": "Dampfsperre aus einer Lage Bitumenschweißbahn mit Glasgewebe- und",
+        "source": "D(1,1.7239,3.6715,6.1979,3.6689,6.1979,3.8287,1.724,3.8313)",
+        "span": {
+         "offset": 566,
+         "length": 65
+        }
+       },
+       {
+        "content": "Aluminiumeinlage, mit mind. 10 cm Stoßüberdeckung verlegt und",
+        "source": "D(1,1.7159,3.8249,5.7339,3.8249,5.7339,3.9841,1.7159,3.9841)",
+        "span": {
+         "offset": 632,
+         "length": 61
+        }
+       },
+       {
+        "content": "unterlaufsicher verklebt einschl. Wandaufkantung und Voranstrich an",
+        "source": "D(1,1.7179,3.9902,5.9437,3.9913,5.9437,4.1489,1.7179,4.1477)",
+        "span": {
+         "offset": 694,
+         "length": 67
+        }
+       },
+       {
+        "content": "Stützen und Stahlbetonwänden.",
+        "source": "D(1,1.7179,4.146,3.674,4.1455,3.674,4.2943,1.718,4.2949)",
+        "span": {
+         "offset": 762,
+         "length": 29
+        }
+       },
+       {
+        "content": "Abdichtung an Bodeneinläufen u.ä. in gesonderter Position.",
+        "source": "D(1,1.7138,4.3023,5.3627,4.3,5.3628,4.4621,1.7139,4.4644)",
+        "span": {
+         "offset": 793,
+         "length": 58
+        }
+       },
+       {
+        "content": "Untergrund:",
+        "source": "D(1,1.722,4.6228,2.4639,4.6252,2.4634,4.7807,1.7215,4.7783)",
+        "span": {
+         "offset": 853,
+         "length": 11
+        }
+       },
+       {
+        "content": "Stb.-Bodenplatte",
+        "source": "D(1,3.2926,4.6177,4.3392,4.6275,4.3377,4.784,3.2912,4.7741)",
+        "span": {
+         "offset": 865,
+         "length": 16
+        }
+       },
+       {
+        "content": "Material:",
+        "source": "D(1,1.719,4.9363,2.2617,4.9363,2.2617,5.0789,1.719,5.0789)",
+        "span": {
+         "offset": 883,
+         "length": 9
+        }
+       },
+       {
+        "content": "Bitumenschweißbahn mitGlasgewebe-",
+        "source": "D(1,3.2967,4.9228,5.6659,4.9317,5.6653,5.0953,3.2961,5.0864)",
+        "span": {
+         "offset": 893,
+         "length": 33
+        }
+       },
+       {
+        "content": "/Aluminiumeinlage PYP G200 S4 Al 0,1 gem.",
+        "source": "D(1,3.2866,5.0874,6.0531,5.0947,6.0527,5.2569,3.2861,5.249)",
+        "span": {
+         "offset": 927,
+         "length": 41
+        }
+       },
+       {
+        "content": "DIN EN 13969",
+        "source": "D(1,3.2947,5.2539,4.2005,5.2539,4.2005,5.3983,3.2947,5.3983)",
+        "span": {
+         "offset": 969,
+         "length": 12
+        }
+       },
+       {
+        "content": "Verlegeart:",
+        "source": "D(1,1.719,5.4208,2.399,5.4213,2.3989,5.5717,1.7188,5.5712)",
+        "span": {
+         "offset": 983,
+         "length": 11
+        }
+       },
+       {
+        "content": "vollflächig verschweißt",
+        "source": "D(1,3.2923,5.4192,4.6969,5.4156,4.6969,5.5705,3.2927,5.5741)",
+        "span": {
+         "offset": 995,
+         "length": 23
+        }
+       },
+       {
+        "content": "Einbauort:",
+        "source": "D(1,1.723,5.5723,2.3585,5.5723,2.3585,5.7179,1.723,5.7179)",
+        "span": {
+         "offset": 1020,
+         "length": 10
+        }
+       },
+       {
+        "content": "UG Büro",
+        "source": "D(1,3.2926,5.5727,3.8456,5.5731,3.8455,5.7132,3.2925,5.7128)",
+        "span": {
+         "offset": 1031,
+         "length": 7
+        }
+       },
+       {
+        "content": "angeb. Fabrikat:",
+        "source": "D(1,1.7169,6.0483,2.728,6.0503,2.7277,6.208,1.7166,6.206)",
+        "span": {
+         "offset": 1040,
+         "length": 16
+        }
+       },
+       {
+        "content": "280,000 m2",
+        "source": "D(1,4.2888,6.3578,5.0802,6.3555,5.0806,6.5165,4.2893,6.5188)",
+        "span": {
+         "offset": 1058,
+         "length": 10
+        }
+       },
+       {
+        "content": "1.1.15.",
+        "source": "D(1,0.7435,6.7015,1.0915,6.7015,1.0915,6.827,0.7435,6.827)",
+        "span": {
+         "offset": 1070,
+         "length": 7
+        }
+       },
+       {
+        "content": "Abdichtung an Bodeneinläufen",
+        "source": "D(1,1.7179,6.6787,3.7789,6.6787,3.7789,6.8384,1.7179,6.8384)",
+        "span": {
+         "offset": 1078,
+         "length": 28
+        }
+       },
+       {
+        "content": "Abdichtung an aufgehenden PVC-Grundrohren aus Bodenplatte,",
+        "source": "D(1,1.7158,6.8413,5.6774,6.8384,5.6776,7.0004,1.7159,7.0047)",
+        "span": {
+         "offset": 1108,
+         "length": 58
+        }
+       },
+       {
+        "content": "Abdichtung den Richtlinien entsprechend an die Bodenabläufen",
+        "source": "D(1,1.7139,6.996,5.6209,6.9966,5.6209,7.1576,1.7139,7.157)",
+        "span": {
+         "offset": 1167,
+         "length": 60
+        }
+       },
+       {
+        "content": "anarbeiten und abdichten.",
+        "source": "D(1,1.7178,7.1659,3.3249,7.1622,3.3253,7.3113,1.7179,7.315)",
+        "span": {
+         "offset": 1228,
+         "length": 25
+        }
+       },
+       {
+        "content": "17,000 Stk",
+        "source": "D(1,4.3774,7.477,5.0882,7.4696,5.0898,7.6193,4.3781,7.6267)",
+        "span": {
+         "offset": 1255,
+         "length": 10
+        }
+       },
+       {
+        "content": "1.1.20.",
+        "source": "D(1,0.7419,7.8169,1.0905,7.8097,1.0931,7.9379,0.743,7.9448)",
+        "span": {
+         "offset": 1267,
+         "length": 7
+        }
+       },
+       {
+        "content": "Abdichtung Sockelbereich Fassade",
+        "source": "D(1,1.7178,7.795,4.0694,7.7908,4.0697,7.9518,1.7179,7.9561)",
+        "span": {
+         "offset": 1275,
+         "length": 32
+        }
+       },
+       {
+        "content": "Abdichtung des vertikalen Sockelbereichs mit Bitumenbahn einschl.",
+        "source": "D(1,1.7158,7.9553,5.8711,7.9507,5.8712,8.1096,1.7159,8.1141)",
+        "span": {
+         "offset": 1309,
+         "length": 65
+        }
+       },
+       {
+        "content": "Voranstrich (Stirnseite Bodenplatte und Fassadenblech) gem. Detail",
+        "source": "D(1,1.7159,8.1102,5.8872,8.1102,5.8872,8.2704,1.7159,8.2704)",
+        "span": {
+         "offset": 1375,
+         "length": 66
+        }
+       },
+       {
+        "content": "ABS_KAS-S_8_MET_SCN_BÜ_UG_104_0_F",
+        "source": "D(1,1.7159,8.2682,4.5597,8.2697,4.5597,8.4294,1.7158,8.428)",
+        "span": {
+         "offset": 1442,
+         "length": 33
+        }
+       },
+       {
+        "content": "Untergrund:",
+        "source": "D(1,1.722,8.5931,2.464,8.5956,2.4634,8.7502,1.7215,8.7477)",
+        "span": {
+         "offset": 1477,
+         "length": 11
+        }
+       },
+       {
+        "content": "Stb.-Bodenplatte / [PERSON_095] Blech Fassade",
+        "source": "D(1,3.2926,8.5891,6.3674,8.5891,6.3674,8.7497,3.2926,8.7497)",
+        "span": {
+         "offset": 1489,
+         "length": 45
+        }
+       },
+       {
+        "content": "Material:",
+        "source": "D(1,1.719,8.9087,2.2617,8.9087,2.2617,9.0456,1.719,9.0456)",
+        "span": {
+         "offset": 1536,
+         "length": 9
+        }
+       },
+       {
+        "content": "Bitumenschweißbahn mitGlasgewebe-",
+        "source": "D(1,3.2947,8.9024,5.6653,8.9024,5.6653,9.0632,3.2947,9.0632)",
+        "span": {
+         "offset": 1546,
+         "length": 33
+        }
+       },
+       {
+        "content": "/Aluminiumeinlage PYP G200 S4 Al 0,1 gem.",
+        "source": "D(1,3.2866,9.0621,6.0527,9.0621,6.0527,9.2229,3.2866,9.2229)",
+        "span": {
+         "offset": 1580,
+         "length": 41
+        }
+       },
+       {
+        "content": "DIN EN 13969",
+        "source": "D(1,3.2987,9.2228,4.1925,9.2228,4.1925,9.365,3.2987,9.365)",
+        "span": {
+         "offset": 1622,
+         "length": 12
+        }
+       },
+       {
+        "content": "Verlegeart:",
+        "source": "D(1,1.7179,9.3821,2.3969,9.3821,2.3969,9.5304,1.7179,9.5304)",
+        "span": {
+         "offset": 1636,
+         "length": 11
+        }
+       },
+       {
+        "content": "vollflächig verschweißt",
+        "source": "D(1,3.2926,9.3821,4.6969,9.3821,4.6969,9.5304,3.2926,9.5304)",
+        "span": {
+         "offset": 1648,
+         "length": 23
+        }
+       },
+       {
+        "content": "Einbauort:",
+        "source": "D(1,1.7183,9.5405,2.3585,9.529,2.3613,9.6836,1.7211,9.6951)",
+        "span": {
+         "offset": 1673,
+         "length": 10
+        }
+       },
+       {
+        "content": "UG Sockelbereich",
+        "source": "D(1,3.2926,9.5267,4.423,9.533,4.4224,9.6885,3.2918,9.6822)",
+        "span": {
+         "offset": 1684,
+         "length": 16
+        }
+       },
+       {
+        "content": "angeb. Fabrikat:",
+        "source": "D(1,1.7132,10.0195,2.7318,10.0081,2.7335,10.1659,1.715,10.1749)",
+        "span": {
+         "offset": 1702,
+         "length": 16
+        }
+       },
+       {
+        "content": "17,000 m2",
+        "source": "D(1,4.3781,10.3288,5.0842,10.3288,5.0842,10.4771,4.3781,10.4771)",
+        "span": {
+         "offset": 1720,
+         "length": 9
+        }
+       },
+       {
+        "content": "Druckdatum: 21.4.2026",
+        "source": "D(1,0.7566,11.1772,2.0317,11.1772,2.0317,11.302,0.7566,11.302)",
+        "span": {
+         "offset": 1748,
+         "length": 21
+        }
+       },
+       {
+        "content": "Seite: 1",
+        "source": "D(1,7.4286,11.1787,7.816,11.1787,7.816,11.2934,7.4286,11.2934)",
+        "span": {
+         "offset": 1791,
+         "length": 8
+        }
+       }
+      ]
+     },
+     {
+      "pageNumber": 2,
+      "angle": 0,
+      "width": 8.2639,
+      "height": 11.6806,
+      "spans": [
+       {
+        "offset": 1824,
+        "length": 702
+       }
+      ],
+      "words": [
+       {
+        "content": "[",
+        "span": {
+         "offset": 1842,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(2,5.169,0.4819,5.2064,0.4821,5.2064,0.6177,5.169,0.6174)"
+       },
+       {
+        "content": "BILD_001",
+        "span": {
+         "offset": 1843,
+         "length": 8
+        },
+        "confidence": 0.932,
+        "source": "D(2,5.2064,0.4821,5.6784,0.4825,5.6784,0.6194,5.2064,0.6177)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 1851,
+         "length": 1
+        },
+        "confidence": 0.996,
+        "source": "D(2,5.6878,0.4824,5.7298,0.4822,5.7298,0.6192,5.6878,0.6194)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 1862,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(2,5.8227,0.2922,5.8606,0.2922,5.8606,0.4184,5.8227,0.4183)"
+       },
+       {
+        "content": "FIRMA_102",
+        "span": {
+         "offset": 1863,
+         "length": 9
+        },
+        "confidence": 0.878,
+        "source": "D(2,5.8627,0.2922,6.4481,0.2927,6.4481,0.4205,5.8627,0.4184)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 1872,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(2,6.446,0.2927,6.4965,0.2928,6.4965,0.4207,6.446,0.4205)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 1874,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(2,5.8227,0.4252,5.8589,0.4251,5.8589,0.5575,5.8227,0.5573)"
+       },
+       {
+        "content": "ADRESSE_007",
+        "span": {
+         "offset": 1875,
+         "length": 11
+        },
+        "confidence": 0.877,
+        "source": "D(2,5.8498,0.4251,6.6308,0.4228,6.6308,0.5605,5.8498,0.5575)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 1886,
+         "length": 1
+        },
+        "confidence": 0.994,
+        "source": "D(2,6.6308,0.4228,6.6624,0.4228,6.6624,0.5605,6.6308,0.5605)"
+       },
+       {
+        "content": "ž",
+        "span": {
+         "offset": 1888,
+         "length": 1
+        },
+        "confidence": 0.979,
+        "source": "D(2,6.6941,0.4227,6.7462,0.4226,6.7462,0.5606,6.6941,0.5606)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 1889,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(2,6.753,0.4226,6.7824,0.4225,6.7824,0.5607,6.753,0.5606)"
+       },
+       {
+        "content": "ORT_026",
+        "span": {
+         "offset": 1890,
+         "length": 7
+        },
+        "confidence": 0.954,
+        "source": "D(2,6.7847,0.4225,7.2623,0.4219,7.2623,0.5598,6.7847,0.5607)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 1897,
+         "length": 1
+        },
+        "confidence": 0.995,
+        "source": "D(2,7.2646,0.4219,7.3076,0.4219,7.3076,0.5597,7.2646,0.5597)"
+       },
+       {
+        "content": "Tel",
+        "span": {
+         "offset": 1899,
+         "length": 3
+        },
+        "confidence": 0.994,
+        "source": "D(2,5.8267,0.5602,5.9744,0.56,5.9744,0.6963,5.8267,0.6955)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 1902,
+         "length": 1
+        },
+        "confidence": 0.994,
+        "source": "D(2,5.9815,0.5599,6.0049,0.5599,6.0049,0.6965,5.9815,0.6963)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 1903,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(2,6.0143,0.5599,6.0448,0.5598,6.0448,0.6967,6.0143,0.6965)"
+       },
+       {
+        "content": "TELEFON_010",
+        "span": {
+         "offset": 1904,
+         "length": 11
+        },
+        "confidence": 0.918,
+        "source": "D(2,6.0448,0.5598,6.7975,0.5587,6.7975,0.6998,6.0448,0.6967)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 1915,
+         "length": 1
+        },
+        "confidence": 0.99,
+        "source": "D(2,6.7952,0.5587,6.828,0.5586,6.828,0.6998,6.7952,0.6998)"
+       },
+       {
+        "content": "žFax",
+        "span": {
+         "offset": 1917,
+         "length": 4
+        },
+        "confidence": 0.955,
+        "source": "D(2,6.8561,0.5586,7.1047,0.5584,7.1047,0.7004,6.8561,0.6999)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 1921,
+         "length": 1
+        },
+        "confidence": 0.993,
+        "source": "D(2,7.1023,0.5584,7.1258,0.5584,7.1258,0.7005,7.1023,0.7004)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 1922,
+         "length": 1
+        },
+        "confidence": 0.995,
+        "source": "D(2,7.1258,0.5584,7.1539,0.5584,7.1539,0.7005,7.1258,0.7005)"
+       },
+       {
+        "content": "TELEFON_063",
+        "span": {
+         "offset": 1923,
+         "length": 11
+        },
+        "confidence": 0.878,
+        "source": "D(2,7.1563,0.5584,7.9137,0.5586,7.9137,0.7001,7.1563,0.7005)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 1934,
+         "length": 1
+        },
+        "confidence": 0.992,
+        "source": "D(2,7.916,0.5586,7.9653,0.5586,7.9653,0.7,7.916,0.7001)"
+       },
+       {
+        "content": "[",
+        "span": {
+         "offset": 1936,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(2,5.8227,0.7008,5.8594,0.701,5.8594,0.8326,5.8227,0.8321)"
+       },
+       {
+        "content": "EMAIL_009",
+        "span": {
+         "offset": 1937,
+         "length": 9
+        },
+        "confidence": 0.893,
+        "source": "D(2,5.8594,0.701,6.4328,0.7028,6.4328,0.8369,5.8594,0.8326)"
+       },
+       {
+        "content": "]",
+        "span": {
+         "offset": 1946,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(2,6.4328,0.7028,6.4804,0.7029,6.4804,0.837,6.4328,0.8369)"
+       },
+       {
+        "content": "Anfrage",
+        "span": {
+         "offset": 1973,
+         "length": 7
+        },
+        "confidence": 0.995,
+        "source": "D(2,3.9645,0.8788,4.6121,0.8883,4.6121,1.0705,3.9625,1.0649)"
+       },
+       {
+        "content": "Projekt",
+        "span": {
+         "offset": 1982,
+         "length": 7
+        },
+        "confidence": 0.999,
+        "source": "D(2,0.7379,1.2358,1.2134,1.2353,1.2134,1.3875,0.7374,1.3871)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 1989,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(2,1.2159,1.2353,1.264,1.2353,1.264,1.3876,1.2159,1.3875)"
+       },
+       {
+        "content": "79-222",
+        "span": {
+         "offset": 1991,
+         "length": 6
+        },
+        "confidence": 0.995,
+        "source": "D(2,1.719,1.2345,2.1669,1.2339,2.1669,1.3747,1.719,1.3737)"
+       },
+       {
+        "content": "LV",
+        "span": {
+         "offset": 1999,
+         "length": 2
+        },
+        "confidence": 0.989,
+        "source": "D(2,0.7379,1.4041,0.9148,1.4056,0.9144,1.5382,0.7379,1.5376)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 2001,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(2,0.9102,1.4056,0.9614,1.405,0.9609,1.537,0.9098,1.5383)"
+       },
+       {
+        "content": "152",
+        "span": {
+         "offset": 2004,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(2,1.7321,1.4046,1.9691,1.4052,1.9691,1.537,1.7321,1.5383)"
+       },
+       {
+        "content": "Ausbildungszentrum",
+        "span": {
+         "offset": 2009,
+         "length": 18
+        },
+        "confidence": 0.994,
+        "source": "D(2,3.0929,1.2301,4.4678,1.2311,4.4678,1.3944,3.0929,1.3929)"
+       },
+       {
+        "content": "und",
+        "span": {
+         "offset": 2028,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(2,4.5137,1.2311,4.7536,1.231,4.7536,1.394,4.5137,1.3943)"
+       },
+       {
+        "content": "Bürogebäude",
+        "span": {
+         "offset": 2032,
+         "length": 11
+        },
+        "confidence": 0.991,
+        "source": "D(2,4.8102,1.2309,5.6999,1.2298,5.6999,1.3919,4.8102,1.3939)"
+       },
+       {
+        "content": "-",
+        "span": {
+         "offset": 2044,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(2,5.7376,1.2297,5.7834,1.2296,5.7834,1.3916,5.7376,1.3918)"
+       },
+       {
+        "content": "AK",
+        "span": {
+         "offset": 2045,
+         "length": 2
+        },
+        "confidence": 0.991,
+        "source": "D(2,5.778,1.2296,5.9829,1.2292,5.9829,1.3908,5.778,1.3916)"
+       },
+       {
+        "content": "Juni",
+        "span": {
+         "offset": 2048,
+         "length": 4
+        },
+        "confidence": 0.943,
+        "source": "D(2,6.0153,1.2291,6.293,1.2284,6.293,1.3896,6.0153,1.3907)"
+       },
+       {
+        "content": "21",
+        "span": {
+         "offset": 2053,
+         "length": 2
+        },
+        "confidence": 0.997,
+        "source": "D(2,6.3334,1.2283,6.5005,1.228,6.5005,1.3888,6.3334,1.3894)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 2056,
+         "length": 10
+        },
+        "confidence": 0.995,
+        "source": "D(2,3.0929,1.3967,3.8624,1.3968,3.8624,1.5619,3.0929,1.5599)"
+       },
+       {
+        "content": "Bodenplatte",
+        "span": {
+         "offset": 2067,
+         "length": 11
+        },
+        "confidence": 0.996,
+        "source": "D(2,3.911,1.3968,4.7049,1.3972,4.7049,1.5593,3.911,1.5619)"
+       },
+       {
+        "content": "Büro",
+        "span": {
+         "offset": 2079,
+         "length": 4
+        },
+        "confidence": 0.998,
+        "source": "D(2,4.7535,1.3973,5.0802,1.3975,5.0802,1.557,4.7535,1.559)"
+       },
+       {
+        "content": "OZ",
+        "span": {
+         "offset": 2085,
+         "length": 2
+        },
+        "confidence": 0.983,
+        "source": "D(2,0.742,1.7268,0.9503,1.7284,0.9498,1.864,0.742,1.8656)"
+       },
+       {
+        "content": "Leistungsbeschreibung",
+        "span": {
+         "offset": 2089,
+         "length": 21
+        },
+        "confidence": 0.985,
+        "source": "D(2,1.719,1.7235,3.2967,1.7268,3.2967,1.8916,1.719,1.8869)"
+       },
+       {
+        "content": "Menge",
+        "span": {
+         "offset": 2112,
+         "length": 5
+        },
+        "confidence": 0.999,
+        "source": "D(2,4.3498,1.7276,4.7933,1.7253,4.7933,1.8823,4.3498,1.884)"
+       },
+       {
+        "content": "ME",
+        "span": {
+         "offset": 2118,
+         "length": 2
+        },
+        "confidence": 0.998,
+        "source": "D(2,4.8706,1.7256,5.0923,1.7279,5.0923,1.8821,4.8706,1.8822)"
+       },
+       {
+        "content": "Einheitspreis",
+        "span": {
+         "offset": 2122,
+         "length": 13
+        },
+        "confidence": 0.992,
+        "source": "D(2,5.4191,1.7256,6.2988,1.7316,6.2988,1.8785,5.4191,1.8758)"
+       },
+       {
+        "content": "in",
+        "span": {
+         "offset": 2136,
+         "length": 2
+        },
+        "confidence": 0.998,
+        "source": "D(2,5.8267,1.8937,5.956,1.8925,5.956,2.0294,5.8267,2.0304)"
+       },
+       {
+        "content": "EUR",
+        "span": {
+         "offset": 2139,
+         "length": 3
+        },
+        "confidence": 0.998,
+        "source": "D(2,5.9952,1.8921,6.3069,1.8917,6.3069,2.0301,5.9952,2.0292)"
+       },
+       {
+        "content": "Gesamtbetrag",
+        "span": {
+         "offset": 2144,
+         "length": 12
+        },
+        "confidence": 0.998,
+        "source": "D(2,6.4925,1.7254,7.4367,1.7342,7.4367,1.8822,6.4925,1.8724)"
+       },
+       {
+        "content": "in",
+        "span": {
+         "offset": 2157,
+         "length": 2
+        },
+        "confidence": 0.998,
+        "source": "D(2,6.9727,1.8951,7.0942,1.8947,7.0942,2.0302,6.9727,2.0305)"
+       },
+       {
+        "content": "EUR",
+        "span": {
+         "offset": 2160,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(2,7.1392,1.8946,7.4407,1.8951,7.4407,2.0305,7.1392,2.0301)"
+       },
+       {
+        "content": "Summe",
+        "span": {
+         "offset": 2165,
+         "length": 5
+        },
+        "confidence": 0.982,
+        "source": "D(2,0.8136,2.3789,1.3167,2.3785,1.316,2.5238,0.8136,2.5238)"
+       },
+       {
+        "content": "1.1",
+        "span": {
+         "offset": 2171,
+         "length": 3
+        },
+        "confidence": 0.963,
+        "source": "D(2,1.3581,2.3784,1.5088,2.3782,1.5078,2.5238,1.3573,2.5238)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 2174,
+         "length": 1
+        },
+        "confidence": 0.994,
+        "source": "D(2,1.5185,2.3782,1.5525,2.3781,1.5515,2.5238,1.5175,2.5238)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 2177,
+         "length": 10
+        },
+        "confidence": 0.995,
+        "source": "D(2,2.3484,2.3709,3.1095,2.3703,3.1094,2.5354,2.3484,2.5348)"
+       },
+       {
+        "content": "Bodenplatte",
+        "span": {
+         "offset": 2188,
+         "length": 11
+        },
+        "confidence": 0.995,
+        "source": "D(2,3.1618,2.3704,3.9587,2.3713,3.9587,2.535,3.1618,2.5354)"
+       },
+       {
+        "content": "Büro",
+        "span": {
+         "offset": 2200,
+         "length": 4
+        },
+        "confidence": 0.997,
+        "source": "D(2,4.0028,2.3714,4.3337,2.3721,4.3337,2.5345,4.0028,2.5349)"
+       },
+       {
+        "content": "Summe",
+        "span": {
+         "offset": 2206,
+         "length": 5
+        },
+        "confidence": 0.99,
+        "source": "D(2,0.8161,2.8525,1.3201,2.8501,1.3201,2.9933,0.8161,2.9944)"
+       },
+       {
+        "content": "1",
+        "span": {
+         "offset": 2212,
+         "length": 1
+        },
+        "confidence": 0.996,
+        "source": "D(2,1.3627,2.8508,1.41,2.8515,1.41,2.995,1.3627,2.9941)"
+       },
+       {
+        "content": ".",
+        "span": {
+         "offset": 2213,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(2,1.4218,2.8516,1.4597,2.8522,1.4597,2.9959,1.4218,2.9952)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 2216,
+         "length": 10
+        },
+        "confidence": 0.994,
+        "source": "D(2,2.3464,2.8419,3.111,2.8427,3.111,3.0078,2.3464,3.0062)"
+       },
+       {
+        "content": "Bodenplatte",
+        "span": {
+         "offset": 2227,
+         "length": 11
+        },
+        "confidence": 0.995,
+        "source": "D(2,3.1606,2.8427,3.9583,2.8437,3.9583,3.0073,3.1606,3.0078)"
+       },
+       {
+        "content": "Büro",
+        "span": {
+         "offset": 2239,
+         "length": 4
+        },
+        "confidence": 0.997,
+        "source": "D(2,4.0025,2.8437,4.3337,2.8442,4.3337,3.0065,4.0025,3.0072)"
+       },
+       {
+        "content": "Summe",
+        "span": {
+         "offset": 2245,
+         "length": 5
+        },
+        "confidence": 0.997,
+        "source": "D(2,1.7179,3.3227,2.2228,3.325,2.2228,3.4711,1.7179,3.4682)"
+       },
+       {
+        "content": "LV",
+        "span": {
+         "offset": 2251,
+         "length": 2
+        },
+        "confidence": 0.985,
+        "source": "D(2,2.2641,3.3247,2.417,3.3236,2.417,3.4707,2.2641,3.471)"
+       },
+       {
+        "content": "152",
+        "span": {
+         "offset": 2254,
+         "length": 3
+        },
+        "confidence": 0.992,
+        "source": "D(2,3.105,3.3169,3.3271,3.3167,3.3271,3.48,3.105,3.4792)"
+       },
+       {
+        "content": "Abdichtung",
+        "span": {
+         "offset": 2258,
+         "length": 10
+        },
+        "confidence": 0.989,
+        "source": "D(2,3.36,3.3167,4.125,3.3165,4.125,3.482,3.36,3.4802)"
+       },
+       {
+        "content": "Bodenplatte",
+        "span": {
+         "offset": 2269,
+         "length": 11
+        },
+        "confidence": 0.997,
+        "source": "D(2,4.1716,3.3165,4.975,3.3183,4.975,3.4806,4.1716,3.482)"
+       },
+       {
+        "content": "Büro",
+        "span": {
+         "offset": 2281,
+         "length": 4
+        },
+        "confidence": 0.998,
+        "source": "D(2,5.0189,3.3184,5.3425,3.3195,5.3425,3.4792,5.0189,3.4804)"
+       },
+       {
+        "content": "Zuzüglich",
+        "span": {
+         "offset": 2287,
+         "length": 9
+        },
+        "confidence": 0.997,
+        "source": "D(2,1.7159,3.8072,2.3093,3.8084,2.3093,3.9681,1.7159,3.9666)"
+       },
+       {
+        "content": "der",
+        "span": {
+         "offset": 2297,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(2,2.3468,3.8084,2.5553,3.8089,2.5553,3.9687,2.3468,3.9682)"
+       },
+       {
+        "content": "gesetzlichen",
+        "span": {
+         "offset": 2301,
+         "length": 12
+        },
+        "confidence": 0.998,
+        "source": "D(2,2.5847,3.8089,3.3492,3.8099,3.3492,3.9696,2.5847,3.9688)"
+       },
+       {
+        "content": "Mehrwertsteuer",
+        "span": {
+         "offset": 2314,
+         "length": 14
+        },
+        "confidence": 0.997,
+        "source": "D(2,3.3973,3.81,4.3569,3.8106,4.3569,3.9694,3.3973,3.9697)"
+       },
+       {
+        "content": "aus",
+        "span": {
+         "offset": 2329,
+         "length": 3
+        },
+        "confidence": 0.998,
+        "source": "D(2,4.389,3.8107,4.6242,3.8108,4.6242,3.9691,4.389,3.9693)"
+       },
+       {
+        "content": "in",
+        "span": {
+         "offset": 2333,
+         "length": 2
+        },
+        "confidence": 0.996,
+        "source": "D(2,1.7179,3.9688,1.8249,3.97,1.8249,4.1239,1.7179,4.1228)"
+       },
+       {
+        "content": "Höhe",
+        "span": {
+         "offset": 2336,
+         "length": 4
+        },
+        "confidence": 0.993,
+        "source": "D(2,1.8745,3.9705,2.1981,3.9734,2.1981,4.1274,1.8745,4.1245)"
+       },
+       {
+        "content": "von",
+        "span": {
+         "offset": 2341,
+         "length": 3
+        },
+        "confidence": 0.993,
+        "source": "D(2,2.2346,3.9733,2.4564,3.9728,2.4564,4.1268,2.2346,4.1273)"
+       },
+       {
+        "content": "19,00",
+        "span": {
+         "offset": 2345,
+         "length": 5
+        },
+        "confidence": 0.935,
+        "source": "D(2,2.5086,3.9727,2.8478,3.9684,2.8478,4.1223,2.5086,4.1267)"
+       },
+       {
+        "content": "%",
+        "span": {
+         "offset": 2351,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(2,2.8791,3.9679,3.0122,3.9658,3.0122,4.1198,2.8791,4.1219)"
+       },
+       {
+        "content": "EUR",
+        "span": {
+         "offset": 2354,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(2,7.1381,3.8156,7.4367,3.8185,7.4367,3.9541,7.1381,3.9495)"
+       },
+       {
+        "content": "EUR",
+        "span": {
+         "offset": 2358,
+         "length": 3
+        },
+        "confidence": 0.998,
+        "source": "D(2,7.1341,3.9694,7.4367,3.9734,7.4367,4.1092,7.1341,4.1064)"
+       },
+       {
+        "content": "EUR",
+        "span": {
+         "offset": 2363,
+         "length": 3
+        },
+        "confidence": 0.999,
+        "source": "D(2,7.1381,4.2878,7.4448,4.2894,7.4448,4.423,7.1381,4.423)"
+       },
+       {
+        "content": "(",
+        "span": {
+         "offset": 2368,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(2,1.6383,5.7086,1.6943,5.7091,1.6943,5.8802,1.6383,5.8797)"
+       },
+       {
+        "content": "Ort",
+        "span": {
+         "offset": 2369,
+         "length": 3
+        },
+        "confidence": 0.997,
+        "source": "D(2,1.6836,5.709,1.8889,5.7048,1.8889,5.8759,1.6836,5.8801)"
+       },
+       {
+        "content": ")",
+        "span": {
+         "offset": 2372,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(2,1.8836,5.705,1.9368,5.7023,1.9368,5.8734,1.8836,5.8761)"
+       },
+       {
+        "content": "(",
+        "span": {
+         "offset": 2375,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(2,3.2442,5.712,3.2974,5.712,3.2974,5.8771,3.2442,5.878)"
+       },
+       {
+        "content": "Datum",
+        "span": {
+         "offset": 2376,
+         "length": 5
+        },
+        "confidence": 0.997,
+        "source": "D(2,3.2921,5.712,3.6882,5.712,3.6882,5.8746,3.2921,5.8772)"
+       },
+       {
+        "content": ")",
+        "span": {
+         "offset": 2381,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(2,3.7015,5.712,3.7547,5.712,3.7547,5.8749,3.7015,5.8747)"
+       },
+       {
+        "content": "(",
+        "span": {
+         "offset": 2384,
+         "length": 1
+        },
+        "confidence": 0.998,
+        "source": "D(2,4.9995,5.7071,5.0508,5.7072,5.0508,5.8802,4.9995,5.8802)"
+       },
+       {
+        "content": "rechtsgültige",
+        "span": {
+         "offset": 2385,
+         "length": 13
+        },
+        "confidence": 0.997,
+        "source": "D(2,5.048,5.7072,5.8263,5.7082,5.8263,5.8802,5.048,5.8802)"
+       },
+       {
+        "content": "Unterschrift",
+        "span": {
+         "offset": 2399,
+         "length": 12
+        },
+        "confidence": 0.996,
+        "source": "D(2,5.872,5.7082,6.5905,5.7067,6.5905,5.8802,5.872,5.8802)"
+       },
+       {
+        "content": ")",
+        "span": {
+         "offset": 2411,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(2,6.5848,5.7068,6.6418,5.7066,6.6418,5.8802,6.5848,5.8802)"
+       },
+       {
+        "content": "Das",
+        "span": {
+         "offset": 2414,
+         "length": 3
+        },
+        "confidence": 0.997,
+        "source": "D(2,0.7349,6.1768,0.9787,6.177,0.9796,6.3367,0.7359,6.3365)"
+       },
+       {
+        "content": "LV",
+        "span": {
+         "offset": 2418,
+         "length": 2
+        },
+        "confidence": 0.988,
+        "source": "D(2,1.0243,6.1771,1.1824,6.1772,1.1832,6.3369,1.0252,6.3368)"
+       },
+       {
+        "content": "besteht",
+        "span": {
+         "offset": 2421,
+         "length": 7
+        },
+        "confidence": 0.995,
+        "source": "D(2,1.2199,6.1773,1.6808,6.1775,1.6814,6.3372,1.2207,6.337)"
+       },
+       {
+        "content": "aus",
+        "span": {
+         "offset": 2429,
+         "length": 3
+        },
+        "confidence": 0.998,
+        "source": "D(2,1.7129,6.1775,1.9327,6.1774,1.9332,6.3371,1.7135,6.3372)"
+       },
+       {
+        "content": "den",
+        "span": {
+         "offset": 2433,
+         "length": 3
+        },
+        "confidence": 0.998,
+        "source": "D(2,1.9702,6.1774,2.2006,6.1774,2.201,6.3371,1.9707,6.3371)"
+       },
+       {
+        "content": "Seiten",
+        "span": {
+         "offset": 2437,
+         "length": 6
+        },
+        "confidence": 0.957,
+        "source": "D(2,2.2435,6.1773,2.6293,6.1769,2.6295,6.3366,2.2438,6.337)"
+       },
+       {
+        "content": "1",
+        "span": {
+         "offset": 2444,
+         "length": 1
+        },
+        "confidence": 0.937,
+        "source": "D(2,2.6856,6.1768,2.7365,6.1767,2.7367,6.3364,2.6858,6.3365)"
+       },
+       {
+        "content": "bis",
+        "span": {
+         "offset": 2446,
+         "length": 3
+        },
+        "confidence": 0.813,
+        "source": "D(2,2.7901,6.1767,2.9616,6.1764,2.9617,6.3361,2.7902,6.3364)"
+       },
+       {
+        "content": "2",
+        "span": {
+         "offset": 2450,
+         "length": 1
+        },
+        "confidence": 0.962,
+        "source": "D(2,2.9964,6.1764,3.0929,6.1763,3.0929,6.336,2.9965,6.3361)"
+       },
+       {
+        "content": "Druckdatum",
+        "span": {
+         "offset": 2470,
+         "length": 10
+        },
+        "confidence": 0.988,
+        "source": "D(2,0.7551,11.1753,1.351,11.1755,1.3511,11.2971,0.7551,11.3003)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 2480,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(2,1.3653,11.1756,1.3939,11.1757,1.3939,11.2972,1.3653,11.2972)"
+       },
+       {
+        "content": "21.4.2026",
+        "span": {
+         "offset": 2482,
+         "length": 9
+        },
+        "confidence": 0.989,
+        "source": "D(2,1.5184,11.1762,2.0286,11.1805,2.0286,11.3046,1.5184,11.2977)"
+       },
+       {
+        "content": "Seite",
+        "span": {
+         "offset": 2513,
+         "length": 5
+        },
+        "confidence": 0.998,
+        "source": "D(2,7.4286,11.173,7.6883,11.173,7.6883,11.287,7.4286,11.287)"
+       },
+       {
+        "content": ":",
+        "span": {
+         "offset": 2518,
+         "length": 1
+        },
+        "confidence": 0.999,
+        "source": "D(2,7.6921,11.173,7.7184,11.173,7.7184,11.287,7.6921,11.287)"
+       },
+       {
+        "content": "2",
+        "span": {
+         "offset": 2520,
+         "length": 1
+        },
+        "confidence": 0.997,
+        "source": "D(2,7.7485,11.173,7.82,11.173,7.82,11.287,7.7485,11.287)"
+       }
+      ],
+      "lines": [
+       {
+        "content": "[BILD_001]",
+        "source": "D(2,5.169,0.4819,5.7299,0.4822,5.7298,0.62,5.1689,0.6197)",
+        "span": {
+         "offset": 1842,
+         "length": 10
+        }
+       },
+       {
+        "content": "[FIRMA_102]",
+        "source": "D(2,5.8227,0.2916,6.4967,0.2928,6.4965,0.4207,5.8224,0.4195)",
+        "span": {
+         "offset": 1862,
+         "length": 11
+        }
+       },
+       {
+        "content": "[ADRESSE_007] ž[ORT_026]",
+        "source": "D(2,5.8225,0.4236,7.3076,0.4219,7.3077,0.5602,5.8227,0.5619)",
+        "span": {
+         "offset": 1874,
+         "length": 24
+        }
+       },
+       {
+        "content": "Tel.[TELEFON_010] žFax.[TELEFON_063]",
+        "source": "D(2,5.8267,0.5583,7.9653,0.5583,7.9653,0.7007,5.8267,0.7007)",
+        "span": {
+         "offset": 1899,
+         "length": 36
+        }
+       },
+       {
+        "content": "[EMAIL_009]",
+        "source": "D(2,5.8227,0.7008,6.4808,0.7029,6.4804,0.8371,5.8222,0.835)",
+        "span": {
+         "offset": 1936,
+         "length": 11
+        }
+       },
+       {
+        "content": "Anfrage",
+        "source": "D(2,3.9641,0.8784,4.6137,0.884,4.6121,1.0705,3.9625,1.0649)",
+        "span": {
+         "offset": 1973,
+         "length": 7
+        }
+       },
+       {
+        "content": "Projekt:",
+        "source": "D(2,0.7374,1.2353,1.264,1.2353,1.264,1.3876,0.7374,1.3876)",
+        "span": {
+         "offset": 1982,
+         "length": 8
+        }
+       },
+       {
+        "content": "79-222",
+        "source": "D(2,1.719,1.2339,2.1669,1.2339,2.1669,1.3747,1.719,1.3747)",
+        "span": {
+         "offset": 1991,
+         "length": 6
+        }
+       },
+       {
+        "content": "LV:",
+        "source": "D(2,0.7379,1.4041,0.9614,1.4049,0.9608,1.5397,0.7374,1.5388)",
+        "span": {
+         "offset": 1999,
+         "length": 3
+        }
+       },
+       {
+        "content": "152",
+        "source": "D(2,1.7321,1.4044,1.9691,1.4044,1.9691,1.5387,1.7321,1.5387)",
+        "span": {
+         "offset": 2004,
+         "length": 3
+        }
+       },
+       {
+        "content": "Ausbildungszentrum und Bürogebäude -AK Juni 21",
+        "source": "D(2,3.0928,1.2301,6.5005,1.228,6.5007,1.3932,3.0929,1.3954)",
+        "span": {
+         "offset": 2009,
+         "length": 46
+        }
+       },
+       {
+        "content": "Abdichtung Bodenplatte Büro",
+        "source": "D(2,3.0929,1.3967,5.0802,1.3968,5.0802,1.5621,3.0929,1.5621)",
+        "span": {
+         "offset": 2056,
+         "length": 27
+        }
+       },
+       {
+        "content": "OZ",
+        "source": "D(2,0.742,1.7266,0.9503,1.7266,0.9503,1.8656,0.742,1.8656)",
+        "span": {
+         "offset": 2085,
+         "length": 2
+        }
+       },
+       {
+        "content": "Leistungsbeschreibung",
+        "source": "D(2,1.719,1.7224,3.2972,1.7258,3.2967,1.8916,1.7185,1.8869)",
+        "span": {
+         "offset": 2089,
+         "length": 21
+        }
+       },
+       {
+        "content": "Menge ME",
+        "source": "D(2,4.3494,1.7259,5.0923,1.724,5.0927,1.8821,4.3498,1.884)",
+        "span": {
+         "offset": 2112,
+         "length": 8
+        }
+       },
+       {
+        "content": "Einheitspreis",
+        "source": "D(2,5.4191,1.7256,6.2993,1.7283,6.2988,1.8785,5.4187,1.8758)",
+        "span": {
+         "offset": 2122,
+         "length": 13
+        }
+       },
+       {
+        "content": "in EUR",
+        "source": "D(2,5.8266,1.8917,6.3069,1.8914,6.307,2.0301,5.8267,2.0304)",
+        "span": {
+         "offset": 2136,
+         "length": 6
+        }
+       },
+       {
+        "content": "Gesamtbetrag",
+        "source": "D(2,6.4925,1.7254,7.4381,1.7342,7.4367,1.8822,6.4911,1.8734)",
+        "span": {
+         "offset": 2144,
+         "length": 12
+        }
+       },
+       {
+        "content": "in EUR",
+        "source": "D(2,6.9727,1.8946,7.4407,1.8946,7.4407,2.0305,6.9727,2.0305)",
+        "span": {
+         "offset": 2157,
+         "length": 6
+        }
+       },
+       {
+        "content": "Summe 1.1.",
+        "source": "D(2,0.8136,2.3781,1.5525,2.3781,1.5525,2.5238,0.8136,2.5238)",
+        "span": {
+         "offset": 2165,
+         "length": 10
+        }
+       },
+       {
+        "content": "Abdichtung Bodenplatte Büro",
+        "source": "D(2,2.3484,2.3703,4.3337,2.3703,4.3337,2.5354,2.3484,2.5354)",
+        "span": {
+         "offset": 2177,
+         "length": 27
+        }
+       },
+       {
+        "content": "Summe 1.",
+        "source": "D(2,0.8161,2.8481,1.46,2.8495,1.4597,2.9959,0.8158,2.9944)",
+        "span": {
+         "offset": 2206,
+         "length": 8
+        }
+       },
+       {
+        "content": "Abdichtung Bodenplatte Büro",
+        "source": "D(2,2.3464,2.8419,4.3339,2.8438,4.3337,3.0091,2.3463,3.0072)",
+        "span": {
+         "offset": 2216,
+         "length": 27
+        }
+       },
+       {
+        "content": "Summe LV",
+        "source": "D(2,1.7179,3.3227,2.4172,3.3236,2.417,3.4715,1.7178,3.4705)",
+        "span": {
+         "offset": 2245,
+         "length": 8
+        }
+       },
+       {
+        "content": "152 Abdichtung Bodenplatte Büro",
+        "source": "D(2,3.105,3.3162,5.3425,3.3162,5.3425,3.482,3.105,3.482)",
+        "span": {
+         "offset": 2254,
+         "length": 31
+        }
+       },
+       {
+        "content": "Zuzüglich der gesetzlichen Mehrwertsteuer aus",
+        "source": "D(2,1.7159,3.8072,4.6244,3.8108,4.6242,3.9714,1.7157,3.9679)",
+        "span": {
+         "offset": 2287,
+         "length": 45
+        }
+       },
+       {
+        "content": "in Höhe von 19,00 %",
+        "source": "D(2,1.7178,3.9688,3.0122,3.9658,3.0126,4.1255,1.718,4.1285)",
+        "span": {
+         "offset": 2333,
+         "length": 19
+        }
+       },
+       {
+        "content": "EUR",
+        "source": "D(2,7.1382,3.8104,7.4388,3.815,7.4367,3.9541,7.136,3.9495)",
+        "span": {
+         "offset": 2354,
+         "length": 3
+        }
+       },
+       {
+        "content": "EUR",
+        "source": "D(2,7.1341,3.9694,7.4383,3.9729,7.4367,4.1099,7.1339,4.1064)",
+        "span": {
+         "offset": 2358,
+         "length": 3
+        }
+       },
+       {
+        "content": "EUR",
+        "source": "D(2,7.1381,4.2878,7.4448,4.2878,7.4448,4.423,7.1381,4.423)",
+        "span": {
+         "offset": 2363,
+         "length": 3
+        }
+       },
+       {
+        "content": "(Ort)",
+        "source": "D(2,1.6379,5.7087,1.9368,5.7023,1.9404,5.8764,1.6383,5.8828)",
+        "span": {
+         "offset": 2368,
+         "length": 5
+        }
+       },
+       {
+        "content": "(Datum)",
+        "source": "D(2,3.2442,5.712,3.7547,5.712,3.7547,5.878,3.2442,5.878)",
+        "span": {
+         "offset": 2375,
+         "length": 7
+        }
+       },
+       {
+        "content": "(rechtsgültige Unterschrift)",
+        "source": "D(2,4.9995,5.7066,6.6418,5.7066,6.6418,5.8802,4.9995,5.8802)",
+        "span": {
+         "offset": 2384,
+         "length": 28
+        }
+       },
+       {
+        "content": "Das LV besteht aus den Seiten 1 bis 2",
+        "source": "D(2,0.7349,6.1768,3.0929,6.1763,3.0929,6.3368,0.7349,6.3374)",
+        "span": {
+         "offset": 2414,
+         "length": 37
+        }
+       },
+       {
+        "content": "Druckdatum: 21.4.2026",
+        "source": "D(2,0.7551,11.1734,2.0291,11.1777,2.0286,11.3046,0.7546,11.3003)",
+        "span": {
+         "offset": 2470,
+         "length": 21
+        }
+       },
+       {
+        "content": "Seite: 2",
+        "source": "D(2,7.4286,11.173,7.82,11.173,7.82,11.287,7.4286,11.287)",
+        "span": {
+         "offset": 2513,
+         "length": 8
+        }
+       }
+      ]
+     }
+    ],
+    "paragraphs": [
+     {
+      "role": "pageHeader",
+      "content": "[BILD_001]",
+      "source": "D(1,5.169,0.482,5.7307,0.4855,5.7298,0.6221,5.1681,0.6186)",
+      "span": {
+       "offset": 0,
+       "length": 31
+      }
+     },
+     {
+      "role": "pageHeader",
+      "content": "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]",
+      "source": "D(1,5.8227,0.2923,7.9656,0.2932,7.9654,0.8381,5.8224,0.8372)",
+      "span": {
+       "offset": 32,
+       "length": 106
+      }
+     },
+     {
+      "role": "title",
+      "content": "Anfrage",
+      "source": "D(1,3.9665,0.8807,4.6101,0.8879,4.6081,1.0698,3.9645,1.0626)",
+      "span": {
+       "offset": 141,
+       "length": 9
+      }
+     },
+     {
+      "content": "Projekt: 79-222",
+      "source": "D(1,0.7388,1.2362,2.1673,1.2347,2.1675,1.3857,0.7389,1.3872)",
+      "span": {
+       "offset": 152,
+       "length": 15
+      }
+     },
+     {
+      "content": "LV: 152",
+      "source": "D(1,0.7376,1.4054,1.9692,1.4057,1.9691,1.5385,0.7376,1.5382)",
+      "span": {
+       "offset": 169,
+       "length": 7
+      }
+     },
+     {
+      "content": "Ausbildungszentrum und Bürogebäude -AK Juni 21 Abdichtung Bodenplatte Büro",
+      "source": "D(1,3.0907,1.2339,6.5005,1.2296,6.501,1.56,3.0911,1.5643)",
+      "span": {
+       "offset": 178,
+       "length": 74
+      }
+     },
+     {
+      "content": "OZ",
+      "source": "D(1,0.742,1.7282,0.9503,1.7282,0.9503,1.8623,0.742,1.8623)",
+      "span": {
+       "offset": 254,
+       "length": 2
+      }
+     },
+     {
+      "content": "Leistungsbeschreibung",
+      "source": "D(1,1.719,1.7201,3.2954,1.7273,3.2947,1.8929,1.7182,1.8857)",
+      "span": {
+       "offset": 258,
+       "length": 21
+      }
+     },
+     {
+      "content": "Menge ME",
+      "source": "D(1,4.3498,1.7267,5.0923,1.7267,5.0923,1.8816,4.3498,1.8816)",
+      "span": {
+       "offset": 281,
+       "length": 8
+      }
+     },
+     {
+      "content": "Einheitspreis in EUR",
+      "source": "D(1,5.4191,1.7264,6.3045,1.7315,6.3028,2.033,5.4174,2.0279)",
+      "span": {
+       "offset": 291,
+       "length": 20
+      }
+     },
+     {
+      "content": "Gesamtbetrag in EUR",
+      "source": "D(1,6.4965,1.7272,7.4431,1.7349,7.4407,2.0339,6.4941,2.0263)",
+      "span": {
+       "offset": 313,
+       "length": 19
+      }
+     },
+     {
+      "content": "1. Abdichtung Bodenplatte Büro",
+      "source": "D(1,0.747,2.3766,3.7042,2.376,3.7043,2.5397,0.747,2.5402)",
+      "span": {
+       "offset": 334,
+       "length": 31
+      }
+     },
+     {
+      "content": "1.1. Abdichtung Bodenplatte Büro",
+      "source": "D(1,0.7441,2.7121,3.7042,2.7065,3.7045,2.8736,0.7444,2.8792)",
+      "span": {
+       "offset": 367,
+       "length": 32
+      }
+     },
+     {
+      "content": "1.1.10. [FIRMA_078]",
+      "source": "D(1,0.7435,3.0364,2.5523,3.037,2.5522,3.1904,0.7434,3.1898)",
+      "span": {
+       "offset": 401,
+       "length": 19
+      }
+     },
+     {
+      "content": "Voranstrich unter Bodenabdichtung, vollflächig auf Betonboden, inkl. Reinigung der Bodenfläche und Trocknung feuchter Stellen auf Bodenplatte.",
+      "source": "D(1,1.7199,3.1926,5.8993,3.192,5.8994,3.67,1.72,3.6706)",
+      "span": {
+       "offset": 422,
+       "length": 142
+      }
+     },
+     {
+      "content": "Dampfsperre aus einer Lage Bitumenschweißbahn mit Glasgewebe- und Aluminiumeinlage, mit mind. 10 cm Stoßüberdeckung verlegt und unterlaufsicher verklebt einschl. Wandaufkantung und Voranstrich an Stützen und Stahlbetonwänden.",
+      "source": "D(1,1.7157,3.6715,6.1979,3.6689,6.1983,4.2929,1.7161,4.2954)",
+      "span": {
+       "offset": 566,
+       "length": 225
+      }
+     },
+     {
+      "content": "Abdichtung an Bodeneinläufen u.ä. in gesonderter Position.",
+      "source": "D(1,1.7138,4.3023,5.3627,4.3,5.3628,4.4621,1.7139,4.4644)",
+      "span": {
+       "offset": 793,
+       "length": 58
+      }
+     },
+     {
+      "content": "Untergrund: Stb.-Bodenplatte",
+      "source": "D(1,1.7218,4.6149,4.3392,4.6195,4.3389,4.784,1.7215,4.7794)",
+      "span": {
+       "offset": 853,
+       "length": 28
+      }
+     },
+     {
+      "content": "Material: Bitumenschweißbahn mitGlasgewebe- /Aluminiumeinlage PYP G200 S4 Al 0,1 gem. DIN EN 13969",
+      "source": "D(1,1.719,4.9228,6.0531,4.9228,6.0531,5.3983,1.719,5.3983)",
+      "span": {
+       "offset": 883,
+       "length": 98
+      }
+     },
+     {
+      "content": "Verlegeart: vollflächig verschweißt",
+      "source": "D(1,1.7186,5.4208,4.6969,5.4156,4.6971,5.5716,1.7189,5.5769)",
+      "span": {
+       "offset": 983,
+       "length": 35
+      }
+     },
+     {
+      "content": "Einbauort: UG Büro",
+      "source": "D(1,1.723,5.5723,3.8456,5.5723,3.8456,5.7179,1.723,5.7179)",
+      "span": {
+       "offset": 1020,
+       "length": 18
+      }
+     },
+     {
+      "content": "angeb. Fabrikat:",
+      "source": "D(1,1.7169,6.0483,2.728,6.0503,2.7277,6.208,1.7166,6.206)",
+      "span": {
+       "offset": 1040,
+       "length": 16
+      }
+     },
+     {
+      "content": "280,000 m2",
+      "source": "D(1,4.2888,6.3578,5.0802,6.3555,5.0806,6.5165,4.2893,6.5188)",
+      "span": {
+       "offset": 1058,
+       "length": 10
+      }
+     },
+     {
+      "content": "1.1.15. Abdichtung an Bodeneinläufen",
+      "source": "D(1,0.7435,6.6787,3.7789,6.6787,3.7789,6.8384,0.7435,6.8384)",
+      "span": {
+       "offset": 1070,
+       "length": 36
+      }
+     },
+     {
+      "content": "Abdichtung an aufgehenden PVC-Grundrohren aus Bodenplatte, Abdichtung den Richtlinien entsprechend an die Bodenabläufen anarbeiten und abdichten.",
+      "source": "D(1,1.7137,6.8413,5.6774,6.8384,5.6778,7.3121,1.714,7.315)",
+      "span": {
+       "offset": 1108,
+       "length": 145
+      }
+     },
+     {
+      "content": "17,000 Stk",
+      "source": "D(1,4.3765,7.477,5.0882,7.4696,5.0898,7.6193,4.3781,7.6267)",
+      "span": {
+       "offset": 1255,
+       "length": 10
+      }
+     },
+     {
+      "content": "1.1.20. Abdichtung Sockelbereich Fassade",
+      "source": "D(1,0.7419,7.7968,4.0694,7.7908,4.0697,7.9518,0.7422,7.9579)",
+      "span": {
+       "offset": 1267,
+       "length": 40
+      }
+     },
+     {
+      "content": "Abdichtung des vertikalen Sockelbereichs mit Bitumenbahn einschl. Voranstrich (Stirnseite Bodenplatte und Fassadenblech) gem. Detail ABS_KAS-S_8_MET_SCN_BÜ_UG_104_0_F",
+      "source": "D(1,1.7153,7.9553,5.887,7.9507,5.8876,8.428,1.7159,8.4326)",
+      "span": {
+       "offset": 1309,
+       "length": 166
+      }
+     },
+     {
+      "content": "Untergrund: Stb.-Bodenplatte / [PERSON_095] Blech Fassade",
+      "source": "D(1,1.7214,8.5893,6.3674,8.5887,6.3674,8.7497,1.7215,8.7503)",
+      "span": {
+       "offset": 1477,
+       "length": 57
+      }
+     },
+     {
+      "content": "Material: Bitumenschweißbahn mitGlasgewebe- /Aluminiumeinlage PYP G200 S4 Al 0,1 gem. DIN EN 13969",
+      "source": "D(1,1.719,8.9024,6.0527,8.9024,6.0527,9.365,1.719,9.365)",
+      "span": {
+       "offset": 1536,
+       "length": 98
+      }
+     },
+     {
+      "content": "Verlegeart: vollflächig verschweißt",
+      "source": "D(1,1.7179,9.3821,4.6969,9.3821,4.6969,9.5304,1.7179,9.5304)",
+      "span": {
+       "offset": 1636,
+       "length": 35
+      }
+     },
+     {
+      "content": "Einbauort: UG Sockelbereich",
+      "source": "D(1,1.7183,9.5306,4.423,9.524,4.4234,9.6885,1.7187,9.6951)",
+      "span": {
+       "offset": 1673,
+       "length": 27
+      }
+     },
+     {
+      "content": "angeb. Fabrikat:",
+      "source": "D(1,1.7132,10.0195,2.7318,10.0081,2.7335,10.1659,1.715,10.1774)",
+      "span": {
+       "offset": 1702,
+       "length": 16
+      }
+     },
+     {
+      "content": "17,000 m2",
+      "source": "D(1,4.3781,10.3288,5.0842,10.3288,5.0842,10.4771,4.3781,10.4771)",
+      "span": {
+       "offset": 1720,
+       "length": 9
+      }
+     },
+     {
+      "role": "pageFooter",
+      "content": "Druckdatum: 21.4.2026",
+      "source": "D(1,0.7566,11.1772,2.0317,11.1772,2.0317,11.302,0.7566,11.302)",
+      "span": {
+       "offset": 1731,
+       "length": 42
+      }
+     },
+     {
+      "role": "pageNumber",
+      "content": "Seite: 1",
+      "source": "D(1,7.4286,11.1787,7.816,11.1787,7.816,11.2934,7.4286,11.2934)",
+      "span": {
+       "offset": 1774,
+       "length": 29
+      }
+     },
+     {
+      "content": "[BILD_001]",
+      "source": "D(2,5.169,0.4809,5.7301,0.4822,5.7298,0.6195,5.1687,0.6183)",
+      "span": {
+       "offset": 1842,
+       "length": 10
+      }
+     },
+     {
+      "content": "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]",
+      "source": "D(2,5.8227,0.2922,7.9656,0.2936,7.9652,0.838,5.8223,0.8366)",
+      "span": {
+       "offset": 1862,
+       "length": 85
+      }
+     },
+     {
+      "role": "sectionHeading",
+      "content": "Anfrage",
+      "source": "D(2,3.9641,0.8784,4.6137,0.884,4.6121,1.0705,3.9625,1.0649)",
+      "span": {
+       "offset": 1970,
+       "length": 10
+      }
+     },
+     {
+      "content": "Projekt: 79-222",
+      "source": "D(2,0.7372,1.2353,2.1668,1.2332,2.1671,1.3863,0.7374,1.3884)",
+      "span": {
+       "offset": 1982,
+       "length": 15
+      }
+     },
+     {
+      "content": "LV:",
+      "source": "D(2,0.7379,1.4041,0.9614,1.4049,0.9608,1.5397,0.7374,1.5388)",
+      "span": {
+       "offset": 1999,
+       "length": 3
+      }
+     },
+     {
+      "content": "152",
+      "source": "D(2,1.7321,1.4044,1.9691,1.4044,1.9691,1.5387,1.7321,1.5387)",
+      "span": {
+       "offset": 2004,
+       "length": 3
+      }
+     },
+     {
+      "content": "Ausbildungszentrum und Bürogebäude -AK Juni 21 Abdichtung Bodenplatte Büro",
+      "source": "D(2,3.0927,1.2301,6.5006,1.228,6.5008,1.5612,3.0929,1.5634)",
+      "span": {
+       "offset": 2009,
+       "length": 74
+      }
+     },
+     {
+      "content": "OZ",
+      "source": "D(2,0.742,1.7266,0.9503,1.7266,0.9503,1.8656,0.742,1.8656)",
+      "span": {
+       "offset": 2085,
+       "length": 2
+      }
+     },
+     {
+      "content": "Leistungsbeschreibung",
+      "source": "D(2,1.719,1.7211,3.2972,1.7258,3.2967,1.8916,1.7185,1.8869)",
+      "span": {
+       "offset": 2089,
+       "length": 21
+      }
+     },
+     {
+      "content": "Menge ME",
+      "source": "D(2,4.3494,1.7259,5.0923,1.724,5.0927,1.8821,4.3498,1.884)",
+      "span": {
+       "offset": 2112,
+       "length": 8
+      }
+     },
+     {
+      "content": "Einheitspreis in EUR",
+      "source": "D(2,5.4191,1.7256,6.3079,1.7284,6.307,2.032,5.4182,2.0292)",
+      "span": {
+       "offset": 2122,
+       "length": 20
+      }
+     },
+     {
+      "content": "Gesamtbetrag in EUR",
+      "source": "D(2,6.4925,1.7254,7.4435,1.7343,7.4407,2.0349,6.4897,2.026)",
+      "span": {
+       "offset": 2144,
+       "length": 19
+      }
+     },
+     {
+      "content": "Summe 1.1.",
+      "source": "D(2,0.8136,2.3781,1.5525,2.3781,1.5525,2.5238,0.8136,2.5238)",
+      "span": {
+       "offset": 2165,
+       "length": 10
+      }
+     },
+     {
+      "content": "Abdichtung Bodenplatte Büro",
+      "source": "D(2,2.3484,2.3703,4.3337,2.3703,4.3337,2.5354,2.3484,2.5354)",
+      "span": {
+       "offset": 2177,
+       "length": 27
+      }
+     },
+     {
+      "content": "Summe 1.",
+      "source": "D(2,0.8161,2.8481,1.46,2.8495,1.4597,2.9959,0.8158,2.9944)",
+      "span": {
+       "offset": 2206,
+       "length": 8
+      }
+     },
+     {
+      "content": "Abdichtung Bodenplatte Büro",
+      "source": "D(2,2.3464,2.8419,4.3339,2.8438,4.3337,3.0091,2.3463,3.0072)",
+      "span": {
+       "offset": 2216,
+       "length": 27
+      }
+     },
+     {
+      "content": "Summe LV 152 Abdichtung Bodenplatte Büro",
+      "source": "D(2,1.7178,3.3162,5.3425,3.3162,5.3425,3.482,1.7178,3.482)",
+      "span": {
+       "offset": 2245,
+       "length": 40
+      }
+     },
+     {
+      "content": "Zuzüglich der gesetzlichen Mehrwertsteuer aus in Höhe von 19,00 %",
+      "source": "D(2,1.7159,3.8072,4.6244,3.8108,4.624,4.1321,1.7155,4.1285)",
+      "span": {
+       "offset": 2287,
+       "length": 65
+      }
+     },
+     {
+      "content": "EUR EUR",
+      "source": "D(2,7.1359,3.8104,7.4402,3.814,7.4367,4.1099,7.1325,4.1064)",
+      "span": {
+       "offset": 2354,
+       "length": 7
+      }
+     },
+     {
+      "content": "EUR",
+      "source": "D(2,7.1381,4.2878,7.4448,4.2878,7.4448,4.423,7.1381,4.423)",
+      "span": {
+       "offset": 2363,
+       "length": 3
+      }
+     },
+     {
+      "content": "(Ort)",
+      "source": "D(2,1.6346,5.7087,1.9368,5.7023,1.9405,5.8764,1.6383,5.8828)",
+      "span": {
+       "offset": 2368,
+       "length": 5
+      }
+     },
+     {
+      "content": "(Datum)",
+      "source": "D(2,3.2442,5.712,3.7547,5.712,3.7547,5.878,3.2442,5.878)",
+      "span": {
+       "offset": 2375,
+       "length": 7
+      }
+     },
+     {
+      "content": "(rechtsgültige Unterschrift)",
+      "source": "D(2,4.9995,5.7066,6.6418,5.7066,6.6418,5.8802,4.9995,5.8802)",
+      "span": {
+       "offset": 2384,
+       "length": 28
+      }
+     },
+     {
+      "content": "Das LV besteht aus den Seiten 1 bis 2",
+      "source": "D(2,0.7349,6.1768,3.0929,6.1763,3.0929,6.3368,0.7349,6.3374)",
+      "span": {
+       "offset": 2414,
+       "length": 37
+      }
+     },
+     {
+      "role": "pageFooter",
+      "content": "Druckdatum: 21.4.2026",
+      "source": "D(2,0.7551,11.1734,2.0291,11.1777,2.0286,11.3046,0.7546,11.3003)",
+      "span": {
+       "offset": 2453,
+       "length": 42
+      }
+     },
+     {
+      "role": "pageNumber",
+      "content": "Seite: 2",
+      "source": "D(2,7.4286,11.173,7.82,11.173,7.82,11.287,7.4286,11.287)",
+      "span": {
+       "offset": 2496,
+       "length": 29
+      }
+     }
+    ],
+    "sections": [
+     {
+      "span": {
+       "offset": 141,
+       "length": 2310
+      },
+      "elements": [
+       "/paragraphs/2",
+       "/paragraphs/3",
+       "/paragraphs/4",
+       "/paragraphs/5",
+       "/paragraphs/6",
+       "/paragraphs/7",
+       "/paragraphs/8",
+       "/paragraphs/9",
+       "/paragraphs/10",
+       "/paragraphs/11",
+       "/paragraphs/12",
+       "/paragraphs/13",
+       "/paragraphs/14",
+       "/paragraphs/15",
+       "/paragraphs/16",
+       "/paragraphs/17",
+       "/paragraphs/18",
+       "/paragraphs/19",
+       "/paragraphs/20",
+       "/paragraphs/21",
+       "/paragraphs/22",
+       "/paragraphs/23",
+       "/paragraphs/24",
+       "/paragraphs/25",
+       "/paragraphs/26",
+       "/paragraphs/27",
+       "/paragraphs/28",
+       "/paragraphs/29",
+       "/paragraphs/30",
+       "/paragraphs/31",
+       "/paragraphs/32",
+       "/paragraphs/33",
+       "/tables/0",
+       "/sections/1"
+      ]
+     },
+     {
+      "span": {
+       "offset": 1970,
+       "length": 481
+      },
+      "elements": [
+       "/paragraphs/38",
+       "/paragraphs/39",
+       "/paragraphs/40",
+       "/paragraphs/41",
+       "/paragraphs/42",
+       "/paragraphs/43",
+       "/paragraphs/44",
+       "/paragraphs/45",
+       "/paragraphs/46",
+       "/paragraphs/47",
+       "/paragraphs/48",
+       "/paragraphs/49",
+       "/paragraphs/50",
+       "/paragraphs/51",
+       "/paragraphs/52",
+       "/paragraphs/53",
+       "/paragraphs/54",
+       "/paragraphs/55",
+       "/paragraphs/56",
+       "/paragraphs/57",
+       "/paragraphs/58",
+       "/paragraphs/59"
+      ]
+     }
+    ],
+    "tables": [
+     {
+      "rowCount": 1,
+      "columnCount": 2,
+      "cells": [
+       {
+        "kind": "rowHeader",
+        "rowIndex": 0,
+        "columnIndex": 0,
+        "rowSpan": 1,
+        "columnSpan": 1,
+        "content": "[BILD_001]",
+        "source": "D(2,5.1453,0.2643,5.7858,0.2642,5.7844,0.8467,5.1448,0.8469)",
+        "span": {
+         "offset": 1842,
+         "length": 10
+        },
+        "elements": [
+         "/paragraphs/36"
+        ]
+       },
+       {
+        "kind": "content",
+        "rowIndex": 0,
+        "columnIndex": 1,
+        "rowSpan": 1,
+        "columnSpan": 1,
+        "content": "[FIRMA_102] [ADRESSE_007] ž[ORT_026] Tel.[TELEFON_010] žFax.[TELEFON_063] [EMAIL_009]",
+        "source": "D(2,5.7858,0.2642,7.9801,0.2656,7.98,0.8476,5.7844,0.8467)",
+        "span": {
+         "offset": 1862,
+         "length": 85
+        },
+        "elements": [
+         "/paragraphs/37"
+        ]
+       }
+      ],
+      "source": "D(2,5.1367,0.2593,7.9814,0.2574,7.9814,0.832,5.1448,0.8334)",
+      "span": {
+       "offset": 1825,
+       "length": 142
+      }
+     }
+    ],
+    "analyzerId": "prebuilt-layout",
+    "mimeType": "application/pdf"
+   }
+  ]
+ },
+ "usage": {
+  "documentPagesStandard": 2
+ }
+}
